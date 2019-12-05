@@ -1,0 +1,4534 @@
+{
+  "weapon": [
+    {
+      "name_en": "Wooden Sword",
+      "name_jp": "きたえた木刀",
+      "id": "wooden_sword",
+      "image": {
+        "filename": "wooden_sword.png",
+        "width": 96,
+        "height": 12
+      },
+      "base_stat": 2,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 1,
+      "price_buy": 3000,
+      "price_sell": 1500,
+      "price_plus": 300,
+      "phrase": "",
+      "desc_short_en": "Found with +4 ~ +8 upgrade value.",
+      "desc_en": "Low attack, but comes with an upgrade value ranging from +4 to +8. It is never found cursed. Recommended to use as synthesis fodder to strengthen a stronger weapon.",
+      "locations": [
+        "Onigashima (T)"
+      ]
+    },
+    {
+      "name_en": "Club",
+      "name_jp": "こんぼう",
+      "id": "club",
+      "image": {
+        "filename": "club.png",
+        "width": 95,
+        "height": 36
+      },
+      "base_stat": 3,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 3,
+      "price_buy": 400,
+      "price_sell": 200,
+      "price_plus": 20,
+      "phrase": "コルヤギ",
+      "desc_short_en": "",
+      "desc_en": "Said to be the weakest weapon. However, since it has 3 slots, it can be used as a base when making a Healing Sword. Ally Fencer monsters will always fling a Club in dungeons where weapons normally do not appear.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (FT)",
+        "Shuten Trail Hard (T)",
+        "Onigashima (F)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Nagamaki",
+      "name_jp": "長巻",
+      "id": "nagamaki",
+      "image": {
+        "filename": "nagamaki.png",
+        "width": 102,
+        "height": 15
+      },
+      "base_stat": 6,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 700,
+      "price_sell": 300,
+      "price_plus": 35,
+      "phrase": "こぷやほ",
+      "desc_short_en": "",
+      "desc_en": "Stronger than a Club. It's often used as a base when making a Healing Sword.",
+      "locations": [
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (FT)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (F)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Sacred Sword",
+      "name_jp": "神器の剣",
+      "id": "sacred_sword",
+      "image": {
+        "filename": "sacred_sword.png",
+        "width": 105,
+        "height": 26
+      },
+      "base_stat": 8,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 14,
+      "price_buy": 45000,
+      "price_sell": 20000,
+      "price_plus": 2250,
+      "phrase": "",
+      "desc_short_en": "",
+      "desc_en": "Has the second highest number of synthesis slots. Popular as a backup sword with stacked effects, or as a seal container to free up storage space while trying for Mijinha or Kaburasutegi.",
+      "locations": [
+        "Sealed Room (G)"
+      ]
+    },
+    {
+      "name_en": "Katana",
+      "name_jp": "カタナ",
+      "id": "katana",
+      "image": {
+        "filename": "katana.png",
+        "width": 105,
+        "height": 21
+      },
+      "base_stat": 10,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 900,
+      "price_sell": 400,
+      "price_plus": 45,
+      "phrase": "みぬれふ",
+      "desc_short_en": "",
+      "desc_en": "Decent attack and 5 slots, so it can be used as a main weapon. However, it's still a little weak for post-game dungeons. You can use it as a base for making a Healing Sword, or stack seals such as food and fire and use it as a secondary weapon. Take a Katana+99 with 5 seals to the blacksmith, and he will transform it into a Fiery Fuuma.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPSTG)",
+        "Onigashima (F)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Dotanuki",
+      "name_jp": "どうたぬき",
+      "id": "dotanuki",
+      "image": {
+        "filename": "dotanuki.png",
+        "width": 105,
+        "height": 21
+      },
+      "base_stat": 12,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 6,
+      "price_buy": 3600,
+      "price_sell": 1200,
+      "price_plus": 180,
+      "phrase": "",
+      "desc_short_en": "",
+      "desc_en": "Very popular as a base weapon. However, it's quite rare before post-game dungeons. There is a small chance to obtain it from the Surprise Pot found on 15F of Shuten Trail Hard, or from a Trader in Onigashima.",
+      "locations": [
+        "Shuten Trail Hard (U)",
+        "Onigashima (T)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Ivory Sword",
+      "name_jp": "象牙の剣",
+      "id": "ivory_sword",
+      "image": {
+        "filename": "ivory_sword.png",
+        "width": 102,
+        "height": 27
+      },
+      "base_stat": 13,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 4000,
+      "price_sell": 1600,
+      "price_plus": 200,
+      "phrase": "",
+      "desc_short_en": "Rustproof.",
+      "desc_en": "Sword made of Ivory. Rustproof. Transforms into Daisangen Sword with 3 中 seals (Dragon Tile Bracelet). The rustproof ability won't transfer if used as synthesis fodder.",
+      "locations": [
+        "Onigashima (G)",
+        "Sealed Room (P)",
+        "Road to the End (FPG)"
+      ]
+    },
+    {
+      "name_en": "Manji-Kabura",
+      "name_jp": "剛剣マンジカブラ",
+      "id": "manjikabura",
+      "image": {
+        "filename": "manji_kabura.png",
+        "width": 111,
+        "height": 32
+      },
+      "base_stat": 18,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 15000,
+      "price_sell": 7000,
+      "price_plus": 2250,
+      "phrase": "るおへぎ",
+      "desc_short_en": "",
+      "desc_en": "High attack, but 1 less slot than Dotanuki. Bring a Manji-Kabra with 月, 火, 水, 木, and 金 seals to the blacksmith to transform it into a Kaburasutegi.",
+      "locations": [
+        "Onigashima (P)",
+        "Sealed Room (P)",
+        "Road to the End (PG)"
+      ]
+    },
+    {
+      "name_en": "Daisangen Sword",
+      "name_jp": "大三元の剣",
+      "id": "daisangen",
+      "image": {
+        "filename": "daisangen_sword.png",
+        "width": 99,
+        "height": 30
+      },
+      "base_stat": 20,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 9,
+      "price_buy": 48000,
+      "price_sell": 32000,
+      "price_plus": 4800,
+      "phrase": "",
+      "desc_short_en": "Rustproof. Synthesize 3 中 seals onto an Ivory Sword.",
+      "desc_en": "Created by synthesizing 3 中 seals onto an Ivory Sword. Rustproof. Difficult to make due to the rarity of Dragon Tile Bracelets. Cannot be used as synthesis fodder, or as a base for Healing Sword.",
+      "locations": [
+        "Synthesis Only"
+      ]
+    },
+    {
+      "name_en": "Fiery Fuuma",
+      "name_jp": "火迅風魔刀",
+      "id": "fiery_fuuma",
+      "image": {
+        "filename": "fiery_fuuma.png",
+        "width": 111,
+        "height": 29
+      },
+      "base_stat": 30,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 10,
+      "price_buy": 20000,
+      "price_sell": 10000,
+      "price_plus": 2000,
+      "phrase": "",
+      "desc_short_en": "Katana+99 with 5 seals to the Blacksmith.",
+      "desc_en": "3rd strongest sword in the game. Obtained by bringing a Katana+99 with 5 seals to the blacksmith. It's weaker than a Katana+99 right after transforming, and alternatives like Ryujin Sword are pretty close in power and are easier to make, so it's more for collectors.",
+      "locations": [
+        "Blacksmith (Special Recipe)"
+      ]
+    },
+    {
+      "name_en": "Mijinha",
+      "name_jp": "宝剣ミジンハ",
+      "id": "mijinha",
+      "image": {
+        "filename": "mijinha.png",
+        "width": 102,
+        "height": 24
+      },
+      "base_stat": 50,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 16,
+      "price_buy": 60000,
+      "price_sell": 40000,
+      "price_plus": 12000,
+      "phrase": "",
+      "desc_short_en": "",
+      "desc_en": "Legendary sword exclusive to Shiren 2, and it's the 2nd strongest sword in the game. Has the highest number of slots among all weapons. Obtained from golden interval treasure chests deep inside the \"Road to the End\" dungeon (90-95F).",
+      "locations": [
+        "Road to the End (C)"
+      ]
+    },
+    {
+      "name_en": "Kaburasutegi",
+      "name_jp": "秘剣カブラステギ",
+      "id": "kaburasutegi",
+      "image": {
+        "filename": "kaburasutegi.png",
+        "width": 111,
+        "height": 35
+      },
+      "base_stat": 99,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 12,
+      "price_buy": 55000,
+      "price_sell": 20000,
+      "price_plus": 8250,
+      "phrase": "",
+      "desc_short_en": "Manji-Kabura with 月, 火, 水, 木, and 金 seals to the Blacksmith.",
+      "desc_en": "Strongest sword in the game. Obtained by bringing a Manji-Kabura with 月, 火, 水, 木, and 金 seals (in that order) to the blacksmith. The 火 seal can be from either Flame Grass or Dragon Grass.",
+      "locations": [
+        "Blacksmith (Special Recipe)"
+      ]
+    },
+    {
+      "name_en": "Ghost Sickle",
+      "name_jp": "成仏のカマ",
+      "id": "ghost_sickle",
+      "image": {
+        "filename": "ghost_sickle.png",
+        "width": 90,
+        "height": 51
+      },
+      "base_stat": 5,
+      "seal": "仏",
+      "stack": "Yes",
+      "stack_label": "Damage (%)",
+      "stack_multiplier": [150, 160, 170, 180, 190, 100, 140, 170, 200, 250, 300, 350, 400, 450, 500, 550, 600],
+      "slots": 5,
+      "price_buy": 5000,
+      "price_sell": 2000,
+      "price_plus": 250,
+      "phrase": "",
+      "desc_short_en": "Deals x1.5 damage to Ghost monsters.",
+      "desc_en": "Weapon that deals x1.5 damage to Ghost type monsters. Ghost monsters include Gale, Pumphantasm, Yamikichi, and Bone Dragon families. Great seal to have in dungeons where Typhoon appears.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (FPG)",
+        "Onigashima (PUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Drain Buster",
+      "name_jp": "ドレインバスター",
+      "id": "drain_buster",
+      "image": {
+        "filename": "drain_buster.png",
+        "width": 105,
+        "height": 24
+      },
+      "base_stat": 6,
+      "seal": "ド",
+      "stack": "Yes",
+      "stack_label": "Damage (%)",
+      "stack_multiplier": [150, 160, 170, 180, 190, 200, 140, 270, 300, 500, 500, 500, 500, 500, 500, 500, 500],
+      "slots": 5,
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "price_plus": 250,
+      "phrase": "",
+      "desc_short_en": "Deals x1.5 damage to Drain monsters.",
+      "desc_en": "Weapon that deals x1.5 damage to Drain type monsters. Drain monsters include Twisty Hani, Slug, Scorpion, and Hunger Puppet families. Nice seal to have, considering the special abilities of Drain type monsters are often quite bothersome.",
+      "locations": [
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (G)",
+        "Onigashima (PUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Cyclops Killer",
+      "name_jp": "一ツ目殺し",
+      "id": "cyclops_killer",
+      "image": {
+        "filename": "cyclops_killer.png",
+        "width": 102,
+        "height": 20
+      },
+      "base_stat": 9,
+      "seal": "目",
+      "stack": "Yes",
+      "stack_label": "Damage (%)",
+      "stack_multiplier": [150, 160, 170, 180, 190, 200, 240, 270, 300, 350, 400, 450, 500, 550, 600, 650, 700],
+      "slots": 4,
+      "price_buy": 4500,
+      "price_sell": 2000,
+      "price_plus": 225,
+      "phrase": "",
+      "desc_short_en": "Deals x1.5 damage to One-eyed monsters.",
+      "desc_en": "Weapon that deals x1.5 damage to One-eyed monsters. One-eyed monsters include Ironhead, Golem, and Gazer families. Gazer's hypnosis can be nullified with an Echo Shield, so this seal isn't very necessary.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (FPG)",
+        "Onigashima (PUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Crescent Arm",
+      "name_jp": "三日月刀",
+      "id": "crescent_arm",
+      "image": {
+        "filename": "crescent_arm.png",
+        "width": 87,
+        "height": 57
+      },
+      "base_stat": 14,
+      "seal": "月",
+      "stack": "Yes",
+      "stack_label": "Damage (%)",
+      "stack_multiplier": [150, 160, 170, 180, 190, 200, 240, 270, 300, 350, 400, 450, 500, 550, 600, 650, 700],
+      "slots": 6,
+      "price_buy": 50000,
+      "price_sell": 25000,
+      "price_plus": 5000,
+      "phrase": "",
+      "desc_short_en": "Deals x1.5 damage to Bomb monsters.",
+      "desc_en": "Weapon that deals x1.5 damage to Bomb type monsters. Bomb monsters include the Wolf Droid family, Pop Tank, Cranky Tank, and Patient Bag. Obtained every time you win against Boss Oni in Onigashima after you've finished the main story.",
+      "locations": [
+        "Onigashima (Clear Reward)"
+      ]
+    },
+    {
+      "name_en": "Dragon Killer",
+      "name_jp": "ドラゴンキラー",
+      "id": "dragon_killer",
+      "image": {
+        "filename": "dragon_killer.png",
+        "width": 102,
+        "height": 35
+      },
+      "base_stat": 15,
+      "seal": "竜",
+      "stack": "Yes",
+      "stack_label": "Damage (%)",
+      "stack_multiplier": [150, 160, 170, 180, 190, 200, 240, 270, 300, 350, 400, 450, 500, 550, 600, 650, 700],
+      "slots": 7,
+      "price_buy": 10000,
+      "price_sell": 5000,
+      "price_plus": 500,
+      "phrase": "",
+      "desc_short_en": "Deals x1.5 damage to Dragon monsters.",
+      "desc_en": "Weapon that deals x1.5 damage to Dragon type monsters. Dragon monsters include Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families. Excellent as a base weapon. Synthesize 3 竜 seals onto it to transform it into a Ryujin Sword.",
+      "locations": [
+        "Onigashima (G)",
+        "Road to the End (G)"
+      ]
+    },
+    {
+      "name_en": "Ryujin Sword",
+      "name_jp": "龍神剣",
+      "id": "ryujin_sword",
+      "image": {
+        "filename": "ryujin_sword.png",
+        "width": 105,
+        "height": 44
+      },
+      "base_stat": 25,
+      "seal": "龍",
+      "stack": "Yes",
+      "stack_label": "Damage (%)",
+      "stack_multiplier": [200, 220, 250, 270, 300, 350, 400, 500, 550, 600, 600, 600, 600, 600, 600, 600, 600],
+      "slots": 7,
+      "price_buy": 30000,
+      "price_sell": 15000,
+      "price_plus": 3000,
+      "phrase": "",
+      "desc_short_en": "Deals x2.0 damage to Dragon monsters. Synthesize 3 竜 seals onto a Dragon Killer.",
+      "desc_en": "Powerful weapon created by synthesizing 3 竜 seals onto a Dragon Killer. Deals x2.0 damage to Dragon type monsters, which includes Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families. Often used as a main weapon while working towards Mijinha or Kaburasutegi. Cannot be used as a base for Healing Sword.",
+      "locations": [
+        "Synthesis Only"
+      ]
+    },
+    {
+      "name_en": "Gamarra Whip",
+      "name_jp": "ガマラのムチ",
+      "id": "gamarra_whip",
+      "image": {
+        "filename": "gamarra_whip.png",
+        "width": 81,
+        "height": 30
+      },
+      "base_stat": 2,
+      "seal": "銭",
+      "stack": "Yes",
+      "stack_label": "Chance (%)",
+      "stack_multiplier": [30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 96, 97, 98],
+      "slots": 4,
+      "price_buy": 16000,
+      "price_sell": 8000,
+      "price_plus": 800,
+      "phrase": "",
+      "desc_short_en": "30% chance to turn defeated monsters into Gitan.",
+      "desc_en": "Weapon that hosts the spirit of a Gamarra. Has a 30% chance to transform defeated monsters into Gitan. Defeated monsters can still drop other items, such as area drops or riceballs from the 飯 seal.",
+      "locations": [
+        "Shuten Trail Hard (C)"
+      ]
+    },
+    {
+      "name_en": "Pickaxe",
+      "name_jp": "つるはし",
+      "id": "pickaxe",
+      "image": {
+        "filename": "pickaxe.png",
+        "width": 87,
+        "height": 59
+      },
+      "base_stat": 2,
+      "seal": "堀",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 3500,
+      "price_sell": 1600,
+      "price_plus": 175,
+      "phrase": "ヨキタモ",
+      "desc_short_en": "Dig through walls. Breaks after digging for a while.",
+      "desc_en": "Pickaxe that can dig through walls. Breaks after digging for a while (15 ~ 60 uses). Useful for creating paths when stealing from shops, or making shortcuts in general. Synthesize 5 堀 seals onto it to transform it into a Wonder Pickaxe.",
+      "locations": [
+        "Onigashima (FP)",
+        "Halfway Well (F)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Gobo",
+      "name_jp": "ごんぼう",
+      "id": "gobo",
+      "image": {
+        "filename": "gobo.png",
+        "width": 84,
+        "height": 20
+      },
+      "base_stat": 3,
+      "seal": "食",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 2,
+      "price_buy": 500,
+      "price_sell": 250,
+      "price_plus": 25,
+      "phrase": "",
+      "desc_short_en": "Can be eaten to restore fullness by 20%. Disappears if eaten.",
+      "desc_en": "Gobo, also known as burdock root, used as a weapon. Can be eaten to restore fullness by 20%. The weapon is lost if eaten.",
+      "locations": [
+        "Onigashima (FP)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Homing Blade",
+      "name_jp": "必中の剣",
+      "id": "homing_blade",
+      "image": {
+        "filename": "homing_blade.png",
+        "width": 102,
+        "height": 27
+      },
+      "base_stat": 3,
+      "seal": "必",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 3,
+      "price_buy": 10000,
+      "price_sell": 5000,
+      "price_plus": 500,
+      "phrase": "てよだぼ",
+      "desc_short_en": "Raises attack accuracy to 100%.",
+      "desc_en": "Sword that ensures all of your attacks will connect. Greatly reduces the amount of danger within an adventure by eliminating actions received as a result of missed attacks. Some say using it is cheating, and therefore personally ban its usage.",
+      "locations": [
+        "Sealed Room (G)"
+      ]
+    },
+    {
+      "name_en": "Onigiri Sword",
+      "name_jp": "にぎりへんげの剣",
+      "id": "onigiri_sword",
+      "image": {
+        "filename": "onigiri_sword.png",
+        "width": 93,
+        "height": 35
+      },
+      "base_stat": 3,
+      "seal": "に",
+      "stack": "Yes",
+      "stack_label": "Chance (%)",
+      "stack_multiplier": [8, 12, 24, 36, 48, 60, 65, 70, 75, 80, 85, 90, 95, 96, 97, 98, 99],
+      "slots": 4,
+      "price_buy": 10000,
+      "price_sell": 5000,
+      "price_plus": 500,
+      "phrase": "",
+      "desc_short_en": "8% chance to turn defeated monsters into riceballs.",
+      "desc_en": "Weapon that hosts the spirit of a Nigiri Morph. Has a 8% chance to transform defeated monsters into riceballs. Its effect is more potent than the 飯 seal, and can eliminate hunger issues altogether.",
+      "locations": [
+        "Shuten Trail Hard (C)"
+      ]
+    },
+    {
+      "name_en": "Golden Sword",
+      "name_jp": "金の剣",
+      "id": "golden_sword",
+      "image": {
+        "filename": "golden_sword.png",
+        "width": 102,
+        "height": 24
+      },
+      "base_stat": 3,
+      "seal": "金",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 6000,
+      "price_sell": 3000,
+      "price_plus": 300,
+      "phrase": "",
+      "desc_short_en": "Rustproof (blue).",
+      "desc_en": "Sword made out of gold. Low attack, but it will never rust. Provides a blue 金 seal when synthesized. Monsoon Dolls will tear off a red 金 seal first, but a blue one has the same odds to be removed as the other seals.",
+      "locations": [
+        "Onigashima (GC)",
+        "Sealed Room (PC)",
+        "Road to the End (FPC)"
+      ]
+    },
+    {
+      "name_en": "Dried Bonito",
+      "name_jp": "かつおぶし",
+      "id": "dried_bonito",
+      "image": {
+        "filename": "dried_bonito.png",
+        "width": 84,
+        "height": 21
+      },
+      "base_stat": 4,
+      "seal": "か",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 2,
+      "price_buy": 2000,
+      "price_sell": 1000,
+      "price_plus": 100,
+      "phrase": "ルコウス",
+      "desc_short_en": "Bite to restore fullness by 30% at the cost of -1 upgrade value.",
+      "desc_en": "Dried Bonito used as a weapon. Can be bitten to restore fullness by 30% at the cost of decreasing upgrade value by 1. Cannot bite once the weapon's attack is at 0. Often synthesized onto Disposable Sword to create a weapon that can be bitten 35 times (1050% fullness).",
+      "locations": [
+        "Onigashima (FPS)",
+        "Sealed Room (P)",
+        "Road to the End (FPS)"
+      ]
+    },
+    {
+      "name_en": "Fish Spear",
+      "name_jp": "オトトスピア",
+      "id": "fish_spear",
+      "image": {
+        "filename": "fish_spear.png",
+        "width": 98,
+        "height": 23
+      },
+      "base_stat": 4,
+      "seal": "水",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 4000,
+      "price_sell": 1600,
+      "price_plus": 200,
+      "phrase": "パカリツ",
+      "desc_short_en": "Allows you to hit underwater monsters.",
+      "desc_en": "Weapon that allows you to hit underwater monsters. Useful against monsters such as Shotfish, Spearfish, Orcan, Kappa, and Zalokleft. Rare drop from Lv2+ Spearfish monsters.",
+      "locations": [
+        "Shuten Trail Mid (M)",
+        "Onigashima (PSM)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (M)",
+        "Road to the End (SM)"
+      ]
+    },
+    {
+      "name_en": "Razor Wind",
+      "name_jp": "妖刀かまいたち",
+      "id": "razor_wind",
+      "image": {
+        "filename": "razor_wind.png",
+        "width": 102,
+        "height": 18
+      },
+      "base_stat": 5,
+      "seal": "三",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "price_plus": 250,
+      "phrase": "ほんうじ",
+      "desc_short_en": "Allows you to attack in a 3-way pattern.",
+      "desc_en": "An enchanted sword that can attack in a 3-way pattern. Useful for monster house entrances and attacking around corners. Plays well with Healing Sword, along with Scout and Phantasm bracelets.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (PS)",
+        "Shuten Trail Hard (FPSG)",
+        "Onigashima (UST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Healing Sword",
+      "name_jp": "回復の剣",
+      "id": "healing_sword",
+      "image": {
+        "filename": "healing_sword.png",
+        "width": 96,
+        "height": 39
+      },
+      "base_stat": 6,
+      "seal": "回",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 3,
+      "price_buy": 20000,
+      "price_sell": 10000,
+      "price_plus": 2000,
+      "phrase": "",
+      "desc_short_en": "Restores HP equal to 1/3 of damage dealt.",
+      "desc_en": "Sword that restores HP equal to 1/3 of the damage dealt, out of the monster's remaining HP. Created by synthesizing 薬 弟 命 seals onto a weapon. One of the best seals in the game, so synthesizing it should be prioritized.",
+      "locations": [
+        "Synthesis Only"
+      ]
+    },
+    {
+      "name_en": "Fencer's Sword",
+      "name_jp": "ケンゴウの刀",
+      "id": "fencers_sword",
+      "image": {
+        "filename": "fencers_sword.png",
+        "width": 105,
+        "height": 25.5
+      },
+      "base_stat": 7,
+      "seal": "ケ",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 3200,
+      "price_sell": 900,
+      "price_plus": 160,
+      "phrase": "",
+      "desc_short_en": "Chance to fling a weapon when attacking.",
+      "desc_en": "Sword that has a chance to fling a weapon from monsters when attacking. Damage is not dealt if disarming occurs, so you'll be vulnerable to a counter attack. Rare drop from Lv2+ Fencer monsters. Can also be used to obtain monster-exclusive drops, but the odds remain the same.",
+      "locations": [
+        "Shuten Trail Mid (M)",
+        "Shuten Trail Hard (M)",
+        "Onigashima (M)",
+        "Halfway Well (M)",
+        "Sealed Room (M)",
+        "Road to the End (M)"
+      ]
+    },
+    {
+      "name_en": "Spark Sword",
+      "name_jp": "スパークソード",
+      "id": "spark_sword",
+      "image": {
+        "filename": "spark_sword.png",
+        "width": 105,
+        "height": 22.5
+      },
+      "base_stat": 7,
+      "seal": "ス",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 6,
+      "price_buy": 15000,
+      "price_sell": 7500,
+      "price_plus": 750,
+      "phrase": "",
+      "desc_short_en": "Guarantees a critical hit after missing 2 attacks.",
+      "desc_en": "This sword begins to glow after 2 missed attacks, and deals a 100% accuracy critical hit for x1.5 damage on the next attack. Overshadowed by the 必 seal, but still has a use in the Road to the End dungeon where Homing Blade doesn't appear.",
+      "locations": [
+        "Shuten Trail Hard (U)",
+        "Onigashima (PS)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Wonder Pickaxe",
+      "name_jp": "サトリのつるはし",
+      "id": "wonder_pickaxe",
+      "image": {
+        "filename": "wonder_pickaxe.png",
+        "width": 87,
+        "height": 49.5
+      },
+      "base_stat": 13,
+      "seal": "サ",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 20000,
+      "price_sell": 10000,
+      "price_plus": 2000,
+      "phrase": "",
+      "desc_short_en": "Dig through walls. Will never break.",
+      "desc_en": "Pickaxe that will never break while digging through walls. Created by synthesizing 5 堀 seals onto a Pickaxe. Very useful for creating shortcuts, and also plays well with Razor Wind's ability to attack around corners.",
+      "locations": [
+        "Synthesis Only"
+      ]
+    },
+    {
+      "name_en": "Disposable Sword",
+      "name_jp": "使い捨ての剣",
+      "id": "disposable_sword",
+      "image": {
+        "filename": "disposable_sword.png",
+        "width": 105,
+        "height": 30
+      },
+      "base_stat": 35,
+      "seal": "捨",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 3,
+      "price_buy": 3000,
+      "price_sell": 1500,
+      "price_plus": 150,
+      "phrase": "",
+      "desc_short_en": "Lowers upgrade value by 1 every time you deal damage.",
+      "desc_en": "Sword that starts out with very high attack, but loses 1 upgrade value every time you deal damage. Synthesizing the 金 seal onto it won't prevent the loss. Wanderers often synthesize the か seal onto it to turn it into a food source worth 1050% fullness.",
+      "locations": [
+        "Shuten Trail Mid (P)",
+        "Onigashima (PS)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Mallet",
+      "name_jp": "木づち",
+      "id": "mallet",
+      "image": {
+        "filename": "mallet.png",
+        "width": 88.5,
+        "height": 48
+      },
+      "base_stat": 3,
+      "seal": "木",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 4000,
+      "price_sell": 2000,
+      "price_plus": 200,
+      "phrase": "タエチメ",
+      "desc_short_en": "Two-handed. Breaks traps. Breaks after a while if used to break traps.",
+      "desc_en": "Two-handed weapon that can break traps. Breaks after a while if used to break traps. There are other ways to deal with traps such as walking around them, splashing water on them, and swinging a Knockback Staff, so it doesn't see much use. Rare drop from Lv2+ Piko Hammer monsters.",
+      "locations": [
+        "Shuten Trail Easy (M)",
+        "Shuten Trail Hard (UM)",
+        "Onigashima (UST)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (P)",
+        "Road to the End (FPUSTM)"
+      ]
+    },
+    {
+      "name_en": "Power Pole",
+      "name_jp": "如意棒",
+      "id": "power_pole",
+      "image": {
+        "filename": "power_pole.png",
+        "width": 96,
+        "height": 13.5
+      },
+      "base_stat": 5,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 20000,
+      "price_sell": 10000,
+      "price_plus": 1000,
+      "phrase": "",
+      "desc_short_en": "Two-handed. Player takes 1 step back when hitting monsters or walls.",
+      "desc_en": "Two-handed weapon that pushes you backward by 1 tile when you hit a monster or wall. Solid option for 1-on-1 fights, as long as the target doesn't have a ranged attack. Can only be used as a base in synthesis.",
+      "locations": [
+        "Onigashima (ST)"
+      ]
+    },
+    {
+      "name_en": "Iron Hammer",
+      "name_jp": "アイアンハンマー",
+      "id": "iron_hammer",
+      "image": {
+        "filename": "iron_hammer.png",
+        "width": 90,
+        "height": 48
+      },
+      "base_stat": 5,
+      "seal": "鉄",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 20000,
+      "price_sell": 10000,
+      "price_plus": 1000,
+      "phrase": "",
+      "desc_short_en": "Two-handed. Breaks traps. Will never break.",
+      "desc_en": "Two-handed weapon that can break traps. Will never break. More useful than a Mallet since it doesn't break, but there are other ways to deal with traps, so it's not really worth taking up a seal slot.",
+      "locations": [
+        "Sealed Room (G)"
+      ]
+    },
+    {
+      "name_en": "Morning Star",
+      "name_jp": "モーニングスター",
+      "id": "morning_star",
+      "image": {
+        "filename": "morning_star_rotated.png",
+        "width": 99,
+        "height": 39
+      },
+      "base_stat": 5,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 6,
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "price_plus": 250,
+      "phrase": "",
+      "desc_short_en": "Two-handed. Hit all monsters in a 1 tile radius.",
+      "desc_en": "Two-handed weapon that can hit all monsters in a 1 tile radius. Two-handed means you have 0 defense which is extremely dangerous if you're surrounded, and the 三 seal is usually enough to take out groups of monsters, so it doesn't see much use. Can only be used as a base in synthesis.",
+      "locations": [
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Spear",
+      "name_jp": "ヤリ",
+      "id": "spear",
+      "image": {
+        "filename": "spear.png",
+        "width": 118.5,
+        "height": 12
+      },
+      "base_stat": 6,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 7,
+      "price_buy": 10000,
+      "price_sell": 4000,
+      "price_plus": 500,
+      "phrase": "ヌヌセラ",
+      "desc_short_en": "Two-handed. Piercing attack two tiles forward.",
+      "desc_en": "Two-handed weapon that can pierce through monsters 2 tiles forward. Decent option early on since it lets you get 2 hits in before receing a counter attack. Can only be used as a base in synthesis.",
+      "locations": [
+        "Shuten Trail Mid (S)",
+        "Shuten Trail Hard (S)",
+        "Onigashima (FPST)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Minotaur's Axe",
+      "name_jp": "ミノタウロスの斧",
+      "id": "minotaurs_axe",
+      "image": {
+        "filename": "minotaurs_axe_rotated.png",
+        "width": 84,
+        "height": 54
+      },
+      "base_stat": 8,
+      "seal": "会",
+      "stack": "Yes",
+      "stack_label": "Chance (%)",
+      "stack_multiplier": [35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 100, 100, 100],
+      "slots": 11,
+      "price_buy": 6000,
+      "price_sell": 2400,
+      "price_plus": 300,
+      "phrase": "",
+      "desc_short_en": "Two-handed. 35% chance to deal a x1.5 damage critical hit.",
+      "desc_en": "Two-handed weapon that has a 35% chance to deal a x1.5 damage critical hit. Rare drop from Lv2+ Taur monsters. Decent option to increase your damage output. However, Taurs only appear in post-game dungeons, so by the time you obtain one you might not need it.",
+      "locations": [
+        "Shrine's Hidden Hole (M)",
+        "Sealed Room (M)",
+        "Road to the End (M)"
+      ]
+    },
+    {
+      "name_en": "Ironhead's Head",
+      "name_jp": "アイアンヘッドの頭",
+      "id": "ironheads_head",
+      "image": {
+        "filename": "ironheads_head_rotated.png",
+        "width": 84,
+        "height": 30
+      },
+      "base_stat": 9,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 7,
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "price_plus": 250,
+      "phrase": "",
+      "desc_short_en": "Two-handed. Hits 3 tiles forward.",
+      "desc_en": "Two-handed weapon that can hit monsters 3 tiles forward. To increase its effectiveness, synthesize a 銀 seal onto it to attack through walls, or a 三 to attack around corners. Rare drop from Lv2+ Ironhead monsters. Can only be used as a base in synthesis.",
+      "locations": [
+        "Shuten Trail Hard (M)",
+        "Onigashima (M)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (M)",
+        "Road to the End (M)"
+      ]
+    }
+  ],
+  "shield": [
+    {
+      "name_en": "Wooden Shield",
+      "name_jp": "きたえた木の盾",
+      "id": "wooden_shield",
+      "image": {
+        "filename": "wooden.png",
+        "width": 56,
+        "height": 52
+      },
+      "base_stat": 2,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 1,
+      "price_buy": 2100,
+      "price_sell": 500,
+      "price_plus": 175,
+      "phrase": "",
+      "desc_short_en": "Found with +4 ~ +8 upgrade value.",
+      "desc_en": "Low defense, but comes with an upgrade value ranging from +4 to +8. It is never found cursed. Recommended to use as synthesis fodder to strengthen a stronger shield.",
+      "locations": [
+        "Shuten Trail Hard (U)",
+        "Onigashima (TC)",
+        "Sealed Room (PC)",
+        "Road to the End (PC)"
+      ]
+    },
+    {
+      "name_en": "Tribal Shield",
+      "name_jp": "ばん族の盾",
+      "id": "tribal_shield",
+      "image": {
+        "filename": "tribal.png",
+        "width": 46,
+        "height": 65
+      },
+      "base_stat": 6,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 1500,
+      "price_sell": 700,
+      "price_plus": 150,
+      "phrase": "んたぬれ",
+      "desc_short_en": "",
+      "desc_en": "Shield said to be passed down from a foreign tribe. Can be useful as a synthesis seal container since it doesn't have an innate ability, but it's a bit too weak to use as a main shield.",
+      "locations": [
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (FT)",
+        "Shuten Trail Hard (TG)",
+        "Onigashima (FPUT)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Sacred Shield",
+      "name_jp": "神器の盾",
+      "id": "sacred_shield",
+      "image": {
+        "filename": "sacred.png",
+        "width": 68,
+        "height": 57
+      },
+      "base_stat": 8,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 16,
+      "price_buy": 12000,
+      "price_sell": 4000,
+      "price_plus": 1200,
+      "phrase": "",
+      "desc_short_en": "",
+      "desc_en": "This shield lacks innate abilities, but comes with max synthesis slots. Doesn't have very high defense, but the number of slots more than makes up for it.",
+      "locations": [
+        "Sealed Room (G)"
+      ]
+    },
+    {
+      "name_en": "Beetle Shield",
+      "name_jp": "オオカブトの盾",
+      "id": "beetle_shield",
+      "image": {
+        "filename": "beetle.png",
+        "width": 64,
+        "height": 58
+      },
+      "base_stat": 10,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 7000,
+      "price_sell": 3000,
+      "price_plus": 700,
+      "phrase": "へめなの",
+      "desc_short_en": "",
+      "desc_en": "Shield made out of a giant beetle shell. Pretty solid defense, and can be used as a main shield. Doesn't have an innate ability.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPSTG)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Ivory Shield",
+      "name_jp": "像牙の盾",
+      "id": "ivory_shield",
+      "image": {
+        "filename": "ivory.png",
+        "width": 60,
+        "height": 67
+      },
+      "base_stat": 12,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 10000,
+      "price_sell": 2000,
+      "price_plus": 1000,
+      "phrase": "",
+      "desc_short_en": "Rustproof.",
+      "desc_en": "Shield made of ivory. Rustproof. Transforms into Daisangen Shield with 3 中 seals (Dragon Tile Bracelet). The rustproof ability won't transfer if used as synthesis fodder.",
+      "locations": [
+        "Onigashima (G)",
+        "Sealed Room (P)",
+        "Road to the End (FPG)"
+      ]
+    },
+    {
+      "name_en": "Fuuma Shield",
+      "name_jp": "風魔の盾",
+      "id": "fuuma_shield",
+      "image": {
+        "filename": "fuuma.png",
+        "width": 64,
+        "height": 57
+      },
+      "base_stat": 16,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 6,
+      "price_buy": 15000,
+      "price_sell": 3500,
+      "price_plus": 1500,
+      "phrase": "ユムクス",
+      "desc_short_en": "",
+      "desc_en": "Shield with high defense. Good option as a main shield. Insert a Fuuma Shield+99 into a Presto Pot to transform it into a Helix Shield, though note that upgrade value and seals will reset if you do so.",
+      "locations": [
+        "Sealed Room (PG)",
+        "Road to the End (P)"
+      ]
+    },
+    {
+      "name_en": "Daisangen Shield",
+      "name_jp": "大三元の盾",
+      "id": "daisangen_shield",
+      "image": {
+        "filename": "daisangen.png",
+        "width": 62,
+        "height": 50
+      },
+      "base_stat": 30,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 48000,
+      "price_sell": 32000,
+      "price_plus": 4800,
+      "phrase": "",
+      "desc_short_en": "Rustproof. Synthesize 3 中 seals onto an Ivory Shield.",
+      "desc_en": "Created by synthesizing 3 中 seals onto an Ivory Shield. Rustproof. Difficult to make due to the rarity of Dragon Tile Bracelets. Cannot be used as synthesis fodder.",
+      "locations": [
+        "Synthesis Only"
+      ]
+    },
+    {
+      "name_en": "Basilisk Shield",
+      "name_jp": "バジリスクの盾",
+      "id": "basilisk_shield",
+      "image": {
+        "filename": "basilisk.png",
+        "width": 66,
+        "height": 59
+      },
+      "base_stat": 40,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 13,
+      "price_buy": 60000,
+      "price_sell": 10000,
+      "price_plus": 6000,
+      "phrase": "",
+      "desc_short_en": "",
+      "desc_en": "Legendary shield exclusive to Shiren 2, and it's the 2nd strongest shield in the game. Very high defense and slot count, which makes it excellent as a main shield.",
+      "locations": [
+        "Road to the End (G)"
+      ]
+    },
+    {
+      "name_en": "Helix Shield",
+      "name_jp": "ラセン風魔の盾",
+      "id": "helix_shield",
+      "image": {
+        "filename": "helix.png",
+        "width": 64,
+        "height": 58
+      },
+      "base_stat": 50,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 12,
+      "price_buy": 55000,
+      "price_sell": 30000,
+      "price_plus": 5500,
+      "phrase": "",
+      "desc_short_en": "",
+      "desc_en": "Strongest shield in the game. Obtained by inserting a Fuuma Shield+99 into a Presto Pot. This applies to all equipment, but you can synthesize Blank Scrolls with Mixer monsters to increase the number of slots.",
+      "locations": [
+        "Presto Pot (Special)"
+      ]
+    },
+    {
+      "name_en": "Nirvana Shield",
+      "name_jp": "サトリの盾",
+      "id": "nirvana_shield",
+      "image": {
+        "filename": "nirvana.png",
+        "width": 58,
+        "height": 62
+      },
+      "base_stat": 1,
+      "seal": "サ",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 1,
+      "price_buy": 40000,
+      "price_sell": 20000,
+      "price_plus": 4000,
+      "phrase": "",
+      "desc_short_en": "Max fullness is reduced to 1%, and also prevents hunger.",
+      "desc_en": "Shield that reduces max fullness to 1% while also stopping hunger. However, Hunger Puppet monsters can still lower your fullness, and Fencer monsters can disarm your shield, so you still have to be careful. Created by synthesizing 3 重 seals onto a Heavy Shield.",
+      "locations": [
+        "Synthesis Only"
+      ]
+    },
+    {
+      "name_en": "Evasive Shield",
+      "name_jp": "見切りの盾",
+      "id": "evasive_shield",
+      "image": {
+        "filename": "evasive.png",
+        "width": 60,
+        "height": 63
+      },
+      "base_stat": 2,
+      "seal": "見",
+      "stack": "Yes",
+      "stack_label": "Chance (%)",
+      "stack_multiplier": [35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 82, 84, 85, 86, 88, 90, 99],
+      "slots": 5,
+      "price_buy": 10000,
+      "price_sell": 5000,
+      "price_plus": 1000,
+      "phrase": "",
+      "desc_short_en": "Increases evasion to 35%.",
+      "desc_en": "Shield that makes it easier to evade physical attacks by increasing evasion to 35%. Not only do you take less damage overall, but higher evasion also means bracelets last longer.",
+      "locations": [
+        "Onigashima (PSTC)",
+        "Sealed Room (PC)",
+        "Road to the End (PSTC)"
+      ]
+    },
+    {
+      "name_en": "Echo Shield",
+      "name_jp": "やまびこの盾",
+      "id": "echo_shield",
+      "image": {
+        "filename": "echo.png",
+        "width": 64,
+        "height": 64
+      },
+      "base_stat": 3,
+      "seal": "山",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 12000,
+      "price_sell": 4000,
+      "price_plus": 1200,
+      "phrase": "",
+      "desc_short_en": "Reflects magic.",
+      "desc_en": "Shield that reflects magic, including Gazer hypnosis, Tusker staves, Sheep Priest spells, and Grass Receive Staff. Cannot reflect Straw Voodoll curses, Twisty Hani dances, or Hunger Puppet songs.",
+      "locations": [
+        "Onigashima (C)",
+        "Sealed Room (PC)",
+        "Road to the End (PSTC)"
+      ]
+    },
+    {
+      "name_en": "Golden Shield",
+      "name_jp": "金の盾",
+      "id": "golden_shield",
+      "image": {
+        "filename": "golden.png",
+        "width": 54,
+        "height": 55
+      },
+      "base_stat": 4,
+      "seal": "金",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 10000,
+      "price_sell": 4000,
+      "price_plus": 1000,
+      "phrase": "",
+      "desc_short_en": "Rustproof (blue).",
+      "desc_en": "Shield made out of gold. Low defense, but it will never rust. Provides a blue 金 seal when synthesized. Monsoon Dolls will tear off a red 金 seal first, but a blue one has the same odds to be removed as the other seals.",
+      "locations": [
+        "Onigashima (G)",
+        "Sealed Room (PC)",
+        "Road to the End (FPSC)"
+      ]
+    },
+    {
+      "name_en": "Leather Shield",
+      "name_jp": "皮の盾",
+      "id": "leather_shield",
+      "image": {
+        "filename": "leather.png",
+        "width": 52,
+        "height": 40
+      },
+      "base_stat": 4,
+      "seal": "皮",
+      "stack": "Yes",
+      "stack_label": "Turns / 1 Point",
+      "stack_multiplier": [20, 22, 25, 29, 33, 40, 50, 56, 63, 72, 84, 100, 125, 166, 250, 500, 1000],
+      "slots": 5,
+      "price_buy": 2000,
+      "price_sell": 1000,
+      "price_plus": 200,
+      "phrase": "どでとぴ",
+      "desc_short_en": "Halves hunger rate. Rustproof.",
+      "desc_en": "Shield that halves your hunger rate. Rustproof. Ally Fencer monsters will always fling a Leather Shield in dungeons where shields normally do not appear.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (FST)",
+        "Shuten Trail Hard (FPSTG)",
+        "Onigashima (FPST)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Dodge Shield",
+      "name_jp": "身かわしの盾",
+      "id": "dodge_shield",
+      "image": {
+        "filename": "dodge.png",
+        "width": 64,
+        "height": 52
+      },
+      "base_stat": 5,
+      "seal": "身",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 15000,
+      "price_sell": 7500,
+      "price_plus": 1500,
+      "phrase": "",
+      "desc_short_en": "Allows you to dodge projectiles.",
+      "desc_en": "Shield that allows you to dodge projectiles. However, cannonballs will still explode, and dodged objects can activate traps if you're standing on one. Makes it very easy to gather arrows. The Reflect seal takes priority if you have that synthesized.",
+      "locations": [
+        "Sealed Room (C)"
+      ]
+    },
+    {
+      "name_en": "Holy Shield",
+      "name_jp": "呪いよけの盾",
+      "id": "holy_shield",
+      "image": {
+        "filename": "holy.png",
+        "width": 56,
+        "height": 47
+      },
+      "base_stat": 5,
+      "seal": "祓",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 10000,
+      "price_sell": 2500,
+      "price_plus": 1000,
+      "phrase": "ドピセモ",
+      "desc_short_en": "Prevents your items from getting cursed.",
+      "desc_en": "Shield that prevents all of your items from getting cursed by Straw Voodoll monsters. Is it never found cursed. Synthesizing an Exorcism Scroll with a Mixer monster provides the same effect.",
+      "locations": [
+        "Onigashima (ST)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Gamarra Shield",
+      "name_jp": "ガマラの盾",
+      "id": "gamarra_shield",
+      "image": {
+        "filename": "gamarra.png",
+        "width": 54,
+        "height": 47
+      },
+      "base_stat": 5,
+      "seal": "銭",
+      "stack": "Yes",
+      "stack_label": "Gitan (%)",
+      "stack_multiplier": [10, 12, 14, 20, 24, 26, 30, 32, 35, 40, 42, 46, 50, 52, 56, 58, 60],
+      "slots": 5,
+      "price_buy": 4000,
+      "price_sell": 1600,
+      "price_plus": 400,
+      "phrase": "",
+      "desc_short_en": "Gain Gitan equal to 10% of damage received.",
+      "desc_en": "Shield that hosts the spirit of a Gamarra. Allows you to obtain Gitan equal to 10% of the amount of damage received from enemy attacks. It's quite rare, despite its lackluster ability.",
+      "locations": [
+        "Sealed Room (G)"
+      ]
+    },
+    {
+      "name_en": "Scale Shield",
+      "name_jp": "うろこの盾",
+      "id": "scale_shield",
+      "image": {
+        "filename": "scale.png",
+        "width": 46,
+        "height": 48
+      },
+      "base_stat": 6,
+      "seal": "う",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 6000,
+      "price_sell": 3000,
+      "price_plus": 600,
+      "phrase": "ヌスネア",
+      "desc_short_en": "Prevents poison from lowering strength.",
+      "desc_en": "Shield made out of special fish scales that resist poison. Prevents poison arrows, poison grass, and Scorpion stings from lowering strength. Note that it doesn't prevent loss of strength from Slug licks or spoiled riceballs.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPG)",
+        "Onigashima (FPT)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Happy Shield",
+      "name_jp": "しあわせの盾",
+      "id": "happy_shield",
+      "image": {
+        "filename": "happy.png",
+        "width": 52,
+        "height": 56
+      },
+      "base_stat": 6,
+      "seal": "幸",
+      "stack": "Yes",
+      "stack_label": "Exp (%)",
+      "stack_multiplier": [130, 200, 300, 400, 500, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710],
+      "slots": 5,
+      "price_buy": 15000,
+      "price_sell": 3500,
+      "price_plus": 1500,
+      "phrase": "",
+      "desc_short_en": "Gain exp equal to 130% of damage received.",
+      "desc_en": "Shield that lets you gain exp equal to 130% of the amount of damage you receive from attacks. Note that you won't gain exp from traps. Good to equip early on, but you'll want to switch to a stronger shield as you progress.",
+      "locations": [
+        "Onigashima (UC)",
+        "Sealed Room (PC)",
+        "Road to the End (FPSTG)"
+      ]
+    },
+    {
+      "name_en": "Walrus Shield",
+      "name_jp": "トドの盾",
+      "id": "walrus_shield",
+      "image": {
+        "filename": "walrus.png",
+        "width": 60,
+        "height": 56
+      },
+      "base_stat": 6,
+      "seal": "ト",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 6,
+      "price_buy": 6000,
+      "price_sell": 1500,
+      "price_plus": 600,
+      "phrase": "",
+      "desc_short_en": "Prevents monsters from stealing items and Gitan.",
+      "desc_en": "Shield modeled after a Zalokleft. Prevents item and Gitan theft by Zalokleft, Gamarra, and Gyadon monsters. Note that it can't prevent Fencer monsters from disarming you, since disarming is not considered stealing.",
+      "locations": [
+        "Onigashima (T)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Reflect Shield",
+      "name_jp": "はね返しの盾",
+      "id": "reflect_shield",
+      "image": {
+        "filename": "reflect.png",
+        "width": 64,
+        "height": 53
+      },
+      "base_stat": 7,
+      "seal": "返",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 18000,
+      "price_sell": 5000,
+      "price_plus": 1800,
+      "phrase": "",
+      "desc_short_en": "Reflects projectiles.",
+      "desc_en": "Shield that reflects projectiles, including cannonballs, porky stones, and monsters thrown by Tiger Tossers. Cannot reflect silver arrows or objects falling from above. If a reflected cannonball hits a Shopkeeper, the Shopkeeper will go after you instead of the monster.",
+      "locations": [
+        "Sealed Room (C)"
+      ]
+    },
+    {
+      "name_en": "Counter Shield",
+      "name_jp": "バトルカウンター",
+      "id": "counter_shield",
+      "image": {
+        "filename": "counter.png",
+        "width": 66,
+        "height": 59
+      },
+      "base_stat": 7,
+      "seal": "バ",
+      "stack": "Yes",
+      "stack_label": "Damage (%)",
+      "stack_multiplier": [30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 82, 85, 86, 88, 90, 99],
+      "slots": 5,
+      "price_buy": 4000,
+      "price_sell": 1000,
+      "price_plus": 400,
+      "phrase": "ぎぼびわ",
+      "desc_short_en": "Reflects 30% of damage received back at monsters.",
+      "desc_en": "Shield that reflects 30% of damage received from physical attacks back at monsters. Cannot reflect damage if the target is inside a wall. Note that reflected damage can still cause Slugs and Zaloklefts to divide.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPSTG)",
+        "Onigashima (PS)",
+        "Sealed Room (P)",
+        "Road to the End (FPS)"
+      ]
+    },
+    {
+      "name_en": "Traproid Shield",
+      "name_jp": "カラクロイドの盾",
+      "id": "traproid_shield",
+      "image": {
+        "filename": "traproid.png",
+        "width": 56,
+        "height": 55
+      },
+      "base_stat": 8,
+      "seal": "カ",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 4,
+      "price_buy": 12000,
+      "price_sell": 6000,
+      "price_plus": 1200,
+      "phrase": "",
+      "desc_short_en": "Prevents traps from activating.",
+      "desc_en": "Shield that prevents traps from activating. Note that you can still choose to manually trigger traps if you're standing on one. One of the strongest seals in the game, to the point of being a balance breaker.",
+      "locations": [
+        "Halfway Well (C)"
+      ]
+    },
+    {
+      "name_en": "Blast Shield",
+      "name_jp": "地雷ナバリの盾",
+      "id": "blast_shield",
+      "image": {
+        "filename": "blast.png",
+        "width": 52,
+        "height": 70
+      },
+      "base_stat": 8,
+      "seal": "爆",
+      "stack": "Yes",
+      "stack_label": "Reduction (%)",
+      "stack_multiplier": [30, 32, 34, 40, 44, 46, 50, 52, 55, 60, 62, 66, 70, 72, 76, 80, 90],
+      "slots": 5,
+      "price_buy": 5000,
+      "price_sell": 2000,
+      "price_plus": 500,
+      "phrase": "ねぺなは",
+      "desc_short_en": "Reduces explosion damage by 30%.",
+      "desc_en": "Shield that reduces damage from explosions by 30%. Explosion damage sources include landmines, bomber statues, Pop Tank, Wolf Roid, Patient Bag monsters, and others.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPSTG)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Dragon Shield",
+      "name_jp": "ドラゴンシールド",
+      "id": "dragon_shield",
+      "image": {
+        "filename": "dragon.png",
+        "width": 56,
+        "height": 72
+      },
+      "base_stat": 14,
+      "seal": "竜",
+      "stack": "Yes",
+      "stack_label": "Reduction (%)",
+      "stack_multiplier": [30, 35, 40, 45, 50, 55, 60, 65, 70, 72, 74, 76, 78, 80, 82, 84, 86],
+      "slots": 5,
+      "price_buy": 8000,
+      "price_sell": 4000,
+      "price_plus": 800,
+      "phrase": "",
+      "desc_short_en": "Reduces fire damage by 30%.",
+      "desc_en": "Shield that reduces fire damage by 30%. Can be used as a main shield, but also popular as a secondary shield for floors with Archdragons. Combine with a 火 seal to increase the fire damage reduction to 50%. (30% + 20% = 50%).",
+      "locations": [
+        "Onigashima (G)",
+        "Road to the End (G)"
+      ]
+    },
+    {
+      "name_en": "Heavy Shield",
+      "name_jp": "重装の盾",
+      "id": "heavy_shield",
+      "image": {
+        "filename": "heavy.png",
+        "width": 60,
+        "height": 52
+      },
+      "base_stat": 15,
+      "seal": "重",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 3,
+      "price_buy": 3000,
+      "price_sell": 1200,
+      "price_plus": 300,
+      "phrase": "ゾテソボ",
+      "desc_short_en": "Doubles hunger rate.",
+      "desc_en": "Shield with high defense, but also doubles hunger rate. Can synthesize a 皮 seal to counter the effect, but with only 3 slots, it's not really worth it. Synthesize 3 重 seals onto it to transform it into a Nirvana Shield.",
+      "locations": [
+        "Shuten Trail Hard (F)",
+        "Onigashima (FPS)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Disposable Shield",
+      "name_jp": "使い捨ての盾",
+      "id": "disposable_shield",
+      "image": {
+        "filename": "disposable.png",
+        "width": 62,
+        "height": 59
+      },
+      "base_stat": 40,
+      "seal": "捨",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 3,
+      "price_buy": 1600,
+      "price_sell": 600,
+      "price_plus": 160,
+      "phrase": "",
+      "desc_short_en": "Lowers upgrade value by 1 every time you take damage.",
+      "desc_en": "Shield that starts out with very high defense, but loses 1 upgrade value every time you take damage. Fixed damage such as quarter staff will still lower its upgrade value, but traps, poison grass, surprise pot explosions, and fire pillars won't.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (P)",
+        "Onigashima (P)",
+        "Sealed Room (P)",
+        "Road to the End (FPS)"
+      ]
+    },
+    {
+      "name_en": "Spear Shield",
+      "name_jp": "矛の盾",
+      "id": "spear_shield",
+      "image": {
+        "filename": "spear.png",
+        "width": 60,
+        "height": 66
+      },
+      "base_stat": 7,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "slots": 5,
+      "price_buy": 13000,
+      "price_sell": 5000,
+      "price_plus": 1300,
+      "phrase": "",
+      "desc_short_en": "Two-handed. Raises both attack and defense when equipped.",
+      "desc_en": "Two-handed shield that raises both attack and defense when equipped. A decent option early on, but you'll want to switch to stronger equipment as you progress. Can only be used as a base in synthesis.",
+      "locations": [
+        "Onigashima (ST)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    }
+  ],
+  "bracelet": [
+    {
+      "name_en": "Stat Lock Bracelet",
+      "name_jp": "くねくねよけの腕輪",
+      "id": "stat_lock_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 3000,
+      "price_sell": 1500,
+      "phrase": "",
+      "desc_short_en": "Protects against level down effects.",
+      "desc_en": "Protects against the level down effects of Twisty Hani's dance and Gazelle Pope's spell. Doesn't prevent level down effects from eating or getting hit by Grasses.",
+      "locations": [
+        "Onigashima (FP)",
+        "Road to the End (F)"
+      ]
+    },
+    {
+      "name_en": "Pierce Bracelet",
+      "name_jp": "遠投の腕輪",
+      "id": "pierce_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 4000,
+      "price_sell": 2000,
+      "phrase": "リヒピシ",
+      "desc_short_en": "Thrown items will pierce through walls and monsters.",
+      "desc_en": "Thrown items will fly forever, piercing through walls and monsters. Useful for clearing out a line of monsters. Be careful not to accidentally throw important items while it's equipped. ",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PT)",
+        "Shuten Trail Hard (FPT)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Dragon Tile Bracelet",
+      "name_jp": "白発白中の腕輪",
+      "id": "dragon_tile_bracelet",
+      "seal": "中",
+      "stack": "No",
+      "stack_label": "",
+      "price_buy": 4000,
+      "price_sell": 2000,
+      "phrase": "",
+      "desc_short_en": "Thrown items will always miss. Used in creating Daisangen equipment.",
+      "desc_en": "Thrown items will always miss their target, including throwing items at Mixer monsters. Can be used to activate traps if a monster is standing on one. Provides a 中 seal which is needed for synthesizing Daisangen equipment.",
+      "locations": [
+        "Onigashima (ST)",
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "No Control Bracelet",
+      "name_jp": "ノーコンの腕輪",
+      "id": "no_control_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 4000,
+      "price_sell": 2000,
+      "phrase": "",
+      "desc_short_en": "Thrown items fly in a random direction.",
+      "desc_en": "Thrown items will fly in a random direction. There's no practical use for it, but it can be sold for a decent amount. Ally Fencer monsters will always fling this bracelet where bracelets normally do not appear.",
+      "locations": [
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Salty Bracelet",
+      "name_jp": "まじしおの腕輪",
+      "id": "salty_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "phrase": "",
+      "desc_short_en": "Protects against strength modifying slug licks and sheep spells.",
+      "desc_en": "Protects against strength lowering Slug licks and Sheep Priest spells. Note that it doesn't protect against strength loss from poisons, such as poison arrows and Scorpion stings.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PT)",
+        "Shuten Trail Hard (FPT)",
+        "Onigashima (PUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Heal Bracelet",
+      "name_jp": "回復の腕輪",
+      "id": "heal_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "phrase": "",
+      "desc_short_en": "Restores 5 HP per turn, but also doubles hunger rate.",
+      "desc_en": "Restores 5 HP per turn, but also doubles hunger rate. Plays well with Nirvana Shield and No Hunger Bracelet. Asuka can equip it without any negative side effects.",
+      "locations": [
+        "Shuten Trail Hard (U)",
+        "Onigashima (S)",
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Bend Bracelet",
+      "name_jp": "まがりの腕輪",
+      "id": "bend_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "phrase": "",
+      "desc_short_en": "Thrown items will curve when hitting walls.",
+      "desc_en": "Thrown items will curve when hitting walls or corners. Porky stones and piercing items such as silver arrows won't be affected.",
+      "locations": [
+        "Shuten Trail Hard (U)",
+        "Onigashima (FPS)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Song Bracelet",
+      "name_jp": "ハラヘリよけの腕輪",
+      "id": "song_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "phrase": "",
+      "desc_short_en": "Protects against fullness loss by Hunger Puppet songs.",
+      "desc_en": "Prevents Hunger Puppet songs from lowering fullness or max fullness. Not very useful, but can be sold for a decent amount.",
+      "locations": [
+        "Onigashima (F)",
+        "Road to the End (F)"
+      ]
+    },
+    {
+      "name_en": "Breadcrumb Bracelet",
+      "name_jp": "たれ流しの腕輪",
+      "id": "breadcrumb_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "phrase": "",
+      "desc_short_en": "Makes you drop items randomly as you walk.",
+      "desc_en": "Makes you drop items randomly as you walk. No practical use for it, but it can be sold for a decent amount.",
+      "locations": [
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Strength Bracelet",
+      "name_jp": "ちからの腕輪",
+      "id": "strength_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 5000,
+      "price_sell": 3400,
+      "phrase": "",
+      "desc_short_en": "Increases strength by 3.",
+      "desc_en": "Increases strength by 3 while equipped. Has a higher selling price compared to other 5000 Gitan bracelets.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PT)",
+        "Shuten Trail Hard (FPT)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Bullseye Bracelet",
+      "name_jp": "百発百中の腕輪",
+      "id": "bullseye_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 7500,
+      "price_sell": 3000,
+      "phrase": "メペング",
+      "desc_short_en": "Thrown items will always hit their target.",
+      "desc_en": "Thrown items will always hit their target. Can be paired with Pierce Bracelet to quickly thin out groups of monsters.",
+      "locations": [
+        "Shuten Trail Hard (FG)",
+        "Onigashima (PS)",
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Critical Bracelet",
+      "name_jp": "超会心の腕輪",
+      "id": "critical_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 7500,
+      "price_sell": 1500,
+      "phrase": "",
+      "desc_short_en": "Deal x5.0 damage critical hits, but shatters if you take damage.",
+      "desc_en": "Regular attacks turn into x5.0 damage super critical hits. However, the bracelet will shatter the moment you take damage.",
+      "locations": [
+        "Sealed Room (G)"
+      ]
+    },
+    {
+      "name_en": "Phantasm Bracelet",
+      "name_jp": "パコレプキンの腕輪",
+      "id": "phantasm_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 10000,
+      "price_sell": 5000,
+      "phrase": "",
+      "desc_short_en": "Lets you walk through walls and float over water. Drains 5% HP per turn inside walls.",
+      "desc_en": "Lets you walk through walls and float over water. Drains HP equal to 5% of your max HP each turn inside a wall. Unequip over water or inside a wall to warp to a random location on the current floor.",
+      "locations": [
+        "Onigashima (G)",
+        "Sealed Room (P)",
+        "Road to the End (PUST)"
+      ]
+    },
+    {
+      "name_en": "Scout Bracelet",
+      "name_jp": "とうしの腕輪",
+      "id": "scout_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 10000,
+      "price_sell": 5000,
+      "phrase": "ベゲトザ",
+      "desc_short_en": "Reveals monster, item, and statue locations on the map.",
+      "desc_en": "Reveals monster, item, and statue locations on the map. Possibly the strongest single item effect in the game, to the point of being a balance breaker.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (FP)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Paper Thin Bracelet",
+      "name_jp": "紙一重の腕輪",
+      "id": "paper_thin_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 15000,
+      "price_sell": 7500,
+      "phrase": "",
+      "desc_short_en": "Halves the accuracy of attacks and projectiles directed at you. Burns up if you take fire damage.",
+      "desc_en": "Greatly increases evasion, halving the accuracy of normal attacks and projectiles directed at you. However, it's made of paper, so it will burn up if you take fire damage.",
+      "locations": [
+        "Onigashima (PS)",
+        "Sealed Room (G)",
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Parry Bracelet",
+      "name_jp": "うけながしの腕輪",
+      "id": "parry_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 15000,
+      "price_sell": 7500,
+      "phrase": "",
+      "desc_short_en": "Redirects damage from physical attacks to a nearby monster.",
+      "desc_en": "Redirects damage from physical attacks to a nearby monster. If there are no other monsters nearby, you'll take damage as normal. If a monster defeats another monster due to this effect, the attacking monster will level up.",
+      "locations": [
+        "Sealed Room (G)",
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "No Hunger Bracelet",
+      "name_jp": "ハラヘラズの腕輪",
+      "id": "no_hunger_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 15000,
+      "price_sell": 7500,
+      "phrase": "セダベタ",
+      "desc_short_en": "Stops natural hunger depletion.",
+      "desc_en": "Stops hunger. No negative side effects. Note that it only stops natural hunger depletion, so Hunger Puppet songs will still lower fullness. Doesn't prevent HP loss if your fullness is already at 0%.",
+      "locations": [
+        "Shuten Trail Hard (C)",
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Hunger Bracelet",
+      "name_jp": "ハラヘリの腕輪",
+      "id": "hunger_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 15000,
+      "price_sell": 7500,
+      "phrase": "",
+      "desc_short_en": "Doubles hunger rate.",
+      "desc_en": "Doubles hunger rate. There's no practical use for it, but it can be sold for a large sum of Gitan.",
+      "locations": [
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Trapper Bracelet",
+      "name_jp": "ワナ師の腕輪",
+      "id": "trapper_bracelet",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 25000,
+      "price_sell": 1000,
+      "phrase": "",
+      "desc_short_en": "Can pick up and set traps, and monsters will trigger them.",
+      "desc_en": "Lets you pick up and set traps. Monsters that step on traps will trigger them. Attack and Exp modifiers are applied like inside the Halfway Well dungeon while equipped. Note that defeating a Trader with traps triggers a robbery.",
+      "locations": [
+        "Halfway Well (Clear Reward)"
+      ]
+    }
+  ],
+  "food": [
+    {
+      "name_en": "Spoiled Riceball",
+      "name_jp": "まずそうなおにぎり",
+      "id": "spoiled_riceball",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "price_buy": 40,
+      "price_sell": 1,
+      "phrase": "",
+      "desc_short_en": "Restores 35% fullness. Also comes with a random negative effect. Increases max fullness by 1% if full.",
+      "desc_en": "Restores 35% fullness, but deals 4 damage and comes with a negative side effect. Negative effects include level-1, strength-3, confusion, sleep, and blindness. Increases max fullness by 1% if full.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)",
+        "Onigashima (F)",
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Riceball",
+      "name_jp": "おにぎり",
+      "id": "riceball",
+      "seal": "飯",
+      "stack": "Yes",
+      "stack_label": "Riceball Chance (%)",
+      "stack_multiplier": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "price_buy": 100,
+      "price_sell": 50,
+      "phrase": "",
+      "desc_short_en": "Restores 50% fullness. Increases max fullness by 3% if full.",
+      "desc_en": "Restores 50% fullness. Increases max fullness by 3% if full. Can be used to synthesize the 飯 seal, which is commonly synthesized onto a secondary weapon early game to help avoid starvation.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FP)",
+        "Shuten Trail Hard (FPT)",
+        "Onigashima (FST)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (S)",
+        "Sealed Room (FP)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Large Riceball",
+      "name_jp": "大きなおにぎり",
+      "id": "",
+      "seal": "飯",
+      "stack": "Yes",
+      "stack_label": "Riceball Chance (%)",
+      "stack_multiplier": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "price_buy": 200,
+      "price_sell": 100,
+      "phrase": "ほにがけ",
+      "desc_short_en": "Restores 100% fullness. Increases max fullness by 5% if full.",
+      "desc_en": "Restores 100% fullness. Increases max fullness by 5% if full. You'll always start with a Large Riceball when entering dungeons. Nigiri Morph monsters transform items into this riceball.",
+      "locations": [
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)",
+        "Onigashima (F)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Specialty Riceball",
+      "name_jp": "特製おにぎり",
+      "id": "",
+      "seal": "飯",
+      "stack": "Yes",
+      "stack_label": "Riceball Chance (%)",
+      "stack_multiplier": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "price_buy": 200,
+      "price_sell": 100,
+      "phrase": "ゼポプタ",
+      "desc_short_en": "Restores 30% fullness. Also comes with a random positive effect. Increases max fullness by 2% if full.",
+      "desc_en": "Restores 30% fullness, and comes with a positive side effect. Positive effects include strength+1, HP recovery, item identification, sleep immunity, walk without waking sleeping monsters, stop hunger, and poison immunity. Increases max fullness by 2% if full.",
+      "locations": [
+        "Onigashima (PS)",
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Giant Riceball",
+      "name_jp": "巨大なおにぎり",
+      "id": "",
+      "seal": "飯",
+      "stack": "Yes",
+      "stack_label": "Riceball Chance (%)",
+      "stack_multiplier": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "price_buy": 300,
+      "price_sell": 150,
+      "phrase": "",
+      "desc_short_en": "Restores fullness to max. Also increases max fullness by 7%.",
+      "desc_en": "Restores fullness to max, and also increases max fullness by 7%. The best riceball in the game. Keep it safe from spoiling by placing it inside a holding pot.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (FS)",
+        "Onigashima (PS)",
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    }
+  ],
+  "grass": [
+    {
+      "name_en": "Weeds",
+      "name_jp": "雑草",
+      "id": "weeds",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 50,
+      "price_sell": 25,
+      "phrase": "",
+      "desc_short_en": "",
+      "desc_en": "Restores 5% fullness like all other grasses, but otherwise doesn't have an effect. Revival Grass turns into this grass after taking effect.",
+      "locations": [
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Herb",
+      "name_jp": "薬草",
+      "id": "herb",
+      "seal": "薬",
+      "stack": "Yes",
+      "stack_label": "HP recovered",
+      "stack_multiplier": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 30],
+      "price_buy": 100,
+      "price_sell": 50,
+      "phrase": "マジナイ",
+      "desc_short_en": "Restores 25 HP. Increases max HP by 2 if already max. Used in synthesizing a Healing Sword.",
+      "desc_en": "Restores 25 HP. Increases max HP by 2 points if HP is already at max. Can be thrown at Ghost type monsters to deal 25 damage. The 薬 seal restores a small amount of HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword.",
+      "locations": [
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)",
+        "Onigashima (F)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (S)",
+        "Sealed Room (FP)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Twisty Grass",
+      "name_jp": "くねくね草",
+      "id": "twisty_grass",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 300,
+      "price_sell": 150,
+      "phrase": "",
+      "desc_short_en": "Lowers level by 1.",
+      "desc_en": "Lowers level by 1 when eaten. Can also be thrown at a monster to lower its rank. Plays well with a Pierce Bracelet if used in such a way.",
+      "locations": [
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Swift Grass",
+      "name_jp": "すばやさ草",
+      "id": "swift_grass",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 300,
+      "price_sell": 150,
+      "phrase": "",
+      "desc_short_en": "Increases movement speed by 1 stage.",
+      "desc_en": "Increases movement speed by 1 stage for 12 turns. Max movement speed stage is +2, where you get 3 actions per turn. If thrown at a monster, the target will gain a permanent movement speed boost.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPUST)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (S)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Warp Grass",
+      "name_jp": "高とび草",
+      "id": "warp_grass",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 300,
+      "price_sell": 150,
+      "phrase": "",
+      "desc_short_en": "Warps you to a random room on the current floor.",
+      "desc_en": "Warps you to a random room on the current floor when eaten. Can be thrown at a monster to warp them instead. Good for getting out of sticky situations, but if you're unlucky, you might end up jumping out of the frying pan and into the fire.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPUST)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Life Grass",
+      "name_jp": "命の草",
+      "id": "life_grass",
+      "seal": "命",
+      "stack": "Yes",
+      "stack_label": "Base Defense",
+      "stack_multiplier": ["+2", "+4", "+6", "+8", "+10", "+12", "+14", "+16", "+18", "+20", "+22", "+24", "+26", "+28", "+30", "+40"],
+      "price_buy": 400,
+      "price_sell": 200,
+      "phrase": "",
+      "desc_short_en": "Increases max HP by 5 points. Used in synthesizing a Healing Sword.",
+      "desc_en": "Increases max HP by 5 points when eaten. Provides the 命 seal when synthesized, which is used in synthesizing a Healing Sword. When synthesized onto a shield, the 命 seal increases the base defense of the shield.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Expand Seed",
+      "name_jp": "胃拡張の種",
+      "id": "expand_seed",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 400,
+      "price_sell": 200,
+      "phrase": "",
+      "desc_short_en": "Increases max fullness by 10%.",
+      "desc_en": "Increases max fullness by 10% when eaten. Max fullness maxes out at 200%. The effect isn't too noteworthy, so you might as well eat it right away instead of waiting to find a Boost Grass.",
+      "locations": [
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Shrink Seed",
+      "name_jp": "胃縮小の種",
+      "id": "shrink_seed",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 400,
+      "price_sell": 200,
+      "phrase": "",
+      "desc_short_en": "Lowers max fullness by 10%.",
+      "desc_en": "Lowers max fullness by 10% when eaten. The lowest max fullness value is 0%. Nothing good will come from keeping it on hand, so either sell it, insert it into a Presto Pot, or throw it away.",
+      "locations": [
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Antidote Grass",
+      "name_jp": "毒消し草",
+      "id": "antidote_grass",
+      "seal": "消",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 400,
+      "price_sell": 200,
+      "phrase": "",
+      "desc_short_en": "Restores lost strength to max. Deals 50 damage to Slugs when thrown.",
+      "desc_en": "Restores lost strength to max when eaten. Can be thrown at Slug monsters to deal 50 damage. The 消 seal is equivalent to the う seal from a Scale Shield, and blocks poison. Note that the seal cannot block Slug licks.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPUST)",
+        "Halfway Well (S)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Super Unlucky Seed",
+      "name_jp": "超不幸の種",
+      "id": "super_unlucky_seed",
+      "seal": "超",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 400,
+      "price_sell": 200,
+      "phrase": "",
+      "desc_short_en": "Lowers level to 1 and reduces current HP to 1.",
+      "desc_en": "Lowers level to 1 and reduces current HP to 1 when eaten. Provides the 超 seal if synthesized, which curses the equipment and lowers your level by 1 every time you attack (weapon) or take damage (shield). Possibly the most dangerous item in the game, but only appears in shops inside the \"Roat to the End\" dungeon 71F+.",
+      "locations": [
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Talking Seed",
+      "name_jp": "話の種",
+      "id": "talking_seed",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 500,
+      "price_sell": 100,
+      "phrase": "おたべは",
+      "desc_short_en": "Deals a random negative effect to all characters in the room.",
+      "desc_en": "Makes you tell jokes, superstitions, serial novels, and one-liners, which deals a random negative effect to all characters in the room. Effects include slow, sleep, confusion, paralysis, freeze, neutral NPCs turn hostile, and ~30 damage. If no one else is in the room, you become the target of the negative effect.",
+      "locations": [
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Otogiriso",
+      "name_jp": "弟切草",
+      "id": "otogiriso",
+      "seal": "弟",
+      "stack": "Yes",
+      "stack_label": "HP Recovered",
+      "stack_multiplier": [4, 7, 10, 13, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 55],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "ノザノサ",
+      "desc_short_en": "Restores 100 HP. Increases max HP by 4 if already max. Used in synthesizing a Healing Sword.",
+      "desc_en": "Restores 100 HP. Increases max HP by 4 points if HP is already at max. Can be thrown at Ghost type monsters to deal 100 damage. The 弟 seal restores some HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword. Excellent to synthesize onto shields.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (F)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (S)",
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Sight Grass",
+      "name_jp": "めぐすり草",
+      "id": "sight_grass",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "",
+      "desc_short_en": "Allows you to see hidden traps and invisible monsters.",
+      "desc_en": "Grass that allows you to see hidden traps and invisible monsters. Can also cure blindness. Note that the effect will wear off if you become blinded after eating it.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPS)",
+        "Shuten Trail Hard (FPS)",
+        "Onigashima (FP)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Dragon Grass",
+      "name_jp": "ドラゴン草",
+      "id": "dragon_grass",
+      "seal": "火",
+      "stack": "Yes",
+      "stack_label": "Fire Damage",
+      "stack_label_2": "Reduction (%)",
+      "stack_multiplier": [10, 15, 18, 20, 23, 25, 30, 33, 35, 40, 45, 50, 55, 60, 65, 70],
+      "stack_multiplier_2": [20, 24, 27, 29, 31, 33, 36, 39, 42, 46, 50, 52, 54, 56, 58, 60],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "",
+      "desc_short_en": "Deal a ranged fire attack that deals 63~77 damage.",
+      "desc_en": "Performs a ranged fire attack that deals 63~77 damage when eaten, or 45~55 damage when thrown. The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)",
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (F)"
+      ]
+    },
+    {
+      "name_en": "Flame Grass",
+      "name_jp": "火炎草",
+      "id": "flame_grass",
+      "seal": "火",
+      "stack": "Yes",
+      "stack_label": "Fire Damage",
+      "stack_label_2": "Reduction (%)",
+      "stack_multiplier": [10, 15, 18, 20, 23, 25, 30, 33, 35, 40, 45, 50, 55, 60, 65, 70],
+      "stack_multiplier_2": [20, 24, 27, 29, 31, 33, 36, 39, 42, 46, 50, 52, 54, 56, 58, 60],
+      "price_buy": 700,
+      "price_sell": 350,
+      "phrase": "",
+      "desc_short_en": "Deal a fire attack 1 tile forward that deals 63~77 damage.",
+      "desc_en": "Performs a fire attack 1 tile forward that deals 63~77 damage when eaten, or 40~49 damage when thrown. The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield. Basically a weaker Dragon Grass, but worth more Gitan.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPS)",
+        "Shuten Trail Hard (FPS)",
+        "Onigashima (FPU)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Boost Grass",
+      "name_jp": "よくきき草",
+      "id": "boost_grass",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1000,
+      "price_sell": 500,
+      "phrase": "",
+      "desc_short_en": "Doubles effectiveness of grass items for 10 turns.",
+      "desc_en": "Doubles effectiveness of grass items for 10 turns when eaten. Also doubles the effectiveness of grasses used by grass receive staff, grass toss staff, and grass effect pot. Often used before strength grass. Note that some grasses don't gain a boosted effect, such as Revival Grass, Sight Grass, and Antidote Grass.",
+      "locations": [
+        "Shuten Trail Hard (FP)",
+        "Onigashima (FPUST)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Strength Grass",
+      "name_jp": "ちからの草",
+      "id": "strength_grass",
+      "seal": "ち",
+      "stack": "Yes",
+      "stack_label": "Base Attack",
+      "stack_multiplier": ["+2", "+4", "+6", "+8", "+10", "+12", "+14", "+16", "+18", "+20", "+22", "+24", "+26", "+28", "+30", "+32"],
+      "price_buy": 1500,
+      "price_sell": 700,
+      "phrase": "",
+      "desc_short_en": "Increases strength by 1, or increases max strength by 1 if already at max.",
+      "desc_en": "Increases strength by 1, or increases max strength by 1 if already at max. Often used with grass receive staff, grass toss staff, or Boost Grass to increase gains. The ち seal increases a weapon's base attack. Mr. Drone monsters always drop this grass.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPSTM)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPUSTM)",
+        "Shrine's Hidden Hole (M)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUSTM)"
+      ]
+    },
+    {
+      "name_en": "Poison Grass",
+      "name_jp": "毒草",
+      "id": "poison_grass",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1500,
+      "price_sell": 700,
+      "phrase": "",
+      "desc_short_en": "Deals 5 damage, lowers strength by 1 point, and inflicts slow.",
+      "desc_en": "Deals 5 damage, lowers strength by 1 point, and inflicts slow when eaten. Can be thrown at a monster to inflict slow and reduce its attack (x0.6). Note that it has the same price as Strength Grass.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPT)",
+        "Shuten Trail Hard (FPT)",
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Happy Grass",
+      "name_jp": "しあわせ草",
+      "id": "happy_grass",
+      "seal": "幸",
+      "stack": "Yes",
+      "stack_label": "Exp Gain (%)",
+      "stack_label_2": "Portion of Damage (%)",
+      "stack_multiplier": ["+10", "+40", "+70", "+100", "+130", "+160", "+190", "+220", "+250", "+280", "+310", "+340", "+370", "+400", "+410", "+420"],
+      "stack_multiplier_2": [110, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440, 470, 500, 510, 520],
+      "price_buy": 2000,
+      "price_sell": 1000,
+      "phrase": "",
+      "desc_short_en": "Increases level by 1.",
+      "desc_en": "Increases level by 1 when eaten. Can be thrown at a monster to increase its rank by 1. Mr. Helico has a 85% chance to drop this grass. The 幸 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPSTM)",
+        "Shuten Trail Hard (FPUST)",
+        "Onigashima (FSM)",
+        "Shrine's Hidden Hole (M)",
+        "Sealed Room (P)",
+        "Road to the End (FPUSTM)"
+      ]
+    },
+    {
+      "name_en": "Unlucky Seed",
+      "name_jp": "不幸の種",
+      "id": "unlucky_seed",
+      "seal": "不",
+      "stack": "Yes",
+      "stack_label": "Equipment Strength",
+      "stack_multiplier": ["-10", "-15", "-20", "-25", "-30", "-35", "-40", "-45", "-50", "-55", "-60", "-65", "-70", "-75", "-80", "-85"],
+      "price_buy": 2000,
+      "price_sell": 1000,
+      "phrase": "",
+      "desc_short_en": "Lowers level by 3.",
+      "desc_en": "Lowers level by 3 when eaten. Can be thrown at a monster to lower its rank by 3. If synthesized, the 不 seal lowers equipment strength by a significant amount.",
+      "locations": [
+        "Sealed Room (FP)",
+        "Road to the End (PS)"
+      ]
+    },
+    {
+      "name_en": "Revival Grass",
+      "name_jp": "復活の草",
+      "id": "revival_grass",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 2500,
+      "price_sell": 1250,
+      "phrase": "ヨワハゼ",
+      "desc_short_en": "Revives you if you collapse in a dungeon.",
+      "desc_en": "Automatically revives you if your HP drops to 0 inside of a dungeon. Doesn't activate if it's inside of a pot. Turns into Weeds after taking effect. HP, strength, and fullness is restored to max upon reviving. Mr. Gyro has a 75% chance to drop this grass.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPSTM)",
+        "Shuten Trail Hard (FPUST)",
+        "Onigashima (FPUSTMC)",
+        "Shrine's Hidden Hole (FM)",
+        "Halfway Well (S)",
+        "Sealed Room (PC)",
+        "Road to the End (FPUSTMC)"
+      ]
+    },
+    {
+      "name_en": "Angel Seed",
+      "name_jp": "天使の種",
+      "id": "angel_seed",
+      "seal": "天",
+      "stack": "Yes",
+      "stack_label": "Exp Gain (%)",
+      "stack_label_2": "Portion of Damage (%)",
+      "stack_multiplier": ["+50", "+100", "+150", "+200", "+250", "+300", "+350", "+400", "+410", "+420", "+430", "+440", "+450", "+460", "+470", "+480"],
+      "stack_multiplier_2": [150, 200, 250, 300, 350, 400, 450, 500, 510, 520, 530, 540, 550, 560, 570, 580],
+      "price_buy": 3000,
+      "price_sell": 1500,
+      "phrase": "アトノセ",
+      "desc_short_en": "Increases level by 3.",
+      "desc_en": "Increases level by 3 when eaten. Can be used with grass receive staff or Boost Grass to increase gains. The 天 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield). Excellent to synthesize onto a main weapon.",
+      "locations": [
+        "Onigashima (UC)",
+        "Sealed Room (C)",
+        "Road to the End (UC)"
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "name_en": "Knockback Staff",
+      "name_jp": "ふきとばしの杖",
+      "id": "knockback_staff",
+      "price_buy": [500, 525, 550, 575, 600, 625, 650, 675],
+      "price_sell": [250, 262, 275, 287, 300, 312, 325, 337],
+      "price_use_buy": 25,
+      "price_use_sell": 12.5,
+      "phrase": "",
+      "desc_short_en": "Deals 5 damage and knocks a target away. Also works on items, traps, statues, and stairs. (4~7 uses)",
+      "desc_en": "Deals 5 damage and knocks a target away. Monsters will be sent 7 tiles, items and traps 10 tiles, statues 3 tiles, and stairs until it hits a wall. Note that pots will shatter when sent flying. Monsters that land on traps as a result of the knockback will trigger them, provided Shiren has the Trapper status. Found with 4~7 uses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPT)",
+        "Shuten Trail Hard (FPT)",
+        "Onigashima (FPSTG)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Possession Staff",
+      "name_jp": "のりうつりの杖",
+      "id": "possession_staff",
+      "price_buy": [500, 525, 550, 575, 600, 625, 650, 675],
+      "price_sell": [250, 262, 275, 287, 300, 312, 325, 337],
+      "price_use_buy": 25,
+      "price_use_sell": 12.5,
+      "phrase": "",
+      "desc_short_en": "Lets you take control of a monster. (4~6 uses)",
+      "desc_en": "Lets you take control of a monster, allowing you to use their normal and special attacks. Shiren's body will be dragged behind the monster, so you'll want to protect it as you move around. You can return to your body mostly anytime, and you'll gain exp for the enemies you defeated while controlling the monster when you do so. Can only take control of monsters that can be registered in Monster Kingdom. Found with 4~6 uses.",
+      "locations": [
+        "Onigashima (FPUSTG)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Swap Staff",
+      "name_jp": "場所がえの杖",
+      "id": "swap_staff",
+      "price_buy": [800, 840, 880, 920, 960, 1000, 1040, 1080],
+      "price_sell": [400, 420, 440, 460, 480, 500, 520, 540],
+      "price_use_buy": 40,
+      "price_use_sell": 20,
+      "phrase": "",
+      "desc_short_en": "Swap places with a target. (4~7 uses)",
+      "desc_en": "Swap places with a target. Doesn't work on statues. Traps will be triggered if the destination tile has a trap on the ground. This is also the case for monsters, provided Shiren has the Trapper status. Found with 4~7 uses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPT)",
+        "Shuten Trail Hard (FPT)",
+        "Onigashima (FPST)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Pull Staff",
+      "name_jp": "引きよせの杖",
+      "id": "pull_staff",
+      "price_buy": [800, 840, 880, 920, 960, 1000, 1040, 1080],
+      "price_sell": [400, 420, 440, 460, 480, 500, 520, 540],
+      "price_use_buy": 40,
+      "price_use_sell": 20,
+      "phrase": "",
+      "desc_short_en": "Pulls a character, item, trap, statue, or stairs toward you. (4~7 uses)",
+      "desc_en": "Pulls a character, item, trap, statue, or stairs toward you. Can be thrown at a monster to pull them onto a trap and triggering it, provided Shiren has the Trapper status. Particularly useful for pulling stairs toward you after reading a Wall Collapse Scroll. Found with 4~7 uses.",
+      "locations": [
+        "Onigashima (FPUT)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUT)"
+      ]
+    },
+    {
+      "name_en": "Heal Staff",
+      "name_jp": "回復の杖",
+      "id": "heal_staff",
+      "price_buy": [800, 880, 960, 1040, 1120, 1200, 1280, 1360],
+      "price_sell": [400, 440, 480, 520, 560, 600, 640, 680],
+      "price_use_buy": 80,
+      "price_use_sell": 40,
+      "phrase": "",
+      "desc_short_en": "Restores 100 HP, or deals 100 damage to Ghost type monsters. (4~6 uses)",
+      "desc_en": "Restores a target's HP by 100 points, or deals 100 damage if the target is a Ghost type monster. Evil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated. Found with 4~6 uses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (PUTM)",
+        "Onigashima (PSTM)",
+        "Shrine's Hidden Hole (FM)",
+        "Halfway Well (M)",
+        "Sealed Room (FM)",
+        "Road to the End (M)"
+      ]
+    },
+    {
+      "name_en": "Balance Staff",
+      "name_jp": "ころばぬ先の杖",
+      "id": "balance_staff",
+      "price_buy": [1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350],
+      "price_sell": [500, 525, 550, 575, 600, 625, 650, 675],
+      "price_use_buy": 50,
+      "price_use_sell": 25,
+      "phrase": "どなそぐ",
+      "desc_short_en": "Protects you from tripping. Use to make a target trip and drop an item. (0~1 uses)",
+      "desc_en": "Protects the holder from tripping. Doesn't work if it's inside of a pot. Throw or swing it at a monster to make them trip and drop an item. Plays well with a Pierce Bracelet when used in this way. Note that No-Magic statues will prevent monsters from tripping, along with sleep from reading a Slumber Scroll. Found with 0~1 uses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPUST)",
+        "Onigashima (FPUST)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Knowledge Staff",
+      "name_jp": "物知りの杖",
+      "id": "knowledge_staff",
+      "price_buy": [1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350],
+      "price_sell": [500, 525, 550, 575, 600, 625, 650, 675],
+      "price_use_buy": 50,
+      "price_use_sell": 25,
+      "phrase": "",
+      "desc_short_en": "Displays info about monsters, allies, and statues. (5~7 uses)",
+      "desc_en": "Displays information about monsters, allies, and statues. Max HP is included in the descriptions for all targets except Boss Oni. Can also be used to reveal disguised Mimic Mask monsters. Found with 5~7 uses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PST)",
+        "Shuten Trail Hard (PST)",
+        "Onigashima (FPUST)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (FP)",
+        "Road to the End (PUST)"
+      ]
+    },
+    {
+      "name_en": "Quarter Staff",
+      "name_jp": "クオーターの杖",
+      "id": "quarter_staff",
+      "price_buy": [1200, 1260, 1320, 1380, 1440, 1500, 1560, 1620],
+      "price_sell": [250, 262, 275, 287, 300, 312, 325, 337],
+      "price_use_buy": 60,
+      "price_use_sell": 12.5,
+      "phrase": "",
+      "desc_short_en": "Reduces a target's HP to 1/4 of its current value. (4~7 uses)",
+      "desc_en": "Reduces a target's HP to 1/4 of its current value. However, it will only deal 10 damage if a 10 damage statue is present. Emperor Tuskers carry this staff, and have a 10% chance of dropping one when they are defeated. Found with 4~7 uses.",
+      "locations": [
+        "Shuten Trail Hard (M)",
+        "Onigashima (M)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (PM)",
+        "Road to the End (FPSM)"
+      ]
+    },
+    {
+      "name_en": "Slow Staff",
+      "name_jp": "鈍足の杖",
+      "id": "slow_staff",
+      "price_buy": [1200, 1260, 1320, 1380, 1440, 1500, 1560, 1620],
+      "price_sell": [400, 420, 440, 460, 480, 500, 520, 540],
+      "price_use_buy": 60,
+      "price_use_sell": 20,
+      "phrase": "",
+      "desc_short_en": "Lowers movement speed by 1 stage. (3~6 uses)",
+      "desc_en": "Lowers a target's movement speed by 1 stage. If they are already at -1, it will paralyze the target instead. Paralysis prevents the target from taking any actions for 3 turns (Shiren) or 2 turns (monsters). Monarch Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated. Found with 3~6 uses.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (M)",
+        "Onigashima (FPSMG)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (PM)",
+        "Road to the End (FPSTM)"
+      ]
+    },
+    {
+      "name_en": "Seal Staff",
+      "name_jp": "封印の杖",
+      "id": "seal_staff",
+      "price_buy": [2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700],
+      "price_sell": [500, 525, 550, 575, 600, 625, 650, 675],
+      "price_use_buy": 100,
+      "price_use_sell": 25,
+      "phrase": "",
+      "desc_short_en": "Prevents a target from dividing or using special abilities. (3~6 uses)",
+      "desc_en": "Prevents a target from dividing or using special abilities. Also resets movement speed if the target is not Shiren. Some monster abilities cannot be sealed, such as floating or fire-immunity. If Shiren is the target, he won't be able to eat, drink, or read for 35 turns. King Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated. Found with 3~6 uses.",
+      "locations": [
+        "Shuten Trail Hard (PM)",
+        "Onigashima (M)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (PM)",
+        "Road to the End (FPUSM)"
+      ]
+    },
+    {
+      "name_en": "Tunnel Staff",
+      "name_jp": "トンネルの杖",
+      "id": "tunnel_staff",
+      "price_buy": [2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700],
+      "price_sell": [1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350],
+      "price_use_buy": 100,
+      "price_use_sell": 50,
+      "phrase": "",
+      "desc_short_en": "Create a tunnel that continues until a room, hallway, or map edge. (3~7 uses)",
+      "desc_en": "Swing at a wall to create a tunnel that continues until a room, hallway, or map edge is met. Cannot dig diagonally. The magic bolt from a Tunnel Staff deals 10 damage. Found with 3~7 uses.",
+      "locations": [
+        "Onigashima (FPT)",
+        "Halfway Well (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPT)"
+      ]
+    },
+    {
+      "name_en": "Invisible Staff",
+      "name_jp": "とうめいの杖",
+      "id": "invisible_staff",
+      "price_buy": [2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700],
+      "price_sell": [1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350],
+      "price_use_buy": 100,
+      "price_use_sell": 50,
+      "phrase": "",
+      "desc_short_en": "Turns a target invisible for 20 turns. (3~7 uses)",
+      "desc_en": "Turns a target invisible for 20 turns (10 if the target is Shiren). Invisible monsters can't use their special abilities, and will wander around aimlessly until it wears off. Devil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated. Found with 3~7 uses.",
+      "locations": [
+        "Shuten Trail Hard (M)",
+        "Onigashima (M)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (M)",
+        "Road to the End (M)"
+      ]
+    },
+    {
+      "name_en": "Swift Staff",
+      "name_jp": "倍速の杖",
+      "id": "swift_staff",
+      "price_buy": [2000, 2200, 2400, 2600, 2800, 3000, 3200, 3400],
+      "price_sell": [1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700],
+      "price_use_buy": 200,
+      "price_use_sell": 100,
+      "phrase": "",
+      "desc_short_en": "Increases movement speed by 1 stage. (3~7 uses)",
+      "desc_en": "Increases a target's movement speed by 1 stage. Max movement speed stage is +2, where you get 3 actions per turn. Bat Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated. Found with 3~7 uses.",
+      "locations": [
+        "Shuten Trail Hard (M)",
+        "Onigashima (M)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (M)",
+        "Road to the End (M)"
+      ]
+    },
+    {
+      "name_en": "Miss Staff",
+      "name_jp": "からぶりの杖",
+      "id": "miss_staff",
+      "price_buy": [2500, 2625, 2750, 2875, 3000, 3125, 3250, 3375],
+      "price_sell": [1200, 1260, 1320, 1380, 1440, 1500, 1560, 1620],
+      "price_use_buy": 125,
+      "price_use_sell": 60,
+      "phrase": "",
+      "desc_short_en": "Lowers a target's attack accuracy to 0% for 21~31 turns. (3~6 uses)",
+      "desc_en": "Lowers a target's regular attack accuracy to 0% for 21~31 turns. Doesn't affect accuracy of special attacks or projectiles. Note that attacks will always connect regardless of this staff's effect if a target is sleeping, paralyzed, or caught in a bear trap, so you'll want to avoid using it on Monarch Tuskers and Paralysis Scorpions. Found with 3~6 uses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PST)",
+        "Shuten Trail Hard (PS)",
+        "Onigashima (PUSTG)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Fire Staff",
+      "name_jp": "火ばしらの杖",
+      "id": "fire_staff",
+      "price_buy": [2500, 2625, 2750, 2875, 3000, 3125, 3250, 3375],
+      "price_sell": [1200, 1260, 1320, 1380, 1440, 1500, 1560, 1620],
+      "price_use_buy": 125,
+      "price_use_sell": 60,
+      "phrase": "",
+      "desc_short_en": "Creates a line of fire 5 tiles forward that deals 20 damage per turn. (4~7 uses)",
+      "desc_en": "Creates a line of fire 5 tiles forward that deals 20 damage per turn. Any items or statues along the path will burn up. Non-piercing projectiles will also burn up if they fly into the flames. Plays well with knockback staff, and can be used to get rid of Sanctaruy Scrolls placed on the ground. Found with 4~7 uses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPUT)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Unlucky Staff",
+      "name_jp": "不幸の杖",
+      "id": "unlucky_staff",
+      "price_buy": [2500, 2750, 3000, 3250, 3500, 3750, 4000, 4250],
+      "price_sell": [1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700],
+      "price_use_buy": 250,
+      "price_use_sell": 100,
+      "phrase": "",
+      "desc_short_en": "Lowers a target's level by 1. (4~6 uses)",
+      "desc_en": "Lowers a target's level by 1. Excellent for weakening or eliminating the special abilities of some of the more notorious monsters, such as Monsoon Dolls and Nigiri Morphs. Generally more valuable in the deeper floors of a dungeon. Found with 4~6 uses.",
+      "locations": [
+        "Onigashima (PS)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Happy Staff",
+      "name_jp": "しあわせの杖",
+      "id": "happy_staff",
+      "price_buy": [3000, 3150, 3300, 3450, 3600, 3750, 3900, 4050],
+      "price_sell": [1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350],
+      "price_use_buy": 150,
+      "price_use_sell": 50,
+      "phrase": "",
+      "desc_short_en": "Increases a target's level by 1. (4~6 uses)",
+      "desc_en": "Increases a target's level by 1. Provides 500 exp if the target is Shiren. It may be good to assume all unidentified staves are this staff early game inside the \"Road to the End\" dungeon, since a leveled up monster can quickly ruin your adventure. Found with 4~6 uses.",
+      "locations": [
+        "Onigashima (PS)",
+        "Sealed Room (P)",
+        "Road to the End (FP)"
+      ]
+    },
+    {
+      "name_en": "Grass Toss Staff",
+      "name_jp": "草投げの杖",
+      "id": "grass_toss_staff",
+      "price_buy": [3000, 3150, 3300, 3450, 3600, 3750, 3900, 4050],
+      "price_sell": [1200, 1260, 1320, 1380, 1440, 1500, 1560, 1620],
+      "price_use_buy": 150,
+      "price_use_sell": 60,
+      "phrase": "",
+      "desc_short_en": "Insert grass to transform it into a staff that tosses said grass. (4~7 uses)",
+      "desc_en": "Insert a grass item to transform it into a staff that tosses said grass. For example, insert an Otogiriso to transform it into a Otogiriso Toss Staff that will fire a magic bolt with the effect of getting hit by Otogiriso. Can be swung at monsters that reflect magic to have it behave in a similar fashion to a grass gain staff. Found with 4~7 uses.",
+      "locations": [
+        "Onigashima (PUSTG)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Grass Gain Staff",
+      "name_jp": "草受けの杖",
+      "id": "grass_gain_staff",
+      "price_buy": [3000, 3150, 3300, 3450, 3600, 3750, 3900, 4050],
+      "price_sell": [1400, 1470, 1540, 1610, 1680, 1750, 1820, 1890],
+      "price_use_buy": 150,
+      "price_use_sell": 70,
+      "phrase": "",
+      "desc_short_en": "Insert grass to transform it into a staff that throws said grass at Shiren. (4~7 uses)",
+      "desc_en": "Insert a grass item to transform it into a staff that throws said grass at Shiren. For example, insert an Otogiriso to transform it into an Otogiriso Gain Staff, which will have the effect of Shiren getting hit by Otogiriso every time the staff is swung. Popular to use with Strength Grass and Angel Seeds. Found with 4~7 uses.",
+      "locations": [
+        "Onigashima (PUSTG)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    }
+  ],
+  "scroll": [
+    {
+      "name_en": "Trap Activate Scroll",
+      "name_jp": "ワナ作動の巻物",
+      "id": "trap_activate_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 200,
+      "price_sell": 100,
+      "phrase": "",
+      "desc_short_en": "Activates all traps in the room. Only available in Halfway Well.",
+      "desc_en": "Activates all traps in the room. Only works if you have the Trapper status such as when you're inside the Halfway Well dungeon. Perhaps it can be used to trap flying monsters.",
+      "locations": [
+        "Halfway Well (FS)"
+      ]
+    },
+    {
+      "name_en": "Identify Scroll",
+      "name_jp": "識別の巻物",
+      "id": "identify_scroll",
+      "seal": "識",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "",
+      "desc_short_en": "Identifies an unidentified item. Occasionally identifies all items in your inventory.",
+      "desc_en": "Identifies an unidentified item, revealing its name and uses if it's a staff. Occasionally identifies all items in your inventory that are not inside pots. The 識 seal reveals disguised and invisible monsters when you attack them (weapon) or take damage from their attacks (shield).",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)",
+        "Onigashima (FS)",
+        "Sealed Room (F)",
+        "Road to the End (FG)"
+      ]
+    },
+    {
+      "name_en": "Lightning Scroll",
+      "name_jp": "いかずちの巻物",
+      "id": "lightning_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "しでもろ",
+      "desc_short_en": "Deals 25~30 damage to all monsters in the room.",
+      "desc_en": "Lightning strikes all monsters in the room, dealing 25~30 each. However, Oni are immune to lightning and are healed by it. Lightning will strike every monster in a 1 tile radius if you're in a hallway. Lightning cannot hit monsters inside walls.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Hard (FP)",
+        "Onigashima (FP)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Blaze Scroll",
+      "name_jp": "炎上の巻物",
+      "id": "blaze_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "",
+      "desc_short_en": "Creates fire pillars around Shiren that deal 20 damage per turn.",
+      "desc_en": "Creates fire pillars around Shiren that deal 20 damage per turn. Great for wiping out monster houses in lower floors, but note that you might end up burning allies and items as well. Some enemies are also immune to fire damage, such as Tiny Phoenix.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PT)",
+        "Shuten Trail Hard (FP)",
+        "Onigashima (F)",
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Retreat Scroll",
+      "name_jp": "引き上げの巻物",
+      "id": "retreat_scroll",
+      "seal": "帰",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "",
+      "desc_short_en": "Escape from a dungeon with your Gitan and equipped items.",
+      "desc_en": "Escape from a dungeon with your Gitan and equipped items (weapon, shield, bracelets, ranged). Cannot escape if you're being chased by guard dogs and sheriffs. The 帰 seal lets you keep the weapon or shield it's synthesized on if you collapse in a dungeon. Note that it can't prevent equipment loss by other methods, such as Fencer monsters flinging it away. Always found identified.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FP)",
+        "Shuten Trail Hard (FP)"
+      ]
+    },
+    {
+      "name_en": "Squid Sushi Scroll",
+      "name_jp": "いかすしの巻物",
+      "id": "squid_sushi_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 500,
+      "price_sell": 250,
+      "phrase": "",
+      "desc_short_en": "Restores 20% fullness when eaten.",
+      "desc_en": "Restores 20% fullness when eaten. Cannot be eaten if it's unidentified or if your mouth is sealed shut. Eating it also registers it in the Blank Scroll list.",
+      "locations": [
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Exorcism Scroll",
+      "name_jp": "おはらいの巻物",
+      "id": "exorcism_scroll",
+      "seal": "祓",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1000,
+      "price_sell": 500,
+      "phrase": "",
+      "desc_short_en": "Removes curses from currently equipped items.",
+      "desc_en": "Removes curses from currently equipped items. Also removes curses from Asuka's equipment if she is standing next to you. The 祓 seal prevents your weapon from getting cursed (weapon) or prevents all items from getting cursed (shield). There's a bug where if you synthesize it onto equipment with the 呪 seal, the 呪 seal gets deleted and it also doesn't gain the 祓 seal.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Freeze Scroll",
+      "name_jp": "氷の巻物",
+      "id": "freeze_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1000,
+      "price_sell": 500,
+      "phrase": "",
+      "desc_short_en": "Freezes all water on the floor, and traps underwater monsters in ice.",
+      "desc_en": "Freezes all water on the floor while trapping underwater monsters in ice. Items that were underwater float to the surface, so it can be used to recover items that fell in water.",
+      "locations": [
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Decoy Scroll",
+      "name_jp": "分身の巻物",
+      "id": "decoy_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1000,
+      "price_sell": 500,
+      "phrase": "",
+      "desc_short_en": "Summons up to 4 shadows that distract enemies for 10 turns.",
+      "desc_en": "Summons up to 4 shadows that distract enemies for 10 turns. The shadows won't attack enemies, but they can draw the attention of almost any attack, including Archdragon's floor-wide fire breath. However, you still might get hit by ranged attacks that pass through the shadows, such as Ironhead's attacks or Pop Tank's cannonballs.",
+      "locations": [
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Hard (F)",
+        "Onigashima (FPS)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Trap Remove Scroll",
+      "name_jp": "ワナけしの巻物",
+      "id": "trap_remove_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1000,
+      "price_sell": 500,
+      "phrase": "",
+      "desc_short_en": "Removes all traps in the room.",
+      "desc_en": "Removes all traps in the room. Useful for monster houses, but not really worth taking up a spot in your inventory. Can be used after a Wall Collapse Scroll to guarantee a safe path to the stairs.",
+      "locations": [
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Fear Scroll",
+      "name_jp": "ゾワゾワの巻物",
+      "id": "fear_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1000,
+      "price_sell": 500,
+      "phrase": "",
+      "desc_short_en": "Inflicts fear to all monsters within a 1 tile radius of Shiren for 10 turns.",
+      "desc_en": "Inflicts fear to all monsters within a 1 tile radius of Shiren for 10 turns. Monsters with fear will attack in the opposite direction, as if they're afraid something sinister is behind their backs. This scroll also works on monsters inside walls.",
+      "locations": [
+        "Onigashima (FP)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Escape Scroll",
+      "name_jp": "持ちかえりの巻物",
+      "id": "escape_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1000,
+      "price_sell": 500,
+      "phrase": "",
+      "desc_short_en": "Escape from a dungeon with all of your items",
+      "desc_en": "Escape from a dungeon with all of your items. Cannot escape if you're being chased by guard dogs and sheriffs. Guaranteed floor item on specific floors of post-game dungeons. Can be used to steal from shops by placing merchandise inside Storage Pots before reading. Always found identified.",
+      "locations": [
+        "Onigashima (FP)",
+        "Shrine's Hidden Hole (F=10, 20, 99)",
+        "Sealed Room (F=99)",
+        "Road to the End (F=30, 50, 70)"
+      ]
+    },
+    {
+      "name_en": "Heaven Scroll",
+      "name_jp": "天の恵みの巻物",
+      "id": "heaven_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1200,
+      "price_sell": 600,
+      "phrase": "ぬべりか<br>ゆめだい",
+      "desc_short_en": "Increases your equipped weapon's upgrade value by 1.",
+      "desc_en": "Increases your equipped weapon's upgrade value by 1. Note that it cannot remove curses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (PUSTG)",
+        "Onigashima (FPUSTG)",
+        "Sealed Room (FPG)",
+        "Road to the End (FPUSTG)"
+      ]
+    },
+    {
+      "name_en": "Earth Scroll",
+      "name_jp": "地の恵みの巻物",
+      "id": "earth_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1200,
+      "price_sell": 600,
+      "phrase": "ネリグキ",
+      "desc_short_en": "Increases your equipped shield's upgrade value by 1.",
+      "desc_en": "Increases your equipped shield's upgrade value by 1. Note that it cannot remove curses.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (PUSTG)",
+        "Onigashima (FPUSTG)",
+        "Sealed Room (FPG)",
+        "Road to the End (FPUSTG)"
+      ]
+    },
+    {
+      "name_en": "Slumber Scroll",
+      "name_jp": "バクスイの巻物",
+      "id": "slumber_scroll",
+      "seal": "眠",
+      "stack": "Yes",
+      "stack_label": "Sleep Chance (%)",
+      "stack_multiplier": [8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "price_buy": 1200,
+      "price_sell": 600,
+      "phrase": "",
+      "desc_short_en": "Puts all monsters in the room to sleep for 10 turns. Monsters will move twice as fast when they wake up.",
+      "desc_en": "Puts all monsters in the room to sleep for 10 turns. Monsters will move twice as fast when they wake up. Cannot put monsters inside walls to sleep. The 眠 seal can put a monster to sleep for 5 turns when you attack it (weapon) or receive damage from it (shield). Note that sleep induced by the seal won't grant a speed increase after the monster wakes up.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPSTG)",
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Evaporate Scroll",
+      "name_jp": "水がれの巻物",
+      "id": "evaporate_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1500,
+      "price_sell": 750,
+      "phrase": "",
+      "desc_short_en": "Evaporates all water on the current floor.",
+      "desc_en": "Evaporates all water on the current floor. Monsters that can only move inside water will be unable to move, and some won't even be able to attack. Ice will not evaporate. Good to have for recovering items that fall into water. Also useful for capturing underwater monsters such as Shotfish.",
+      "locations": [
+        "Onigashima (FPUST)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Explosion Scroll",
+      "name_jp": "バクハの巻物",
+      "id": "explosion_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 1500,
+      "price_sell": 750,
+      "phrase": "",
+      "desc_short_en": "Deals damage in a similar fashion to Landmines. Place it on the ground and perform a regular attack to make it explode.",
+      "desc_en": "Deals damage in a similar fashion to Landmines. Place it on the ground and perform a regular attack to make it explode. Note that this is considered as an attack by Shiren, so if you blow up shop items or NPCs such as Traders, you'll be chased by Guard Dogs and Sherrifs.",
+      "locations": [
+        "Halfway Well (FS)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Wall Collapse Scroll",
+      "name_jp": "大部屋の巻物",
+      "id": "wall_collapse_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 2000,
+      "price_sell": 1000,
+      "phrase": "",
+      "desc_short_en": "Transforms the current floor into one giant room.",
+      "desc_en": "Transforms the current floor into one giant room when read. Water, ice, and unbreakable walls all vanish. By far the best way to search for Golden Intervals, and also makes it easier to steal from shops. However, some care must be taken when reading it, or else you might find yourself waking up a monster house, or being under the effect of floor-wide statue effects.",
+      "locations": [
+        "Onigashima (FPUT)",
+        "Shrine's Hidden Hole (F)",
+        "Halfway Well (F)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUT)"
+      ]
+    },
+    {
+      "name_en": "Sturdy Pot Scroll",
+      "name_jp": "壺われずの巻物",
+      "id": "sturdy_pot_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 2000,
+      "price_sell": 1000,
+      "phrase": "",
+      "desc_short_en": "Makes a pot unbreakable for the duration of the current adventure.",
+      "desc_en": "Makes the selected pot unbreakable for the duration of the current adventure. Good for protecting pots such as storage, water, and monster pots, but can be detrimental if used on pots such as sticky or synthesis pots. In particular, you'll instantly get a game over if a Kappa monster throws an unbreakable sticky pot at you, even if you have revival grass on hand.",
+      "locations": [
+        "Onigashima (ST)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Pot Expand Scroll",
+      "name_jp": "壺増大の巻物",
+      "id": "pot_expand_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 2000,
+      "price_sell": 1100,
+      "phrase": "",
+      "desc_short_en": "Increases the size of a pot by 1, up to a max size of 8.",
+      "desc_en": "Expands the selected pot, increasing its size by 1. Note that this scroll won't have an effect if it's read on a pot that is already at the maximum size of 8.",
+      "locations": [
+        "Onigashima (PUST)",
+        "Sealed Room (P)",
+        "Road to the End (PUST)"
+      ]
+    },
+    {
+      "name_en": "Suction Scroll",
+      "name_jp": "すいだしの巻物",
+      "id": "suction_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 3000,
+      "price_sell": 1500,
+      "phrase": "",
+      "desc_short_en": "Suctions out all contents from a pot.",
+      "desc_en": "Suctions out all contents from a selected pot, including items, monsters, and even pent-up anger from inside Surprise Pots. Great for reusing expanded presto or upgrade pots.",
+      "locations": [
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (PUST)"
+      ]
+    },
+    {
+      "name_en": "Plating Scroll",
+      "name_jp": "メッキの巻物",
+      "id": "plating_scroll",
+      "seal": "金",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 4000,
+      "price_sell": 2000,
+      "phrase": "",
+      "desc_short_en": "Rustproofs a weapon or shield (red 金 seal). Can also be used to repair bracelets or turn iron arrows into silver arrows.",
+      "desc_en": "Makes a weapon or shield rustproof with a red 金 seal. Can also be used to repair bracelets or transform iron arrows into silver arrows (arrow count will be halved). Cannot remove curses. Monsoon Dolls will tear off a red 金 seal before any other seal, so this scroll effectively lets you protect your synthesized seals against a single use of Monsoon Doll's special attack.",
+      "locations": [
+        "Onigashima (TG)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Restock Scroll",
+      "name_jp": "仕入れ直しの巻物",
+      "id": "restock_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 4000,
+      "price_sell": 2000,
+      "phrase": "",
+      "desc_short_en": "Restocks a shop to a max of 9 items for sale.",
+      "desc_en": "Restocks a shop to a max of 9 items for sale. Specialty shops such as bracelet shops will only restock items within the same category. You may need to expand the shop's size by breaking its walls to get all 9 items in the restock if the room is small. Note that N'dubbas can be included in the restock.",
+      "locations": [
+        "Onigashima (T)",
+        "Sealed Room (P)",
+        "Road to the End (FPUT)"
+      ]
+    },
+    {
+      "name_en": "Blank Scroll",
+      "name_jp": "白紙の巻物",
+      "id": "blank_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 5000,
+      "price_sell": 2500,
+      "phrase": "ムビルプ",
+      "desc_short_en": "Write down any scroll you've used before, and then use this as that scroll. Synthesize to increase an equipment's slot count by 1.",
+      "desc_en": "Write the name of any scroll you've previously made use of, and then this scroll will act as that scroll. Can also be used as synthesis fodder with a Mixer monster to increase an equipment's slot count by 1, up to a max of 16 slots. You can revert the scroll back to a blank state by splashing water on it.",
+      "locations": [
+        "Onigashima (ST)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Sanctuary Scroll",
+      "name_jp": "聖域の巻物",
+      "id": "sanctuary_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 7500,
+      "price_sell": 2500,
+      "phrase": "",
+      "desc_short_en": "Place on the ground to create a safe zone where monsters next to the scroll cannot attack anything standing on top of the scroll.",
+      "desc_en": "Place this scroll on the ground to create a safe zone where monsters next to the scroll cannot attack anything standing on top of the scroll. Monsters will also be unable to walk on top of the scroll. Note that you can still get hit by ranged attacks while standing on the scroll. No effect if read instead of being placed on the ground.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PST)",
+        "Shuten Trail Hard (FPUSTG)",
+        "Onigashima (FPUSTGC)",
+        "Shrine's Hidden Hole (F)",
+        "Sealed Room (FC)",
+        "Road to the End (FPSTC)"
+      ]
+    },
+    {
+      "name_en": "Sanctaruy Scroll",
+      "name_jp": "聖城の巻物",
+      "id": "sanctaruy_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 7500,
+      "price_sell": 2500,
+      "phrase": "",
+      "desc_short_en": "Makes the stairs and all items on the current floor hop around when placed on the ground.",
+      "desc_en": "Resembles a Sanctuary Scroll. Makes the stairs and all items on the current floor hop around when placed on the ground. Shop items won't jump around, but disguised N'dubbas will. You can get rid of the effect by splashing water on the scroll (Water Pot) or burning the scroll (Fire Staff, Blaze Scroll).",
+      "locations": [
+        "Sealed Room (F)",
+        "Road to the End (FS)"
+      ]
+    },
+    {
+      "name_en": "Extinction Scroll",
+      "name_jp": "ねだやしの巻物",
+      "id": "extinction_scroll",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 25000,
+      "price_sell": 400,
+      "phrase": "",
+      "desc_short_en": "Throw at a monster to make all instances of that monster vanish from the current adventure.",
+      "desc_en": "Throw at a monster to make all instances of that monster vanish from the current adventure. Note that other ranks in the family line will still appear. (ex: banish Pit Mamel → Mamel and Cave Mamel still appear). Also note that only 1 monster can be banished at a time, so if a second scroll is thrown at a monster, the first monster will start appearing again.",
+      "locations": [
+        "Road to the End (S)"
+      ]
+    }
+  ],
+  "pot": [
+    {
+      "name_en": "Identify Pot",
+      "name_jp": "識別の壺",
+      "id": "identify_pot",
+      "price_buy": [1000, 1050, 1100, 1150, 1200, 1250, 1300],
+      "price_sell": [500, 525, 550, 575, 600, 625, 650],
+      "price_use_buy": 50,
+      "price_use_sell": 25,
+      "phrase": "",
+      "desc_short_en": "Identifies items that are inserted into the pot. (size 3~6)",
+      "desc_en": "Identifies items that are inserted into the pot. Identifying reveals the item's name and number of uses if it's a staff. Cannot identify wet scrolls. Recommended to prioritize grass items for making a Healing Sword or boosting strength. Found in sizes 3~6.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (PST)",
+        "Shuten Trail Hard (PS)",
+        "Onigashima (FPUS)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Degrade Pot",
+      "name_jp": "弱化の壺",
+      "id": "degrade_pot",
+      "price_buy": [1000, 1050, 1100, 1150, 1200, 1250, 1300],
+      "price_sell": [500, 525, 550, 575, 600, 625, 650],
+      "price_use_buy": 50,
+      "price_use_sell": 25,
+      "phrase": "",
+      "desc_short_en": "Degrades weapons, shields, and staves by -3 every time you advance to the next floor. (size 3~6)",
+      "desc_en": "Degrades weapons, shields, and staves by -3 every time you advance to the next floor. Gitan inside the pot will be reduced by 10~20% per floor as well. No effect on other item categories, so it can be used as storage for riceballs, strength grass, Mixer synthesis items, etc. Found in sizes 3~6.",
+      "locations": [
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Storage Pot",
+      "name_jp": "ほぞんの壺",
+      "id": "storage_pot",
+      "price_buy": [1200, 1260, 1320, 1380, 1440, 1500, 1560],
+      "price_sell": [600, 630, 660, 690, 720, 750, 780],
+      "price_use_buy": 60,
+      "price_use_sell": 30,
+      "phrase": "",
+      "desc_short_en": "Pot that lets you take items out after being inserted. (size 4~6)",
+      "desc_en": "Pot that lets you take items out after being inserted. Protects riceballs from spoiling, and also prevents scrolls from getting wet. It may seem like a simple effect, but expanding your inventory is fantastic for roguelikes like Shiren. Found in sizes 4~6.",
+      "locations": [
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FPST)",
+        "Shuten Trail Hard (FPST)",
+        "Onigashima (FPSTG)",
+        "Halfway Well (FS)",
+        "Road to the End (FUSTG)"
+      ]
+    },
+    {
+      "name_en": "Presto Pot",
+      "name_jp": "へんげの壺",
+      "id": "presto_pot",
+      "price_buy": [2000, 2100, 2200, 2300, 2400, 2500, 2600],
+      "price_sell": [1000, 1050, 1100, 1150, 1200, 1250, 1300],
+      "price_use_buy": 100,
+      "price_use_sell": 50,
+      "phrase": "",
+      "desc_short_en": "Transforms inserted items into other items. (size 3~5)",
+      "desc_en": "Transforms inserted items into other items. Often used to recycle unneeded items or single arrows. The list of possible items varies by dungeon. If used inside the storage in Napus Village, items will only transform into Weeds. Found in sizes 3~5.",
+      "locations": [
+        "Shuten Trail Mid (FST)",
+        "Shuten Trail Hard (FST)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Sticky Pot",
+      "name_jp": "手封じの壺",
+      "id": "sticky_pot",
+      "price_buy": [3000, 3150, 3300, 3450, 3600, 3750, 3900],
+      "price_sell": [1500, 1575, 1650, 1725, 1800, 1875, 1950],
+      "price_use_buy": 150,
+      "price_use_sell": 75,
+      "phrase": "",
+      "desc_short_en": "Your hand gets stuck inside the pot if you try to insert items. (size 3~5)",
+      "desc_en": "Your hand gets stuck inside the pot if you try to insert items. Your weapon will be unequipped, and you won't be able to pick up items. Punch monsters (10%) or walls (2%) to break the pot and free your hand. Your hand will remain stuck even if you advance to the next floor. Your hand won't get stuck if the pot's remaining size is 1, or if your equipped weapon is cursed. Throw to temporarily trap characters inside of the pot. Found in sizes 3~5.",
+      "locations": [
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Water Pot",
+      "name_jp": "水がめ",
+      "id": "water_pot",
+      "price_buy": [3000, 3150, 3300, 3450, 3600, 3750, 3900],
+      "price_sell": [1500, 1575, 1650, 1725, 1800, 1875, 1950],
+      "price_use_buy": 150,
+      "price_use_sell": 75,
+      "phrase": "",
+      "desc_short_en": "Fill with water and pour it on the tile in front of you for various effects. (size 3~6)",
+      "desc_en": "Fill with water and pour it on the tile in front of you for various effects. Can pour water around corners. Identified the moment you select \"Insert\". Found in sizes 3~6.<br><br>Effects:<ul><li>Destroy traps.</li><li>Turn scrolls into wet scrolls.</li><li>Turn riceballs into spoiled riceballs.</li><li>Put out fires.</li><li>Halves attack of monsters wielding weapons (can stack).</li><li>Apply the seal effect to Bomb type monsters.</li><li>Remove the effect of scrolls stuck to the ground.</li><li>Erase the writing on blank scrolls (can reuse Blank:Sanctuary)</li></ul>Monsters with weapons:<ul><li>Ashigarudon family</li><li>Yamikichi family</li><li>Shaaga family</li><li>Gale family</li><li>Swordsman family</li><li>Taur family</li><li>Galaha</li></ul>Bomb type monsters:<ul><li>Pop Tank</li><li>Cranky Tank</li><li>Patient Bag</li><li>Wolf Droid family</li></ul>",
+      "locations": [
+        "Onigashima (FPUST)",
+        "Sealed Room (FP)",
+        "Road to the End (FPUST)"
+      ]
+    },
+    {
+      "name_en": "Grass Effect Pot",
+      "name_jp": "草効果の壺",
+      "id": "grass_effect_pot",
+      "price_buy": [4000, 4200, 4400, 4600, 4800, 5000, 5200],
+      "price_sell": [2000, 2100, 2200, 2300, 2400, 2500, 2600],
+      "price_use_buy": 200,
+      "price_use_sell": 100,
+      "phrase": "",
+      "desc_short_en": "Insert grass and every character in the room including Shiren receives the effect of getting hit by that grass. (size 3~6)",
+      "desc_en": "Insert grass and every character in the room including Shiren receives the effect of getting hit by that grass. Useful to insert Otogiriso when there are Ghost type monsters around, but be careful not to self-destruct by inserting Dragon or Flame grass. Found in sizes 3~6.",
+      "locations": [
+        "Road to the End (FUST)"
+      ]
+    },
+    {
+      "name_en": "Synthesis Pot",
+      "name_jp": "合成の壺",
+      "id": "synthesis_pot",
+      "price_buy": [8000, 8400, 8800, 9200, 9600, 10000, 10400],
+      "price_sell": [4000, 4200, 4400, 4600, 4800, 5000, 5200],
+      "price_use_buy": 400,
+      "price_use_sell": 200,
+      "phrase": "ざくぬに",
+      "desc_short_en": "Insert items to fuse them together. Can only synthesize weapons with weapons, shields with shields, or staves with staves. (size 2~4)",
+      "desc_en": "Insert items to fuse them together. The first item acts as the base. Can only synthesize weapons with weapons, shields with shields, or staves with staves. This is the only pot that can be found with a size of 2. Found in sizes 2~4.",
+      "locations": [
+        "Shuten Trail Hard (FG)",
+        "Onigashima (FPUST)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Upgrade Pot",
+      "name_jp": "強化の壺",
+      "id": "upgrade_pot",
+      "price_buy": [15000, 15750, 16500, 17250, 18000, 18750, 19500],
+      "price_sell": [7500, 7875, 8250, 8625, 9000, 9325, 9750],
+      "price_use_buy": 750,
+      "price_use_sell": 375,
+      "phrase": "",
+      "desc_short_en": "Increases upgrade value or uses of inserted equipment and staves by 1 every time you advance to the next floor. (size 3~6) ",
+      "desc_en": "Increases upgrade value or uses of inserted equipment and staves by 1 every time you advance to the next floor. Also increases the amount of inserted Gitan by a random amount between 10~20%. Possibly the best pot in the game, but can only be found in shops inside the Road to the End dungeon between 71~90F. If you manage to obtain it, be sure to use Pot Expand and Suction scrolls on it instead of breaking it. Found in sizes 3~6.",
+      "locations": [
+        "Road to the End (S)"
+      ]
+    },
+    {
+      "name_en": "Surprise Pot",
+      "name_jp": "ビックリの壺",
+      "id": "surprise_pot",
+      "price_buy": [3000, 3000, 3000, 3000, 3000, 3000, 3000],
+      "price_sell": [1500, 1500, 1500, 1500, 1500, 1500, 1500],
+      "price_use_buy": 0,
+      "price_use_sell": 0,
+      "phrase": "",
+      "desc_short_en": "Contains items, monsters, or pent-up anger. You won't know which until you break it. (size 0)",
+      "desc_en": "Pot that contains items, monsters, or pent-up anger. You won't know which is inside until you break it. Pent-up anger has the same effect as a Big Landmine, so it's best to throw it at a wall from a distance. Items and monsters inside are set when the pot is first generated, and won't change even if you bring it into a different dungeon. Always has a purchase / sale price of 3000 / 1500 Gitan, no matter what's inside. Found in size 0 due to contents already being in it, however the number of contents ranges from 4~6.",
+      "locations": [
+        "Shuten Trail Hard (F)",
+        "Onigashima (FG)",
+        "Road to the End (FSG)"
+      ]
+    },
+    {
+      "name_en": "Memento Pot",
+      "name_jp": "形見の壺",
+      "id": "memento_pot",
+      "price_buy": [10000, 10500, 11000, 11500, 12000, 12500, 13000],
+      "price_sell": [5000, 5250, 5500, 5750, 6000, 6250, 6500],
+      "price_use_buy": 500,
+      "price_use_sell": 250,
+      "phrase": "",
+      "desc_short_en": "Contains equipment lost from collapsing in a previous adventure.",
+      "desc_en": "Pot that appears after collapsing and losing equipment. It contains the equipment you lost, but due to it being a memento, synthesis seals will be lost and upgrade value will be decreased. Once generated, the Memento Pot will only be available for 3 adventures, so if you care about the equipment you lost, you should hurry to collect it. Oracle Gran at the Shrine can tell you where the Memento Pot is currently located.",
+      "locations": [
+        "Shuten Trail Easy (F)",
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)",
+        "Onigashima (F)",
+        "Sealed Room (F)"
+      ]
+    },
+    {
+      "name_en": "Monster Pot",
+      "name_jp": "モンスターの壺",
+      "id": "monster_pot",
+      "price_buy": [10000, 10000],
+      "price_sell": [1, 1],
+      "price_use_buy": 0,
+      "price_use_sell": 0,
+      "phrase": "",
+      "desc_short_en": "Throw at a monster to capture it and transform it into an ally. (size 1)",
+      "desc_en": "Throw at a monster to capture it and transform it into an ally. The pot will never miss when thrown, unless you have a Dragon Tile Bracelet equipped. Cannot capture Shopkeepers or Oni enemies. Ally monsters will always use their special attack on the first turn they are sent out. The pot will vanish if the ally monster is defeated, or if you advance to the next floor without returning it to the pot. If the pot is registered to Monster Kingdom, the monster will return there with 1/2 its growth, but otherwise the monster is lost. Main item of the Shrine's Hidden Hole dungeon. Always found in size 1.",
+      "locations": [
+        "Shrine's Hidden Hole (F)",
+        "Road to the End (F)"
+      ]
+    },
+    {
+      "name_en": "Savings Pot",
+      "name_jp": "ちょきんの壺",
+      "id": "savings_pot",
+      "price_buy": [2],
+      "price_sell": [1],
+      "price_use_buy": 0,
+      "price_use_sell": 0,
+      "phrase": "",
+      "desc_short_en": "Allows you to keep your Gitan if you collapse as long as this pot is in your inventory.",
+      "desc_en": "Allows you to keep your Gitan if you collapse as long as this pot is in your inventory. Takes up 3 item slots, so it's a somewhat heavy tradeoff, but perhaps it's good for beginners. Never breaks, even when thrown at a wall. Exclusively found on 1F of Shuten Trail Easy.",
+      "locations": [
+        "Shuten Trail Easy (F)"
+      ]
+    }
+  ],
+  "ranged": [
+    {
+      "name_en": "Wooden Arrow",
+      "name_jp": "木の矢",
+      "id": "wooden_arrow",
+      "base_stat": -2,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 20,
+      "price_sell": 2,
+      "phrase": "",
+      "desc_short_en": "Low attack. Found in sets of 5~9.",
+      "desc_en": "Basic ranged weapon. Has the lowest attack among arrows, and is weaker than a punch. This goes for all ranged weapons, but it's excellent for softening up monsters before they get near you. Arrows are often inserted into a Presto Pot one at a time. Bowboy monsters fire these arrows. Found in sets of 5~9.",
+      "locations": [
+        "Shuten Trail Mid (M)",
+        "Shuten Trail Hard (M)",
+        "Onigashima (FM)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (PM)",
+        "Road to the End (FPSM)"
+      ]
+    },
+    {
+      "name_en": "Iron Arrow",
+      "name_jp": "鉄の矢",
+      "id": "iron_arrow",
+      "base_stat": 6,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 60,
+      "price_sell": 10,
+      "phrase": "",
+      "desc_short_en": "High attack. Found in sets of 4~8.",
+      "desc_en": "Direct upgrade to Wooden Arrows, and has the highest attack among arrows. Can transform them into Silver Arrows by reading a Plating Scroll on them, but the arrow count will be halved. Bow Carts fire these arrows. Found in sets of 4~8.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (FPM)",
+        "Shuten Trail Hard (FPM)",
+        "Onigashima (M)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (PM)",
+        "Road to the End (PSTM)"
+      ]
+    },
+    {
+      "name_en": "Silver Arrow",
+      "name_jp": "銀の矢",
+      "id": "silver_arrow",
+      "base_stat": 0,
+      "seal": "銀",
+      "stack": "No",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 80,
+      "price_sell": 20,
+      "phrase": "",
+      "desc_short_en": "Pierces through walls and enemies. Found in sets of 4~6.",
+      "desc_en": "Pierces through walls and characters, similar to the effect of having a Pierce Bracelet equipped. Horse Ronin monsters fire these arrows. Provides a 銀 seal which allows you to attack monsters inside walls. However, if thrown or a Fencer monster flings it away, the piece of equipment will fly outside of the map. Found in sets of 4~6.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (FP)",
+        "Onigashima (P)",
+        "Sealed Room (P)",
+        "Road to the End (PST)"
+      ]
+    },
+    {
+      "name_en": "Critical Arrow",
+      "name_jp": "会心の矢",
+      "id": "critical_arrow",
+      "base_stat": 2,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 120,
+      "price_sell": 40,
+      "phrase": "ゴムニブ",
+      "desc_short_en": "Chance to deal a critical hit. Found in sets of 10~15.",
+      "desc_en": "Has a 40% chance to deal a x1.5 damage critical hit. Critical arrows thrown by Kappa monsters may also deal a critical hit. Found in sets of 10~15.",
+      "locations": [
+        "Onigashima (UTC)",
+        "Sealed Room (PC)",
+        "Road to the End (PUSTC)"
+      ]
+    },
+    {
+      "name_en": "Razor Arrow",
+      "name_jp": "かまいたちの矢",
+      "id": "razor_arrow",
+      "base_stat": 0,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 200,
+      "price_sell": 80,
+      "phrase": "",
+      "desc_short_en": "Fires in a 3-way pattern that pierces through walls and enemies. Found in sets of 13~18.",
+      "desc_en": "Fires three silver arrows in a 3-way pattern. Only uses 1 arrow per ranged attack use, making it an excellent option to clear out monster houses. However, note that you can accidentally hit shopkeepers or traders elsewhere on the map. Found in sets of 13~18.",
+      "locations": [
+        "Onigashima (UTC)",
+        "Sealed Room (PC)",
+        "Road to the End (PUST)"
+      ]
+    },
+    {
+      "name_en": "Stone",
+      "name_jp": "石",
+      "id": "stone",
+      "base_stat": 8,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 100,
+      "price_sell": 50,
+      "phrase": "",
+      "desc_short_en": "Deals damage to a target 2 tiles forward. Found in sets of 3~6.",
+      "desc_en": "Deals damage to a target 2 tiles forward. The stone arcs when thrown, so it can hit anything 2 tiles forward even if an object is in front of you. One of the few ways to deal with monsters that are underwater or inside walls. Can also activate traps where it lands. Found in sets of 3~6.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (P)",
+        "Onigashima (FT)",
+        "Sealed Room (P)",
+        "Road to the End (FPST)"
+      ]
+    },
+    {
+      "name_en": "Porky Stone",
+      "name_jp": "デブータの石",
+      "id": "porky_stone",
+      "base_stat": 12,
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 150,
+      "price_sell": 70,
+      "phrase": "ウロクロ",
+      "desc_short_en": "Homes in on a target within 2 tiles of the direction you're facing. Found in sets of 3~6.",
+      "desc_en": "Similar to a stone, but higher attack and homes in on a target within 2 tiles of the direction you're facing. One of the few ways to deal with monsters that are underwater or inside walls. Can also activate traps where it lands. Porky monsters may drop these stones. Found in sets of 3~6.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (FP)",
+        "Onigashima (TM)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (PM)",
+        "Road to the End (FPSTM)"
+      ]
+    },
+    {
+      "name_en": "Cannonball",
+      "name_jp": "大砲の弾",
+      "id": "cannonball",
+      "base_stat": "",
+      "seal": "",
+      "stack": "",
+      "stack_label": "",
+      "stack_multiplier": [],
+      "price_buy": 100,
+      "price_sell": 50,
+      "phrase": "ジソデブ",
+      "desc_short_en": "Rolls up to 10 tiles forward and creates an explosion that deals 40 damage. Found in sets of 1~3.",
+      "desc_en": "Rolls on the ground up to 10 tiles forward and creates an explosion that deals 40 damage to anything within a 1 tile radius if it hits an object. Activates all traps along the path. Cannot hit underwater monsters. Occasionally explodes if dropped while tripping. Found in sets of 1~3.",
+      "locations": [
+        "Shuten Trail Easy (P)",
+        "Shuten Trail Mid (P)",
+        "Shuten Trail Hard (FPM)",
+        "Onigashima (FSM)",
+        "Shrine's Hidden Hole (M)",
+        "Halfway Well (M)",
+        "Sealed Room (PM)",
+        "Road to the End (FPSTM)"
+      ]
+    }
+  ],
+  "material": [
+    {
+      "name_en": "Soil",
+      "name_jp": "土",
+      "id": "soil",
+      "price_buy": 3000,
+      "price_sell": 800,
+      "phrase": "",
+      "desc_short_en": "Select [Make] to sculpt a decoy that has 20HP.",
+      "desc_en": "Select [Make] to sculpt a 20HP decoy that wanders around the floor on its own. Monsters that defeat the decoy will level up to their next rank, meaning it can be useful not only to escape dangerous situations, but also to collect higher rank monsters for Monster Kingdom.",
+      "locations": [
+        "Shuten Trail Easy (F)"
+      ]
+    },
+    {
+      "name_en": "Good Soil",
+      "name_jp": "よい土",
+      "id": "good_soil",
+      "price_buy": "6000<br>(15000)",
+      "price_sell": 1600,
+      "phrase": "",
+      "desc_short_en": "Select [Make] to sculpt a decoy that has 35HP.",
+      "desc_en": "Select [Make] to sculpt a 35HP decoy that wanders around the floor on its own. Monsters that defeat the decoy will level up to their next rank, meaning it can be useful not only to escape dangerous situations, but also to collect higher rank monsters for Monster Kingdom.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Perfect Soil",
+      "name_jp": "最高の土",
+      "id": "perfect_soil",
+      "price_buy": 9000,
+      "price_sell": 2400,
+      "phrase": "びおんわ",
+      "desc_short_en": "Select [Make] to sculpt a decoy that has 40HP.",
+      "desc_en": "Select [Make] to sculpt a 40HP decoy that wanders around the floor on its own. Monsters that defeat the decoy will level up to their next rank, meaning it can be useful not only to escape dangerous situations, but also to collect higher rank monsters for Monster Kingdom. Takes up 2 inventory slots.",
+      "locations": [
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Water",
+      "name_jp": "鬼よけ水",
+      "id": "water",
+      "price_buy": 4000,
+      "price_sell": 800,
+      "phrase": "",
+      "desc_short_en": "Select [Use] to restore 50HP.",
+      "desc_en": "Special water that repels Oni. Select [Use] to restore 50HP. No effect when thrown at allies or monsters, but can be thrown at an Oni enemy to paralyze them.",
+      "locations": [
+        "Shuten Trail Easy (F)"
+      ]
+    },
+    {
+      "name_en": "Good Water",
+      "name_jp": "よい鬼よけ水",
+      "id": "good_water",
+      "price_buy": "8000<br>(15000)",
+      "price_sell": 1600,
+      "phrase": "",
+      "desc_short_en": "Select [Use] to restore 100HP. Also cures ailments.",
+      "desc_en": "Special water that repels Oni. Select [Use] to restore 100HP. Also cures ailments.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Perfect Water",
+      "name_jp": "最高の鬼よけ水",
+      "id": "perfect_water",
+      "price_buy": 12000,
+      "price_sell": 2400,
+      "phrase": "ぱらぽき",
+      "desc_short_en": "Select [Use] to restore HP, fullness, and strength to max. Also cures ailments.",
+      "desc_en": "Select [Use] to restore HP, fullness, and strength to max. Also cures ailments. Takes up 2 inventory slots.",
+      "locations": [
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Wood",
+      "name_jp": "木",
+      "id": "wood",
+      "price_buy": 3000,
+      "price_sell": 800,
+      "phrase": "",
+      "desc_short_en": "Throw at an enemy to deal 30 damage and 5 tiles worth of knockback.",
+      "desc_en": "Throw at an enemy to deal 30 damage and 5 tiles worth of knockback.",
+      "locations": [
+        "Shuten Trail Easy (F)"
+      ]
+    },
+    {
+      "name_en": "Good Wood",
+      "name_jp": "よい木",
+      "id": "good_wood",
+      "price_buy": "6000<br>(15000)",
+      "price_sell": 1600,
+      "phrase": "",
+      "desc_short_en": "Throw at an enemy to deal 40 damage and 5 tiles worth of knockback.",
+      "desc_en": "Throw at an enemy to deal 40 damage and 5 tiles worth of knockback.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Perfect Wood",
+      "name_jp": "最高の木",
+      "id": "perfect_wood",
+      "price_buy": 9000,
+      "price_sell": 2400,
+      "phrase": "モダテプ",
+      "desc_short_en": "Throw at an enemy to deal 50 damage and 5 tiles worth of knockback.",
+      "desc_en": "Throw at an enemy to deal 50 damage and 5 tiles worth of knockback. Note that Perfect Wood can only be found in Shuten Trail Mid. Takes up 2 inventory slots.",
+      "locations": [
+        "Shuten Trail Mid (F)"
+      ]
+    },
+    {
+      "name_en": "Rock",
+      "name_jp": "岩",
+      "id": "rock",
+      "price_buy": 3000,
+      "price_sell": 800,
+      "phrase": "",
+      "desc_short_en": "Select [Throw] to make 4~5 rocks fall from above to enemies in the room, dealing 7 damage per rock.",
+      "desc_en": "Select [Throw] to make 4~5 rocks fall from above to enemies in the room, dealing 7 damage per rock. If a 10 Damage Statue is present, each rock will deal 10 damage.",
+      "locations": [
+        "Shuten Trail Easy (F)"
+      ]
+    },
+    {
+      "name_en": "Good Rock",
+      "name_jp": "よい岩",
+      "id": "good_rock",
+      "price_buy": "6000<br>(15000)",
+      "price_sell": 1600,
+      "phrase": "",
+      "desc_short_en": "Select [Throw] to make 7~10 rocks fall from above to enemies in the room, dealing 7 damage per rock.",
+      "desc_en": "Select [Throw] to make 7~10 rocks fall from above to enemies in the room, dealing 7 damage per rock. If a 10 Damage Statue is present, each rock will deal 10 damage.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Perfect Rock",
+      "name_jp": "最高の岩",
+      "id": "perfect_rock",
+      "price_buy": 9000,
+      "price_sell": 2400,
+      "phrase": "しみれれ",
+      "desc_short_en": "Select [Throw] to make 12~15 rocks fall from above to enemies in the room, dealing 7 damage per rock.",
+      "desc_en": "Select [Throw] to make 12~15 rocks fall from above to enemies in the room, dealing 7 damage per rock. If a 10 Damage Statue is present, each rock will deal 10 damage. Takes up 2 inventory slots.",
+      "locations": [
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Iron Sand",
+      "name_jp": "砂鉄",
+      "id": "iron_sand",
+      "price_buy": 3000,
+      "price_sell": 800,
+      "phrase": "",
+      "desc_short_en": "Throw at a target to inflict blindness.",
+      "desc_en": "Throw at a target to inflict blindness.",
+      "locations": [
+        "Shuten Trail Easy (F)"
+      ]
+    },
+    {
+      "name_en": "Good Iron Sand",
+      "name_jp": "よい砂鉄",
+      "id": "good_iron_sand",
+      "price_buy": "6000<br>(15000)",
+      "price_sell": 1600,
+      "phrase": "",
+      "desc_short_en": "Throw at a target to inflict blindness, or select [Scatter] to blind all characters in a 1 tile radius.",
+      "desc_en": "Throw at a target to inflict blindness, or select [Scatter] to blind all characters in a 1 tile radius.",
+      "locations": [
+        "Shuten Trail Mid (F)",
+        "Shuten Trail Hard (F)"
+      ]
+    },
+    {
+      "name_en": "Perfect Iron Sand",
+      "name_jp": "最高の砂鉄",
+      "id": "perfect_iron_sand",
+      "price_buy": 9000,
+      "price_sell": 2400,
+      "phrase": "はめんみ",
+      "desc_short_en": "Throw at a target to inflict blindness, or select [Scatter] to blind all characters in the room.",
+      "desc_en": "Throw at a target to inflict blindness, or select [Scatter] to blind all characters in the room. Takes up 2 inventory slots.",
+      "locations": [
+        "Shuten Trail Hard (F)"
+      ]
+    }
+  ],
+  "decoration": [
+    {
+      "name_en": "2F Roof Decoration",
+      "name_jp": "二階の屋根かざり",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Shrine's Hidden Hole (10F+)"
+      ]
+    },
+    {
+      "name_en": "3F Roof Decoration",
+      "name_jp": "三階の屋根かざり",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Shrine's Hidden Hole (20F+)"
+      ]
+    },
+    {
+      "name_en": "Big Catch Banner",
+      "name_jp": "大漁旗",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Shrine's Hidden Hole (50F+)"
+      ]
+    },
+    {
+      "name_en": "Carp Streamer",
+      "name_jp": "コイのぼり",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Complete Monster Kingdom"
+      ]
+    },
+    {
+      "name_en": "Laundry",
+      "name_jp": "せんたくもの",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Halfway Well (10F+)"
+      ]
+    },
+    {
+      "name_en": "Origami Decoration",
+      "name_jp": "おり紙かざり",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Halfway Well (20F+)"
+      ]
+    },
+    {
+      "name_en": "Moat Koi",
+      "name_jp": "お堀のコイ",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Halfway Well (50F+)"
+      ]
+    },
+    {
+      "name_en": "Silver Shachihoko",
+      "name_jp": "銀のシャチホコ",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Sealed Room (10F+)"
+      ]
+    },
+    {
+      "name_en": "Pinwheel",
+      "name_jp": "かざぐるま",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Sealed Room (20F+)"
+      ]
+    },
+    {
+      "name_en": "Gold Shachihoko",
+      "name_jp": "金のシャチホコ",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Sealed Room (30F+)"
+      ]
+    },
+    {
+      "name_en": "Kite",
+      "name_jp": "たこあげ",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Sealed Room (50F+)"
+      ]
+    },
+    {
+      "name_en": "Footman Kite",
+      "name_jp": "ヤッコだこ",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Sealed Room (70F+)"
+      ]
+    },
+    {
+      "name_en": "Ad Balloon",
+      "name_jp": "アドバルーン",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Sealed Room (Rescue all children)"
+      ]
+    },
+    {
+      "name_en": "All Nations Flag",
+      "name_jp": "万国旗",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Road to the End (50F+)"
+      ]
+    },
+    {
+      "name_en": "Parabolic Antenna",
+      "name_jp": "パラボナアンテナ",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Road to the End (60F+)"
+      ]
+    },
+    {
+      "name_en": "Dragon Shachihoko",
+      "name_jp": "水龍のシャチホコ",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Road to the End (80F+)"
+      ]
+    },
+    {
+      "name_en": "Gold Shiren Statue",
+      "name_jp": "黄金のシレン像",
+      "desc_short_en": "",
+      "desc_en": "",
+      "locations": [
+        "Road to the End (Clear Reward)"
+      ]
+    }
+  ],
+  "other": [
+    {
+      "name_en": "Voucher",
+      "name_jp": "割引券",
+      "id": "voucher",
+      "price_buy": 2,
+      "price_sell": 1,
+      "phrase": "ごあはも",
+      "desc_short_en": "Provides a 2% discount when buying items from shops. Up to 40 vouchers can be used per purchase. (80% off)",
+      "desc_en": "Provides a 2% discount when buying items from shops. Up to 40 vouchers can be used per purchase. (80% off). Can be used a projectile, but only deals 1 damage. Traders will drop up to 25 vouchers when defeated.",
+      "locations": [
+        "Shuten Trail Mid (M)",
+        "Shuten Trail Hard (M)",
+        "Onigashima (M)",
+        "Sealed Room (M)",
+        "Road to the End (M)"
+      ]
+    },
+    {
+      "name_en": "Water",
+      "name_jp": "水",
+      "id": "water",
+      "price_buy": 0,
+      "price_sell": 0,
+      "phrase": "",
+      "desc_short_en": "Water inside of a Water Pot.",
+      "desc_en": "Water inside of a Water Pot. It has many uses, including the ability to rust enemy weapons, spoil riceballs, destroy traps, and put out fires. Try splashing it on all sorts of things!",
+      "locations": [
+        "Inventory after scooping water into a Water Pot."
+      ]
+    },
+    {
+      "name_en": "N'dubba",
+      "name_jp": "ンドゥバ",
+      "id": "ndubba",
+      "price_buy": 0,
+      "price_sell": 0,
+      "phrase": "",
+      "desc_short_en": "N'dubba monster disguised as an item.",
+      "desc_en": "N'dubba monster disguised as an item. Move an ally on top of a N'dubba, and then swap places with them to pick it up. Can be inserted into pots like other items, and Nigiri Morphs can transform it into a riceball. Throw it or place it on the ground to have it transform back into its monster form.",
+      "locations": [
+        "Disguised as items in various dungeons."
+      ]
+    },
+    {
+      "name_en": "Gitan",
+      "name_jp": "ギタン",
+      "id": "gitan",
+      "price_buy": 0,
+      "price_sell": 0,
+      "phrase": "ダシシヨ<br>ガミメノ<br>つこめの",
+      "desc_short_en": "Deals damage equal to the amount of gitan divided by 10 when thrown.",
+      "desc_en": "Money. Can be thrown to deal damage equal to the amount of gitan divided by 10. Deals a minimum of 1 damage, and a maximum of 9,999 damage.",
+      "locations": [
+        "Small Valley (F)",
+        "Shuten Trail Easy (FP)",
+        "Shuten Trail Mid (FP)",
+        "Shuten Trail Hard (FG)",
+        "Onigashima (FMG)",
+        "Shrine's Hidden Hole (FM)",
+        "Halfway Well (MG)",
+        "Sealed Room (FPMG)",
+        "Road to the End (FMG)"
+      ]
+    },
+    {
+      "name_en": "1,000,000 Gitan",
+      "name_jp": "100万ギタン",
+      "id": "one_million_gitan",
+      "price_buy": 980000,
+      "price_sell": 500000,
+      "phrase": "",
+      "desc_short_en": "Deals 10,000 damage when thrown.",
+      "desc_en": "1 million gitan. Deals 10,000 damage when thrown. It's recommended to bring multiple bags into dungeons when going for high scores, since it's worth so much.",
+      "locations": [
+        "Automatically obtained when Gitan reaches 1,000,000."
+      ]
+    },
+    {
+      "name_en": "Shiren's Hand",
+      "name_jp": "シレンの手",
+      "id": "shirens_hand",
+      "price_buy": 0,
+      "price_sell": 0,
+      "phrase": "",
+      "desc_short_en": "Shiren's hand stuck inside of a sticky pot.",
+      "desc_en": "Shiren's hand stuck inside of a sticky pot. The description offers much praise, to the point where you may wonder if Shiren wrote it himself.",
+      "locations": [
+        "Inventory when hand is stuck inside a Sticky Pot."
+      ]
+    }
+  ]
+}
