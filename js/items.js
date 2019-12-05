@@ -1,5 +1,5 @@
 try {
-  $.getJSON("http://localhost/~tay/sharksnack.github.io/shiren2/json/items.json", function(data) {
+  $.getJSON("https://sharksnack.github.io/shiren2/json/items.json", function(data) {
 
     // Check filename to determine item category (ex: html/item/shield.html -> shield)
     var regex = /\w+(?=\.html)/;
