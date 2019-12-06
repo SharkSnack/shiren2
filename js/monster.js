@@ -46,9 +46,12 @@ function monster_details (data) {
         html.push(`<h4 id="${monster_family.family_id}">${monster_family.family_name}  (${monster_family.family_name_jp})</h4>`);
 
         // monster family images
+        html.push(`<div class="monster_images">`);
         for (let m = 0; m < monster_family.images.length; m++) {
           html.push(`<img src="../../image/monster/${monster_family.images[m].filename}" width="${monster_family.images[m].width}" height="${monster_family.images[m].height}">`);
         }
+        html.push(`</div>`);
+
         // monster family description
         html.push(`<div class="family_desc">
           ${monster_family.family_desc_en}

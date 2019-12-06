@@ -2,6 +2,15 @@
   color: #444;
 }
 
+.monster_images {
+  font-size: 0; /* this is so dumb, but it works to remove the space between images */
+}
+
+.monster_images img {
+  background-color: #444;
+  padding: 10px;
+}
+
 h2 {
   padding-left: 10px;
   background-color: #def
