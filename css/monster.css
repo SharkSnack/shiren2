@@ -1,4 +1,10 @@
+.content {
+  background: url("../image/site/gray_background.png");
+  background-repeat: repeat;
+}
+
 h4 {
+  font-weight: normal;
   background-color: gray;
 }
 
