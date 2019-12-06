@@ -1,0 +1,47 @@
+.monster_quick_links a {
+  color: white;
+  text-decoration: none;
+  flex: initial 1 50%;
+  padding-right: 10px;
+  font-size: 80%;
+}
+
+.monster_quick_links a:hover {
+  color: #83d0f2;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 0;
+}
+
+table caption {
+  color: white;
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+table th {
+  background-color: lightgray;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
