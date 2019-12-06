@@ -51,7 +51,7 @@ body {
 .wrapper {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 6fr;
   grid-template-areas:
     "header header"
     "sidebar content"

@@ -1,12 +1,28 @@
 {
   "monsters": [
     {
-      "family": "Mamel",
-      "family_desc_en": "Mascot monster of the Shiren series. Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
+      "family_name": "Mamel Family",
+      "family_id": "mamel_family",
+      "family_desc_en": "Mascot monster of the Shiren series.<br>Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
       "ally_desc_en": "",
-      "type": [
-        "Normal"
+      "images": [
+        {
+          "filename": "mamel.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "filename": "pit_mamel.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "filename": "cave_mamel.png",
+          "width": 54,
+          "height": 43
+        }
       ],
+      "type": "Normal",
       "entries": [
         {
           "name_en": "Mamel",
@@ -17,17 +33,18 @@
             "hp": 5,
             "attack": 2,
             "defense": 2,
-            "experience": 2,
+            "experience": 2
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 55,
-            "max_attack": 52,
+            "max_attack": 52
           },
           "sleep_rate": "0%",
-          "wake_condition": "Adjacent",
+          "wake_condition": "1 Tile",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "2%",
           "special_attack_rate": "",
@@ -59,25 +76,26 @@
             "hp": 8,
             "attack": 4,
             "defense": 4,
-            "experience": 4,
+            "experience": 4
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 58,
-            "max_attack": 54,
+            "max_attack": 54
           },
           "sleep_rate": "0%",
-          "wake_condition": "Adjacent",
+          "wake_condition": "1 Tile",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "6%",
           "special_attack_rate": "",
           "notes": [
-            "Regular attacks only."
+            "Same as Mamel."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Same as Mamel."
           ],
           "locations": [
             "Small Valley",
@@ -101,25 +119,27 @@
             "hp": 5,
             "attack": 50,
             "defense": 55,
-            "experience": 500,
+            "experience": 500
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 55,
-            "max_attack": 100,
+            "max_attack": 100
           },
           "sleep_rate": "100%",
-          "wake_condition": "Adjacent",
+          "wake_condition": "1 Tile",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "10%",
           "special_attack_rate": "",
           "notes": [
+            "Same as Mamel.",
             "High attack."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Same as Mamel."
           ],
           "locations": [
             "Small Valley",
@@ -137,12 +157,28 @@
       ]
     },
     {
-      "family": "Chintala",
-      "family_desc_en": "The secondary mascot monster of the Shiren series. A notable characteristic is that it grows larger for each increase in rank.",
+      "family_name": "Chintala Family",
+      "family_id": "chintala_family",
+      "family_desc_en": "The secondary mascot monster of the Shiren series.<br>A notable characteristic is that it grows larger for each increase in rank.",
       "ally_desc_en": "",
-      "type": [
-        "Normal"
+      "images": [
+        {
+          "filename": "chintala.png",
+          "width": 68,
+          "height": 92
+        },
+        {
+          "filename": "mid_chintala.png",
+          "width": 68,
+          "height": 92
+        },
+        {
+          "filename": "big_chintala.png",
+          "width": 68,
+          "height": 92
+        }
       ],
+      "type": "Normal",
       "entries": [
         {
           "name_en": "Chintala",
@@ -153,17 +189,18 @@
             "hp": 6,
             "attack": 3,
             "defense": 3,
-            "experience": 3,
+            "experience": 3
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 56,
-            "max_attack": 53,
+            "max_attack": 53
           },
           "sleep_rate": "40%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "2%",
           "special_attack_rate": "",
@@ -195,25 +232,26 @@
             "hp": 15,
             "attack": 9,
             "defense": 10,
-            "experience": 12,
+            "experience": 12
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 65,
-            "max_attack": 59,
+            "max_attack": 59
           },
           "sleep_rate": "40%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "3%",
           "special_attack_rate": "",
           "notes": [
-            "Regular attacks only."
+            "Same as Chintala."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Same as Chintala."
           ],
           "locations": [
             "Small Valley",
@@ -237,25 +275,26 @@
             "hp": 60,
             "attack": 39,
             "defense": 39,
-            "experience": 500,
+            "experience": 500
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 110,
-            "max_attack": 89,
+            "max_attack": 89
           },
           "sleep_rate": "40%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "4%",
           "special_attack_rate": "",
           "notes": [
-            "Regular attacks only."
+            "Same as Chintala."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Same as Chintala."
           ],
           "locations": [
             "Small Valley",
@@ -273,12 +312,28 @@
       ]
     },
     {
-      "family": "Piko Hammer",
-      "family_desc_en": "A unique monster that breaks traps and statues. This ability is beneficial for most dungeons, but can prove to be a nuisance in Halfway Well due to it being a trap dungeon. Higher ranks can only naturally be found in Halfway Well. Only breaks traps that it can see, so it won't break traps that are only visible to Shiren from eating Sight Grass or equipping a Trapper Bracelet.",
+      "family_name": "Piko Hammer Family",
+      "family_id": "piko_hammer_family",
+      "family_desc_en": "A unique monster that breaks traps and statues in a single hit.<br>This ability is beneficial for most dungeons, but can prove to be a nuisance in Halfway Well (Trap dungeon).<br>Higher ranks can only naturally be found in Halfway Well.<br>Only breaks traps that it can see, so it won't break traps that are only visible to Shiren from eating Sight Grass or equipping a Trapper Bracelet.",
       "ally_desc_en": "",
-      "type": [
-        "Normal"
+      "images": [
+        {
+          "filename": "piko_hammer.png",
+          "width": 58,
+          "height": 67
+        },
+        {
+          "filename": "poko_hammer.png",
+          "width": 58,
+          "height": 67
+        },
+        {
+          "filename": "pako_hammer.png",
+          "width": 58,
+          "height": 67
+        }
       ],
+      "type": "Normal",
       "entries": [
         {
           "name_en": "Piko Hammer",
@@ -289,23 +344,23 @@
             "hp": 13,
             "attack": 9,
             "defense": 6,
-            "experience": 10,
+            "experience": 10
           },
           "ally_stats": {
             "max_growth": 10,
             "hp_increase": 3,
             "attack_increase": 3,
             "max_hp": 43,
-            "max_attack": 39,
+            "max_attack": 39
           },
           "sleep_rate": "25%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "2%",
           "special_attack_rate": "",
           "notes": [
             "Breaks traps and statues.",
-            "Can break statues in a single hit.",
             "Prioritizes attacking Shiren.",
             "Moves toward traps and statues if Shiren isn't present."
           ],
@@ -335,29 +390,26 @@
             "hp": 60,
             "attack": 30,
             "defense": 29,
-            "experience": 350,
+            "experience": 350
           },
           "ally_stats": {
             "max_growth": 10,
             "hp_increase": 3,
             "attack_increase": 3,
             "max_hp": 90,
-            "max_attack": 60,
+            "max_attack": 60
           },
           "sleep_rate": "25%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "Mallet",
           "item_drop_rate": "5%",
           "special_attack_rate": "",
           "notes": [
-            "Breaks traps and statues.",
-            "Can break statues in a single hit.",
-            "Prioritizes attacking Shiren.",
-            "Moves toward traps and statues if Shiren isn't present."
+            "Same as Piko Hammer."
           ],
           "notes_ally": [
-            "Special attack breaks traps in front of it.",
-            "Can break statues in a single hit."
+            "Same as Piko Hammer."
           ],
           "locations": [
             "Small Valley",
@@ -381,29 +433,26 @@
             "hp": 75,
             "attack": 55,
             "defense": 40,
-            "experience": 1500,
+            "experience": 1500
           },
           "ally_stats": {
             "max_growth": 10,
             "hp_increase": 3,
             "attack_increase": 3,
             "max_hp": 105,
-            "max_attack": 85,
+            "max_attack": 85
           },
           "sleep_rate": "25%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "Mallet",
           "item_drop_rate": "5%",
           "special_attack_rate": "",
           "notes": [
-            "Breaks traps and statues.",
-            "Can break statues in a single hit.",
-            "Prioritizes attacking Shiren.",
-            "Moves toward traps and statues if Shiren isn't present."
+            "Same as Piko Hammer."
           ],
           "notes_ally": [
-            "Special attack breaks traps in front of it.",
-            "Can break statues in a single hit."
+            "Same as Piko Hammer."
           ],
           "locations": [
             "Small Valley",
@@ -421,12 +470,28 @@
       ]
     },
     {
-      "family": "Armordillo",
-      "family_desc_en": "Monster that resembles an armadillo. Occasionally rolls into a ball and tackles Shiren, making him trip and drop items. Especially troublesome when there is water, because items dropped in water may be unrecoverable without items such as Evaporate Scroll. Carrying a Balance Staff will prevent tripping, as long as it's not inside a Pot.",
+      "family_name": "Armordillo Family",
+      "family_id": "armordillo_family",
+      "family_desc_en": "Monster that resembles an armadillo.<br>Occasionally rolls into a ball and tackles Shiren, making him trip and drop items.<br>Particularly troublesome when there is water, because items dropped in water may be unrecoverable without items such as Evaporate Scroll.<br>Carrying a Balance Staff will prevent tripping, as long as it's not inside a Pot.",
       "ally_desc_en": "Armordillo's special attack will make a monster drop 1 item. The ability to rapidly obtain items is so powerful that it's said if you can catch an Armordillo Pop inside the Road to the End dungeon, you're pretty much guaranteed to clear it. The dropped items are selected from the current floor's item table. Note that Gamarra monsters will always drop Gitan.",
-      "type": [
-        "Normal"
+      "images": [
+        {
+          "filename": "armordillo.png",
+          "width": 58,
+          "height": 69
+        },
+        {
+          "filename": "armordillo_bro.png",
+          "width": 58,
+          "height": 69
+        },
+        {
+          "filename": "armordillo_pop.png",
+          "width": 58,
+          "height": 69
+        }
       ],
+      "type": "Normal",
       "entries": [
         {
           "name_en": "Armordillo",
@@ -437,22 +502,23 @@
             "hp": 12,
             "attack": 8,
             "defense": 8,
-            "experience": 9,
+            "experience": 9
           },
           "ally_stats": {
             "max_growth": 5,
             "hp_increase": 2,
             "attack_increase": 5,
             "max_hp": 22,
-            "max_attack": 33,
+            "max_attack": 33
           },
           "sleep_rate": "40%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "3%",
           "special_attack_rate": "25%",
           "notes": [
-            "Tackles Shiren to make him trip and drop items.",
+            "Tackles Shiren, making him trip and drop items.",
             "Tackle deals 4 damage and 1 tile of knockback."
           ],
           "notes_ally": [
@@ -481,26 +547,27 @@
             "hp": 13,
             "attack": 9,
             "defense": 11,
-            "experience": 11,
+            "experience": 11
           },
           "ally_stats": {
             "max_growth": 5,
             "hp_increase": 2,
             "attack_increase": 5,
             "max_hp": 23,
-            "max_attack": 34,
+            "max_attack": 34
           },
           "sleep_rate": "25%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "3%",
           "special_attack_rate": "30%",
           "notes": [
-            "Tackles Shiren to make him trip and drop items.",
+            "Same as Armordillo.",
             "Tackle deals 6 damage and 2 tiles of knockback."
           ],
           "notes_ally": [
-            "Tackles an enemy to make them trip and drop an item.",
+            "Same as Armordillo.",
             "Tackle deals 6 damage and 2 tiles of knockback."
           ],
           "locations": [
@@ -525,26 +592,27 @@
             "hp": 70,
             "attack": 37,
             "defense": 37,
-            "experience": 700,
+            "experience": 700
           },
           "ally_stats": {
             "max_growth": 10,
             "hp_increase": 2,
             "attack_increase": 5,
             "max_hp": 90,
-            "max_attack": 87,
+            "max_attack": 87
           },
           "sleep_rate": "25%",
-          "wake_condition": "High Chance",
+          "wake_condition": "High",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "3%",
           "special_attack_rate": "35%",
           "notes": [
-            "Tackles Shiren to make him trip and drop items.",
+            "Same as Armordillo.",
             "Tackle deals 10 damage and 3 tiles of knockback."
           ],
           "notes_ally": [
-            "Tackles an enemy to make them trip and drop an item.",
+            "Same as Armordillo.",
             "Tackle deals 10 damage and 3 tiles of knockback."
           ],
           "locations": [
@@ -563,12 +631,33 @@
       ]
     },
     {
-      "family": "Droplet Ninja",
+      "family_name": "Droplet Ninja Family",
+      "family_id": "droplet_ninja_family",
       "family_desc_en": "Mascot monster of the Shiren series. Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
       "ally_desc_en": "",
-      "type": [
-        "Normal"
+      "images": [
+        {
+          "filename": "droplet_ninja.png",
+          "width": 48,
+          "height": 81
+        },
+        {
+          "filename": "landmine_ninja.png",
+          "width": 48,
+          "height": 81
+        },
+        {
+          "filename": "summon_ninja.png",
+          "width": 48,
+          "height": 81
+        },
+        {
+          "filename": "explosion_ninja.png",
+          "width": 48,
+          "height": 81
+        }
       ],
+      "type": "Normal",
       "entries": [
         {
           "name_en": "Droplet Ninja",
@@ -579,17 +668,18 @@
             "hp": 5,
             "attack": 2,
             "defense": 2,
-            "experience": 2,
+            "experience": 2
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 55,
-            "max_attack": 52,
+            "max_attack": 52
           },
           "sleep_rate": "0%",
-          "wake_condition": "Adjacent",
+          "wake_condition": "1 Tile",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "2%",
           "special_attack_rate": "",
@@ -621,17 +711,18 @@
             "hp": 8,
             "attack": 4,
             "defense": 4,
-            "experience": 4,
+            "experience": 4
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 58,
-            "max_attack": 54,
+            "max_attack": 54
           },
           "sleep_rate": "0%",
-          "wake_condition": "Adjacent",
+          "wake_condition": "1 Tile",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "6%",
           "special_attack_rate": "",
@@ -663,17 +754,18 @@
             "hp": 5,
             "attack": 50,
             "defense": 55,
-            "experience": 500,
+            "experience": 500
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 55,
-            "max_attack": 100,
+            "max_attack": 100
           },
           "sleep_rate": "100%",
-          "wake_condition": "Adjacent",
+          "wake_condition": "1 Tile",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "10%",
           "special_attack_rate": "",
@@ -705,17 +797,18 @@
             "hp": 5,
             "attack": 50,
             "defense": 55,
-            "experience": 500,
+            "experience": 500
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
             "max_hp": 55,
-            "max_attack": 100,
+            "max_attack": 100
           },
           "sleep_rate": "100%",
-          "wake_condition": "Adjacent",
+          "wake_condition": "1 Tile",
+          "element": [],
           "item_drop": "",
           "item_drop_rate": "10%",
           "special_attack_rate": "",
