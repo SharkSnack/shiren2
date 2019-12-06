@@ -43,7 +43,7 @@ function monster_details (data) {
 
       // display monster entries by monster family
       if (monster_family.type === types[i]) {
-        html.push(`<h4 id="${monster_family.family_id}">${monster_family.family_name}</h4>`);
+        html.push(`<h4 id="${monster_family.family_id}">${monster_family.family_name}  (${monster_family.family_name_jp})</h4>`);
 
         // monster family images
         for (let m = 0; m < monster_family.images.length; m++) {

@@ -2,8 +2,9 @@
   "monsters": [
     {
       "family_name": "Mamel Family",
+      "family_name_jp": "マムル, あなぐらマムル, 洞窟マムル",
       "family_id": "mamel_family",
-      "family_desc_en": "Mascot monster of the Shiren series.<br>Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
+      "family_desc_en": "Mascot monster of the Shiren series.<br>The Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
       "ally_desc_en": "",
       "images": [
         {
