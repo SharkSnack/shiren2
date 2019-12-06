@@ -71,6 +71,7 @@ function monster_details (data) {
               <th>Sp</th>
               <th>Notes</th>
             </tr>`);
+
         // family can have 1~4 entries, so loop through them for filling out rows
         for (let m = 0; m < monster_family.entries.length; m++) {
           let monster = monster_family.entries[m];
@@ -98,17 +99,19 @@ function monster_details (data) {
           <h5>Ally / Posession Staff:</h5>${monster_family.ally_desc_en}
         </div>`);
 
+        // monster as ally table header
         html.push(`
           <table>
             <tr>
               <th>Name</th>
-              <th>Max Growth</th>
+              <th>Max Lv</th>
               <th>HP+</th>
               <th>ATK+</th>
               <th>Max HP</th>
               <th>Max ATK</th>
               <th>Notes</th>
             </tr>`);
+
         // family can have 1~4 entries, so loop through them for filling out rows
         for (let m = 0; m < monster_family.entries.length; m++) {
           let monster = monster_family.entries[m];
