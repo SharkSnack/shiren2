@@ -4,7 +4,7 @@
       "family_name": "Mamel Family",
       "family_name_jp": "マムル, あなぐらマムル, 洞窟マムル",
       "family_id": "mamel_family",
-      "family_desc_en": "Mascot monster of the Shiren series.<br>The Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
+      "family_desc_en": "Mascot monster of the Shiren series.<br>Cave Mamels in Shiren 2 have somewhat lower defense than in other games.",
       "ally_desc_en": "",
       "images": [
         {
@@ -159,6 +159,7 @@
     },
     {
       "family_name": "Chintala Family",
+      "family_name_jp": "チンタラ, ちゅうチンタラ, おおチンタラ",
       "family_id": "chintala_family",
       "family_desc_en": "The secondary mascot monster of the Shiren series.<br>A notable characteristic is that it grows larger for each increase in rank.",
       "ally_desc_en": "",
@@ -314,6 +315,7 @@
     },
     {
       "family_name": "Piko Hammer Family",
+      "family_name_jp": "ピコタン, ポコタン, パコタン",
       "family_id": "piko_hammer_family",
       "family_desc_en": "A unique monster that breaks traps and statues in a single hit.<br>This ability is beneficial for most dungeons, but can prove to be a nuisance in Halfway Well (Trap dungeon).<br>Higher ranks can only naturally be found in Halfway Well.<br>Only breaks traps that it can see, so it won't break traps that are only visible to Shiren from eating Sight Grass or equipping a Trapper Bracelet.",
       "ally_desc_en": "",
@@ -472,6 +474,7 @@
     },
     {
       "family_name": "Armordillo Family",
+      "family_name_jp": "マルジロウ, マルジロウ兄, マルジロウ父",
       "family_id": "armordillo_family",
       "family_desc_en": "Monster that resembles an armadillo.<br>Occasionally rolls into a ball and tackles Shiren, making him trip and drop items.<br>Particularly troublesome when there is water, because items dropped in water may be unrecoverable without items such as Evaporate Scroll.<br>Carrying a Balance Staff will prevent tripping, as long as it's not inside a Pot.",
       "ally_desc_en": "Armordillo's special attack will make a monster drop 1 item. The ability to rapidly obtain items is so powerful that it's said if you can catch an Armordillo Pop inside the Road to the End dungeon, you're pretty much guaranteed to clear it. The dropped items are selected from the current floor's item table. Note that Gamarra monsters will always drop Gitan.",
@@ -633,6 +636,7 @@
     },
     {
       "family_name": "Droplet Ninja Family",
+      "family_name_jp": "スイテキマル, ジライヤ, ショウカンマル, ダイジライヤ",
       "family_id": "droplet_ninja_family",
       "family_desc_en": "Mascot monster of the Shiren series. Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
       "ally_desc_en": "",

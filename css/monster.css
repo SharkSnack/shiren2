@@ -1,23 +1,43 @@
 .content {
-  background: url("../image/site/gray_background.png");
-  background-repeat: repeat;
+  color: #444;
+}
+
+h2 {
+  padding-left: 10px;
+  background-color: #def
 }
 
 h4 {
   font-weight: normal;
-  background-color: gray;
+  border: 10px solid #def;
 }
 
 .monster_quick_links a {
-  color: white;
   text-decoration: none;
   flex: initial 1 50%;
   padding-right: 10px;
   font-size: 80%;
+  color: #215dc6;
 }
 
 .monster_quick_links a:hover {
-  color: #83d0f2;
+  text-decoration: underline;
+}
+
+.monster_quick_links a:visited {
+  color: #a63d21;
+}
+
+.family_desc {
+  padding: 10px;
+  background-color: #f5faff;
+  border-radius: 5px;
+}
+
+.ally_desc {
+  padding: 10px;
+  background-color: #f5faff;
+  border-radius: 5px;
 }
 
 table {
@@ -28,7 +48,6 @@ table {
 }
 
 table caption {
-  color: white;
   font-size: 1.5em;
   margin: 0.5em 0 0.75em;
 }
@@ -54,4 +73,17 @@ table th {
   font-size: 0.85em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+table a {
+  color: #215dc6;
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+table a:visited {
+  color: #a63d21;
 }

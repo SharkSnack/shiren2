@@ -1,5 +1,5 @@
 try {
-  $.getJSON("https://sharksnack.github.io/shiren2/json/monsters.json", function(data) {
+  $.getJSON("http://localhost/~tay/sharksnack.github.io/shiren2/json/monsters.json", function(data) {
     // load Monster Detail section HTML
     document.getElementById("monster_details").innerHTML = monster_details(data);
   });
@@ -95,9 +95,10 @@ function monster_details (data) {
         html.push(`</table>`);
 
         // monster as ally description
-        html.push(`<div class="ally_desc">
-          <h5>Ally / Posession Staff:</h5>${monster_family.ally_desc_en}
-        </div>`);
+        html.push(`<h5>Ally / Posession Staff:</h5>`);
+        if (monster_family.ally_desc_en !== "") {
+          html.push(`<div class="ally_desc">${monster_family.ally_desc_en}</div>`);
+        } 
 
         // monster as ally table header
         html.push(`
