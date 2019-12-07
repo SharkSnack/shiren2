@@ -3625,6 +3625,897 @@
           ]
         }
       ]
+    },
+    {
+      "family_name": "Zalokleft Family",
+      "family_name_jp": "ぬすっトド, みどりトド, アイアントド",
+      "family_id": "zalokleft_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "zalokleft.png",
+          "width": 82,
+          "height": 75
+        },
+        {
+          "filename": "green_zalokleft.png",
+          "width": 82,
+          "height": 75
+        },
+        {
+          "filename": "iron_zalokleft.png",
+          "width": 82,
+          "height": 75
+        }
+      ],
+      "type": "Stealing",
+      "entries": [
+        {
+          "name_en": "Zalokleft",
+          "name_jp": "ぬすっトド",
+          "id": "zalokleft",
+          "rank": 1,
+          "stats": {
+            "hp": 15,
+            "attack": 0,
+            "defense": 10,
+            "experience": 12
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 0,
+            "max_hp": 115,
+            "max_attack": 1
+          },
+          "sleep_rate": "100%",
+          "wake_condition": "3 Tiles",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "100%",
+          "special_attack_rate": "50%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Green Zalokleft",
+          "name_jp": "みどりトド",
+          "id": "green_zalokleft",
+          "rank": 2,
+          "stats": {
+            "hp": 20,
+            "attack": 0,
+            "defense": 30,
+            "experience": 13
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 0,
+            "max_hp": 120,
+            "max_attack": 1
+          },
+          "sleep_rate": "100%",
+          "wake_condition": "3 Tiles",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "100%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Iron Zalokleft",
+          "name_jp": "アイアントド",
+          "id": "iron_zalokleft",
+          "rank": 3,
+          "stats": {
+            "hp": 36,
+            "attack": 0,
+            "defense": 55,
+            "experience": 14
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 0,
+            "max_hp": 136,
+            "max_attack": 1
+          },
+          "sleep_rate": "100%",
+          "wake_condition": "3 Tiles",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "100%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Gamarra Family",
+      "family_name_jp": "ガマラ, ガマグッチ, ガマゴン",
+      "family_id": "gamarra_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "gamarra.png",
+          "width": 64,
+          "height": 57
+        },
+        {
+          "filename": "gamagucci.png",
+          "width": 64,
+          "height": 57
+        },
+        {
+          "filename": "gamagon.png",
+          "width": 64,
+          "height": 57
+        }
+      ],
+      "type": "Stealing",
+      "entries": [
+        {
+          "name_en": "Gamarra",
+          "name_jp": "ガマラ",
+          "id": "gamarra",
+          "rank": 1,
+          "stats": {
+            "hp": 11,
+            "attack": 0,
+            "defense": 29,
+            "experience": 6
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 0,
+            "max_hp": 111,
+            "max_attack": 1
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "1 Tile",
+          "element": [],
+          "item_drop": "Gitan",
+          "item_drop_rate": "100%",
+          "special_attack_rate": "70%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Gamagucci",
+          "name_jp": "ガマグッチ",
+          "id": "gamagucci",
+          "rank": 2,
+          "stats": {
+            "hp": 16,
+            "attack": 0,
+            "defense": 35,
+            "experience": 25
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 0,
+            "max_hp": 116,
+            "max_attack": 1
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "1 Tile",
+          "element": [],
+          "item_drop": "Gitan",
+          "item_drop_rate": "100%",
+          "special_attack_rate": "80%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Gamagon",
+          "name_jp": "ガマゴン",
+          "id": "gamagon",
+          "rank": 3,
+          "stats": {
+            "hp": 40,
+            "attack": 0,
+            "defense": 65,
+            "experience": 300
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 0,
+            "max_hp": 140,
+            "max_attack": 1
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "1 Tile",
+          "element": [],
+          "item_drop": "Gitan",
+          "item_drop_rate": "100%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Gyadon Family",
+      "family_name_jp": "ギャドン, ギャイラス, ギャンドラー",
+      "family_id": "gyadon_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "gyadon.png",
+          "width": 104,
+          "height": 83
+        },
+        {
+          "filename": "gyairas.png",
+          "width": 104,
+          "height": 83
+        },
+        {
+          "filename": "gyandora.png",
+          "width": 104,
+          "height": 83
+        }
+      ],
+      "type": "Stealing",
+      "entries": [
+        {
+          "name_en": "Gyadon",
+          "name_jp": "ギャドン",
+          "id": "gyadon",
+          "rank": 1,
+          "stats": {
+            "hp": 40,
+            "attack": 23,
+            "defense": 17,
+            "experience": 90
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 60,
+            "max_attack": 43
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "50%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            "Regular attacks only."
+          ]
+        },
+        {
+          "name_en": "Gyairas",
+          "name_jp": "ギャイラス",
+          "id": "gyairas",
+          "rank": 2,
+          "stats": {
+            "hp": 65,
+            "attack": 39,
+            "defense": 45,
+            "experience": 230
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 85,
+            "max_attack": 59
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            "Same as Gyadon."
+          ]
+        },
+        {
+          "name_en": "Gyandora",
+          "name_jp": "ギャンドラー",
+          "id": "gyandora",
+          "rank": 3,
+          "stats": {
+            "hp": 86,
+            "attack": 60,
+            "defense": 58,
+            "experience": 500
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 106,
+            "max_attack": 80
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "16%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            "Same as Gyadon."
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Dragon Family",
+      "family_name_jp": "ドラゴン, スカイドラゴン, アークドラゴン",
+      "family_id": "dragon_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "dragon.png",
+          "width": 104,
+          "height": 127
+        },
+        {
+          "filename": "sky_dragon.png",
+          "width": 104,
+          "height": 127
+        },
+        {
+          "filename": "archdragon.png",
+          "width": 104,
+          "height": 127
+        }
+      ],
+      "type": "Dragon",
+      "entries": [
+        {
+          "name_en": "Dragon",
+          "name_jp": "ドラゴン",
+          "id": "dragon",
+          "rank": 1,
+          "stats": {
+            "hp": 80,
+            "attack": 37,
+            "defense": 38,
+            "experience": 350
+          },
+          "ally_stats": {
+            "max_growth": 30,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 140,
+            "max_attack": 97
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "60%",
+          "special_attack_rate": "50%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Sky Dragon",
+          "name_jp": "スカイドラゴン",
+          "id": "sky_dragon",
+          "rank": 2,
+          "stats": {
+            "hp": 85,
+            "attack": 45,
+            "defense": 43,
+            "experience": 450
+          },
+          "ally_stats": {
+            "max_growth": 25,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 135,
+            "max_attack": 95
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "Low",
+          "element": [
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "65%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Archdragon",
+          "name_jp": "アークドラゴン",
+          "id": "archdragon",
+          "rank": 3,
+          "stats": {
+            "hp": 110,
+            "attack": 55,
+            "defense": 55,
+            "experience": 1300
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 150,
+            "max_attack": 95
+          },
+          "sleep_rate": "60%",
+          "wake_condition": "Low",
+          "element": [
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "70%",
+          "special_attack_rate": "12%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Shaaga Family",
+      "family_name_jp": "シャーガ, ナシャーガ, ラシャーガ",
+      "family_id": "shaaga_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "shaaga.png",
+          "width": 104,
+          "height": 127
+        },
+        {
+          "filename": "nashaaga.png",
+          "width": 104,
+          "height": 127
+        },
+        {
+          "filename": "lashaaga.png",
+          "width": 104,
+          "height": 127
+        }
+      ],
+      "type": "Dragon",
+      "entries": [
+        {
+          "name_en": "Shaaga",
+          "name_jp": "シャーガ",
+          "id": "shaaga",
+          "rank": 1,
+          "stats": {
+            "hp": 37,
+            "attack": 19,
+            "defense": 18,
+            "experience": 35
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 52,
+            "max_attack": 64
+          },
+          "sleep_rate": "30%",
+          "wake_condition": "Low",
+          "element": [
+            "Weapon",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Nashaaga",
+          "name_jp": "ナシャーガ",
+          "id": "nashaaga",
+          "rank": 2,
+          "stats": {
+            "hp": 85,
+            "attack": 36,
+            "defense": 50,
+            "experience": 1150
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 95,
+            "max_attack": 66
+          },
+          "sleep_rate": "30%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Lashaaga",
+          "name_jp": "ラシャーガ",
+          "id": "lashaaga",
+          "rank": 3,
+          "stats": {
+            "hp": 100,
+            "attack": 58,
+            "defense": 63,
+            "experience": 1500
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 105,
+            "max_attack": 73
+          },
+          "sleep_rate": "30%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Bone Dragon Family",
+      "family_name_jp": "ボーンドラゴン, スカルドラゴン, ガルムドラゴン",
+      "family_id": "bone_dragon_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "bone_dragon.png",
+          "width": 108,
+          "height": 115
+        },
+        {
+          "filename": "skull_dragon.png",
+          "width": 108,
+          "height": 115
+        },
+        {
+          "filename": "garm_dragon.png",
+          "width": 108,
+          "height": 115
+        }
+      ],
+      "type": "Dragon",
+      "entries": [
+        {
+          "name_en": "Bone Dragon",
+          "name_jp": "ボーンドラゴン",
+          "id": "bone_dragon",
+          "rank": 1,
+          "stats": {
+            "hp": 61,
+            "attack": 23,
+            "defense": 20,
+            "experience": 57
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 101,
+            "max_attack": 83
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Ghost",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "32%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Skull Dragon",
+          "name_jp": "スカルドラゴン",
+          "id": "skull_dragon",
+          "rank": 2,
+          "stats": {
+            "hp": 80,
+            "attack": 48,
+            "defense": 35,
+            "experience": 400
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 110,
+            "max_attack": 93
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Ghost",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Garm Dragon",
+          "name_jp": "ガルムドラゴン",
+          "id": "garm_dragon",
+          "rank": 3,
+          "stats": {
+            "hp": 132,
+            "attack": 104,
+            "defense": 62,
+            "experience": 3500
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 142,
+            "max_attack": 119
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Ghost",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Pumphantasm Family",
+      "family_name_jp": "パコレプキン, パコレプキーナ, パコレプキング",
+      "family_id": "pumphantasm_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "pumphantasm.png",
+          "width": 86,
+          "height": 85
+        },
+        {
+          "filename": "pumphantom.png",
+          "width": 86,
+          "height": 85
+        },
+        {
+          "filename": "pumpking.png",
+          "width": 86,
+          "height": 85
+        }
+      ],
+      "type": "Ghost",
+      "entries": [
+        {
+          "name_en": "Pumphantasm",
+          "name_jp": "パコレプキン",
+          "id": "pumphantasm",
+          "rank": 1,
+          "stats": {
+            "hp": 38,
+            "attack": 20,
+            "defense": 16,
+            "experience": 50
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 5,
+            "max_hp": 53,
+            "max_attack": 95
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Floating",
+            "Flying",
+            "Wall-clip",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Pumphantom",
+          "name_jp": "パコレプキーナ",
+          "id": "pumphantom",
+          "rank": 2,
+          "stats": {
+            "hp": 50,
+            "attack": 24,
+            "defense": 18,
+            "experience": 60
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 5,
+            "max_hp": 65,
+            "max_attack": 99
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Floating",
+            "Flying",
+            "Wall-clip",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Pumpking",
+          "name_jp": "パコレプキング",
+          "id": "pumpking",
+          "rank": 3,
+          "stats": {
+            "hp": 80,
+            "attack": 60,
+            "defense": 43,
+            "experience": 950
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 5,
+            "max_hp": 95,
+            "max_attack": 135
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Floating",
+            "Flying",
+            "Wall-clip",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
