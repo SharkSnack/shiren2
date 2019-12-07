@@ -903,13 +903,13 @@
           "notes": [
             "Same as Stone Beast.",
             "Tackle deals 15 damage and paralyzes.",
-            "If the target collides with a breakable wall, they will be knocked into the wall by 5 tiles."
+            "If the target collides with a breakable wall, they will be sent into the wall by 5 tiles."
           ],
           "notes_ally": [
             "Same as Stone Beast.",
             "Tackle deals 15 damage and paralyzes.",
             "(Shiren: 3 turns, Enemy: 2 turns).",
-            "If the target collides with a breakable wall, they will be knocked into the wall by 5 tiles."
+            "If the target collides with a breakable wall, they will be sent into the wall by 5 tiles."
           ]
         }
       ]
@@ -942,95 +942,1048 @@
         {
           "name_en": "Copycat Mask",
           "name_jp": "ものまね仮面",
-          "id": "mamel",
+          "id": "copycat_mask",
           "rank": 1,
           "stats": {
-            "hp": 5,
-            "attack": 2,
-            "defense": 2,
-            "experience": 2
+            "hp": 20,
+            "attack": 5,
+            "defense": 5,
+            "experience": 10
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
-            "max_hp": 55,
-            "max_attack": 52
+            "max_hp": 70,
+            "max_attack": 55
           },
           "sleep_rate": "0%",
-          "wake_condition": "1 Tile",
+          "wake_condition": "High",
           "element": [],
           "item_drop": "",
-          "item_drop_rate": "2%",
+          "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            "Regular attacks only."
+            ""
           ],
           "notes_ally": [
-            "Regular attacks only."
+            ""
           ]
         },
         {
-          "name_en": "Pit Mamel",
-          "name_jp": "あなぐらマムル",
-          "id": "pit_mamel",
+          "name_en": "Trickster Mask",
+          "name_jp": "ふるまいカブリ",
+          "id": "trickster_mask",
           "rank": 2,
           "stats": {
-            "hp": 8,
-            "attack": 4,
-            "defense": 4,
-            "experience": 4
-          },
-          "ally_stats": {
-            "max_growth": 50,
-            "hp_increase": 1,
-            "attack_increase": 1,
-            "max_hp": 58,
-            "max_attack": 54
-          },
-          "sleep_rate": "0%",
-          "wake_condition": "1 Tile",
-          "element": [],
-          "item_drop": "",
-          "item_drop_rate": "6%",
-          "special_attack_rate": "",
-          "notes": [
-            "Same as Mamel."
-          ],
-          "notes_ally": [
-            "Same as Mamel."
-          ]
-        },
-        {
-          "name_en": "Cave Mamel",
-          "name_jp": "どうくつマムル",
-          "id": "cave_mamel",
-          "rank": 3,
-          "stats": {
-            "hp": 5,
-            "attack": 50,
-            "defense": 55,
+            "hp": 100,
+            "attack": 15,
+            "defense": 25,
             "experience": 500
           },
           "ally_stats": {
             "max_growth": 50,
             "hp_increase": 1,
             "attack_increase": 1,
-            "max_hp": 55,
-            "max_attack": 100
+            "max_hp": 150,
+            "max_attack": 65
           },
-          "sleep_rate": "100%",
-          "wake_condition": "1 Tile",
+          "sleep_rate": "0%",
+          "wake_condition": "High",
           "element": [],
           "item_drop": "",
-          "item_drop_rate": "10%",
+          "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            "Same as Mamel.",
-            "High attack."
+            "Same as Copycat Mask."
           ],
           "notes_ally": [
-            "Same as Mamel."
+            "Same as Copycat Mask."
+          ]
+        },
+        {
+          "name_en": "Impostor Mask",
+          "name_jp": "なりきりマスク",
+          "id": "impostor_mask",
+          "rank": 3,
+          "stats": {
+            "hp": 130,
+            "attack": 20,
+            "defense": 40,
+            "experience": 700
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 180,
+            "max_attack": 70
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "",
+          "notes": [
+            "Same as Copycat Mask."
+          ],
+          "notes_ally": [
+            "Same as Copycat Mask."
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Schubell Family",
+      "family_name_jp": "シューベル, メンベルス, ベルトーベン",
+      "family_id": "schubell_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "schubell.png",
+          "width": 58,
+          "height": 62
+        },
+        {
+          "filename": "menbell.png",
+          "width": 58,
+          "height": 62
+        },
+        {
+          "filename": "bellthoven.png",
+          "width": 58,
+          "height": 62
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Schubell",
+          "name_jp": "シューベル",
+          "id": "schubell",
+          "rank": 1,
+          "stats": {
+            "hp": 45,
+            "attack": 18,
+            "defense": 23,
+            "experience": 100
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 65,
+            "max_attack": 28
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Menbell",
+          "name_jp": "メンベルス",
+          "id": "menbell",
+          "rank": 2,
+          "stats": {
+            "hp": 60,
+            "attack": 50,
+            "defense": 49,
+            "experience": 1600
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 80,
+            "max_attack": 60
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Bellthoven",
+          "name_jp": "ベルトーベン",
+          "id": "bellthoven",
+          "rank": 3,
+          "stats": {
+            "hp": 80,
+            "attack": 55,
+            "defense": 40,
+            "experience": 1900
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 100,
+            "max_attack": 65
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Dosukoi Family",
+      "family_name_jp": "ドスコーイ, ハッキョーイ, ゴッツァーン",
+      "family_id": "dosukoi_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "dosukoi.png",
+          "width": 130,
+          "height": 96
+        },
+        {
+          "filename": "hakkeyoi.png",
+          "width": 130,
+          "height": 96
+        },
+        {
+          "filename": "gottsuan.png",
+          "width": 130,
+          "height": 96
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Dosukoi",
+          "name_jp": "ドスコーイ",
+          "id": "dosukoi",
+          "rank": 1,
+          "stats": {
+            "hp": 72,
+            "attack": 29,
+            "defense": 30,
+            "experience": 120
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 82,
+            "max_attack": 49
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Hakkeyoi",
+          "name_jp": "ハッキョーイ",
+          "id": "hakkeyoi",
+          "rank": 2,
+          "stats": {
+            "hp": 80,
+            "attack": 75,
+            "defense": 55,
+            "experience": 1900
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 90,
+            "max_attack": 95
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Gottsuan",
+          "name_jp": "ゴッツァーン",
+          "id": "gottsuan",
+          "rank": 3,
+          "stats": {
+            "hp": 105,
+            "attack": 94,
+            "defense": 64,
+            "experience": 3000
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 115,
+            "max_attack": 114
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Snacky",
+      "family_name_jp": "タベラレルー",
+      "family_id": "snacky",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "snacky.png",
+          "width": 54,
+          "height": 53
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Snacky",
+          "name_jp": "タベラレルー",
+          "id": "snacky",
+          "rank": 1,
+          "stats": {
+            "hp": 6,
+            "attack": 1,
+            "defense": 1,
+            "experience": 1
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 56,
+            "max_attack": 51
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "1 Tile",
+          "element": [
+            "Slow"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Tiny Phoenix",
+      "family_name_jp": "プチフェニックス",
+      "family_id": "tiny_phoenix",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "tiny_phoenix.png",
+          "width": 64,
+          "height": 82
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Tiny Phoenix",
+          "name_jp": "プチフェニックス",
+          "id": "tiny_phoenix",
+          "rank": 1,
+          "stats": {
+            "hp": 75,
+            "attack": 23,
+            "defense": 29,
+            "experience": 350
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 95,
+            "max_attack": 33
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "50%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Escargon",
+      "family_name_jp": "エスカルゴン",
+      "family_id": "escargon",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "escargon.png",
+          "width": 68,
+          "height": 79
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Escargon",
+          "name_jp": "エスカルゴン",
+          "id": "escargon",
+          "rank": 1,
+          "stats": {
+            "hp": 119,
+            "attack": 25,
+            "defense": 40,
+            "experience": 800
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 169,
+            "max_attack": 75
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Queen Spider",
+      "family_name_jp": "女王グモ",
+      "family_id": "queen_spider",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "queen_spider.png",
+          "width": 118,
+          "height": 112
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Queen Spider",
+          "name_jp": "女王グモ",
+          "id": "queen_spider",
+          "rank": 1,
+          "stats": {
+            "hp": 170,
+            "attack": 30,
+            "defense": 30,
+            "experience": 200
+          },
+          "ally_stats": {
+            "max_growth": 120,
+            "hp_increase": 5,
+            "attack_increase": 3,
+            "max_hp": 770,
+            "max_attack": 390
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "15%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Armor Spider",
+      "family_name_jp": "ヨロイグモ",
+      "family_id": "armor_spider",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "armor_spider.png",
+          "width": 118,
+          "height": 112
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Armor Spider",
+          "name_jp": "ヨロイグモ",
+          "id": "armor_spider",
+          "rank": 1,
+          "stats": {
+            "hp": 55,
+            "attack": 21,
+            "defense": 23,
+            "experience": 100
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 105,
+            "max_attack": 71
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "N'dubba",
+      "family_name_jp": "ンドゥバ",
+      "family_id": "ndubba",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "ndubba.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_20.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_30.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_60.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_70.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_77.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_88.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_90.png",
+          "width": 82,
+          "height": 74
+        },
+        {
+          "filename": "ndubba_99.png",
+          "width": 82,
+          "height": 74
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "N'dubba",
+          "name_jp": "ンドゥバ",
+          "id": "ndubba",
+          "rank": 1,
+          "stats": {
+            "hp": 23,
+            "attack": 10,
+            "defense": 6,
+            "experience": 16
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 38,
+            "max_attack": 25
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 20yr",
+          "name_jp": "ンドゥバはたち",
+          "id": "ndubba_20",
+          "rank": 20,
+          "stats": {
+            "hp": 67,
+            "attack": 29,
+            "defense": 25,
+            "experience": 35
+          },
+          "ally_stats": {
+            "max_growth": 38,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 105,
+            "max_attack": 67
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 30yr",
+          "name_jp": "ンドゥバみそじ",
+          "id": "ndubba_30",
+          "rank": 30,
+          "stats": {
+            "hp": 81,
+            "attack": 39,
+            "defense": 35,
+            "experience": 20
+          },
+          "ally_stats": {
+            "max_growth": 48,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 129,
+            "max_attack": 87
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 60yr",
+          "name_jp": "ンドゥバかんれき",
+          "id": "ndubba_60",
+          "rank": 60,
+          "stats": {
+            "hp": 100,
+            "attack": 86,
+            "defense": 45,
+            "experience": 20
+          },
+          "ally_stats": {
+            "max_growth": 42,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 142,
+            "max_attack": 128
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 70yr",
+          "name_jp": "ンドゥバこき",
+          "id": "ndubba_70",
+          "rank": 70,
+          "stats": {
+            "hp": 100,
+            "attack": 106,
+            "defense": 50,
+            "experience": 20
+          },
+          "ally_stats": {
+            "max_growth": 32,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 132,
+            "max_attack": 138
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 77yr",
+          "name_jp": "ンドゥバきじゅ",
+          "id": "ndubba_77",
+          "rank": 2,
+          "stats": {
+            "hp": 100,
+            "attack": 120,
+            "defense": 50,
+            "experience": 20
+          },
+          "ally_stats": {
+            "max_growth": 14,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 114,
+            "max_attack": 134
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 88yr",
+          "name_jp": "ンドゥバべいじゅ",
+          "id": "ndubba_88",
+          "rank": 2,
+          "stats": {
+            "hp": 100,
+            "attack": 130,
+            "defense": 50,
+            "experience": 4500
+          },
+          "ally_stats": {
+            "max_growth": 3,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 103,
+            "max_attack": 133
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 90yr",
+          "name_jp": "ンドゥバそつじゅ",
+          "id": "ndubba_90",
+          "rank": 2,
+          "stats": {
+            "hp": 100,
+            "attack": 100,
+            "defense": 20,
+            "experience": 2500
+          },
+          "ally_stats": {
+            "max_growth": 1,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 101,
+            "max_attack": 101
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "N'dubba 99yr",
+          "name_jp": "ンドゥバはくじゅ",
+          "id": "ndubba_99",
+          "rank": 2,
+          "stats": {
+            "hp": 1,
+            "attack": 1,
+            "defense": 1,
+            "experience": 1
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": "-",
+            "attack_increase": "-",
+            "max_hp": 1,
+            "max_attack": 1
+          },
+          "sleep_rate": "",
+          "wake_condition": "",
+          "element": [
+            "Slow"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Swordsman Family",
+      "family_name_jp": "ケンゴウ, イアイ, シハン",
+      "family_id": "swordsman_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "swordsman.png",
+          "width": 80,
+          "height": 114
+        },
+        {
+          "filename": "fencer.png",
+          "width": 80,
+          "height": 114
+        },
+        {
+          "filename": "master.png",
+          "width": 80,
+          "height": 114
+        }
+      ],
+      "type": "Weapon",
+      "entries": [
+        {
+          "name_en": "Swordsman",
+          "name_jp": "ケンゴウ",
+          "id": "swordsman",
+          "rank": 1,
+          "stats": {
+            "hp": 42,
+            "attack": 19,
+            "defense": 19,
+            "experience": 55
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 57,
+            "max_attack": 64
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Fencer",
+          "name_jp": "イアイ",
+          "id": "fencer",
+          "rank": 2,
+          "stats": {
+            "hp": 80,
+            "attack": 69,
+            "defense": 48,
+            "experience": 1450
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 95,
+            "max_attack": 114
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "Fencer's Sword",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Master",
+          "name_jp": "シハン",
+          "id": "master",
+          "rank": 3,
+          "stats": {
+            "hp": 125,
+            "attack": 90,
+            "defense": 65,
+            "experience": 2250
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 140,
+            "max_attack": 135
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "Fencer's Sword",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
           ]
         }
       ]

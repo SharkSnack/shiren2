@@ -86,8 +86,8 @@ function monster_details (data) {
               <td>${monster.stats.defense}</td>
               <td>${monster.stats.experience}</td>
               <td>${monster.element.join('<br>') || '-'}</td>
-              <td>${monster.sleep_rate}</td>
-              <td style="white-space:nowrap;">${monster.wake_condition}</td>
+              <td>${monster.sleep_rate || '-'}</td>
+              <td style="white-space:nowrap;">${monster.wake_condition || '-'}</td>
               <td>${monster.item_drop_rate}</td>
               <td>${monster.item_drop || '-'}</td>
               <td>${monster.special_attack_rate || '-'}</td>
