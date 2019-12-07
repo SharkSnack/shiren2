@@ -4516,6 +4516,1206 @@
           ]
         }
       ]
+    },
+    {
+      "family_name": "Gale Family",
+      "family_name_jp": "イダテン, シップウ, カミカゼ, ダイレップウ",
+      "family_id": "gale_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "gale.png",
+          "width": 134,
+          "height": 108
+        },
+        {
+          "filename": "whirlwind.png",
+          "width": 134,
+          "height": 108
+        },
+        {
+          "filename": "kamikaze.png",
+          "width": 134,
+          "height": 108
+        },
+        {
+          "filename": "typhoon.png",
+          "width": 134,
+          "height": 108
+        }
+      ],
+      "type": "Ghost",
+      "entries": [
+        {
+          "name_en": "Gale",
+          "name_jp": "イダテン",
+          "id": "gale",
+          "rank": 1,
+          "stats": {
+            "hp": 35,
+            "attack": 18,
+            "defense": 18,
+            "experience": 35
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 45,
+            "max_attack": 28
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "Low",
+          "element": [
+            "Fast (2x)",
+            "Floating",
+            "Weapon",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Whirlwind",
+          "name_jp": "シップウ",
+          "id": "whirlwind",
+          "rank": 2,
+          "stats": {
+            "hp": 60,
+            "attack": 18,
+            "defense": 23,
+            "experience": 85
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 70,
+            "max_attack": 28
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Fast (2x)",
+            "Floating",
+            "Flying",
+            "Weapon",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Kamikaze",
+          "name_jp": "カミカゼ",
+          "id": "kamikaze",
+          "rank": 3,
+          "stats": {
+            "hp": 100,
+            "attack": 33,
+            "defense": 55,
+            "experience": 2000
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 0,
+            "attack_increase": 2,
+            "max_hp": 100,
+            "max_attack": 43
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Fast (3x)",
+            "Floating",
+            "Flying",
+            "Weapon",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Typhoon",
+          "name_jp": "ダイレップウ",
+          "id": "typhoon",
+          "rank": 4,
+          "stats": {
+            "hp": 133,
+            "attack": 58,
+            "defense": 66,
+            "experience": 4000
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 0,
+            "attack_increase": 2,
+            "max_hp": 133,
+            "max_attack": 68
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Fast (3x)",
+            "Floating",
+            "Flying",
+            "Wall-clip",
+            "Weapon",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Yamikichi Family",
+      "family_name_jp": "ヤミキチ, ワルキチ, ズルキチ",
+      "family_id": "yamikichi_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "yamikichi.png",
+          "width": 78,
+          "height": 78
+        },
+        {
+          "filename": "warukichi.png",
+          "width": 78,
+          "height": 78
+        },
+        {
+          "filename": "zurukichi.png",
+          "width": 78,
+          "height": 78
+        }
+      ],
+      "type": "Ghost",
+      "entries": [
+        {
+          "name_en": "Yamikichi",
+          "name_jp": "ヤミキチ",
+          "id": "yamikichi",
+          "rank": 1,
+          "stats": {
+            "hp": 10,
+            "attack": 6,
+            "defense": 6,
+            "experience": 6
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 25,
+            "max_attack": 36
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating",
+            "Flying",
+            "Weapon",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "6%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Warukichi",
+          "name_jp": "ワルキチ",
+          "id": "warukichi",
+          "rank": 2,
+          "stats": {
+            "hp": 21,
+            "attack": 16,
+            "defense": 12,
+            "experience": 25
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 36,
+            "max_attack": 46
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating",
+            "Flying",
+            "Weapon",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Zurukichi",
+          "name_jp": "ズルキチ",
+          "id": "zurukichi",
+          "rank": 3,
+          "stats": {
+            "hp": 101,
+            "attack": 49,
+            "defense": 35,
+            "experience": 790
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 116,
+            "max_attack": 79
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating",
+            "Flying",
+            "Weapon",
+            "Ghost"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "6%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Twisty Hani",
+      "family_name_jp": "くねくねハニー",
+      "family_id": "twisty_hani",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "twisty_hani.png",
+          "width": 42,
+          "height": 59
+        }
+      ],
+      "type": "Drain",
+      "entries": [
+        {
+          "name_en": "Twisty Hani",
+          "name_jp": "くねくねハニー",
+          "id": "twisty_hani",
+          "rank": 1,
+          "stats": {
+            "hp": 50,
+            "attack": 30,
+            "defense": 30,
+            "experience": 300
+          },
+          "ally_stats": {
+            "max_growth": 30,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 80,
+            "max_attack": 60
+          },
+          "sleep_rate": "100%",
+          "wake_condition": "1 Tile",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "35%",
+          "special_attack_rate": "80%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Slug Family",
+      "family_name_jp": "しおいやん, まじしおいやん, しおやだん, しおかんべん",
+      "family_id": "slug_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "slug.png",
+          "width": 68,
+          "height": 74
+        },
+        {
+          "filename": "serious_slug.png",
+          "width": 68,
+          "height": 74
+        },
+        {
+          "filename": "rancor_slug.png",
+          "width": 68,
+          "height": 74
+        },
+        {
+          "filename": "intolerable_slug.png",
+          "width": 68,
+          "height": 74
+        }
+      ],
+      "type": "Drain",
+      "entries": [
+        {
+          "name_en": "Slug",
+          "name_jp": "しおいやん",
+          "id": "slug",
+          "rank": 1,
+          "stats": {
+            "hp": 11,
+            "attack": 4,
+            "defense": 6,
+            "experience": 5
+          },
+          "ally_stats": {
+            "max_growth": 40,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 51,
+            "max_attack": 44
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Serious Slug",
+          "name_jp": "まじしおいやん",
+          "id": "serious_slug",
+          "rank": 2,
+          "stats": {
+            "hp": 40,
+            "attack": 10,
+            "defense": 18,
+            "experience": 35
+          },
+          "ally_stats": {
+            "max_growth": 40,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 80,
+            "max_attack": 50
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "35%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Rancor Slug",
+          "name_jp": "しおやだん",
+          "id": "rancor_slug",
+          "rank": 3,
+          "stats": {
+            "hp": 70,
+            "attack": 38,
+            "defense": 41,
+            "experience": 690
+          },
+          "ally_stats": {
+            "max_growth": 40,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 110,
+            "max_attack": 78
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "18%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Intolerable Slug",
+          "name_jp": "しおかんべん",
+          "id": "intolerable_slug",
+          "rank": 4,
+          "stats": {
+            "hp": 65,
+            "attack": 45,
+            "defense": 40,
+            "experience": 750
+          },
+          "ally_stats": {
+            "max_growth": 40,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 145,
+            "max_attack": 85
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "12%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Scorpion Family",
+      "family_name_jp": "毒サソリ, 鬼サソリ, しびれサソリ",
+      "family_id": "scorpion_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "scorpion.png",
+          "width": 102,
+          "height": 110
+        },
+        {
+          "filename": "demon_scorpion.png",
+          "width": 102,
+          "height": 110
+        },
+        {
+          "filename": "stun_scorpion.png",
+          "width": 102,
+          "height": 110
+        }
+      ],
+      "type": "Drain",
+      "entries": [
+        {
+          "name_en": "Scorpion",
+          "name_jp": "毒サソリ",
+          "id": "scorpion",
+          "rank": 1,
+          "stats": {
+            "hp": 28,
+            "attack": 15,
+            "defense": 17,
+            "experience": 30
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 43,
+            "max_attack": 45
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Demon Scorpion",
+          "name_jp": "鬼サソリ",
+          "id": "demon_scorpion",
+          "rank": 2,
+          "stats": {
+            "hp": 65,
+            "attack": 27,
+            "defense": 24,
+            "experience": 95
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 80,
+            "max_attack": 57
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Stun Scorpion",
+          "name_jp": "しびれサソリ",
+          "id": "stun_scorpion",
+          "rank": 3,
+          "stats": {
+            "hp": 125,
+            "attack": 108,
+            "defense": 73,
+            "experience": 4900
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 140,
+            "max_attack": 138
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Hunger Puppet Family",
+      "family_name_jp": "ハラヘリーニョ, ハラヘリータ, ハラヘッリオ, ハラベルト",
+      "family_id": "hunger_puppet_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "hunger_puppet.png",
+          "width": 74,
+          "height": 90
+        },
+        {
+          "filename": "starve_puppet.png",
+          "width": 74,
+          "height": 90
+        },
+        {
+          "filename": "famine_puppet.png",
+          "width": 74,
+          "height": 90
+        },
+        {
+          "filename": "diet_puppet.png",
+          "width": 74,
+          "height": 90
+        }
+      ],
+      "type": "Drain",
+      "entries": [
+        {
+          "name_en": "Hunger Puppet",
+          "name_jp": "ハラヘリーニョ",
+          "id": "hunger_puppet",
+          "rank": 1,
+          "stats": {
+            "hp": 15,
+            "attack": 9,
+            "defense": 10,
+            "experience": 11
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 65,
+            "max_attack": 59
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "Low",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "35%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Starve Puppet",
+          "name_jp": "ハラヘリータ",
+          "id": "starve_puppet",
+          "rank": 2,
+          "stats": {
+            "hp": 52,
+            "attack": 18,
+            "defense": 22,
+            "experience": 50
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 102,
+            "max_attack": 68
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "35%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Famine Puppet",
+          "name_jp": "ハラヘッリオ",
+          "id": "famine_puppet",
+          "rank": 3,
+          "stats": {
+            "hp": 80,
+            "attack": 40,
+            "defense": 43,
+            "experience": 810
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 130,
+            "max_attack": 90
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Diet Puppet",
+          "name_jp": "ハラベルト",
+          "id": "diet_puppet",
+          "rank": 4,
+          "stats": {
+            "hp": 70,
+            "attack": 48,
+            "defense": 49,
+            "experience": 1300
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 120,
+            "max_attack": 98
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Drain"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "5%",
+          "special_attack_rate": "18%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Gazer Family",
+      "family_name_jp": "ゲイズ, スーパーゲイズ, ハイパーゲイズ",
+      "family_id": "gazer_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "gazer.png",
+          "width": 56,
+          "height": 81
+        },
+        {
+          "filename": "super_gazer.png",
+          "width": 56,
+          "height": 81
+        },
+        {
+          "filename": "hyper_gazer.png",
+          "width": 56,
+          "height": 81
+        }
+      ],
+      "type": "One-eyed",
+      "entries": [
+        {
+          "name_en": "Gazer",
+          "name_jp": "ゲイズ",
+          "id": "gazer",
+          "rank": 1,
+          "stats": {
+            "hp": 19,
+            "attack": 9,
+            "defense": 11,
+            "experience": 20
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 34,
+            "max_attack": 39
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Magic",
+            "One-eyed"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Super Gazer",
+          "name_jp": "スーパーゲイズ",
+          "id": "super_gazer",
+          "rank": 2,
+          "stats": {
+            "hp": 50,
+            "attack": 32,
+            "defense": 35,
+            "experience": 200
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 65,
+            "max_attack": 62
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Magic",
+            "One-eyed"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Hyper Gazer",
+          "name_jp": "ハイパーゲイズ",
+          "id": "hyper_gazer",
+          "rank": 3,
+          "stats": {
+            "hp": 100,
+            "attack": 63,
+            "defense": 55,
+            "experience": 2000
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 115,
+            "max_attack": 93
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Magic",
+            "One-eyed"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Ironhead Family",
+      "family_name_jp": "アイアンヘッド, チェインヘッド, ギガヘッド",
+      "family_id": "ironhead_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "ironhead.png",
+          "width": 82,
+          "height": 108
+        },
+        {
+          "filename": "chainhead.png",
+          "width": 82,
+          "height": 108
+        },
+        {
+          "filename": "gigahead.png",
+          "width": 82,
+          "height": 108
+        }
+      ],
+      "type": "One-eyed",
+      "entries": [
+        {
+          "name_en": "Ironhead",
+          "name_jp": "アイアンヘッド",
+          "id": "ironhead",
+          "rank": 1,
+          "stats": {
+            "hp": 40,
+            "attack": 21,
+            "defense": 19,
+            "experience": 43
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 70,
+            "max_attack": 66
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "Low",
+          "element": [
+            "One-eyed"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Chainhead",
+          "name_jp": "チェインヘッド",
+          "id": "chainhead",
+          "rank": 2,
+          "stats": {
+            "hp": 69,
+            "attack": 30,
+            "defense": 24,
+            "experience": 75
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 99,
+            "max_attack": 75
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "Low",
+          "element": [
+            "One-eyed"
+          ],
+          "item_drop": "Ironhead's Head",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Gigahead",
+          "name_jp": "ギガヘッド",
+          "id": "gigahead",
+          "rank": 3,
+          "stats": {
+            "hp": 140,
+            "attack": 120,
+            "defense": 71,
+            "experience": 3150
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 150,
+            "max_attack": 135
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "Low",
+          "element": [
+            "One-eyed"
+          ],
+          "item_drop": "Ironhead's Head",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Golem Family",
+      "family_name_jp": "ゴーレム, ストーンゴーレム, マグマゴーレム",
+      "family_id": "golem_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "golem.png",
+          "width": 108,
+          "height": 110
+        },
+        {
+          "filename": "stone_golem.png",
+          "width": 108,
+          "height": 110
+        },
+        {
+          "filename": "magma_golem.png",
+          "width": 108,
+          "height": 110
+        }
+      ],
+      "type": "One-eyed",
+      "entries": [
+        {
+          "name_en": "Golem",
+          "name_jp": "ゴーレム",
+          "id": "golem",
+          "rank": 1,
+          "stats": {
+            "hp": 43,
+            "attack": 20,
+            "defense": 18,
+            "experience": 40
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 5,
+            "max_hp": 73,
+            "max_attack": 70
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "One-eyed"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Stone Golem",
+          "name_jp": "ストーンゴーレム",
+          "id": "stone_golem",
+          "rank": 2,
+          "stats": {
+            "hp": 70,
+            "attack": 40,
+            "defense": 40,
+            "experience": 550
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 5,
+            "max_hp": 100,
+            "max_attack": 90
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "One-eyed"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Magma Golem",
+          "name_jp": "マグマゴーレム",
+          "id": "magma_golem",
+          "rank": 3,
+          "stats": {
+            "hp": 95,
+            "attack": 50,
+            "defense": 51,
+            "experience": 1250
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 5,
+            "max_hp": 125,
+            "max_attack": 100
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "One-eyed"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
