@@ -2567,6 +2567,1064 @@
           ]
         }
       ]
+    },
+    {
+      "family_name": "Tiger Tosser Family",
+      "family_name_jp": "タイガーウッホ, タイガーウホホ, タイガーウホーン",
+      "family_id": "tiger_tosser_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "tiger_tosser.png",
+          "width": 100,
+          "height": 122
+        },
+        {
+          "filename": "tiger_hurler.png",
+          "width": 100,
+          "height": 122
+        },
+        {
+          "filename": "tiger_chucker.png",
+          "width": 100,
+          "height": 122
+        }
+      ],
+      "type": "Throwing",
+      "entries": [
+        {
+          "name_en": "Tiger Tosser",
+          "name_jp": "タイガーウッホ",
+          "id": "tiger_tosser",
+          "rank": 1,
+          "stats": {
+            "hp": 33,
+            "attack": 16,
+            "defense": 15,
+            "experience": 35
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 3,
+            "attack_increase": 2,
+            "max_hp": 78,
+            "max_attack": 46
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "Low",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "50%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Tiger Hurler",
+          "name_jp": "タイガーウホホ",
+          "id": "tiger_hurler",
+          "rank": 2,
+          "stats": {
+            "hp": 40,
+            "attack": 26,
+            "defense": 27,
+            "experience": 65
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 3,
+            "attack_increase": 2,
+            "max_hp": 85,
+            "max_attack": 56
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "50%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Tiger Chucker",
+          "name_jp": "タイガーウホーン",
+          "id": "tiger_chucker",
+          "rank": 3,
+          "stats": {
+            "hp": 72,
+            "attack": 62,
+            "defense": 60,
+            "experience": 2400
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 3,
+            "attack_increase": 2,
+            "max_hp": 117,
+            "max_attack": 92
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "50%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "King Tusker Family",
+      "family_name_jp": "パ王, パオパ王, パオパ王ーン",
+      "family_id": "king_tusker_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "king_tusker.png",
+          "width": 112,
+          "height": 104
+        },
+        {
+          "filename": "monarch_tusker.png",
+          "width": 112,
+          "height": 104
+        },
+        {
+          "filename": "emperor_tusker.png",
+          "width": 112,
+          "height": 104
+        }
+      ],
+      "type": "Magic",
+      "entries": [
+        {
+          "name_en": "King Tusker",
+          "name_jp": "パ王",
+          "id": "king_tusker",
+          "rank": 1,
+          "stats": {
+            "hp": 55,
+            "attack": 20,
+            "defense": 19,
+            "experience": 47
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 85,
+            "max_attack": 65
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "Low",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "Seal Staff",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Monarch Tusker",
+          "name_jp": "パオパ王",
+          "id": "monarch_tusker",
+          "rank": 2,
+          "stats": {
+            "hp": 66,
+            "attack": 32,
+            "defense": 26,
+            "experience": 100
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 86,
+            "max_attack": 62
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "Low",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "Slow Staff",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "35%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Emperor Tusker",
+          "name_jp": "パオパ王ーン",
+          "id": "emperor_tusker",
+          "rank": 3,
+          "stats": {
+            "hp": 130,
+            "attack": 98,
+            "defense": 70,
+            "experience": 3500
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 140,
+            "max_attack": 113
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "Quarter Staff",
+          "item_drop_rate": "10%",
+          "special_attack_rate": "23%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Bat Kangaroo Family",
+      "family_name_jp": "バットカンガルー, エビルカンガルー, デビルカンガルー",
+      "family_id": "bat_kangaroo_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "bat_kangaroo.png",
+          "width": 116,
+          "height": 117
+        },
+        {
+          "filename": "evil_kangaroo.png",
+          "width": 116,
+          "height": 117
+        },
+        {
+          "filename": "devil_kangaroo.png",
+          "width": 116,
+          "height": 117
+        }
+      ],
+      "type": "Magic",
+      "entries": [
+        {
+          "name_en": "Bat Kangaroo",
+          "name_jp": "バットカンガルー",
+          "id": "bat_kangaroo",
+          "rank": 1,
+          "stats": {
+            "hp": 44,
+            "attack": 16,
+            "defense": 17,
+            "experience": 52
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 3,
+            "attack_increase": 1,
+            "max_hp": 104,
+            "max_attack": 36
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "Swift Staff",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Evil Kangaroo",
+          "name_jp": "エビルカンガルー",
+          "id": "evil_kangaroo",
+          "rank": 2,
+          "stats": {
+            "hp": 55,
+            "attack": 24,
+            "defense": 20,
+            "experience": 60
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 3,
+            "attack_increase": 1,
+            "max_hp": 115,
+            "max_attack": 44
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "Heal Staff",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Devil Kangaroo",
+          "name_jp": "デビルカンガルー",
+          "id": "devil_kangaroo",
+          "rank": 3,
+          "stats": {
+            "hp": 65,
+            "attack": 37,
+            "defense": 40,
+            "experience": 450
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 3,
+            "attack_increase": 1,
+            "max_hp": 125,
+            "max_attack": 57
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "Invisible Staff",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Sheep Priest Family",
+      "family_name_jp": "ヒツジ神官, ヤギ司祭, ガゼル教皇",
+      "family_id": "sheep_priest_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "sheep_priest.png",
+          "width": 72,
+          "height": 93
+        },
+        {
+          "filename": "goat_pastor.png",
+          "width": 72,
+          "height": 93
+        },
+        {
+          "filename": "gazelle_pope.png",
+          "width": 72,
+          "height": 93
+        }
+      ],
+      "type": "Magic",
+      "entries": [
+        {
+          "name_en": "Sheep Priest",
+          "name_jp": "ヒツジ神官",
+          "id": "sheep_priest",
+          "rank": 1,
+          "stats": {
+            "hp": 27,
+            "attack": 14,
+            "defense": 14,
+            "experience": 32
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 3,
+            "max_hp": 57,
+            "max_attack": 44
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Goat Pastor",
+          "name_jp": "ヤギ司祭",
+          "id": "goat_pastor",
+          "rank": 2,
+          "stats": {
+            "hp": 29,
+            "attack": 17,
+            "defense": 16,
+            "experience": 48
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 3,
+            "max_hp": 59,
+            "max_attack": 47
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Gazelle Pope",
+          "name_jp": "ガゼル教皇",
+          "id": "gazelle_pope",
+          "rank": 3,
+          "stats": {
+            "hp": 87,
+            "attack": 55,
+            "defense": 55,
+            "experience": 2200
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 3,
+            "max_hp": 117,
+            "max_attack": 85
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Magic"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Nigiri Trainee Family",
+      "family_name_jp": "にぎりみならい, にぎりへんげ, にぎり親方, にぎりもとじめ",
+      "family_id": "nigiri_trainee_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "nigiri_trainee.png",
+          "width": 62,
+          "height": 77
+        },
+        {
+          "filename": "nigiri_morph.png",
+          "width": 62,
+          "height": 77
+        },
+        {
+          "filename": "nigiri_boss.png",
+          "width": 62,
+          "height": 77
+        },
+        {
+          "filename": "nigiri_manager.png",
+          "width": 62,
+          "height": 77
+        }
+      ],
+      "type": "Item Change",
+      "entries": [
+        {
+          "name_en": "Nigiri Trainee",
+          "name_jp": "にぎりみならい",
+          "id": "nigiri_trainee",
+          "rank": 1,
+          "stats": {
+            "hp": 12,
+            "attack": 5,
+            "defense": 6,
+            "experience": 6
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 22,
+            "max_attack": 35
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "5%",
+          "special_attack_rate": "",
+          "notes": [
+            "Regular Attacks only."
+          ],
+          "notes_ally": [
+            "Regular Attacks only."
+          ]
+        },
+        {
+          "name_en": "Nigiri Morph",
+          "name_jp": "にぎりへんげ",
+          "id": "nigiri_morph",
+          "rank": 2,
+          "stats": {
+            "hp": 28,
+            "attack": 12,
+            "defense": 11,
+            "experience": 28
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 3,
+            "max_hp": 38,
+            "max_attack": 42
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "Low",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Nigiri Boss",
+          "name_jp": "にぎり親方",
+          "id": "nigiri_boss",
+          "rank": 3,
+          "stats": {
+            "hp": 55,
+            "attack": 24,
+            "defense": 20,
+            "experience": 65
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 75,
+            "max_attack": 54
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Nigiri Manager",
+          "name_jp": "にぎりもとじめ",
+          "id": "nigiri_manager",
+          "rank": 4,
+          "stats": {
+            "hp": 70,
+            "attack": 55,
+            "defense": 40,
+            "experience": 1600
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 3,
+            "max_hp": 90,
+            "max_attack": 85
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Mixer Family",
+      "family_name_jp": "マゼルン, マゼモン, マゼゴン",
+      "family_id": "mixer_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "mixer.png",
+          "width": 100,
+          "height": 99
+        },
+        {
+          "filename": "mixermon.png",
+          "width": 100,
+          "height": 99
+        },
+        {
+          "filename": "mixergon.png",
+          "width": 100,
+          "height": 99
+        }
+      ],
+      "type": "Item Change",
+      "entries": [
+        {
+          "name_en": "Mixer",
+          "name_jp": "マゼルン",
+          "id": "mixer",
+          "rank": 1,
+          "stats": {
+            "hp": 32,
+            "attack": 19,
+            "defense": 16,
+            "experience": 45
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 5,
+            "attack_increase": 5,
+            "max_hp": 57,
+            "max_attack": 44
+          },
+          "sleep_rate": "45%",
+          "wake_condition": "Low",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Mixermon",
+          "name_jp": "マゼモン",
+          "id": "mixermon",
+          "rank": 2,
+          "stats": {
+            "hp": 50,
+            "attack": 25,
+            "defense": 21,
+            "experience": 58
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 5,
+            "attack_increase": 5,
+            "max_hp": 75,
+            "max_attack": 50
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Mixergon",
+          "name_jp": "マゼゴン",
+          "id": "mixergon",
+          "rank": 3,
+          "stats": {
+            "hp": 121,
+            "attack": 48,
+            "defense": 52,
+            "experience": 2500
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 5,
+            "attack_increase": 5,
+            "max_hp": 146,
+            "max_attack": 73
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Straw Voodoll Family",
+      "family_name_jp": "ワラドール, クギワラドール, ゴスンドール",
+      "family_id": "straw_voodoll_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "straw_voodoll.png",
+          "width": 58,
+          "height": 106
+        },
+        {
+          "filename": "nailed_voodoll.png",
+          "width": 58,
+          "height": 106
+        },
+        {
+          "filename": "spiked_voodoll.png",
+          "width": 58,
+          "height": 106
+        }
+      ],
+      "type": "Item Change",
+      "entries": [
+        {
+          "name_en": "Straw Voodoll",
+          "name_jp": "ワラドール",
+          "id": "straw_voodoll",
+          "rank": 1,
+          "stats": {
+            "hp": 25,
+            "attack": 13,
+            "defense": 15,
+            "experience": 14
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 125,
+            "max_attack": 63
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "Low",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "19%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Nailed Voodoll",
+          "name_jp": "クギワラドール",
+          "id": "nailed_voodoll",
+          "rank": 2,
+          "stats": {
+            "hp": 80,
+            "attack": 42,
+            "defense": 50,
+            "experience": 800
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 180,
+            "max_attack": 92
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Spiked Voodoll",
+          "name_jp": "ゴスンドール",
+          "id": "spiked_voodoll",
+          "rank": 3,
+          "stats": {
+            "hp": 100,
+            "attack": 66,
+            "defense": 54,
+            "experience": 1650
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 1,
+            "max_hp": 200,
+            "max_attack": 116
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "15%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Weather Doll Family",
+      "family_name_jp": "ケロぼうず, ケロケロぼうず, ジャノメぼうず, ドシャブリぼうず",
+      "family_id": "weather_doll_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "weather_doll.png",
+          "width": 86,
+          "height": 86
+        },
+        {
+          "filename": "rainy_doll.png",
+          "width": 86,
+          "height": 86
+        },
+        {
+          "filename": "stormy_doll.png",
+          "width": 86,
+          "height": 86
+        },
+        {
+          "filename": "monsoon_doll.png",
+          "width": 86,
+          "height": 86
+        }
+      ],
+      "type": "Item Change",
+      "entries": [
+        {
+          "name_en": "Weather Doll",
+          "name_jp": "ケロぼうず",
+          "id": "weather_doll",
+          "rank": 1,
+          "stats": {
+            "hp": 6,
+            "attack": 6,
+            "defense": 6,
+            "experience": 5
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 5,
+            "attack_increase": 2,
+            "max_hp": 56,
+            "max_attack": 26
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            "Regular Attacks only."
+          ],
+          "notes_ally": [
+            "Regular Attacks only."
+          ]
+        },
+        {
+          "name_en": "Rainy Doll",
+          "name_jp": "ケロケロぼうず",
+          "id": "rainy_doll",
+          "rank": 2,
+          "stats": {
+            "hp": 20,
+            "attack": 11,
+            "defense": 14,
+            "experience": 30
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 5,
+            "attack_increase": 2,
+            "max_hp": 70,
+            "max_attack": 31
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Stormy Doll",
+          "name_jp": "ジャノメぼうず",
+          "id": "stormy_doll",
+          "rank": 3,
+          "stats": {
+            "hp": 65,
+            "attack": 20,
+            "defense": 21,
+            "experience": 70
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 5,
+            "attack_increase": 2,
+            "max_hp": 115,
+            "max_attack": 40
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Monsoon Doll",
+          "name_jp": "ドシャブリぼうず",
+          "id": "monsoon_doll",
+          "rank": 4,
+          "stats": {
+            "hp": 85,
+            "attack": 46,
+            "defense": 50,
+            "experience": 1450
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 185,
+            "max_attack": 146
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Floating"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "18%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
