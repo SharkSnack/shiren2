@@ -54,18 +54,6 @@
           ],
           "notes_ally": [
             "Regular attacks only."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -97,18 +85,6 @@
           ],
           "notes_ally": [
             "Same as Mamel."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -141,18 +117,6 @@
           ],
           "notes_ally": [
             "Same as Mamel."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         }
       ]
@@ -211,18 +175,6 @@
           ],
           "notes_ally": [
             "Regular attacks only."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -254,18 +206,6 @@
           ],
           "notes_ally": [
             "Same as Chintala."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -297,18 +237,6 @@
           ],
           "notes_ally": [
             "Same as Chintala."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         }
       ]
@@ -370,18 +298,6 @@
           "notes_ally": [
             "Special attack breaks traps in front of it.",
             "Can break statues in a single hit."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -413,18 +329,6 @@
           ],
           "notes_ally": [
             "Same as Piko Hammer."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -456,18 +360,6 @@
           ],
           "notes_ally": [
             "Same as Piko Hammer."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         }
       ]
@@ -528,18 +420,6 @@
           "notes_ally": [
             "Tackles an enemy to make them trip and drop an item.",
             "Tackle deals 4 damage and 1 tile of knockback."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -573,18 +453,6 @@
           "notes_ally": [
             "Same as Armordillo.",
             "Tackle deals 6 damage and 2 tiles of knockback."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -618,18 +486,6 @@
           "notes_ally": [
             "Same as Armordillo.",
             "Tackle deals 10 damage and 3 tiles of knockback."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         }
       ]
@@ -694,18 +550,6 @@
           ],
           "notes_ally": [
             "Special attack drops a Droplet Trap and warps away."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -737,18 +581,6 @@
           ],
           "notes_ally": [
             "Special attack drops a Landmine and warps away."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -780,18 +612,6 @@
           ],
           "notes_ally": [
             "Special attack drops a Summon Trap and warps away."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -823,18 +643,6 @@
           ],
           "notes_ally": [
             "Special attack drops a Big Landmine and warps away."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         }
       ]
@@ -897,18 +705,6 @@
           "notes_ally": [
             "Ally: Doesn't run away.",
             "Posession: Regular attacks only."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -945,18 +741,6 @@
           "notes_ally": [
             "Ally: Doesn't run away.",
             "Posession: Warps after receiving damage."
-          ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
           ]
         },
         {
@@ -994,18 +778,259 @@
             "Ally: Doesn't run away.",
             "Posession: Warps after receiving damage.",
             "Can also warp using its special attack."
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Stone Beast Family",
+      "family_name_jp": "岩獣ズドン, 岩獣ガガン, 岩獣ドガガーン",
+      "family_id": "stone_beast_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "stone_beast.png",
+          "width": 102,
+          "height": 106
+        },
+        {
+          "filename": "rock_beast.png",
+          "width": 102,
+          "height": 106
+        },
+        {
+          "filename": "boulder_beast.png",
+          "width": 102,
+          "height": 106
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Stone Beast",
+          "name_jp": "岩獣ズドン",
+          "id": "mamel",
+          "rank": 1,
+          "stats": {
+            "hp": 55,
+            "attack": 27,
+            "defense": 21,
+            "experience": 40
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 3,
+            "max_hp": 85,
+            "max_attack": 57
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "10%",
+          "special_attack_rate": "5%",
+          "notes": [
+            "Performs a tackle that sends a target flying until they hit a wall or waterway.",
+            "Tackle deals 5 damage."
           ],
-          "locations": [
-            "Small Valley",
-            "Shuten Trail Easy",
-            "Shuten Trail Mid",
-            "Shuten Trail Hard",
-            "Onigashima",
-            "Hidden Hole",
-            "Hidden Hole (B)",
-            "Sealed Room",
-            "Halfway Well",
-            "Road to the End"
+          "notes_ally": [
+            "Performs a tackle that sends a target flying until they hit a wall.",
+            "Tackle deals 5 damage."
+          ]
+        },
+        {
+          "name_en": "Rock Beast",
+          "name_jp": "岩獣ガガン",
+          "id": "pit_mamel",
+          "rank": 2,
+          "stats": {
+            "hp": 70,
+            "attack": 28,
+            "defense": 26,
+            "experience": 85
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 3,
+            "attack_increase": 3,
+            "max_hp": 100,
+            "max_attack": 58
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "25%",
+          "notes": [
+            "Same as Stone Beast.",
+            "Tackle deals 10 damage and paralyzes.",
+            "If the target collides with a breakable wall, they will be sent into the wall by 2 tiles."
+          ],
+          "notes_ally": [
+            "Same as Stone Beast.",
+            "Tackle deals 10 damage and paralyzes.",
+            "(Shiren: 3 turns, Enemy: 2 turns).",
+            "If the target collides with a breakable wall, they will be sent into the wall by 2 tiles."
+          ]
+        },
+        {
+          "name_en": "Boulder Beast",
+          "name_jp": "岩獣ドガガーン",
+          "id": "cave_mamel",
+          "rank": 3,
+          "stats": {
+            "hp": 115,
+            "attack": 102,
+            "defense": 71,
+            "experience": 3100
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 3,
+            "attack_increase": 3,
+            "max_hp": 130,
+            "max_attack": 117
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "32%",
+          "special_attack_rate": "20%",
+          "notes": [
+            "Same as Stone Beast.",
+            "Tackle deals 15 damage and paralyzes.",
+            "If the target collides with a breakable wall, they will be knocked into the wall by 5 tiles."
+          ],
+          "notes_ally": [
+            "Same as Stone Beast.",
+            "Tackle deals 15 damage and paralyzes.",
+            "(Shiren: 3 turns, Enemy: 2 turns).",
+            "If the target collides with a breakable wall, they will be knocked into the wall by 5 tiles."
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Copycat Mask Family",
+      "family_name_jp": "ものまね仮面, ふるまいカブリ, なりきりマスク",
+      "family_id": "copycat_mask_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "copycat_mask.png",
+          "width": 84,
+          "height": 100
+        },
+        {
+          "filename": "trickster_mask.png",
+          "width": 84,
+          "height": 100
+        },
+        {
+          "filename": "impostor_mask.png",
+          "width": 84,
+          "height": 100
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Copycat Mask",
+          "name_jp": "ものまね仮面",
+          "id": "mamel",
+          "rank": 1,
+          "stats": {
+            "hp": 5,
+            "attack": 2,
+            "defense": 2,
+            "experience": 2
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 55,
+            "max_attack": 52
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "1 Tile",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "",
+          "notes": [
+            "Regular attacks only."
+          ],
+          "notes_ally": [
+            "Regular attacks only."
+          ]
+        },
+        {
+          "name_en": "Pit Mamel",
+          "name_jp": "あなぐらマムル",
+          "id": "pit_mamel",
+          "rank": 2,
+          "stats": {
+            "hp": 8,
+            "attack": 4,
+            "defense": 4,
+            "experience": 4
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 58,
+            "max_attack": 54
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "1 Tile",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "6%",
+          "special_attack_rate": "",
+          "notes": [
+            "Same as Mamel."
+          ],
+          "notes_ally": [
+            "Same as Mamel."
+          ]
+        },
+        {
+          "name_en": "Cave Mamel",
+          "name_jp": "どうくつマムル",
+          "id": "cave_mamel",
+          "rank": 3,
+          "stats": {
+            "hp": 5,
+            "attack": 50,
+            "defense": 55,
+            "experience": 500
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 55,
+            "max_attack": 100
+          },
+          "sleep_rate": "100%",
+          "wake_condition": "1 Tile",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "10%",
+          "special_attack_rate": "",
+          "notes": [
+            "Same as Mamel.",
+            "High attack."
+          ],
+          "notes_ally": [
+            "Same as Mamel."
           ]
         }
       ]
