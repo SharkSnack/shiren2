@@ -872,7 +872,7 @@
           "notes_ally": [
             "Same as Stone Beast.",
             "Tackle deals 10 damage and paralyzes.",
-            "(Shiren: 3 turns, Enemy: 2 turns).",
+            "(Shiren: 3 turns, Enemy: 1 turn).",
             "If the target collides with a breakable wall, they will be sent into the wall by 2 tiles."
           ]
         },
@@ -908,7 +908,7 @@
           "notes_ally": [
             "Same as Stone Beast.",
             "Tackle deals 15 damage and paralyzes.",
-            "(Shiren: 3 turns, Enemy: 2 turns).",
+            "(Shiren: 3 turns, Enemy: 1 turn).",
             "If the target collides with a breakable wall, they will be sent into the wall by 5 tiles."
           ]
         }
@@ -964,10 +964,11 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Takes the form of a monster that can be found on that floor."
           ],
           "notes_ally": [
-            ""
+            "Ally: Takes the form of a monster that can be found on that floor.",
+            "Posession: Special attack takes the form of the monster in front of it."
           ]
         },
         {
@@ -1084,7 +1085,7 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Summons a level 1 monster based on the current floor's monster table."
           ],
           "notes_ally": [
             ""
@@ -1115,7 +1116,7 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Summons a level 2 monster based on the current floor's monster table."
           ],
           "notes_ally": [
             ""
@@ -1146,7 +1147,7 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Summons 1~3 level 3 monsters based on the current floor's monster table."
           ],
           "notes_ally": [
             ""
@@ -1204,7 +1205,8 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Pushes statues.",
+            "Stomps the ground, causing items in the room to move around."
           ],
           "notes_ally": [
             ""
@@ -1235,7 +1237,8 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Pushes statues.",
+            "Stomps the ground, causing characters in the room to move around."
           ],
           "notes_ally": [
             ""
@@ -1266,7 +1269,8 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Pushes statues and stairs.",
+            "Stomps the ground, causing items and characters in the room to move around."
           ],
           "notes_ally": [
             ""
@@ -1316,7 +1320,8 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Runs away from Shiren.",
+            "Other monsters prioritize Snacky over Shiren."
           ],
           "notes_ally": [
             ""
@@ -1366,7 +1371,10 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "50%",
           "notes": [
-            ""
+            "Warps to a hurt monster within 10 tiles of Shiren and restores 50HP.",
+            "Heals from afar if there isn't enough room to move.",
+            "Special use rate increases to 75% if it doesn't warp.",
+            "Immune to fire damage."
           ],
           "notes_ally": [
             ""
@@ -1414,7 +1422,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Reflects staff magic.",
+            "Warps in front of a monster and reflects the magic bolt if another monster is about to get hit by a staff.",
+            "Cannot act during the next turn after warping.",
+            "Cannot warp if there isn't space in front of the other monster."
           ],
           "notes_ally": [
             ""
@@ -1462,7 +1473,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "15%",
           "notes": [
-            ""
+            "Special spawns 3 Armor Spiders on the current floor."
           ],
           "notes_ally": [
             ""
@@ -1510,10 +1521,10 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Regular attacks only."
           ],
           "notes_ally": [
-            ""
+            "Regular attacks only."
           ]
         }
       ]
@@ -1598,7 +1609,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Disguises itself as an item and attacks Shiren when he tries to pick it up. (Green: 1~19yr)"
           ],
           "notes_ally": [
             ""
@@ -1629,7 +1640,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (Pink: 20~29yr)"
           ],
           "notes_ally": [
             ""
@@ -1660,7 +1671,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (Blue: 30~59yr)"
           ],
           "notes_ally": [
             ""
@@ -1693,7 +1704,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (Red: 60~69yr)"
           ],
           "notes_ally": [
             ""
@@ -1726,7 +1737,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (Light Blue: 70~76yr)"
           ],
           "notes_ally": [
             ""
@@ -1759,7 +1770,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (Yellow: 77~87yr)"
           ],
           "notes_ally": [
             ""
@@ -1790,7 +1801,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (Beige: 88~89yr)"
           ],
           "notes_ally": [
             ""
@@ -1821,7 +1832,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (Light Green: 90~98yr)"
           ],
           "notes_ally": [
             ""
@@ -1854,7 +1865,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as N'dubba. (White: 99yr)"
           ],
           "notes_ally": [
             ""
@@ -1914,10 +1925,11 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Special attack flings your equipped shield behind you, even if the shield is cursed."
           ],
           "notes_ally": [
-            ""
+            "Special attack flings a shield based on the dungeon's floor item table.",
+            "Flings a Leather Shield if the dungeon doesn't have shields."
           ]
         },
         {
@@ -1947,10 +1959,11 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Same as Swordsman, but also flings equipped weapons."
           ],
           "notes_ally": [
-            ""
+            "Same as Swordsman, but also flings weapons.",
+            "Flings a Club if the dungeon doesn't have weapons."
           ]
         },
         {
@@ -1980,10 +1993,577 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Same as Fencer, but also flings equipped bracelets."
+          ],
+          "notes_ally": [
+            "Same as Fencer, but also flings bracelets.",
+            "Flings a No Control Bracelet if the dungeon doesn't have bracelets."
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Taur Family",
+      "family_name_jp": "タウロス, ミノタウロス, メガタウロス",
+      "family_id": "taur_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "taur.png",
+          "width": 78,
+          "height": 112
+        },
+        {
+          "filename": "minotaur.png",
+          "width": 78,
+          "height": 112
+        },
+        {
+          "filename": "megataur.png",
+          "width": 78,
+          "height": 112
+        }
+      ],
+      "type": "Weapon",
+      "entries": [
+        {
+          "name_en": "Taur",
+          "name_jp": "タウロス",
+          "id": "taur",
+          "rank": 1,
+          "stats": {
+            "hp": 130,
+            "attack": 70,
+            "defense": 60,
+            "experience": 2500
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 4,
+            "max_hp": 140,
+            "max_attack": 110
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "25%",
+          "notes": [
+            "Special attack is a critical hit that deals x1.3 damage."
+          ],
+          "notes_ally": [
+            "25% chance to deal a critical hit that deals x1.3 damage."
+          ]
+        },
+        {
+          "name_en": "Minotaur",
+          "name_jp": "ミノタウロス",
+          "id": "minotaur",
+          "rank": 2,
+          "stats": {
+            "hp": 150,
+            "attack": 80,
+            "defense": 68,
+            "experience": 3000
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 0,
+            "attack_increase": 4,
+            "max_hp": 150,
+            "max_attack": 100
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "Minotaur's Axe",
+          "item_drop_rate": "10%",
+          "special_attack_rate": "25%",
+          "notes": [
+            "Special attack is a critical hit that deals x1.4 damage."
+          ],
+          "notes_ally": [
+            "Same as Taur, but the critical hit deals x1.4 damage."
+          ]
+        },
+        {
+          "name_en": "Megataur",
+          "name_jp": "メガタウロス",
+          "id": "megataur",
+          "rank": 3,
+          "stats": {
+            "hp": 165,
+            "attack": 110,
+            "defense": 75,
+            "experience": 5000
+          },
+          "ally_stats": {
+            "max_growth": 5,
+            "hp_increase": 0,
+            "attack_increase": 4,
+            "max_hp": 165,
+            "max_attack": 130
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "Minotaur's Axe",
+          "item_drop_rate": "15%",
+          "special_attack_rate": "25%",
+          "notes": [
+            "Special attack is a critical hit that deals x1.5 damage."
+          ],
+          "notes_ally": [
+            "Same as Taur, but the critical hit deals x1.5 damage."
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Ashigarudon Family",
+      "family_name_jp": "足軽どん, 侍どん, 大将どん, 殿様どん",
+      "family_id": "ashigarudon_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "ashigarudon.png",
+          "width": 96,
+          "height": 99
+        },
+        {
+          "filename": "samuraidon.png",
+          "width": 96,
+          "height": 99
+        },
+        {
+          "filename": "taishodon.png",
+          "width": 96,
+          "height": 99
+        },
+        {
+          "filename": "tonosamadon.png",
+          "width": 96,
+          "height": 99
+        }
+      ],
+      "type": "Weapon",
+      "entries": [
+        {
+          "name_en": "Ashigarudon",
+          "name_jp": "足軽どん",
+          "id": "ashigarudon",
+          "rank": 1,
+          "stats": {
+            "hp": 10,
+            "attack": 5,
+            "defense": 5,
+            "experience": 6
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 4,
+            "max_hp": 30,
+            "max_attack": 45
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "",
+          "notes": [
+            "Regular attacks only."
+          ],
+          "notes_ally": [
+            "Regular attacks only."
+          ]
+        },
+        {
+          "name_en": "Samuraidon",
+          "name_jp": "侍どん",
+          "id": "samuraidon",
+          "rank": 2,
+          "stats": {
+            "hp": 23,
+            "attack": 12,
+            "defense": 12,
+            "experience": 18
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 4,
+            "max_hp": 43,
+            "max_attack": 52
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            "Reflects 25% of damage received back at attacker."
+          ],
+          "notes_ally": [
+            "Reflects 25% of damage received back at attacker."
+          ]
+        },
+        {
+          "name_en": "Taishodon",
+          "name_jp": "大将どん",
+          "id": "taishodon",
+          "rank": 3,
+          "stats": {
+            "hp": 31,
+            "attack": 16,
+            "defense": 19,
+            "experience": 38
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 4,
+            "max_hp": 51,
+            "max_attack": 56
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "",
+          "notes": [
+            "Reflects magic, excluding scrolls."
+          ],
+          "notes_ally": [
+            "Reflects magic, excluding scrolls."
+          ]
+        },
+        {
+          "name_en": "Tonosamadon",
+          "name_jp": "殿様どん",
+          "id": "tonosamadon",
+          "rank": 4,
+          "stats": {
+            "hp": 65,
+            "attack": 30,
+            "defense": 33,
+            "experience": 250
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 2,
+            "attack_increase": 4,
+            "max_hp": 85,
+            "max_attack": 70
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "",
+          "notes": [
+            "Reflects thrown items and projectiles."
+          ],
+          "notes_ally": [
+            "Reflects thrown items and projectiles."
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Porky Family",
+      "family_name_jp": "デブータ, デブーチョ, デブートン",
+      "family_id": "porky_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "porky.png",
+          "width": 68,
+          "height": 100
+        },
+        {
+          "filename": "porkcho.png",
+          "width": 68,
+          "height": 100
+        },
+        {
+          "filename": "porkton.png",
+          "width": 68,
+          "height": 100
+        }
+      ],
+      "type": "Throwing",
+      "entries": [
+        {
+          "name_en": "Porky",
+          "name_jp": "デブータ",
+          "id": "porky",
+          "rank": 1,
+          "stats": {
+            "hp": 70,
+            "attack": 15,
+            "defense": 26,
+            "experience": 80
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 90,
+            "max_attack": 55
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "Porky Stone",
+          "item_drop_rate": "15%",
+          "special_attack_rate": "45%",
+          "notes": [
+            "Throws a stone that homes in on a target within 2 tiles."
           ],
           "notes_ally": [
             ""
+          ]
+        },
+        {
+          "name_en": "Porkcho",
+          "name_jp": "デブーチョ",
+          "id": "porkcho",
+          "rank": 2,
+          "stats": {
+            "hp": 105,
+            "attack": 55,
+            "defense": 60,
+            "experience": 1800
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 125,
+            "max_attack": 95
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "Porky Stone",
+          "item_drop_rate": "20%",
+          "special_attack_rate": "25%",
+          "notes": [
+            "Same as Porky, but 5 tiles."
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Porkton",
+          "name_jp": "デブートン",
+          "id": "porkton",
+          "rank": 3,
+          "stats": {
+            "hp": 120,
+            "attack": 60,
+            "defense": 63,
+            "experience": 2150
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 140,
+            "max_attack": 100
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "Porky Stone",
+          "item_drop_rate": "20%",
+          "special_attack_rate": "12%",
+          "notes": [
+            "Same as Porky, but 10 tiles."
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Horse Ronin Family",
+      "family_name_jp": "馬武者, 荒馬ザムライ, あばれ馬将軍, 乱れ馬王",
+      "family_id": "horse_ronin_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "horse_ronin.png",
+          "width": 104,
+          "height": 101
+        },
+        {
+          "filename": "horse_samurai.png",
+          "width": 104,
+          "height": 101
+        },
+        {
+          "filename": "horse_shogun.png",
+          "width": 104,
+          "height": 101
+        },
+        {
+          "filename": "horse_emperor.png",
+          "width": 104,
+          "height": 101
+        }
+      ],
+      "type": "Throwing",
+      "entries": [
+        {
+          "name_en": "Horse Ronin",
+          "name_jp": "馬武者",
+          "id": "horse_ronin",
+          "rank": 1,
+          "stats": {
+            "hp": 26,
+            "attack": 12,
+            "defense": 13,
+            "experience": 21
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 46,
+            "max_attack": 32
+          },
+          "sleep_rate": "40%",
+          "wake_condition": "Low",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "50%",
+          "notes": [
+            "Special attack shoots silver arrows."
+          ],
+          "notes_ally": [
+            "Special attack shoots silver arrows."
+          ]
+        },
+        {
+          "name_en": "Horse Samurai",
+          "name_jp": "荒馬ザムライ",
+          "id": "horse_samurai",
+          "rank": 2,
+          "stats": {
+            "hp": 79,
+            "attack": 35,
+            "defense": 39,
+            "experience": 800
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 99,
+            "max_attack": 55
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "60%",
+          "notes": [
+            "Same as Horse Ronin."
+          ],
+          "notes_ally": [
+            "Same as Horse Ronin."
+          ]
+        },
+        {
+          "name_en": "Horse Shogun",
+          "name_jp": "あばれ馬将軍",
+          "id": "horse_shogun",
+          "rank": 3,
+          "stats": {
+            "hp": 90,
+            "attack": 45,
+            "defense": 58,
+            "experience": 1950
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 110,
+            "max_attack": 65
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "60%",
+          "notes": [
+            "Same as Horse Ronin."
+          ],
+          "notes_ally": [
+            "Same as Horse Ronin."
+          ]
+        },
+        {
+          "name_en": "Horse Emperor",
+          "name_jp": "乱れ馬王",
+          "id": "horse_emperor",
+          "rank": 4,
+          "stats": {
+            "hp": 110,
+            "attack": 59,
+            "defense": 61,
+            "experience": 3100
+          },
+          "ally_stats": {
+            "max_growth": 20,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 150,
+            "max_attack": 99
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "60%",
+          "notes": [
+            "Same as Horse Ronin."
+          ],
+          "notes_ally": [
+            "Same as Horse Ronin."
           ]
         }
       ]
