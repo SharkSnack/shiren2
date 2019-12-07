@@ -80,14 +80,14 @@ function monster_details (data) {
           let monster = monster_family.entries[m];
           html.push(`
             <tr>
-              <td>${monster.name_en}</td>
+              <td style="white-space:nowrap;">${monster.name_en}</td>
               <td>${monster.stats.hp}</td>
               <td>${monster.stats.attack}</td>
               <td>${monster.stats.defense}</td>
               <td>${monster.stats.experience}</td>
               <td>${monster.element.join('<br>') || '-'}</td>
               <td>${monster.sleep_rate}</td>
-              <td>${monster.wake_condition}</td>
+              <td style="white-space:nowrap;">${monster.wake_condition}</td>
               <td>${monster.item_drop_rate}</td>
               <td>${monster.item_drop || '-'}</td>
               <td>${monster.special_attack_rate || '-'}</td>
@@ -121,7 +121,7 @@ function monster_details (data) {
           let monster = monster_family.entries[m];
           html.push(`
             <tr>
-              <td>${monster.name_en}</td>
+              <td style="white-space:nowrap;">${monster.name_en}</td>
               <td>${monster.ally_stats.max_growth}</td>
               <td>${monster.ally_stats.hp_increase}</td>
               <td>${monster.ally_stats.attack_increase}</td>

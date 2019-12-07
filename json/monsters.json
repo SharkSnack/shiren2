@@ -638,7 +638,7 @@
       "family_name": "Droplet Ninja Family",
       "family_name_jp": "スイテキマル, ジライヤ, ショウカンマル, ダイジライヤ",
       "family_id": "droplet_ninja_family",
-      "family_desc_en": "Mascot monster of the Shiren series. Cave Mamel in Shiren 2 has somewhat lower defense than in other games.",
+      "family_desc_en": "",
       "ally_desc_en": "",
       "images": [
         {
@@ -667,32 +667,33 @@
         {
           "name_en": "Droplet Ninja",
           "name_jp": "スイテキマル",
-          "id": "mamel",
+          "id": "droplet_ninja",
           "rank": 1,
           "stats": {
-            "hp": 5,
-            "attack": 2,
-            "defense": 2,
-            "experience": 2
+            "hp": 12,
+            "attack": 7,
+            "defense": 7,
+            "experience": 9
           },
           "ally_stats": {
-            "max_growth": 50,
-            "hp_increase": 1,
-            "attack_increase": 1,
-            "max_hp": 55,
-            "max_attack": 52
+            "max_growth": 20,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 52,
+            "max_attack": 47
           },
-          "sleep_rate": "0%",
-          "wake_condition": "1 Tile",
+          "sleep_rate": "25%",
+          "wake_condition": "High",
           "element": [],
-          "item_drop": "",
-          "item_drop_rate": "2%",
+          "item_drop": "Droplet Trap",
+          "item_drop_rate": "80%",
           "special_attack_rate": "",
           "notes": [
-            "Regular attacks only."
+            "Attempts to drop a trap when defeated.",
+            "Trap drop takes priority over synthesis seals like 飯 and 銭."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Special attack drops a Droplet Trap and warps away."
           ],
           "locations": [
             "Small Valley",
@@ -710,32 +711,32 @@
         {
           "name_en": "Landmine Ninja",
           "name_jp": "ジライヤ",
-          "id": "pit_mamel",
+          "id": "landmine_ninja",
           "rank": 2,
           "stats": {
-            "hp": 8,
-            "attack": 4,
-            "defense": 4,
-            "experience": 4
+            "hp": 30,
+            "attack": 17,
+            "defense": 15,
+            "experience": 35
           },
           "ally_stats": {
-            "max_growth": 50,
-            "hp_increase": 1,
-            "attack_increase": 1,
-            "max_hp": 58,
-            "max_attack": 54
+            "max_growth": 20,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 70,
+            "max_attack": 57
           },
-          "sleep_rate": "0%",
-          "wake_condition": "1 Tile",
+          "sleep_rate": "25%",
+          "wake_condition": "High",
           "element": [],
-          "item_drop": "",
-          "item_drop_rate": "6%",
+          "item_drop": "Landmine",
+          "item_drop_rate": "60%",
           "special_attack_rate": "",
           "notes": [
-            "Regular attacks only."
+            "Same as Droplet Ninja."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Special attack drops a Landmine and warps away."
           ],
           "locations": [
             "Small Valley",
@@ -753,32 +754,32 @@
         {
           "name_en": "Summon Ninja",
           "name_jp": "ショウカンマル",
-          "id": "cave_mamel",
+          "id": "summon_ninja",
           "rank": 3,
           "stats": {
-            "hp": 5,
-            "attack": 50,
-            "defense": 55,
-            "experience": 500
+            "hp": 32,
+            "attack": 18,
+            "defense": 16,
+            "experience": 46
           },
           "ally_stats": {
-            "max_growth": 50,
-            "hp_increase": 1,
-            "attack_increase": 1,
-            "max_hp": 55,
-            "max_attack": 100
+            "max_growth": 20,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 72,
+            "max_attack": 58
           },
-          "sleep_rate": "100%",
-          "wake_condition": "1 Tile",
+          "sleep_rate": "25%",
+          "wake_condition": "High",
           "element": [],
-          "item_drop": "",
-          "item_drop_rate": "10%",
+          "item_drop": "Summon Trap",
+          "item_drop_rate": "70%",
           "special_attack_rate": "",
           "notes": [
-            "High attack."
+            "Same as Droplet Ninja."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Special attack drops a Summon Trap and warps away."
           ],
           "locations": [
             "Small Valley",
@@ -796,32 +797,203 @@
         {
           "name_en": "Explosion Ninja",
           "name_jp": "ダイジライヤ",
-          "id": "cave_mamel",
+          "id": "explosion_ninja",
           "rank": 4,
           "stats": {
-            "hp": 5,
-            "attack": 50,
-            "defense": 55,
-            "experience": 500
+            "hp": 69,
+            "attack": 33,
+            "defense": 38,
+            "experience": 300
           },
           "ally_stats": {
-            "max_growth": 50,
-            "hp_increase": 1,
-            "attack_increase": 1,
-            "max_hp": 55,
-            "max_attack": 100
+            "max_growth": 20,
+            "hp_increase": 2,
+            "attack_increase": 2,
+            "max_hp": 109,
+            "max_attack": 73
           },
-          "sleep_rate": "100%",
-          "wake_condition": "1 Tile",
+          "sleep_rate": "25%",
+          "wake_condition": "High",
           "element": [],
-          "item_drop": "",
-          "item_drop_rate": "10%",
+          "item_drop": "Big Landmine",
+          "item_drop_rate": "70%",
           "special_attack_rate": "",
           "notes": [
-            "High attack."
+            "Same as Droplet Ninja."
           ],
           "notes_ally": [
-            "Regular attacks only."
+            "Special attack drops a Big Landmine and warps away."
+          ],
+          "locations": [
+            "Small Valley",
+            "Shuten Trail Easy",
+            "Shuten Trail Mid",
+            "Shuten Trail Hard",
+            "Onigashima",
+            "Hidden Hole",
+            "Hidden Hole (B)",
+            "Sealed Room",
+            "Halfway Well",
+            "Road to the End"
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Mr. Drone Family",
+      "family_name_jp": "Mr.ブーン, Mr.ヘリコ, Mr.ジャイロ",
+      "family_id": "mr_drone_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "mr_drone.png",
+          "width": 68,
+          "height": 71
+        },
+        {
+          "filename": "mr_helico.png",
+          "width": 68,
+          "height": 71
+        },
+        {
+          "filename": "mr_gyro.png",
+          "width": 68,
+          "height": 71
+        }
+      ],
+      "type": "Normal",
+      "entries": [
+        {
+          "name_en": "Mr. Drone",
+          "name_jp": "Mr.ブーン",
+          "id": "mr_drone",
+          "rank": 1,
+          "stats": {
+            "hp": 16,
+            "attack": 6,
+            "defense": 8,
+            "experience": 7
+          },
+          "ally_stats": {
+            "max_growth": 100,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 116,
+            "max_attack": 106
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "3 Tiles",
+          "element": [
+            "Floating",
+            "Flying"
+          ],
+          "item_drop": "Strength Grass",
+          "item_drop_rate": "100%",
+          "special_attack_rate": "",
+          "notes": [
+            "Runs away from Shiren."
+          ],
+          "notes_ally": [
+            "Ally: Doesn't run away.",
+            "Posession: Regular attacks only."
+          ],
+          "locations": [
+            "Small Valley",
+            "Shuten Trail Easy",
+            "Shuten Trail Mid",
+            "Shuten Trail Hard",
+            "Onigashima",
+            "Hidden Hole",
+            "Hidden Hole (B)",
+            "Sealed Room",
+            "Halfway Well",
+            "Road to the End"
+          ]
+        },
+        {
+          "name_en": "Mr. Helico",
+          "name_jp": "Mr.ヘリコ",
+          "id": "mr_helico",
+          "rank": 2,
+          "stats": {
+            "hp": 18,
+            "attack": 8,
+            "defense": 10,
+            "experience": 8
+          },
+          "ally_stats": {
+            "max_growth": 100,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 118,
+            "max_attack": 108
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "3 Tiles",
+          "element": [
+            "Fast (x2)",
+            "Floating",
+            "Flying"
+          ],
+          "item_drop": "Happy Grass",
+          "item_drop_rate": "85%",
+          "special_attack_rate": "",
+          "notes": [
+            "Same as Mr. Drone."
+          ],
+          "notes_ally": [
+            "Ally: Doesn't run away.",
+            "Posession: Warps after receiving damage."
+          ],
+          "locations": [
+            "Small Valley",
+            "Shuten Trail Easy",
+            "Shuten Trail Mid",
+            "Shuten Trail Hard",
+            "Onigashima",
+            "Hidden Hole",
+            "Hidden Hole (B)",
+            "Sealed Room",
+            "Halfway Well",
+            "Road to the End"
+          ]
+        },
+        {
+          "name_en": "Mr. Gyro",
+          "name_jp": "Mr.ジャイロ",
+          "id": "armordillo_pop",
+          "rank": 3,
+          "stats": {
+            "hp": 20,
+            "attack": 10,
+            "defense": 15,
+            "experience": 20
+          },
+          "ally_stats": {
+            "max_growth": 100,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 120,
+            "max_attack": 110
+          },
+          "sleep_rate": "50%",
+          "wake_condition": "3 Tiles",
+          "element": [
+            "Fast (x2)",
+            "Floating",
+            "Flying"
+          ],
+          "item_drop": "Revival Grass",
+          "item_drop_rate": "75%",
+          "special_attack_rate": "",
+          "notes": [
+            "Same as Mr. Drone."
+          ],
+          "notes_ally": [
+            "Ally: Doesn't run away.",
+            "Posession: Warps after receiving damage.",
+            "Can also warp using its special attack."
           ],
           "locations": [
             "Small Valley",

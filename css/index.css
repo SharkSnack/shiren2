@@ -9,6 +9,8 @@ body {
 
 .sidebar-menu {
   color: #444;
+  min-width: 186px;
+  max-width: 186px;
 }
 
 .sidebar-menu a {
@@ -65,7 +67,7 @@ body {
 }
 
 .box {
-  padding: 20px;
+  padding: 10px;
   font-size: 110%;
 }
 
