@@ -5716,6 +5716,1067 @@
           ]
         }
       ]
+    },
+    {
+      "family_name": "Wolf Droid Family",
+      "family_name_jp": "ウルロイド, ゴリボット, ベアボーグ",
+      "family_id": "wolf_droid_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "wolf_droid.png",
+          "width": 96,
+          "height": 110
+        },
+        {
+          "filename": "gorilla_bot.png",
+          "width": 96,
+          "height": 110
+        },
+        {
+          "filename": "bear_borg.png",
+          "width": 96,
+          "height": 110
+        }
+      ],
+      "type": "Bomb",
+      "entries": [
+        {
+          "name_en": "Wolf Droid",
+          "name_jp": "ウルロイド",
+          "id": "wolf_droid",
+          "rank": 1,
+          "stats": {
+            "hp": 52,
+            "attack": 20,
+            "defense": 20,
+            "experience": 60
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 0,
+            "attack_increase": 4,
+            "max_hp": 52,
+            "max_attack": 60
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "Low",
+          "element": [
+            "Bomb"
+          ],
+          "item_drop": "Cannonball",
+          "item_drop_rate": "10%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Gorilla Bot",
+          "name_jp": "ゴリボット",
+          "id": "gorilla_bot",
+          "rank": 2,
+          "stats": {
+            "hp": 95,
+            "attack": 69,
+            "defense": 58,
+            "experience": 1750
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 0,
+            "attack_increase": 4,
+            "max_hp": 95,
+            "max_attack": 109
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Bomb"
+          ],
+          "item_drop": "Cannonball",
+          "item_drop_rate": "10%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Bear Borg",
+          "name_jp": "ベアボーグ",
+          "id": "bear_borg",
+          "rank": 3,
+          "stats": {
+            "hp": 120,
+            "attack": 80,
+            "defense": 63,
+            "experience": 2500
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 0,
+            "attack_increase": 4,
+            "max_hp": 120,
+            "max_attack": 120
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "Low",
+          "element": [
+            "Bomb"
+          ],
+          "item_drop": "Cannonball",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "12%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Patient Bag",
+      "family_name_jp": "かんにんぶくろ",
+      "family_id": "patient_bag",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "patient_bag.png",
+          "width": 116,
+          "height": 80
+        }
+      ],
+      "type": "Bomb",
+      "entries": [
+        {
+          "name_en": "Patient Bag",
+          "name_jp": "かんにんぶくろ",
+          "id": "patient_bag",
+          "rank": 1,
+          "stats": {
+            "hp": 120,
+            "attack": 16,
+            "defense": 15,
+            "experience": 200
+          },
+          "ally_stats": {
+            "max_growth": 30,
+            "hp_increase": 4,
+            "attack_increase": 1,
+            "max_hp": 240,
+            "max_attack": 46
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Bomb"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "1%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Bow Boy Family",
+      "family_name_jp": "ボウヤー, コドモ戦車, オヤジ戦車, イッテツ戦車",
+      "family_id": "bow_boy_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "bow_boy.png",
+          "width": 56,
+          "height": 70
+        },
+        {
+          "filename": "boy_cart.png",
+          "width": 80,
+          "height": 85
+        },
+        {
+          "filename": "pop_tank.png",
+          "width": 90,
+          "height": 100
+        },
+        {
+          "filename": "cranky_tank.png",
+          "width": 90,
+          "height": 100
+        }
+      ],
+      "type": "Bomb",
+      "entries": [
+        {
+          "name_en": "Bow Boy",
+          "name_jp": "ボウヤー",
+          "id": "bow_boy",
+          "rank": 1,
+          "stats": {
+            "hp": 17,
+            "attack": 11,
+            "defense": 10,
+            "experience": 14
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 32,
+            "max_attack": 41
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "Wooden Arrow",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "60%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Boy Cart",
+          "name_jp": "コドモ戦車",
+          "id": "boy_cart",
+          "rank": 2,
+          "stats": {
+            "hp": 26,
+            "attack": 10,
+            "defense": 12,
+            "experience": 20
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 41,
+            "max_attack": 40
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "Iron Arrow",
+          "item_drop_rate": "8%",
+          "special_attack_rate": "65%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Pop Tank",
+          "name_jp": "オヤジ戦車",
+          "id": "pop_tank",
+          "rank": 3,
+          "stats": {
+            "hp": 41,
+            "attack": 13,
+            "defense": 17,
+            "experience": 41
+          },
+          "ally_stats": {
+            "max_growth": 13,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 54,
+            "max_attack": 39
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "Low",
+          "element": [
+            "Bomb"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Cranky Tank",
+          "name_jp": "イッテツ戦車",
+          "id": "cranky_tank",
+          "rank": 4,
+          "stats": {
+            "hp": 95,
+            "attack": 20,
+            "defense": 52,
+            "experience": 2300
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 105,
+            "max_attack": 40
+          },
+          "sleep_rate": "25%",
+          "wake_condition": "High",
+          "element": [
+            "Fast (2x)",
+            "Bomb"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Bored Kappa Family",
+      "family_name_jp": "ひまガッパ, いやすぎガッパ, たまらんガッパ",
+      "family_id": "bored_kappa_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "bored_kappa.png",
+          "width": 48,
+          "height": 78
+        },
+        {
+          "filename": "kappa_pest.png",
+          "width": 48,
+          "height": 78
+        },
+        {
+          "filename": "vexing_kappa.png",
+          "width": 48,
+          "height": 78
+        }
+      ],
+      "type": "Water",
+      "entries": [
+        {
+          "name_en": "Bored Kappa",
+          "name_jp": "ひまガッパ",
+          "id": "bored_kappa",
+          "rank": 1,
+          "stats": {
+            "hp": 20,
+            "attack": 11,
+            "defense": 14,
+            "experience": 21
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 70,
+            "max_attack": 61
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "25%",
+          "special_attack_rate": "70%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Kappa Pest",
+          "name_jp": "いやすぎガッパ",
+          "id": "kappa_pest",
+          "rank": 2,
+          "stats": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 30,
+            "experience": 450
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 100,
+            "max_attack": 70
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "80%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Vexing Kappa",
+          "name_jp": "たまらんガッパ",
+          "id": "vexing_kappa",
+          "rank": 3,
+          "stats": {
+            "hp": 70,
+            "attack": 40,
+            "defense": 57,
+            "experience": 2050
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 120,
+            "max_attack": 90
+          },
+          "sleep_rate": "35%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "80%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Water Strider",
+      "family_name_jp": "アメンジャ",
+      "family_id": "water_strider",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "water_strider.png",
+          "width": 94,
+          "height": 117
+        }
+      ],
+      "type": "Water",
+      "entries": [
+        {
+          "name_en": "Water Strider",
+          "name_jp": "アメンジャ",
+          "id": "water_strider",
+          "rank": 1,
+          "stats": {
+            "hp": 54,
+            "attack": 18,
+            "defense": 20,
+            "experience": 100
+          },
+          "ally_stats": {
+            "max_growth": 10,
+            "hp_increase": 6,
+            "attack_increase": 1,
+            "max_hp": 114,
+            "max_attack": 28
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "60%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Spearfish Family",
+      "family_name_jp": "オトト兵, オトト軍曹, オトト大将, オトトげんすい",
+      "family_id": "spearfish_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "spearfish.png",
+          "width": 100,
+          "height": 79
+        },
+        {
+          "filename": "lt_spearfish.png",
+          "width": 100,
+          "height": 79
+        },
+        {
+          "filename": "cap_spearfish.png",
+          "width": 100,
+          "height": 79
+        },
+        {
+          "filename": "adm_spearfish.png",
+          "width": 100,
+          "height": 79
+        }
+      ],
+      "type": "Water",
+      "entries": [
+        {
+          "name_en": "Spearfish",
+          "name_jp": "オトト兵",
+          "id": "spearfish",
+          "rank": 1,
+          "stats": {
+            "hp": 30,
+            "attack": 10,
+            "defense": 3,
+            "experience": 13
+          },
+          "ally_stats": {
+            "max_growth": 50,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 80,
+            "max_attack": 60
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Lt Spearfish",
+          "name_jp": "オトト軍曹",
+          "id": "lt_spearfish",
+          "rank": 2,
+          "stats": {
+            "hp": 40,
+            "attack": 12,
+            "defense": 4,
+            "experience": 15
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 55,
+            "max_attack": 27
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "Fish Spear",
+          "item_drop_rate": "3%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Cap Spearfish",
+          "name_jp": "オトト大将",
+          "id": "cap_spearfish",
+          "rank": 3,
+          "stats": {
+            "hp": 50,
+            "attack": 16,
+            "defense": 5,
+            "experience": 22
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 65,
+            "max_attack": 31
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "Fish Spear",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Adm Spearfish",
+          "name_jp": "オトトげんすい",
+          "id": "adm_spearfish",
+          "rank": 4,
+          "stats": {
+            "hp": 100,
+            "attack": 30,
+            "defense": 23,
+            "experience": 550
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 115,
+            "max_attack": 45
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "Fish Spear",
+          "item_drop_rate": "2%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Orcan Family",
+      "family_name_jp": "シャチーン, シャチーダ, シャチオーン",
+      "family_id": "orcan_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "orcan.png",
+          "width": 76,
+          "height": 106
+        },
+        {
+          "filename": "orcada.png",
+          "width": 76,
+          "height": 106
+        },
+        {
+          "filename": "orcaon.png",
+          "width": 76,
+          "height": 106
+        }
+      ],
+      "type": "Water",
+      "entries": [
+        {
+          "name_en": "Orcan",
+          "name_jp": "シャチーン",
+          "id": "orcan",
+          "rank": 1,
+          "stats": {
+            "hp": 50,
+            "attack": 25,
+            "defense": 35,
+            "experience": 250
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 65,
+            "max_attack": 40
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "100%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Orcada",
+          "name_jp": "シャチーダ",
+          "id": "orcada",
+          "rank": 2,
+          "stats": {
+            "hp": 80,
+            "attack": 55,
+            "defense": 42,
+            "experience": 900
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 95,
+            "max_attack": 70
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "100%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Orcaon",
+          "name_jp": "シャチオーン",
+          "id": "orcaon",
+          "rank": 3,
+          "stats": {
+            "hp": 90,
+            "attack": 60,
+            "defense": 62,
+            "experience": 2000
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 105,
+            "max_attack": 75
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Amphibious"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "4%",
+          "special_attack_rate": "100%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Aqua Dragon Family",
+      "family_name_jp": "水龍, 海龍, 水神龍",
+      "family_id": "aqua_dragon_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "aqua_dragon.png",
+          "width": 90,
+          "height": 151
+        },
+        {
+          "filename": "sea_dragon.png",
+          "width": 90,
+          "height": 151
+        },
+        {
+          "filename": "water_shinryu.png",
+          "width": 90,
+          "height": 151
+        }
+      ],
+      "type": "Water",
+      "entries": [
+        {
+          "name_en": "Aqua Dragon",
+          "name_jp": "水龍",
+          "id": "aqua_dragon",
+          "rank": 1,
+          "stats": {
+            "hp": 55,
+            "attack": 22,
+            "defense": 19,
+            "experience": 100
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 70,
+            "max_attack": 52
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Water",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "15%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Sea Dragon",
+          "name_jp": "海龍",
+          "id": "sea_dragon",
+          "rank": 2,
+          "stats": {
+            "hp": 75,
+            "attack": 44,
+            "defense": 43,
+            "experience": 1000
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 90,
+            "max_attack": 74
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Water",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Water Shinryu",
+          "name_jp": "水神龍",
+          "id": "water_shinryu",
+          "rank": 3,
+          "stats": {
+            "hp": 100,
+            "attack": 50,
+            "defense": 60,
+            "experience": 2500
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 2,
+            "max_hp": 150,
+            "max_attack": 150
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Water",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "16%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Shotfish Family",
+      "family_name_jp": "テッポーウオー, テッポウ竜, キングオトシゴン",
+      "family_id": "shotfish_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "shotfish.png",
+          "width": 88,
+          "height": 82
+        },
+        {
+          "filename": "dragon_shotfish.png",
+          "width": 88,
+          "height": 82
+        },
+        {
+          "filename": "king_shotfish.png",
+          "width": 88,
+          "height": 82
+        }
+      ],
+      "type": "Water",
+      "entries": [
+        {
+          "name_en": "Shotfish",
+          "name_jp": "テッポーウオー",
+          "id": "shotfish",
+          "rank": 1,
+          "stats": {
+            "hp": 15,
+            "attack": 5,
+            "defense": 10,
+            "experience": 30
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 30,
+            "max_attack": 20
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Water",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "25%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Dragon Shotfish",
+          "name_jp": "テッポウ竜",
+          "id": "dragon_shotfish",
+          "rank": 2,
+          "stats": {
+            "hp": 29,
+            "attack": 16,
+            "defense": 15,
+            "experience": 34
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 44,
+            "max_attack": 31
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Water",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "25%",
+          "special_attack_rate": "25%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "King Shotfish",
+          "name_jp": "キングオトシゴン",
+          "id": "king_shotfish",
+          "rank": 3,
+          "stats": {
+            "hp": 75,
+            "attack": 15,
+            "defense": 40,
+            "experience": 1800
+          },
+          "ally_stats": {
+            "max_growth": 15,
+            "hp_increase": 1,
+            "attack_increase": 1,
+            "max_hp": 90,
+            "max_attack": 30
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Water",
+            "Dragon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "25%",
+          "special_attack_rate": "20%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
