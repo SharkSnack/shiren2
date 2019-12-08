@@ -29,8 +29,6 @@ function monster_details (data) {
   let monster = {};
   let types = ["Normal", "Weapon", "Throwing", "Magic", "Item Change", "Stealing", "Dragon", "Ghost", "Drain", "One-eyed", "Bomb", "Water", "Oni", "Other"];
 
-  console.log(data.monsters.length);
-
   // section heading
   html.push(`<h2>Monster Details</h2>`);
 
