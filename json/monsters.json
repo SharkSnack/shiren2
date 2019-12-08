@@ -7122,6 +7122,550 @@
           ]
         }
       ]
+    },
+    {
+      "family_name": "Shopkeeper Family",
+      "family_name_jp": "店主, 店長, 大店長",
+      "family_id": "shopkeeper_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "shopkeeper.png",
+          "width": 80,
+          "height": 117
+        },
+        {
+          "filename": "asst_manager.png",
+          "width": 80,
+          "height": 117
+        },
+        {
+          "filename": "manager.png",
+          "width": 80,
+          "height": 117
+        }
+      ],
+      "type": "Other",
+      "entries": [
+        {
+          "name_en": "Shopkeeper",
+          "name_jp": "店主",
+          "id": "shopkeeper",
+          "rank": 1,
+          "stats": {
+            "hp": 500,
+            "attack": 200,
+            "defense": 50,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Asst. Manager",
+          "name_jp": "店長",
+          "id": "asst_manager",
+          "rank": 2,
+          "stats": {
+            "hp": 700,
+            "attack": 300,
+            "defense": 70,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Manager",
+          "name_jp": "大店長",
+          "id": "manager",
+          "rank": 3,
+          "stats": {
+            "hp": "-",
+            "attack": "-",
+            "defense": "-",
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Trader Family",
+      "family_name_jp": "行商人, おしうり",
+      "family_id": "trader_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "trader.png",
+          "width": 62,
+          "height": 98
+        },
+        {
+          "filename": "hawker.png",
+          "width": 62,
+          "height": 98
+        }
+      ],
+      "type": "Other",
+      "entries": [
+        {
+          "name_en": "Trader",
+          "name_jp": "行商人",
+          "id": "trader",
+          "rank": 1,
+          "stats": {
+            "hp": 500,
+            "attack": 10,
+            "defense": 50,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Hawker",
+          "name_jp": "おしうり",
+          "id": "hawker",
+          "rank": 2,
+          "stats": {
+            "hp": 700,
+            "attack": 10,
+            "defense": 70,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Sheriff",
+      "family_name_jp": "とうぞく番",
+      "family_id": "sheriff",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "sheriff.png",
+          "width": 106,
+          "height": 117
+        }
+      ],
+      "type": "Other",
+      "entries": [
+        {
+          "name_en": "Sheriff",
+          "name_jp": "とうぞく番",
+          "id": "sheriff",
+          "rank": 1,
+          "stats": {
+            "hp": 150,
+            "attack": 150,
+            "defense": 40,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Guard Dog",
+      "family_name_jp": "番犬",
+      "family_id": "guard_dog",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "guard_dog.png",
+          "width": 82,
+          "height": 71
+        }
+      ],
+      "type": "Other",
+      "entries": [
+        {
+          "name_en": "Guard Dog",
+          "name_jp": "番犬",
+          "id": "guard_dog",
+          "rank": 1,
+          "stats": {
+            "hp": 100,
+            "attack": 50,
+            "defense": 40,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "-",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Shuten Child",
+      "family_name_jp": "シュテン村の子",
+      "family_id": "shuten_child",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "shuten_child.png",
+          "width": 48,
+          "height": 82
+        }
+      ],
+      "type": "Other",
+      "entries": [
+        {
+          "name_en": "Shuten Child",
+          "name_jp": "シュテン村の子",
+          "id": "shuten_child",
+          "rank": 1,
+          "stats": {
+            "hp": 100,
+            "attack": 1,
+            "defense": 30,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Clay Figures",
+      "family_name_jp": "土人形【並】, 土人形【良】, 土人形【優】",
+      "family_id": "clay_figures",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "clay_figure.png",
+          "width": 88,
+          "height": 115
+        }
+      ],
+      "type": "Other",
+      "entries": [
+        {
+          "name_en": "Figure",
+          "name_jp": "土人形【並】",
+          "id": "figure",
+          "rank": 1,
+          "stats": {
+            "hp": 20,
+            "attack": 15,
+            "defense": 20,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Good Figure",
+          "name_jp": "土人形【良】",
+          "id": "good_figure",
+          "rank": 2,
+          "stats": {
+            "hp": 35,
+            "attack": 20,
+            "defense": 25,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Great Figure",
+          "name_jp": "土人形【優】",
+          "id": "great_figure",
+          "rank": 3,
+          "stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Oni Dolls",
+      "family_name_jp": "鬼木偶, 鬼木偶その2",
+      "family_id": "oni_dolls",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "oni_doll.png",
+          "width": 54,
+          "height": 115
+        },
+        {
+          "filename": "oni_doll_2.png",
+          "width": 54,
+          "height": 115
+        }
+      ],
+      "type": "Other",
+      "entries": [
+        {
+          "name_en": "Oni Doll",
+          "name_jp": "鬼木偶",
+          "id": "oni_doll",
+          "rank": 1,
+          "stats": {
+            "hp": 5,
+            "attack": 0,
+            "defense": 2,
+            "experience": 5
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Oni Doll 2",
+          "name_jp": "鬼木偶その2",
+          "id": "oni_doll_2",
+          "rank": 2,
+          "stats": {
+            "hp": 8,
+            "attack": 0,
+            "defense": 3,
+            "experience": 12
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
