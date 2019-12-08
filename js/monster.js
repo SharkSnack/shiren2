@@ -24,6 +24,7 @@ $(document).ready(function() {
   }
 });
 
+// generate monster details HTML from monsters.json
 function monster_details (data) {
   let html = [];
   let monster = {};

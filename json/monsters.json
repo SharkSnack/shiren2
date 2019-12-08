@@ -3962,7 +3962,9 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "50%",
           "notes": [
-            ""
+            "Plucks a staff from Shiren's inventory and lowers its use count by 1.",
+            "Cannot pluck staves inside pots.",
+            "If the tile below Gyadon is a void, the item will be lost."
           ],
           "notes_ally": [
             "Regular attacks only."
@@ -3995,7 +3997,8 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Same as Gyadon.",
+            "Also plucks pots, lowering their size by 1 if they aren't full."
           ],
           "notes_ally": [
             "Same as Gyadon."
@@ -4028,7 +4031,8 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "16%",
           "notes": [
-            ""
+            "Same as Gyairas, but also plucks full pots, lowering the pot's size by 1 and making the item in that slot vanish.",
+            "Can also pluck equipment, lowering synthesis seal slots by 1 and tearing off a seal."
           ],
           "notes_ally": [
             "Same as Gyadon."
@@ -4088,10 +4092,10 @@
           "item_drop_rate": "60%",
           "special_attack_rate": "50%",
           "notes": [
-            ""
+            "Breathes fire toward a target on a straight line, dealing 20 damage."
           ],
           "notes_ally": [
-            ""
+            "Breathes fire toward a target on a straight line, dealing 20 damage."
           ]
         },
         {
@@ -4121,10 +4125,10 @@
           "item_drop_rate": "65%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Breathes fire that deals 30 damage to a taget within Sky Dragon's view."
           ],
           "notes_ally": [
-            ""
+            "Breathes fire that deals 30 damage to a target within view."
           ]
         },
         {
@@ -4154,10 +4158,12 @@
           "item_drop_rate": "70%",
           "special_attack_rate": "12%",
           "notes": [
-            ""
+            "Breathes fire that deals 35 damage to a target on the current floor, including targets inside walls.",
+            "Fire can also hit targets inside walls."
           ],
           "notes_ally": [
-            ""
+            "Ally: Breathes fire that deals 35 damage to a target within view.",
+            "Posession: Breathes fire that deals 35 damage to a target on the current floor, including targets inside walls."
           ]
         }
       ]
@@ -4215,10 +4221,11 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Attacks 1 time, regardless of movement speed changes."
           ],
           "notes_ally": [
-            ""
+            "Ally: Attacks 1 time, regardless of movement speed changes.",
+            "Posession: Attacks 3 times in a row."
           ]
         },
         {
@@ -4249,10 +4256,11 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Attacks 2 times, regardless of movement speed changes."
           ],
           "notes_ally": [
-            ""
+            "Ally: Attacks 2 times, regardless of movement speed changes.",
+            "Posession: Attacks 4 times in a row."
           ]
         },
         {
@@ -4283,10 +4291,11 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Attacks 3 times, regardless of movement speed changes."
           ],
           "notes_ally": [
-            ""
+            "Ally: Attacks 3 times, regardless of movement speed changes.",
+            "Posession: Attacks 5 times in a row."
           ]
         }
       ]
@@ -4344,10 +4353,11 @@
           "item_drop_rate": "32%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Regular attacks only.",
+            "The only monster family to have 2 weaknesses."
           ],
           "notes_ally": [
-            ""
+            "Regular attacks only."
           ]
         },
         {
@@ -4378,10 +4388,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Bone Dragon."
           ],
           "notes_ally": [
-            ""
+            "Same as Bone Dragon."
           ]
         },
         {
@@ -4412,10 +4422,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Bone Dragon."
           ],
           "notes_ally": [
-            ""
+            "Same as Bone Dragon."
           ]
         }
       ]
@@ -4475,10 +4485,12 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Moves in an unpredictable pattern."
           ],
           "notes_ally": [
-            ""
+            "Ally: Moves in an unpredictable pattern.",
+            "Guaranteed to attack the moment it's sent out of its pot.",
+            "Posession: Normal movement."
           ]
         },
         {
@@ -4511,10 +4523,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Pumphantasm."
           ],
           "notes_ally": [
-            ""
+            "Same as Pumphantasm."
           ]
         },
         {
@@ -4547,10 +4559,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Pumphantasm."
           ],
           "notes_ally": [
-            ""
+            "Same as Pumphantasm."
           ]
         }
       ]
@@ -4615,10 +4627,11 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Moves at double speed, but only attacks once."
           ],
           "notes_ally": [
-            ""
+            "Ally: Moves at double speed, but can only attack once per turn.",
+            "Posession: Moves at double speed. No limit on number of attacks."
           ]
         },
         {
@@ -4652,10 +4665,11 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Moves at double speed.",
+            "No limit on number of attacks."
           ],
           "notes_ally": [
-            ""
+            "Moves at double speed."
           ]
         },
         {
@@ -4689,10 +4703,11 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Moves at triple speed.",
+            "No limit on number of attacks."
           ],
           "notes_ally": [
-            ""
+            "Moves at triple speed."
           ]
         },
         {
@@ -4727,10 +4742,13 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Moves at triple speed.",
+            "Passes through walls.",
+            "No limit on number of attacks."
           ],
           "notes_ally": [
-            ""
+            "Moves at triple speed.",
+            "Passes through walls"
           ]
         }
       ]
@@ -4790,10 +4808,10 @@
           "item_drop_rate": "6%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Regular attacks only."
           ],
           "notes_ally": [
-            ""
+            "Regular attacks only."
           ]
         },
         {
@@ -4826,10 +4844,10 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Yamikichi."
           ],
           "notes_ally": [
-            ""
+            "Same as Yamikichi."
           ]
         },
         {
@@ -4862,10 +4880,10 @@
           "item_drop_rate": "6%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Yamikichi."
           ],
           "notes_ally": [
-            ""
+            "Same as Yamikichi."
           ]
         }
       ]
@@ -4912,10 +4930,10 @@
           "item_drop_rate": "35%",
           "special_attack_rate": "80%",
           "notes": [
-            ""
+            "Special attack lowers a target's level by 1."
           ],
           "notes_ally": [
-            ""
+            "Special attack lowers a target's level by 1."
           ]
         }
       ]
@@ -4977,10 +4995,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Special attack lowers Shiren's stregnth by 1."
           ],
           "notes_ally": [
-            ""
+            "Special attack lowers a target's attack by 10%."
           ]
         },
         {
@@ -5010,10 +5028,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "35%",
           "notes": [
-            ""
+            "Special attack lowers Shiren's max stregnth by 1."
           ],
           "notes_ally": [
-            ""
+            "Special attack lowers a target's attack by 20%."
           ]
         },
         {
@@ -5043,10 +5061,11 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "18%",
           "notes": [
-            ""
+            "Special attack lowers Shiren's max stregnth by 2.",
+            "20% chance to divide when it receives damage."
           ],
           "notes_ally": [
-            ""
+            "Special attack lowers a target's attack by 30%."
           ]
         },
         {
@@ -5076,10 +5095,11 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "12%",
           "notes": [
-            ""
+            "Special attack lowers Shiren's max stregnth by 3.",
+            "15% chance to divide when it receives damage."
           ],
           "notes_ally": [
-            ""
+            "Special attack lowers a target's attack by 40%."
           ]
         }
       ]
@@ -5136,10 +5156,11 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Special attack lowers Shiren's strength by 1.",
+            "Can be nullified by a Scale Shield or Specialty Riceball's poison immunity effect."
           ],
           "notes_ally": [
-            ""
+            "Special attack halves a target's attack."
           ]
         },
         {
@@ -5169,10 +5190,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Special attack slows Shiren by 1 stage."
           ],
           "notes_ally": [
-            ""
+            "Special attack slows a target by 1 stage."
           ]
         },
         {
@@ -5202,10 +5223,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Special attack paralyzes Shiren for 3 turns."
           ],
           "notes_ally": [
-            ""
+            "Special attack paralyzes a target for 2 turns."
           ]
         }
       ]
@@ -5267,10 +5288,11 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "35%",
           "notes": [
-            ""
+            "Special attack lowers fullness by 5%."
           ],
           "notes_ally": [
-            ""
+            "Ally: Special attack halves a target's HP.",
+            "Posession: Special attack restores fullness by 5% if used in front of an enemy."
           ]
         },
         {
@@ -5300,10 +5322,11 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "35%",
           "notes": [
-            ""
+            "Special attack lowers fullness by 10%."
           ],
           "notes_ally": [
-            ""
+            "Ally: Same as Hunger Puppet.",
+            "Posession: Same as Hunger Puppet, but restores fullness by 7%."
           ]
         },
         {
@@ -5333,10 +5356,11 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Special attack lowers fullness by 30%."
           ],
           "notes_ally": [
-            ""
+            "Ally: Same as Hunger Puppet.",
+            "Posession: Same as Hunger Puppet, but restores fullness by 9%."
           ]
         },
         {
@@ -5366,10 +5390,11 @@
           "item_drop_rate": "5%",
           "special_attack_rate": "18%",
           "notes": [
-            ""
+            "Special attack lowers max fullness by 5%."
           ],
           "notes_ally": [
-            ""
+            "Ally: Same as Hunger Puppet.",
+            "Posession: Same as Hunger Puppet, but restores fullness by 11%."
           ]
         }
       ]
@@ -5427,10 +5452,11 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Hypnotizes Shiren, making him perform a random action.",
+            "Hypnosis inflicts confusion on non-Shiren targets."
           ],
           "notes_ally": [
-            ""
+            "Special attack inflicts confusion on a target."
           ]
         },
         {
@@ -5461,10 +5487,10 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Same as Gazer."
           ],
           "notes_ally": [
-            ""
+            "Same as Gazer."
           ]
         },
         {
@@ -5495,10 +5521,10 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Same as Gazer."
           ],
           "notes_ally": [
-            ""
+            "Same as Gazer."
           ]
         }
       ]
@@ -5555,10 +5581,11 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Attacks targets up to 3 tiles forward."
           ],
           "notes_ally": [
-            ""
+            "Ally: Attacks targets up to 3 tiles forward.",
+            "Posession: Attacks can hit targets up to 4 tiles forward."
           ]
         },
         {
@@ -5588,10 +5615,10 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Ironhead."
           ],
           "notes_ally": [
-            ""
+            "Same as Ironhead."
           ]
         },
         {
@@ -5621,10 +5648,10 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Ironhead."
           ],
           "notes_ally": [
-            ""
+            "Same as Ironhead."
           ]
         }
       ]
@@ -5681,10 +5708,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Regular attacks only."
           ],
           "notes_ally": [
-            ""
+            "Regular attacks only."
           ]
         },
         {
@@ -5714,10 +5741,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Regular attacks only."
           ],
           "notes_ally": [
-            ""
+            "Regular attacks only."
           ]
         },
         {
@@ -5747,10 +5774,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Regular attacks only."
           ],
           "notes_ally": [
-            ""
+            "Regular attacks only."
           ]
         }
       ]
