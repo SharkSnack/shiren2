@@ -97,41 +97,42 @@ function monster_details (data) {
         }
         html.push(`</table>`);
 
-        // monster as ally description
-        html.push(`<h5>Ally / Posession Staff:</h5>`);
-        if (monster_family.ally_desc_en !== "") {
-          html.push(`<div class="ally_desc">${monster_family.ally_desc_en}</div>`);
-        } 
+        // monster as ally section (Oni and Other types cannot be allies)
+        if (monster_family.type !== "Oni" && monster_family.type !== "Other") {
 
-        // monster as ally table header
-        html.push(`
-          <table>
-            <tr>
-              <th>Name</th>
-              <th>Max Lv</th>
-              <th>HP+</th>
-              <th>ATK+</th>
-              <th>Max HP</th>
-              <th>Max ATK</th>
-              <th>Notes</th>
-            </tr>`);
-
-        // family can have 1~4 entries, so loop through them for filling out rows
-        for (let m = 0; m < monster_family.entries.length; m++) {
-          let monster = monster_family.entries[m];
+          // monster as ally description
+          html.push(`<h5>Ally / Posession Staff:</h5>`);
+          if (monster_family.ally_desc_en !== "") {
+            html.push(`<div class="ally_desc">${monster_family.ally_desc_en}</div>`);
+          }
           html.push(`
-            <tr>
-              <td style="white-space:nowrap;">${monster.name_en}</td>
-              <td>${monster.ally_stats.max_growth}</td>
-              <td>${monster.ally_stats.hp_increase}</td>
-              <td>${monster.ally_stats.attack_increase}</td>
-              <td>${monster.ally_stats.max_hp}</td>
-              <td>${monster.ally_stats.max_attack}</td>
-              <td>${monster.notes_ally.join('<br>')}</td>
-            </tr>
-          `);
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>Max Lv</th>
+                <th>HP+</th>
+                <th>ATK+</th>
+                <th>Max HP</th>
+                <th>Max ATK</th>
+                <th>Notes</th>
+              </tr>`);
+          // family can have 1~4 entries, so loop through them for filling out rows
+          for (let m = 0; m < monster_family.entries.length; m++) {
+            let monster = monster_family.entries[m];
+            html.push(`
+              <tr>
+                <td style="white-space:nowrap;">${monster.name_en}</td>
+                <td>${monster.ally_stats.max_growth}</td>
+                <td>${monster.ally_stats.hp_increase}</td>
+                <td>${monster.ally_stats.attack_increase}</td>
+                <td>${monster.ally_stats.max_hp}</td>
+                <td>${monster.ally_stats.max_attack}</td>
+                <td>${monster.notes_ally.join('<br>')}</td>
+              </tr>
+            `);
+          }
+          html.push(`</table>`);
         }
-        html.push(`</table>`);
       }
     }
   }

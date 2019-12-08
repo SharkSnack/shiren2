@@ -6777,6 +6777,351 @@
           ]
         }
       ]
+    },
+    {
+      "family_name": "Small Oni Family",
+      "family_name_jp": "チビオニ, ゴツオニ, ズングリオニ",
+      "family_id": "small_oni_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "small_oni.png",
+          "width": 98,
+          "height": 100
+        },
+        {
+          "filename": "rocky_oni.png",
+          "width": 98,
+          "height": 100
+        },
+        {
+          "filename": "stumpy_oni.png",
+          "width": 98,
+          "height": 100
+        }
+      ],
+      "type": "Oni",
+      "entries": [
+        {
+          "name_en": "Small Oni",
+          "name_jp": "チビオニ",
+          "id": "small_oni",
+          "rank": 1,
+          "stats": {
+            "hp": 12,
+            "attack": 10,
+            "defense": 6,
+            "experience": 8
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            "Regular attacks only."
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Rocky Oni",
+          "name_jp": "ゴツオニ",
+          "id": "rocky_oni",
+          "rank": 2,
+          "stats": {
+            "hp": 60,
+            "attack": 15,
+            "defense": 20,
+            "experience": 70
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "0%",
+          "wake_condition": "High",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            "Double speed."
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Stumpy Oni",
+          "name_jp": "ズングリオニ",
+          "id": "stumpy_oni",
+          "rank": 3,
+          "stats": {
+            "hp": 60,
+            "attack": 15,
+            "defense": 20,
+            "experience": 50
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Lanky Oni Family",
+      "family_name_jp": "ヤセオニ, ヒョロオニ, ガリガリオニ",
+      "family_id": "small_oni_family",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "lanky_oni.png",
+          "width": 102,
+          "height": 117
+        },
+        {
+          "filename": "slender_oni.png",
+          "width": 102,
+          "height": 117
+        },
+        {
+          "filename": "skinny_oni.png",
+          "width": 102,
+          "height": 117
+        }
+      ],
+      "type": "Oni",
+      "entries": [
+        {
+          "name_en": "Lanky Oni",
+          "name_jp": "ヤセオニ",
+          "id": "lanky_oni",
+          "rank": 1,
+          "stats": {
+            "hp": 50,
+            "attack": 9,
+            "defense": 18,
+            "experience": 60
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "40%",
+          "notes": [
+            "Shoots Iron Arrows.",
+            "Can only be seen during the Galaha boss fight."
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Slender Oni",
+          "name_jp": "ヒョロオニ",
+          "id": "slender_oni",
+          "rank": 2,
+          "stats": {
+            "hp": 41,
+            "attack": 10,
+            "defense": 16,
+            "experience": 50
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        },
+        {
+          "name_en": "Skinny Oni",
+          "name_jp": "ガリガリオニ",
+          "id": "skinny_oni",
+          "rank": 3,
+          "stats": {
+            "hp": 50,
+            "attack": 13,
+            "defense": 17,
+            "experience": 60
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [
+            "Fast (2x)"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "40%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Galaha",
+      "family_name_jp": "ガラハ",
+      "family_id": "galaha",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "galaha.png",
+          "width": 76,
+          "height": 122
+        }
+      ],
+      "type": "Oni",
+      "entries": [
+        {
+          "name_en": "Galaha",
+          "name_jp": "ガラハ",
+          "id": "galaha",
+          "rank": 1,
+          "stats": {
+            "hp": 71,
+            "attack": 21,
+            "defense": 23,
+            "experience": 120
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [
+            "Weapon"
+          ],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "family_name": "Boss Oni",
+      "family_name_jp": "鬼親分",
+      "family_id": "boss_oni",
+      "family_desc_en": "",
+      "ally_desc_en": "",
+      "images": [
+        {
+          "filename": "boss_oni.png",
+          "width": 108,
+          "height": 114
+        }
+      ],
+      "type": "Oni",
+      "entries": [
+        {
+          "name_en": "Boss Oni",
+          "name_jp": "鬼親分",
+          "id": "boss_oni",
+          "rank": 1,
+          "stats": {
+            "hp": 450,
+            "attack": 45,
+            "defense": 40,
+            "experience": 0
+          },
+          "ally_stats": {
+            "max_growth": 0,
+            "hp_increase": 0,
+            "attack_increase": 0,
+            "max_hp": 0,
+            "max_attack": 0
+          },
+          "sleep_rate": "-",
+          "wake_condition": "-",
+          "element": [],
+          "item_drop": "",
+          "item_drop_rate": "0%",
+          "special_attack_rate": "30%",
+          "notes": [
+            ""
+          ],
+          "notes_ally": [
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
