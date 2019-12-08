@@ -45,7 +45,7 @@
       "price_plus": 20,
       "phrase": "コルヤギ",
       "desc_short_en": "",
-      "desc_en": "Said to be the weakest weapon. However, since it has 3 slots, it can be used as a base when making a Healing Sword. Ally Fencer monsters will always fling a Club in dungeons where weapons normally do not appear.",
+      "desc_en": "Said to be the weakest weapon. However, since it has 3 slots, it can be used as a base when making a Healing Sword. Ally Iai monsters will always fling a Club in dungeons where weapons normally do not appear.",
       "locations": [
         "Small Valley (F)",
         "Shuten Trail Easy (F)",
@@ -758,11 +758,11 @@
       ]
     },
     {
-      "name_en": "Fencer's Sword",
+      "name_en": "Kengo's Katana",
       "name_jp": "ケンゴウの刀",
-      "id": "fencers_sword",
+      "id": "kengos_katana",
       "image": {
-        "filename": "fencers_sword.png",
+        "filename": "kengos_katana.png",
         "width": 105,
         "height": 25.5
       },
@@ -777,7 +777,7 @@
       "price_plus": 160,
       "phrase": "",
       "desc_short_en": "Chance to fling a weapon when attacking.",
-      "desc_en": "Sword that has a chance to fling a weapon from monsters when attacking. Damage is not dealt if disarming occurs, so you'll be vulnerable to a counter attack. Rare drop from Lv2+ Fencer monsters. Can also be used to obtain monster-exclusive drops, but the odds remain the same.",
+      "desc_en": "Sword that has a chance to fling a weapon from monsters when attacking. Damage is not dealt if disarming occurs, so you'll be vulnerable to a counter attack. Rare drop from Lv2+ Kengo monsters. Can also be used to obtain monster-exclusive drops, but the odds remain the same.",
       "locations": [
         "Shuten Trail Mid (M)",
         "Shuten Trail Hard (M)",
@@ -1324,7 +1324,7 @@
       "price_plus": 4000,
       "phrase": "",
       "desc_short_en": "Max fullness is reduced to 1%, and also prevents hunger.",
-      "desc_en": "Shield that reduces max fullness to 1% while also stopping hunger. However, Hunger Puppet monsters can still lower your fullness, and Fencer monsters can disarm your shield, so you still have to be careful. Created by synthesizing 3 重 seals onto a Heavy Shield.",
+      "desc_en": "Shield that reduces max fullness to 1% while also stopping hunger. However, Hunger Puppet monsters can still lower your fullness, and Kengo monsters can disarm your shield, so you still have to be careful. Created by synthesizing 3 重 seals onto a Heavy Shield.",
       "locations": [
         "Synthesis Only"
       ]
@@ -1430,7 +1430,7 @@
       "price_plus": 200,
       "phrase": "どでとぴ",
       "desc_short_en": "Halves hunger rate. Rustproof.",
-      "desc_en": "Shield that halves your hunger rate. Rustproof. Ally Fencer monsters will always fling a Leather Shield in dungeons where shields normally do not appear.",
+      "desc_en": "Shield that halves your hunger rate. Rustproof. Ally Kengo monsters will always fling a Leather Shield in dungeons where shields normally do not appear.",
       "locations": [
         "Small Valley (F)",
         "Shuten Trail Easy (F)",
@@ -1595,7 +1595,7 @@
       "price_plus": 600,
       "phrase": "",
       "desc_short_en": "Prevents monsters from stealing items and Gitan.",
-      "desc_en": "Shield modeled after a Zalokleft. Prevents item and Gitan theft by Zalokleft, Gamarra, and Gyadon monsters. Note that it can't prevent Fencer monsters from disarming you, since disarming is not considered stealing.",
+      "desc_en": "Shield modeled after a Zalokleft. Prevents item and Gitan theft by Zalokleft, Gamarra, and Gyadon monsters. Note that it can't prevent Kengo monsters from disarming you, since disarming is not considered stealing.",
       "locations": [
         "Onigashima (T)",
         "Sealed Room (P)",
@@ -1891,7 +1891,7 @@
       "price_sell": 2000,
       "phrase": "",
       "desc_short_en": "Thrown items fly in a random direction.",
-      "desc_en": "Thrown items will fly in a random direction. There's no practical use for it, but it can be sold for a decent amount. Ally Fencer monsters will always fling this bracelet where bracelets normally do not appear.",
+      "desc_en": "Thrown items will fly in a random direction. There's no practical use for it, but it can be sold for a decent amount. Ally Shihan monsters will always fling this bracelet where bracelets normally do not appear.",
       "locations": [
         "Road to the End (FS)"
       ]
@@ -3225,7 +3225,7 @@
       "price_sell": 250,
       "phrase": "",
       "desc_short_en": "Escape from a dungeon with your Gitan and equipped items.",
-      "desc_en": "Escape from a dungeon with your Gitan and equipped items (weapon, shield, bracelets, ranged). Cannot escape if you're being chased by guard dogs and sheriffs. The 帰 seal lets you keep the weapon or shield it's synthesized on if you collapse in a dungeon. Note that it can't prevent equipment loss by other methods, such as Fencer monsters flinging it away. Always found identified.",
+      "desc_en": "Escape from a dungeon with your Gitan and equipped items (weapon, shield, bracelets, ranged). Cannot escape if you're being chased by guard dogs and sheriffs. The 帰 seal lets you keep the weapon or shield it's synthesized on if you collapse in a dungeon. Note that it can't prevent equipment loss by other methods, such as Kengo monsters flinging it away. Always found identified.",
       "locations": [
         "Shuten Trail Easy (P)",
         "Shuten Trail Mid (FP)",
@@ -3958,7 +3958,7 @@
       "price_sell": 20,
       "phrase": "",
       "desc_short_en": "Pierces through walls and enemies. Found in sets of 4~6.",
-      "desc_en": "Pierces through walls and characters, similar to the effect of having a Pierce Bracelet equipped. Horse Ronin monsters fire these arrows. Provides a 銀 seal which allows you to attack monsters inside walls. However, if thrown or a Fencer monster flings it away, the piece of equipment will fly outside of the map. Found in sets of 4~6.",
+      "desc_en": "Pierces through walls and characters, similar to the effect of having a Pierce Bracelet equipped. Horse Ronin monsters fire these arrows. Provides a 銀 seal which allows you to attack monsters inside walls. However, if thrown or a Kengo monster flings it away, the piece of equipment will fly outside of the map. Found in sets of 4~6.",
       "locations": [
         "Shuten Trail Easy (P)",
         "Shuten Trail Mid (P)",

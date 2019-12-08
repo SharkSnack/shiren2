@@ -1,5 +1,5 @@
 try {
-  $.getJSON("https://sharksnack.github.io/shiren2/json/monsters.json", function(data) {
+  $.getJSON("http://localhost/~tay/sharksnack.github.io/shiren2/json/monsters.json", function(data) {
     // load Monster Detail section HTML
     document.getElementById("monster_details").innerHTML = monster_details(data);
   });

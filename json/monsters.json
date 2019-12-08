@@ -1874,24 +1874,24 @@
       ]
     },
     {
-      "family_name": "Swordsman Family",
+      "family_name": "Kengo Family",
       "family_name_jp": "ケンゴウ, イアイ, シハン",
-      "family_id": "swordsman_family",
+      "family_id": "kengo_family",
       "family_desc_en": "",
       "ally_desc_en": "",
       "images": [
         {
-          "filename": "swordsman.png",
+          "filename": "kengo.png",
           "width": 80,
           "height": 114
         },
         {
-          "filename": "fencer.png",
+          "filename": "iai.png",
           "width": 80,
           "height": 114
         },
         {
-          "filename": "master.png",
+          "filename": "shihan.png",
           "width": 80,
           "height": 114
         }
@@ -1899,9 +1899,9 @@
       "type": "Weapon",
       "entries": [
         {
-          "name_en": "Swordsman",
+          "name_en": "Kengo",
           "name_jp": "ケンゴウ",
-          "id": "swordsman",
+          "id": "kengo",
           "rank": 1,
           "stats": {
             "hp": 42,
@@ -1933,9 +1933,9 @@
           ]
         },
         {
-          "name_en": "Fencer",
+          "name_en": "Iai",
           "name_jp": "イアイ",
-          "id": "fencer",
+          "id": "iai",
           "rank": 2,
           "stats": {
             "hp": 80,
@@ -1955,21 +1955,21 @@
           "element": [
             "Weapon"
           ],
-          "item_drop": "Fencer's Sword",
+          "item_drop": "Kengo's Katana",
           "item_drop_rate": "3%",
           "special_attack_rate": "25%",
           "notes": [
-            "Same as Swordsman, but also flings equipped weapons."
+            "Same as Kengo, but also flings equipped weapons."
           ],
           "notes_ally": [
-            "Same as Swordsman, but also flings weapons.",
+            "Same as Kengo, but also flings weapons.",
             "Flings a Club if the dungeon doesn't have weapons."
           ]
         },
         {
-          "name_en": "Master",
+          "name_en": "Shihan",
           "name_jp": "シハン",
-          "id": "master",
+          "id": "shihan",
           "rank": 3,
           "stats": {
             "hp": 125,
@@ -1989,28 +1989,28 @@
           "element": [
             "Weapon"
           ],
-          "item_drop": "Fencer's Sword",
+          "item_drop": "Kengo's Katana",
           "item_drop_rate": "3%",
           "special_attack_rate": "20%",
           "notes": [
-            "Same as Fencer, but also flings equipped bracelets."
+            "Same as Iai, but also flings equipped bracelets."
           ],
           "notes_ally": [
-            "Same as Fencer, but also flings bracelets.",
+            "Same as Iai, but also flings bracelets.",
             "Flings a No Control Bracelet if the dungeon doesn't have bracelets."
           ]
         }
       ]
     },
     {
-      "family_name": "Taur Family",
+      "family_name": "Taurus Family",
       "family_name_jp": "タウロス, ミノタウロス, メガタウロス",
-      "family_id": "taur_family",
+      "family_id": "taurus_family",
       "family_desc_en": "",
       "ally_desc_en": "",
       "images": [
         {
-          "filename": "taur.png",
+          "filename": "taurus.png",
           "width": 78,
           "height": 112
         },
@@ -2028,9 +2028,9 @@
       "type": "Weapon",
       "entries": [
         {
-          "name_en": "Taur",
+          "name_en": "Taurus",
           "name_jp": "タウロス",
-          "id": "taur",
+          "id": "taurus",
           "rank": 1,
           "stats": {
             "hp": 130,
@@ -2090,7 +2090,7 @@
             "Special attack is a critical hit that deals x1.4 damage."
           ],
           "notes_ally": [
-            "Same as Taur, but the critical hit deals x1.4 damage."
+            "Same as taurus, but the critical hit deals x1.4 damage."
           ]
         },
         {
@@ -2123,7 +2123,7 @@
             "Special attack is a critical hit that deals x1.5 damage."
           ],
           "notes_ally": [
-            "Same as Taur, but the critical hit deals x1.5 damage."
+            "Same as Taurus, but the critical hit deals x1.5 damage."
           ]
         }
       ]
@@ -2305,7 +2305,7 @@
           "height": 100
         },
         {
-          "filename": "porkcho.png",
+          "filename": "porkchop.png",
           "width": 68,
           "height": 100
         },
@@ -2349,9 +2349,9 @@
           ]
         },
         {
-          "name_en": "Porkcho",
+          "name_en": "Porkchop",
           "name_jp": "デブーチョ",
-          "id": "porkcho",
+          "id": "porkchop",
           "rank": 2,
           "stats": {
             "hp": 105,
