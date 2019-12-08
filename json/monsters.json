@@ -1088,7 +1088,7 @@
             "Summons a level 1 monster based on the current floor's monster table."
           ],
           "notes_ally": [
-            ""
+            "Warps an ally monster that wandered outside of view back to Shiren."
           ]
         },
         {
@@ -1119,7 +1119,7 @@
             "Summons a level 2 monster based on the current floor's monster table."
           ],
           "notes_ally": [
-            ""
+            "Same as Schubell, but warps 2 monsters."
           ]
         },
         {
@@ -1150,7 +1150,8 @@
             "Summons 1~3 level 3 monsters based on the current floor's monster table."
           ],
           "notes_ally": [
-            ""
+            "Same as Schubell, but warps 3 monsters.",
+            "Also summons ally monsters from monster pots."
           ]
         }
       ]
@@ -1612,7 +1613,9 @@
             "Disguises itself as an item and attacks Shiren when he tries to pick it up. (Green: 1~19yr)"
           ],
           "notes_ally": [
-            ""
+            "Special disguises itself as an item for 10 turns.",
+            "Enemies won't attack it, and projectils will pass over it.",
+            "Characters can't walk on top of it, so it can be used as a wall."
           ]
         },
         {
@@ -1643,7 +1646,7 @@
             "Same as N'dubba. (Pink: 20~29yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         },
         {
@@ -1674,7 +1677,7 @@
             "Same as N'dubba. (Blue: 30~59yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         },
         {
@@ -1707,7 +1710,7 @@
             "Same as N'dubba. (Red: 60~69yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         },
         {
@@ -1740,7 +1743,7 @@
             "Same as N'dubba. (Light Blue: 70~76yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         },
         {
@@ -1773,7 +1776,7 @@
             "Same as N'dubba. (Yellow: 77~87yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         },
         {
@@ -1804,7 +1807,7 @@
             "Same as N'dubba. (Beige: 88~89yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         },
         {
@@ -1835,7 +1838,7 @@
             "Same as N'dubba. (Light Green: 90~98yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         },
         {
@@ -1868,7 +1871,7 @@
             "Same as N'dubba. (White: 99yr)"
           ],
           "notes_ally": [
-            ""
+            "Same as N'dubba."
           ]
         }
       ]
@@ -2090,7 +2093,7 @@
             "Special attack is a critical hit that deals x1.4 damage."
           ],
           "notes_ally": [
-            "Same as taurus, but the critical hit deals x1.4 damage."
+            "Same as Taurus, but the critical hit deals x1.4 damage."
           ]
         },
         {
@@ -2618,10 +2621,12 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "50%",
           "notes": [
-            ""
+            "Throws monsters at Shiren, dealing 5 damage.",
+            "Also throws Shiren to traps within view.",
+            "Throw range: 5 tiles."
           ],
           "notes_ally": [
-            ""
+            "Can throw statues as well."
           ]
         },
         {
@@ -2649,10 +2654,12 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "50%",
           "notes": [
-            ""
+            "Same as Tiger Tosser.",
+            "Also throws Shiren to hidden traps and into Monster Houses.",
+            "Throw range: 10 tiles."
           ],
           "notes_ally": [
-            ""
+            "Same as Tiger Tosser."
           ]
         },
         {
@@ -2680,10 +2687,11 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "50%",
           "notes": [
-            ""
+            "Same as Tiger Hurler.",
+            "Throw range: 20 tiles."
           ],
           "notes_ally": [
-            ""
+            "Same as Tiger Tosser."
           ]
         }
       ]
@@ -2740,10 +2748,10 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Special attack swings a Seal Staff."
           ],
           "notes_ally": [
-            ""
+            "Special attack swings a Seal Staff."
           ]
         },
         {
@@ -2773,10 +2781,10 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "35%",
           "notes": [
-            ""
+            "Special attack swings a Slow Staff."
           ],
           "notes_ally": [
-            ""
+            "Special attack swings a Slow Staff."
           ]
         },
         {
@@ -2806,10 +2814,10 @@
           "item_drop_rate": "10%",
           "special_attack_rate": "23%",
           "notes": [
-            ""
+            "Special attack swings a Quarter Staff."
           ],
           "notes_ally": [
-            ""
+            "Special attack swings a Quarter Staff."
           ]
         }
       ]
@@ -2866,10 +2874,10 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Swings a Swift Staff at other monsters."
           ],
           "notes_ally": [
-            ""
+            "Special attack swings a Swift Staff."
           ]
         },
         {
@@ -2899,10 +2907,10 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Swings a Heal Staff at other monsters."
           ],
           "notes_ally": [
-            ""
+            "Special attack swings a Heal Staff."
           ]
         },
         {
@@ -2932,10 +2940,10 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Swings an Invisible Staff at other monsters."
           ],
           "notes_ally": [
-            ""
+            "Special attack swings an Invisible Staff."
           ]
         }
       ]
@@ -2992,10 +3000,11 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Special attack halves max strength for 30 turns.",
+            "Can be nullified with an Echo Shield or Salty Bracelet."
           ],
           "notes_ally": [
-            ""
+            "Special attack halves attack for 25 turns."
           ]
         },
         {
@@ -3025,10 +3034,11 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Special attack halves max HP for 25 turns.",
+            "Current HP will be doubled when the spell wears off."
           ],
           "notes_ally": [
-            ""
+            "Special attack halves max HP for 25 turns."
           ]
         },
         {
@@ -3058,10 +3068,12 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Special attack halves level for 20~30 turns.",
+            "Can be nullified with an Echo Shield or Stat Lock Bracelet.",
+            "HP damage as a result of halved level remains when the spell wears off."
           ],
           "notes_ally": [
-            ""
+            "Special attack halves level for 20~30 turns."
           ]
         }
       ]
@@ -3152,10 +3164,11 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Transforms Shiren or Mamo's items into Large Riceballs.",
+            "Cannot transform equipped items."
           ],
           "notes_ally": [
-            ""
+            "Defeated enemies have a 50% chance to drop a Riceball."
           ]
         },
         {
@@ -3183,10 +3196,10 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Transforms a target into a Riceball."
           ],
           "notes_ally": [
-            ""
+            "Defeated enemies always drop a Riceball."
           ]
         },
         {
@@ -3214,10 +3227,11 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Transforms a target into a Riceball.",
+            "Uses Nigiri Morph's special attack when Shiren or Mamo are currently transformed into a Riceball."
           ],
           "notes_ally": [
-            ""
+            "Defeated enemies always drop a Large Riceball."
           ]
         }
       ]
@@ -3272,10 +3286,13 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Swallows up to 2 thrown items and synthesizes them."
           ],
           "notes_ally": [
-            ""
+            "Ally: Swallows up to 2 thrown items and synthesizes them.",
+            "Swallowed items will vanish if returned to its pot.",
+            "Posession: Swallows up to 2 items on the ground and synthesizes them.",
+            "Also swallows thrown items."
           ]
         },
         {
@@ -3303,10 +3320,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Swallows up to 3 thrown items and synthesizes them."
           ],
           "notes_ally": [
-            ""
+            "Same as Mixer, but swallows up to 3 items."
           ]
         },
         {
@@ -3334,10 +3351,10 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Swallows up to 4 thrown items and synthesizes them."
           ],
           "notes_ally": [
-            ""
+            "Same as Mixer, but swallows up to 4 items."
           ]
         }
       ]
@@ -3392,10 +3409,11 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "19%",
           "notes": [
-            ""
+            "Special attack curses equipped shields."
           ],
           "notes_ally": [
-            ""
+            "Ally: Regular attacks only.",
+            "Posession: Removes curse from equipped shield."
           ]
         },
         {
@@ -3423,10 +3441,11 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Special attack curses all equipped items."
           ],
           "notes_ally": [
-            ""
+            "Ally: Regular attacks only.",
+            "Posession: Removes curses from all equipped items."
           ]
         },
         {
@@ -3454,10 +3473,13 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "15%",
           "notes": [
-            ""
+            "Special attack curses all equipment in inventory.",
+            "Cannot curse items inside pots."
           ],
           "notes_ally": [
-            ""
+            "Ally: Regular attacks only.",
+            "Posession: Removes curses from all equipment in inventory.",
+            "Cannoy remove curses from items inside pots."
           ]
         }
       ]
@@ -3552,10 +3574,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Special attack lowers equipped sword's upgrade value by 1."
           ],
           "notes_ally": [
-            ""
+            "Special attack lowers a target's defense by 35%."
           ]
         },
         {
@@ -3585,10 +3607,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Special attack lowers equipped sword or shield's upgrade value by 1."
           ],
           "notes_ally": [
-            ""
+            "Special attack lowers a target's defense to 0."
           ]
         },
         {
@@ -3618,10 +3640,13 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "18%",
           "notes": [
-            ""
+            "Special attack tears off a synthesis seal.",
+            "Prioritizes removing a red 金 seal, and lowers upgrade value by 1 when tearing it off.",
+            "Doesn't tear off seals with negative effects. (Sword: 呪, 捨, 不, 超; Shield: 呪, 捨, 重, 銀, 不, 超, 飯)",
+            "Lowers upgrade value by 1 if there are no removable seals."
           ],
           "notes_ally": [
-            ""
+            "Special attack seals a target."
           ]
         }
       ]
@@ -3678,10 +3703,14 @@
           "item_drop_rate": "100%",
           "special_attack_rate": "50%",
           "notes": [
-            ""
+            "Steals an item on the ground or from Shiren's inventory and warps away.",
+            "Runs away from Shiren after warping.",
+            "Prioritizes stealing the last item to fall on the ground over Shiren.",
+            "Never attacks unless sealed."
           ],
           "notes_ally": [
-            ""
+            "Ally: Drops the item it stole when returning to its pot.",
+            "Posession: Special places a stolen item in front of it."
           ]
         },
         {
@@ -3711,10 +3740,11 @@
           "item_drop_rate": "100%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Same as Zalokleft.",
+            "30% chance to divide when receiving damage."
           ],
           "notes_ally": [
-            ""
+            "Same as Zalokleft."
           ]
         },
         {
@@ -3744,10 +3774,12 @@
           "item_drop_rate": "100%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Same as Zalokleft, but also steals equipped items.",
+            "Prioritizes Shiren over items on the ground.",
+            "25% chance to divide when receiving damage."
           ],
           "notes_ally": [
-            ""
+            "Same as Zalokleft."
           ]
         }
       ]
@@ -3802,10 +3834,16 @@
           "item_drop_rate": "100%",
           "special_attack_rate": "70%",
           "notes": [
-            ""
+            "Steals 30~2000 Gitan from Shiren and warps away.",
+            "Runs away from Shiren at double speed after stealing.",
+            "Prioritzes standing on top of Gitan if there is Gitan on the ground.",
+            "Never attacks unless sealed."
           ],
           "notes_ally": [
-            ""
+            "Steals 30~2000 Gitan from a target and warps.",
+            "Picks it up and warps if it moves on top of Gitan.",
+            "Can store a max of 5000 Gitan.",
+            "Drops its Gitan when returning to its pot."
           ]
         },
         {
@@ -3833,10 +3871,10 @@
           "item_drop_rate": "100%",
           "special_attack_rate": "80%",
           "notes": [
-            ""
+            "Same as Gamarra."
           ],
           "notes_ally": [
-            ""
+            "Same as Gamarra, but can store up to 10,000 Gitan."
           ]
         },
         {
@@ -3864,10 +3902,10 @@
           "item_drop_rate": "100%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Same as Gamarra, but drops Gitan equal to 3 times floor amount. (max: 2000)"
           ],
           "notes_ally": [
-            ""
+            "Same as Gamarra, but can store up to 20,000 Gitan."
           ]
         }
       ]
