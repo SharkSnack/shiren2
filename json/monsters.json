@@ -786,7 +786,7 @@
       "family_name": "Stone Beast Family",
       "family_name_jp": "岩獣ズドン, 岩獣ガガン, 岩獣ドガガーン",
       "family_id": "stone_beast_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that body slams targets, making them fly away from the impact.<br>Lv2+ Stone Beast body slams can break through walls and leave targets paralyzed. (Shiren: 3 turns, Enemies: 2 turns)<br>Each collision with a wall tile deals 5 damage, so having a 弟 seal helps mitigate that damage.<br>Be careful not to trigger a robbery by being sent outside of a shop due to a body slam.<br>A body slam in a diagonal direction won't break walls.",
       "ally_desc_en": "",
       "images": [
         {
@@ -918,7 +918,7 @@
       "family_name": "Copycat Mask Family",
       "family_name_jp": "ものまね仮面, ふるまいカブリ, なりきりマスク",
       "family_id": "copycat_mask_family",
-      "family_desc_en": "",
+      "family_desc_en": "Disguises itself as other monsters, but can't copy their special attacks or stats.<br>Its disguise will be disabled when sealed, and you can also identify them by swinging a Knowledge Staff.<br>Never disguises itself as Dosukoi, Gamarra, Zalokleft, Orcan, Spearfish, or N'dubba family monsters.<br>Mixergons on 50~80F inside the Road to the End dungeon could actually be a disguised Mask monster.<br>It's also good to seal a monster before throwing an Extinction Scroll, just to be sure it's not actually one of these.<br>Never spawns asleep, so sleeping monsters are always their real selves. (Excluding monster houses)<br>You know it's one of these if a flying or amphibious monster is unable to move over or inside water, or if a double/triple speed mosnter is moving at regular speed.<br>",
       "ally_desc_en": "",
       "images": [
         {
@@ -1039,8 +1039,8 @@
       "family_name": "Schubell Family",
       "family_name_jp": "シューベル, メンベルス, ベルトーベン",
       "family_id": "schubell_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Monster that rings a bell to summon monsters.<br>Summoned monsters are based on the current floor's monster table.<br>The summoned monster matches the level of the Schubell family monster that summoned it.<br>Always performs regular attacks when there isn't enough room to summon other monsters.<br>It appears Schubell and Menbell cannot summon the following monster families: Schubell, Mixer, Copycat Mask, Dosukoi, Taurus, N'dubba, Spearfish, Orcan, Aqua Dragon, Shotfish, Tiny Phoenix, Escargon, Queen Spider.",
+      "ally_desc_en": "Summons or warps Shiren's ally monsters instead of summoning enemies.",
       "images": [
         {
           "filename": "schubell.png",
@@ -1160,7 +1160,7 @@
       "family_name": "Dosukoi Family",
       "family_name_jp": "ドスコーイ, ハッキョーイ, ゴッツァーン",
       "family_id": "dosukoi_family",
-      "family_desc_en": "",
+      "family_desc_en": "A monster that resembles a sumo wrestler. Appears in post-game dungeons.<br>Occasionally stomps the ground, shuffling stuff in the room. (Lv1: items, Lv2: characters, Lv3: items and characters)<br>Can push statues around, and Gottsuan can also push stairs.<br>Traps will always trigger if a character lands on one as a result of Hakkeyoi or Gottsuan stomping the ground.<br>Prioritizes moving toward and pushing statues or stairs over Shiren.<br>Doesn't stomp while pushing statues or stairs.<br>Items in shops won't move as a result of the ground being stomped.",
       "ally_desc_en": "",
       "images": [
         {
@@ -1283,7 +1283,7 @@
       "family_name": "Snacky",
       "family_name_jp": "タベラレルー",
       "family_id": "snacky",
-      "family_desc_en": "",
+      "family_desc_en": "A cute monster that resembles a ball with wings and heart-shaped feet.<br>Has a tendency to be defeated by other monsters, which results in the attacking monster leveling up.<br>Appears around 1~20F of post-game dungeons, often creating Cave Mamels or Mid Chintalas on 1F of Road to the End.<br>Usually you'd want to defeat it before another monster has the chance to level up, but it can be used to gain more experience or capture higher level monsters for Monster Kingdom.<br>Runs away from Shiren, but attacks when there is nowhere else to run.",
       "ally_desc_en": "",
       "images": [
         {
@@ -1325,7 +1325,9 @@
             "Other monsters prioritize Snacky over Shiren."
           ],
           "notes_ally": [
-            ""
+            "Ally: Monsters aim for Snacky rather than Shiren.",
+            "Monsters will level up when they defeat an ally Snacky.",
+            "Posession: Monsters aim for Snacky rather than Shiren."
           ]
         }
       ]
@@ -1334,7 +1336,7 @@
       "family_name": "Tiny Phoenix",
       "family_name_jp": "プチフェニックス",
       "family_id": "tiny_phoenix",
-      "family_desc_en": "",
+      "family_desc_en": "A bird monster that has a body made of fire.<br>Warps to monsters that have received damage and restores 50 HP.<br>Immune to fire attacks, but still takes damage from explosions.",
       "ally_desc_en": "",
       "images": [
         {
@@ -1378,7 +1380,9 @@
             "Immune to fire damage."
           ],
           "notes_ally": [
-            ""
+            "Ally: Restores 50 HP to an ally within view who has taken damage.",
+            "Posession: Special attack restores 50 HP to an ally adjacent to it.",
+            "Cannot restore an enemy's HP."
           ]
         }
       ]
@@ -1429,7 +1433,11 @@
             "Cannot warp if there isn't space in front of the other monster."
           ],
           "notes_ally": [
-            ""
+            "Ally: Reflects staff magic.",
+            "Warps in front of an ally and reflects magic if they are about to get hit by magic.",
+            "Cannot act during the next turn after warping.",
+            "Cannot warp if there isn't space in front of the ally.",
+            "Posession: Reflects magic."
           ]
         }
       ]
@@ -1477,7 +1485,9 @@
             "Special spawns 3 Armor Spiders on the current floor."
           ],
           "notes_ally": [
-            ""
+            "Ally: Spawns 3 ally Armor Spiders when an enemy is in front of it.",
+            "Max number of ally Armor Spiders is 5.",
+            "Posession: Can use its special even when there aren't enemies around."
           ]
         }
       ]
