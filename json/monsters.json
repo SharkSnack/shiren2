@@ -494,7 +494,7 @@
       "family_name": "Droplet Ninja Family",
       "family_name_jp": "スイテキマル, ジライヤ, ショウカンマル, ダイジライヤ",
       "family_id": "droplet_ninja_family",
-      "family_desc_en": "",
+      "family_desc_en": "A ninja-like monster that appears often early game.<br>Occasionally drops traps when defeated, with the type of trap being based on its level.<br>Can be troublesome if it drops a trap in a hallway.<br>Doesn't drop a trap if the ground below it is occupied by an item or stairs.",
       "ally_desc_en": "",
       "images": [
         {
@@ -651,8 +651,8 @@
       "family_name": "Mr. Drone Family",
       "family_name_jp": "Mr.ブーン, Mr.ヘリコ, Mr.ジャイロ",
       "family_id": "mr_drone_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "A vegetable-like monster that flies using a propeller on its head.<br>Runs away from Shiren, and has a high chance to drop beneficial grass when defeated.<br>Prioritizes running away, similar to Snacky.<br>The item drop will be lost if defeated over water.",
+      "ally_desc_en": "Has the second highest growth limit of all monsters.<br>Doesn't run away as an ally, so you can train it like any other monster.",
       "images": [
         {
           "filename": "mr_drone.png",
@@ -5834,10 +5834,13 @@
           "item_drop_rate": "10%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Tosses bombs at tagets within view that deal 15 damage and home in on a target within 2 tiles.",
+            "Immune to explosion damage from its own bombs."
           ],
           "notes_ally": [
-            ""
+            "Ally: Tosses bombs at enemies within view.",
+            "Bombs deal 15 damage, and home in on a target within 2 tiles.",
+            "Posession: Same as ally, but can also hit targets outside of view."
           ]
         },
         {
@@ -5867,10 +5870,10 @@
           "item_drop_rate": "10%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Same as Wolf Droid, but bombs deal 20 damage and home in on a taget within 5 tiles."
           ],
           "notes_ally": [
-            ""
+            "Same as Wolf Droid, but bombs deal 20 damage and home in on a taget within 5 tiles."
           ]
         },
         {
@@ -5900,10 +5903,10 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "12%",
           "notes": [
-            ""
+            "Same as Wolf Droid, but bombs deal 25 damage and home in on a taget within 10 tiles."
           ],
           "notes_ally": [
-            ""
+            "Same as Wolf Droid, but bombs deal 25 damage and home in on a taget within 10 tiles."
           ]
         }
       ]
@@ -5950,7 +5953,9 @@
           "item_drop_rate": "1%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Stops performing actions when its HP falls below 31.",
+            "Explodes when its HP falls below 11, dealing damage similar to a Big Landmine.",
+            "Also explodes if it gets hit by an explosion, such as stepping on a Landmine next to it."
           ],
           "notes_ally": [
             ""
@@ -6013,10 +6018,11 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "60%",
           "notes": [
-            ""
+            "Shoots Wooden Arrows, and never directly attacks."
           ],
           "notes_ally": [
-            ""
+            "Shoots Wooden Arrows, and never directly attacks.",
+            "Posession: Same as ally, but can also perform regular attacks."
           ]
         },
         {
@@ -6044,10 +6050,13 @@
           "item_drop_rate": "8%",
           "special_attack_rate": "65%",
           "notes": [
-            ""
+            "Shoots Iron Arrows, and never directly attacks.",
+            "Tries to keep a 2 tile distance from Shiren at all times.",
+            "Prioritizes moving away when Shiren gets too close."
           ],
           "notes_ally": [
-            ""
+            "Ally: Shoots Iron Arrows, and never directly attacks.",
+            "Posession: Same as ally, but can also perform regular attacks."
           ]
         },
         {
@@ -6077,10 +6086,13 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Fires cannonballs that deal 20 damage, and never directly attacks.",
+            "Sometimes fires even when Shiren isn't lined up to the attack.",
+            "Immune to damage from its own cannonballs."
           ],
           "notes_ally": [
-            ""
+            "Ally: Fires cannonballs, and never directly attacks.",
+            "Posession: Same as ally, but can also perform regular attacks."
           ]
         },
         {
@@ -6111,10 +6123,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Same as Pop Tank."
           ],
           "notes_ally": [
-            ""
+            "Same as Pop Tank."
           ]
         }
       ]
@@ -6171,7 +6183,9 @@
           "item_drop_rate": "25%",
           "special_attack_rate": "70%",
           "notes": [
-            ""
+            "Moves toward items and tosses them at Shiren.",
+            "Prioritizes moving toward items over attacking Shiren.",
+            "Items home in at targets within 5 tiles."
           ],
           "notes_ally": [
             ""
@@ -6204,7 +6218,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "80%",
           "notes": [
-            ""
+            "Same as Bored Kappa, but items home in at targets within 10 tiles."
           ],
           "notes_ally": [
             ""
@@ -6237,7 +6251,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "80%",
           "notes": [
-            ""
+            "Same as Bored Kappa, but items home in at targets from anywhere in the room."
           ],
           "notes_ally": [
             ""
@@ -6287,10 +6301,12 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "60%",
           "notes": [
-            ""
+            "Can walk on water.",
+            "Picks up items on the ground, and throws them at Shiren when he is within 5 tiles and lined up."
           ],
           "notes_ally": [
-            ""
+            "Ally: Drops the item it's carrying when it returns to its pot.",
+            "Posession: Special attack picks up an item on the ground, and using special attack again will make Water Strider throw it."
           ]
         }
       ]
@@ -6313,7 +6329,7 @@
           "height": 79
         },
         {
-          "filename": "cap_spearfish.png",
+          "filename": "capt_spearfish.png",
           "width": 100,
           "height": 79
         },
@@ -6352,14 +6368,14 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Cannot attack targets on land when it's underwater."
           ],
           "notes_ally": [
             ""
           ]
         },
         {
-          "name_en": "Lt Spearfish",
+          "name_en": "Lt. Spearfish",
           "name_jp": "オトト軍曹",
           "id": "lt_spearfish",
           "rank": 2,
@@ -6385,16 +6401,17 @@
           "item_drop_rate": "3%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Can attack targets on land when it's underwater.",
+            "Runs toward water when its HP falls below 16, and restores 5 HP per turn inside water."
           ],
           "notes_ally": [
             ""
           ]
         },
         {
-          "name_en": "Cap Spearfish",
+          "name_en": "Capt. Spearfish",
           "name_jp": "オトト大将",
-          "id": "cap_spearfish",
+          "id": "capt_spearfish",
           "rank": 3,
           "stats": {
             "hp": 50,
@@ -6418,14 +6435,15 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Lt. Spearfish, but runs toward water when its HP falls below 21.",
+            "Restores 7 HP per turn when it's underwater."
           ],
           "notes_ally": [
             ""
           ]
         },
         {
-          "name_en": "Adm Spearfish",
+          "name_en": "Adm. Spearfish",
           "name_jp": "オトトげんすい",
           "id": "adm_spearfish",
           "rank": 4,
@@ -6451,7 +6469,8 @@
           "item_drop_rate": "2%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Lt. Spearfish, but runs toward water when its HP falls below 26.",
+            "Restores 9 HP per turn when it's underwater."
           ],
           "notes_ally": [
             ""
@@ -6511,7 +6530,8 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "100%",
           "notes": [
-            ""
+            "Performs a jump attack that has x2 power of a regular attack when it's underwater.",
+            "Runs toward water when its HP falls below 21, and restores 2 HP per turn inside water."
           ],
           "notes_ally": [
             ""
@@ -6544,7 +6564,7 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "100%",
           "notes": [
-            ""
+            "Same as Orcan, but restores 3 HP per turn inside water."
           ],
           "notes_ally": [
             ""
@@ -6577,7 +6597,7 @@
           "item_drop_rate": "4%",
           "special_attack_rate": "100%",
           "notes": [
-            ""
+            "Same as Orcan, but restores 4 HP per turn inside water."
           ],
           "notes_ally": [
             ""
@@ -6638,7 +6658,8 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "15%",
           "notes": [
-            ""
+            "Breathes icy breath that deals 15 damage and freezes Shiren for 1 turn.",
+            "Moves in a way to line up on a straight line with Shiren to perform its special attack."
           ],
           "notes_ally": [
             ""
@@ -6672,7 +6693,7 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Same as Aqua Dragon, but its freezing breath deals 20 damage."
           ],
           "notes_ally": [
             ""
@@ -6706,7 +6727,7 @@
           "item_drop_rate": "16%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Same as Aqua Dragon, but its freezing breath deals 25 damage."
           ],
           "notes_ally": [
             ""
@@ -6767,7 +6788,9 @@
           "item_drop_rate": "25%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Shoots water at a target, dealing 5 damage.",
+            "Special attack turns all scrolls in your inventory into wet scrolls.",
+            "Scrolls that are in pots will be safe."
           ],
           "notes_ally": [
             ""
@@ -6801,7 +6824,9 @@
           "item_drop_rate": "25%",
           "special_attack_rate": "25%",
           "notes": [
-            ""
+            "Shoots water at a target, dealing 7 damage.",
+            "Special attack turns all riceballs in your inventory into spoiled riceballs.",
+            "Riceballs that are in pots will be safe."
           ],
           "notes_ally": [
             ""
@@ -6835,7 +6860,9 @@
           "item_drop_rate": "25%",
           "special_attack_rate": "20%",
           "notes": [
-            ""
+            "Shoots water at a target, dealing 11 damage.",
+            "Special attack lowers both equipped weapon and shield upgrade values by 1.",
+            "Equipment with the 金 seal will be safe."
           ],
           "notes_ally": [
             ""
@@ -6957,7 +6984,8 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Throws stones at a target within 3 tiles.",
+            "Stumpy Oni during the Galaha boss fight don't move."
           ],
           "notes_ally": [
             ""
@@ -7049,7 +7077,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Same as Lanky Oni, but moves in a way to keep a 2 tile distance from Shiren."
           ],
           "notes_ally": [
             ""
@@ -7082,7 +7110,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "40%",
           "notes": [
-            ""
+            "Same as Lanky Oni, but moves in a way to keep a 2 tile distance from Shiren."
           ],
           "notes_ally": [
             ""
@@ -7132,7 +7160,8 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Issues orders to Small Oni and Lanky Oni families.",
+            "Moves in a way to avoid lining up with Shiren while issuing orders."
           ],
           "notes_ally": [
             ""
@@ -7180,7 +7209,11 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "30%",
           "notes": [
-            ""
+            "Immune to fire damage, spoil traps, and pitfalls.",
+            "Breathes fire at targets who are on a straight line.",
+            "Makes Shiren trip from anywhere in the room.",
+            "Has a move that knocks Shiren back and deals 10 damage when lined up.",
+            "Heals status conditions if he receives damage while inflicted by a status condition."
           ],
           "notes_ally": [
             ""
@@ -7238,7 +7271,8 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Blocks the shop exits when you pick up merchandise.",
+            "Changes to enemy mode if you attack or steal."
           ],
           "notes_ally": [
             ""
@@ -7269,7 +7303,9 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Shopkeeper, but reflects staff magic.",
+            "Won't change to enemy mode if it reflects magic.",
+            "Replaces Shopkeepers 30F+ inside the Road to the End dungeon."
           ],
           "notes_ally": [
             ""
@@ -7300,7 +7336,9 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Same as Asst. Manager, but also reflects thrown items.",
+            "Items thrown while having a Pierce Bracelet equipped are effective.",
+            "Doesn't spawn naturally in any dungeon."
           ],
           "notes_ally": [
             ""
@@ -7353,7 +7391,10 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Appears in Shuten Trail (Mid, Hard), Onigashima, and Road to the End.",
+            "Starts with 2~6 items for sale.",
+            "Walks around the floor, picking up items and leaving Vouchers in their place.",
+            "No change to its behavior when sealed."
           ],
           "notes_ally": [
             ""
@@ -7384,7 +7425,9 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Approaches Shiren and forces a conversation.",
+            "Behavior changes to a Trader if you buy an item.",
+            "A good source of Angel Seeds if you encounter one in a Hawker House."
           ],
           "notes_ally": [
             ""
@@ -7432,7 +7475,8 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Spawns when theft mode is triggered.",
+            "Replaces regular monster spawns."
           ],
           "notes_ally": [
             ""
@@ -7482,7 +7526,8 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Spawns when theft mode is triggered.",
+            "Replaces regular monster spawns."
           ],
           "notes_ally": [
             ""
@@ -7530,7 +7575,8 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Wanders around the floor, and doesn't attack.",
+            "Talking to Shuten Child inside a dungeon will return you to Shuten Summit."
           ],
           "notes_ally": [
             ""
@@ -7578,7 +7624,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Made from Soil."
           ],
           "notes_ally": [
             ""
@@ -7609,7 +7655,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Made from Good Soil."
           ],
           "notes_ally": [
             ""
@@ -7640,7 +7686,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Made from Perfect Soil."
           ],
           "notes_ally": [
             ""
@@ -7693,7 +7739,7 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Randomly drops from the ceiling, and returns after a number of turns."
           ],
           "notes_ally": [
             ""
@@ -7724,7 +7770,9 @@
           "item_drop_rate": "0%",
           "special_attack_rate": "",
           "notes": [
-            ""
+            "Randomly drops from the ceiling, and returns after a number of turns.",
+            "Offers more experience points than Oni Doll, but has higher HP.",
+            "Only 1~2 spawn during training."
           ],
           "notes_ally": [
             ""
