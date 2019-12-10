@@ -2145,7 +2145,7 @@
       "family_name": "Ashigarudon Family",
       "family_name_jp": "足軽どん, 侍どん, 大将どん, 殿様どん",
       "family_id": "ashigarudon_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that starts out as a weakling, but equips special shields as it levels up.<br>Samuraidon has a Counter Shield, Taishodon has an Echo Shield, and Tonosamadon has a Reflect Shield.<br>Note that these shields will never be dropped, even if you use Kengo's special attack.<br>Their stats aren't too high, but it's easy to forget what their shields reflect at different levels.",
       "ally_desc_en": "",
       "images": [
         {
@@ -2309,7 +2309,7 @@
       "family_name": "Porky Family",
       "family_name_jp": "デブータ, デブーチョ, デブートン",
       "family_id": "porky_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that resembles a pig. Throws stones at Shiren from a distance.<br>It can use its special attack toward targets outside of view, unlike monsters such as Wolf Droid.<br>Doesn't attack if Shiren is inside a pot.",
       "ally_desc_en": "",
       "images": [
         {
@@ -2429,7 +2429,7 @@
       "family_name": "Horse Ronin Family",
       "family_name_jp": "馬武者, 荒馬ザムライ, あばれ馬将軍, 乱れ馬王",
       "family_id": "horse_ronin_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that resembles a centaur. Shoots silver arrows.<br>Also performs regular attacks, unlike the Bow Boy family.<br>Silver arrows pierce through targets, so it may defeat other monsters who are lined up with Shiren and level up.<br>The stat difference between Horse Ronin and Horse Samurai is quite large, so be careful of where you stand.",
       "ally_desc_en": "",
       "images": [
         {
@@ -2585,7 +2585,7 @@
       "family_name": "Tiger Tosser Family",
       "family_name_jp": "タイガーウッホ, タイガーウホホ, タイガーウホーン",
       "family_id": "tiger_tosser_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that resembles a tiger. Capable of throwing Shiren and other monsters with its special attack.<br>Higher levels can toss Shiren into monster houses, so don't take them on too lightly.",
       "ally_desc_en": "",
       "images": [
         {
@@ -2710,7 +2710,7 @@
       "family_name": "King Tusker Family",
       "family_name_jp": "パ王, パオパ王, パオパ王ーン",
       "family_id": "king_tusker_family",
-      "family_desc_en": "",
+      "family_desc_en": "Incarnation of an elephant that wields magic. Swings various staves at Shiren based on its level.<br>Possible to reflect its magic with an Echo Shield, and it sometimes drops its staff when defeated.<br>Monarch Tusker's Slow Staff and Emperor Tusker's Quarter Staff are particularly dangerous.<br>If you get hit by a Slow Staff while already slowed, you will be paralyzed and unable to act for 3 turns.<br>It can slow you again while paralyzed, creating an endless loop until you collapse, so don't be stingy with items.",
       "ally_desc_en": "",
       "images": [
         {
@@ -2836,7 +2836,7 @@
       "family_name": "Bat Kangaroo Family",
       "family_name_jp": "バットカンガルー, エビルカンガルー, デビルカンガルー",
       "family_id": "bat_kangaroo_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that resembles a kangaroo with bat wing-like ears.<br>A support monster that swings various staves at other monsters to aid them in battle.<br>Swings its staff at other monsters even if Shiren isn't in the same room.<br>Evil Kangaroo sometimes defeats Ghost type monsters with its Heal Staff, resulting in a Devil Kangaroo.<br>Devil Kangaroo is truly a devilish monster as its name implies in Asuka Kenzan and GB2/DS2 due to swinging a staff that both doubles or triples movement speed and increases special use rate to 100%, but isn't much of a threat in Shiren 2 since it only swings an Invisible Staff. Therefore, the scariest one of the group is actually Bat Kangaroo, who increases movement speed of other monsters.",
       "ally_desc_en": "",
       "images": [
         {
@@ -2962,7 +2962,7 @@
       "family_name": "Sheep Priest Family",
       "family_name_jp": "ヒツジ神官, ヤギ司祭, ガゼル教皇",
       "family_id": "sheep_priest_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that resembles a sheep dressed like a priest. Casts spells that temporarily reduce Shiren's stats.<br>Level 1 halves strength, level 2 halves max HP, and level 3 halves level.<br>The spell effects are stronger at higher levels, but the spells don't last as long.<br>The number of remaining turns doesn't get extended if the spell is cast again while under the effect of the spell.<br>All of its spells can be reflected with an Echo Shield. Sheep Priest's spells can also be blocked by a Salty Bracelet, and Gazelle Pope's spells can be blocked by a Stat Lock Bracelet.",
       "ally_desc_en": "",
       "images": [
         {
@@ -3092,8 +3092,8 @@
       "family_name": "Nigiri Trainee Family",
       "family_name_jp": "にぎりみならい, にぎりへんげ, にぎり親方, にぎりもとじめ",
       "family_id": "nigiri_trainee_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Monster with a large mouth and a riceball-shaped head. Transforms items or Shiren into riceballs.<br>This ability can be disasterous if something like a Storage Pot full of important items gets transformed into a riceball. However, it can also be used as a way to transform extra items such as Wooden Arrows into riceballs to stock up on food sources or increase max fullness.<br>If Shiren is turned into a riceball, his attack and defense stats from equipment will be 0 until he transforms back.<br>Shiren 2 is more forgiving in that you won't instantly collapse from stepping on a Spoil Trap or receiving fire/explosion damage while turned into a riceball.<br>All Nigiri monsters can be instantly defeated by throwing a riceball, though the throw can still miss like other items.<br>Equipped items will never be turned into Large Riceballs.<br>It will only use regular attacks when there is nothing in your inventory that can be turned into riceballs, or if Shiren is already turned into a riceball.",
+      "ally_desc_en": "No special attack, but monsters defeated by it have a higher chance to drop riceballs, based on the Nigiri monster's level.",
       "images": [
         {
           "filename": "nigiri_trainee.png",
@@ -3250,7 +3250,7 @@
       "family_name": "Mixer Family",
       "family_name_jp": "マゼルン, マゼモン, マゼゴン",
       "family_id": "mixer_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that swallows thrown items, and if compatible, synthesizes them.<br>Unlike Synthesis Pots, it can synthesize different category items together such as a weapon + grass.<br>Each item it swallows powers it up, with the formula being: current stat x (1.1 + (0.05 x number of items))<br>It will drop the swallowed items when tripped or defeated.<br>Note that making it trip won't reset the number of swallows.<br>Higher levels can swallow more items. It won't swallow thrown items with piercing properties.<br>Checking for the presence of Pierce Statues is recommended before throwing items.<br>Swallows items even when it's sleeping, but won't swallow items if sealed.<br>Also swallows traps, so for example you could use a Knockback Staff to have it swallow a Pitfall, lead it into a shop, and then defeat it to make an easy exit inside the shop for stealing purposes.<br>Mixergon found in Road to the End (50~80F) could actually be a Copycat Mask family monster, so you may want to throw an unneeded item first to check.",
       "ally_desc_en": "",
       "images": [
         {
@@ -3373,8 +3373,8 @@
       "family_name": "Straw Voodoll Family",
       "family_name_jp": "ワラドール, クギワラドール, ゴスンドール",
       "family_id": "straw_voodoll_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Monster that resembles a Voodoo Doll. Its special attack curses equipment.<br>Its curses can be blocked by a Holy Shield or the 祓 seal. (from Holy Shield or Exorcism Scroll)<br>Curses are treated as seals in Shiren 2, so it can only curse equipment if there is an open seal slot.<br>Levels 1 and 2 only use its special attack against Shiren or Asuka, while level 3 also uses it on Mamo.",
+      "ally_desc_en": "No special attack, but using a Posession Staff on a Voodoll monster will instantly remove curses.<br>Pretty strong as an ally thanks to a higher growth limit.",
       "images": [
         {
           "filename": "straw_voodoll.png",
@@ -3498,8 +3498,8 @@
       "family_name": "Weather Doll Family",
       "family_name_jp": "ケロぼうず, ケロケロぼうず, ジャノメぼうず, ドシャブリぼうず",
       "family_id": "weather_doll_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Monster that resembles a Teru Teru Bozu with an umbrella.<br>Creates a rain cloud that lowers equipment upgrade values.<br>Sometimes uses its special attack even if you don't have anything equipped.<br>Level 1 only uses regular attacks, and levels 2 and 3 specials can be blocked by a 金 seal.<br>However, level 4 has a powerful ability to tear off synthesis seals.<br>It prioritizes the removal of a red 金 seal (Plating Scroll), so you can use a red 金 seal instead of a blue one to serve as a buffer to protect other seals.",
+      "ally_desc_en": "Monsoon Doll ends up being very strong thanks to a high growth limit, and can also seal enemies.<br>It's not the brightest, however, as it sometimes wastes turns by trying to seal an enemy that is already sealed.",
       "images": [
         {
           "filename": "weather_doll.png",
