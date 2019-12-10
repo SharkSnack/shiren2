@@ -1890,8 +1890,8 @@
       "family_name": "Kengo Family",
       "family_name_jp": "ケンゴウ, イアイ, シハン",
       "family_id": "kengo_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Monster that resembles a Samurai. The most disliked monster among player votes.<br>Its special attack flings Shiren or Asuka's equipment behind them with an iaigiri strike, including cursed equipment.<br>The only way to guarantee avoiding its special attack would be to either seal it or throw an Extinction Scroll at it, as Shiren 2 lacks bracelets that protect against having equipment disarmed.<br>Kengo doesn't have too high of an attack stat, so unequipping your shield can be a decent strategy.<br>You could also intentionally aim to have them disarm cursed equipment, but Iai and Shihan have very high attack, so you risk collapsing unless you pour water on them to lower their attack first.<br>Note that not even a Kaburasutegi+99 can defeat Shihan in a single hit, unless you've increased your strength.",
+      "ally_desc_en": "Flings equipment from monsters. Great way to collect synthesis fodder for upgrade values or seals.<br>Shihan can fling bracelets as well, so you may be able to obtain valuable ones like Scout Bracelet.<br>Using its special attack on a monster with a fixed drop such as Minotaur's Axe isn't a 100% chance to obtain it, but instead has the same odds as its defeated drop rate.",
       "images": [
         {
           "filename": "kengo.png",
@@ -2019,7 +2019,7 @@
       "family_name": "Taurus Family",
       "family_name_jp": "タウロス, ミノタウロス, メガタウロス",
       "family_id": "taurus_family",
-      "family_desc_en": "",
+      "family_desc_en": "Powerful monster that carries an axe. Note that it doesn't appear in Power Houses.<br>Very high HP and attack, and can deal critical hits on top of its already strong attacks.<br>Taurus can only be seen by lowering Minotaur or Megataur's level with items such as an Unlucky Staff.<br>Its critical hits are guaranteed to hit, even if you have equipment that raises evasion.",
       "ally_desc_en": "",
       "images": [
         {
