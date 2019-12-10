@@ -1391,7 +1391,7 @@
       "family_name": "Escargon",
       "family_name_jp": "エスカルゴン",
       "family_id": "escargon",
-      "family_desc_en": "",
+      "family_desc_en": "A small monster who hides inside a yellow shell. Capable of reflecting magic.<br>Warps in front of other monsters when Shiren tries to swing a staff at them.<br>You can work around this ability by swinging the staff when the target monster is directly next to you.",
       "ally_desc_en": "",
       "images": [
         {
@@ -1446,8 +1446,8 @@
       "family_name": "Queen Spider",
       "family_name_jp": "女王グモ",
       "family_id": "queen_spider",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Boss of Shuten Trail Hard. Its special attack spawns 3 Armor Spiders.<br>Doesn't move when it appears as a boss, and uses its special no matter where Shiren is on the current floor.<br>Takes 200 damage from a pent-up-anger Surprise Pot, instantly defeating it.<br>Also appears inside the Shrine's Hidden Hole dungeon. (60F+)<br>Outside of the boss encounter, it will only use its special when Shiren is in front of it.",
+      "ally_desc_en": "Can only be captured 60F+ inside the Shrine's Hidden Hole dungeon.<br>Terrifyingly strong when maxed. Be careful around Gazers, since they have the ability to confuse Queen Spider.",
       "images": [
         {
           "filename": "queen_spider.png",
@@ -1496,7 +1496,7 @@
       "family_name": "Armor Spider",
       "family_name_jp": "ヨロイグモ",
       "family_id": "armor_spider",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that gets spawned by Queen Spider. No special abilities.<br>Not too difficult 1-on-1, but Queen Spider will endlessly spawn them, so you can end up getting swarmed.<br>Appears on their own in later dungeons, starting in Onigashima.",
       "ally_desc_en": "",
       "images": [
         {
@@ -1544,7 +1544,7 @@
       "family_name": "N'dubba",
       "family_name_jp": "ンドゥバ",
       "family_id": "ndubba",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that disguises itself as an item, and attacks when someone tries to pick it up.<br>It's possible to identify it by swinging a weapon that has the 識 seal toward a tile with an item.<br>N'dubba will vanish if the item limit has been reached for the current floor.<br>It's also possible to pick N'dubba up as an item under certain circumstances.<br>N'dubba ages as it levels up, with a maximum of 99 years old.<br>Each age has its own stats, and some age brackets have changes in movement speed.<br>One way to reduce the risk of collapsing from a surprise attack would be to reserve some HP before attempting to pick up items.<br>Monster Kingdom requires an N'dubba of every color for completion. The easiest way to capture them would be to search inside the Sealed Room dungeon, where the current floor number indicates the age of N'dubba that can be found on that floor. (ex: N'dubba 99yr = 99F)<br>Note that there's a bug related to swapping out N'dubba at Monster Kingdom.",
       "ally_desc_en": "",
       "images": [
         {
