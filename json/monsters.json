@@ -3665,7 +3665,7 @@
       "family_name": "Zalokleft Family",
       "family_name_jp": "ぬすっトド, みどりトド, アイアントド",
       "family_id": "zalokleft_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster resembling a small walrus or sea lion that covers its head with a piece of cloth.<br>Steals an item that is on the ground or from Shiren's inventory, and then warps away.<br>Runs away from Shiren after stealing an item.<br>Higher levels can divide when receiving damage, creating a copy of itself.<br>Iron Zaloklefts can steal equipped items, so you may want to place an unneeded item on the ground if one is next to you to avoid losing your equipment. However, they don't have much HP, so you could try to defeat it in one hit.<br>Only appears in Underwater Houses inside the Road to the End dungeon.",
       "ally_desc_en": "",
       "images": [
         {
@@ -3798,7 +3798,7 @@
       "family_name": "Gamarra Family",
       "family_name_jp": "ガマラ, ガマグッチ, ガマゴン",
       "family_id": "gamarra_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that looks like a clasped purse.<br>Steals Gitan from Shiren, and then runs away at double speed.<br>Always drops Gitan when defeated, even if it didn't steal any from Shiren.<br>Moves toward Gitan if it sees some on the floor, and then sits on top of it.<br>Doesn't perform regular attacks unless it's sealed.",
       "ally_desc_en": "",
       "images": [
         {
@@ -3924,8 +3924,8 @@
       "family_name": "Gyadon Family",
       "family_name_jp": "ギャドン, ギャイラス, ギャンドラー",
       "family_id": "gyadon_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Monster resembling a pterodactyl.<br>Plucks items from Shiren's inventory and modifies them in negative ways.<br>Plucked items will fall to the ground beneath Gyadon.<br>Also performs regular attacks, unlike other monsters that steal from Shiren.<br>Uses its special attack against Asuka and Mamo as well.<br>Gyandora is particularly bad, because it can reduce synthesis slots on equipment (including equipped items), or make items in pots vanish while reducing their size at the same time.<br>Its plucking special attack can be blocked using a Walrus Shield.<br>Appears in Magic Houses, despite not being a magic type monster.",
+      "ally_desc_en": "It can only perform regular attacks as an ally, despite having such an annoying ability as an enemy.",
       "images": [
         {
           "filename": "gyadon.png",
