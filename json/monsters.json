@@ -4054,7 +4054,7 @@
       "family_name": "Dragon Family",
       "family_name_jp": "ドラゴン, スカイドラゴン, アークドラゴン",
       "family_id": "dragon_family",
-      "family_desc_en": "",
+      "family_desc_en": "Dragon monster that can breathe fire to deal damage from a distance.<br>The flame never misses, and deals a fixed amount of damage. Higher levels have greater range.<br>A Dragon Shield (竜) or the 火 seal will reduce the amount of damage you take from fire attacks.<br>It's often asleep when it spawns, and has a high item drop rate.<br>Archdragon's ability to breathe fire from anywhere on the current floor is particularly mean, and the monster can appear as early as 30F in the Road to the End dungeon. You'll want to keep some healing items on hand if possible in case you encounter one.",
       "ally_desc_en": "",
       "images": [
         {
@@ -4182,8 +4182,8 @@
       "family_name": "Shaaga Family",
       "family_name_jp": "シャーガ, ナシャーガ, ラシャーガ",
       "family_id": "shaaga_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Snake-like monster with four arms. Higher levels attack multiple times during the same turn.<br>The number of attacks doesn't change, even if its movement increases to double or triple speed.<br>However, sealing it will remove this limit, so a double speed Shaaga would be able to attack twice.",
+      "ally_desc_en": "Posession allows for a greater number of attacks than when it's encountered as an enemy.",
       "images": [
         {
           "filename": "shaaga.png",
@@ -4314,7 +4314,7 @@
       "family_name": "Bone Dragon Family",
       "family_name_jp": "ボーンドラゴン, スカルドラゴン, ガルムドラゴン",
       "family_id": "bone_dragon_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster consisting of dragon bones. Has high stats to make up for the lack of a special attack.<br>The only monster family to have 2 weaknesses, since it's both Ghost and Dragon type.<br>Easily defeated by weapons that have both seals from Ghost Sickle and Dragon Killer.<br>Bone Dragon has a higher item drop rate.",
       "ally_desc_en": "",
       "images": [
         {
@@ -4444,7 +4444,7 @@
       "family_name": "Pumphantasm Family",
       "family_name_jp": "パコレプキン, パコレプキーナ, パコレプキング",
       "family_id": "pumphantasm_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that was born from a pumpkin that went rotten as a result of no one eating it.<br>Can pass through walls, and moves in a random pattern that resembles confusion at first glance.<br>",
       "ally_desc_en": "",
       "images": [
         {
@@ -4581,7 +4581,7 @@
       "family_name": "Gale Family",
       "family_name_jp": "イダテン, シップウ, カミカゼ, ダイレップウ",
       "family_id": "gale_family",
-      "family_desc_en": "",
+      "family_desc_en": "Speed type monster that wields two swords.<br>Higher levels gain additional attacks and faster movement, and Typhoon can also pass through walls.<br>Typhoon can see Shiren anywhere on the current floor, so it'll rush toward Shiren if it's awake when it's generated.<br>One way to avoid an ambush is to pass some turns in the room you start in before heading into a hallway.<br>Note that Kamikaze doesn't spawn naturally inside the Road to the End dungeon.<br>Gale doesn't have the flying element, so it's the only one of this family that can't move over water.",
       "ally_desc_en": "",
       "images": [
         {
@@ -4767,7 +4767,7 @@
       "family_name": "Yamikichi Family",
       "family_name_jp": "ヤミキチ, ワルキチ, ズルキチ",
       "family_id": "yamikichi_family",
-      "family_desc_en": "",
+      "family_desc_en": "A small reaper-like monster that rides on a cloud.<br>No special abilities outside of having the floating element.<br>Zurukichi has 101 HP, meaning it'll survive getting hit by an Otogiriso with 1 HP left. Zurukichi's name includes Zuru, which is along the lines of cheating / unfair in Japanese, so you could say it's a fitting name for a Ghost type monster that barely survives a thrown Otogiriso.",
       "ally_desc_en": "",
       "images": [
         {
@@ -4902,7 +4902,7 @@
       "family_name": "Twisty Hani",
       "family_name_jp": "くねくねハニー",
       "family_id": "twisty_hani",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that has the appearance of a Haniwa. (clay figure)<br>Performs a twisty dance that lowers a target's level by 1.<br>A Stat Lock Bracelet can nullify the dance's level down effect.<br>Cannot use its special attack against a target that is level 1.<br>Always generated asleep, and guaranteed to wake up when you move within 1 tile of it.<br>Its high special attack usage rate means you'll rapidly lose levels if you can't defeat it quickly.<br>That said, it offers a higher item drop rate and decent experience, so it may be worth the trouble to attack it.<br>If you do so, it's safer to attack from a distance by shooting arrows, throwing stones, or rolling cannonballs.",
       "ally_desc_en": "",
       "images": [
         {
@@ -4952,7 +4952,7 @@
       "family_name": "Slug Family",
       "family_name_jp": "しおいやん, まじしおいやん, しおやだん, しおかんべん",
       "family_id": "slug_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that resembles a slug. Licks Shiren and lowers his strength.<br>A Salty Bracelet or the poison immunity effect from a Specialty Riceball will nullify its licks.<br>Note that a Scale Shield (う and 消 seals) cannot block the strength lowering effect of licks.<br>Uses its special attack even if the target's strength is already 0.<br>Throwing an Antidote Grass at it will deal 50 damage, which is enough to instantly defeat Lv1~2 slugs.<br>Strength is extremely important in Shiren 2, so don't hesitate to use items if you encounter one.<br>Levels 3 and 4 have a chance to divide and generate more slugs when they receive damage, so it's best to take them on inside hallways to avoid getting surrounded.",
       "ally_desc_en": "",
       "images": [
         {
@@ -5118,7 +5118,7 @@
       "family_name": "Scorpion Family",
       "family_name_jp": "毒サソリ, 鬼サソリ, しびれサソリ",
       "family_id": "scorpion_family",
-      "family_desc_en": "",
+      "family_desc_en": "Scorpion monster that has a special attack where it lunges its poisonous tail forward.<br>Lv1 lowers strength, Lv2 slows a target, and Lv3 paralyzes a target, making them unable to act for 3 turns.<br>Stun Scorpion in particular has top tier stats on top of its terrifying special attack, making it one of the most difficult enemies to take on in the game. Always keep in mind that running away is a valid strategy.<br>That said, Stun Scorpions offer the second highest amount of experience points in the game, so it may be worth the trouble to defeat them if you have the means to do so.",
       "ally_desc_en": "",
       "images": [
         {
@@ -5245,7 +5245,7 @@
       "family_name": "Hunger Puppet Family",
       "family_name_jp": "ハラヘリーニョ, ハラヘリータ, ハラヘッリオ, ハラベルト",
       "family_id": "hunger_puppet_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that resembles a marionette. Sings songs that lower fullness or max fullness.<br>A Song Bracelet can nullify the song's effect, but a No Hunger Bracelet cannot block it.<br>Enemy Hunger Puppet family monsters can only use their special attack against Shiren.<br>Uses its special attack even if the target's fullness or max fullness is 0.",
       "ally_desc_en": "",
       "images": [
         {
@@ -5413,7 +5413,7 @@
       "family_name": "Gazer Family",
       "family_name_jp": "ゲイズ, スーパーゲイズ, ハイパーゲイズ",
       "family_id": "gazer_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster with one large eye as a defining characteristic.<br>Hypnotizes Shiren, making him use items or perform actions at random.<br>Shiren cannot act after performing an action due to hypnosis.<br>An Echo Shield (山 seal) can reflect its hypnosis, inflicting confusion.<br>Items inside Storage Pots are safe.<br><br>The list of hypnosis actions include:<ul><li>Equipping/unequipping weapons, shields, projectiles, or bracelets.</li><li>Reading scrolls, swinging staves, eating grasses or riceballs.</li><li>Inserting items into pots, or throwing non-insertable pots (ex: Monster Pot)</li><li>Throwing any other category of items.</li></ul>",
       "ally_desc_en": "",
       "images": [
         {
@@ -5543,7 +5543,7 @@
       "family_name": "Ironhead Family",
       "family_name_jp": "アイアンヘッド, チェインヘッド, ギガヘッド",
       "family_id": "ironhead_family",
-      "family_desc_en": "",
+      "family_desc_en": "Power type monster that uses its head as a weapon. Its attacks can hit targets up to 3 tiles away.<br>Attacks even if another monster is between it and Shiren, which can result in the Ironhead monster leveling up.<br>Its long-range attack is considered a regular attack, so items like Miss Staff and Sanctuary Scroll are effective.",
       "ally_desc_en": "",
       "images": [
         {
@@ -5670,7 +5670,7 @@
       "family_name": "Golem Family",
       "family_name_jp": "ゴーレム, ストーンゴーレム, マグマゴーレム",
       "family_id": "golem_family",
-      "family_desc_en": "",
+      "family_desc_en": "One-eyed golem monster that doesn't have a special attack.<br>Like the Ironhead Head family, it appears in Power Houses despite being a One-eyed type monster.",
       "ally_desc_en": "",
       "images": [
         {
@@ -5796,7 +5796,7 @@
       "family_name": "Wolf Droid Family",
       "family_name_jp": "ウルロイド, ゴリボット, ベアボーグ",
       "family_id": "wolf_droid_family",
-      "family_desc_en": "",
+      "family_desc_en": "Robot monster that lobs bombs at targets.<br>Higher levels have increased range, but unlike the Porky family, it only throws bombs at targets within view.<br>Often levels up as a result of defeating monsters that get caught in the explosions.<br>Note that there's a drastic difference in stats between Wolf Droid and Gorilla Bot.",
       "ally_desc_en": "",
       "images": [
         {
@@ -5925,8 +5925,8 @@
       "family_name": "Patient Bag",
       "family_name_jp": "かんにんぶくろ",
       "family_id": "patient_bag",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Bag monster, just like it's name. Explodes when it runs out of patience.<br>Turns yellow at 50% HP, and then changes to red when its HP reaches 25%. Explodes when its HP falls below 11.<br>Stops moving when the total damage reaches 90~109, and explodes at 110~119.<br>Its explosion deals the same amount of damage as stepping on a Big Landmine.<br>Use items like arrows if needed to make sure you stay under the explosion threshold while dealing damage.<br>Pouring water will seal it, preventing it from being able to explode.<br>Appears as early as 1F inside the Sealed Room dungeon.",
+      "ally_desc_en": "Explosion HP thresholds are the same as enemy thresholds.",
       "images": [
         {
           "filename": "patient_bag.png",
