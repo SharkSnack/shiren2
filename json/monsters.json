@@ -5977,7 +5977,7 @@
       "family_name": "Bow Boy Family",
       "family_name_jp": "ボウヤー, コドモ戦車, オヤジ戦車, イッテツ戦車",
       "family_id": "bow_boy_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that changes appearance as it levels up.<br>Attacks from a distance using Wooden Arrows, Iron Arrows, and Cannonballs, based on its level.<br>Occasionally levels up as a result of defeating other monsters who move between Shiren and itself.<br>Note that Pop Tank moves at regular speed in Shiren 2, unlike some of the other games.<br>However, Boy Cart moves at regular speed instead of double speed, so they're easier to take on in Shiren 2.<br>A Rust Trap will slow the movement speed of Boy Cart, Pop Tank, and Cranky Tank.<br>Never uses regular attacks unless sealed or confused.",
       "ally_desc_en": "",
       "images": [
         {
@@ -6145,7 +6145,7 @@
       "family_name": "Bored Kappa Family",
       "family_name_jp": "ひまガッパ, いやすぎガッパ, たまらんガッパ",
       "family_id": "bored_kappa_family",
-      "family_desc_en": "",
+      "family_desc_en": "Kappa monster that stands on top of items and waits for Shiren to enter the room to toss them at him.<br>Forces you to equip thrown cursed shields unless your inventory is full or your shield is already cursed.<br>Thrown items often fall into pots if there's room left in the pot, so leaving an open slot in a Storage Pot can be an effective way to collect thrown items without getting hit by them.<br>You may want to reserve some HP before entering rooms on floors where Kappa monsters appear in case you get hit by large sum of Gitan.<br>If you encounter some in a Monster House, some ways you can deal with them without missing out on all of the items on the ground would be to seal them, shoot silver arrows from outside the room, or equip a Pierce Bracelet and shoot other arrows from outside the room.<br>Note that it'll throw items back at Shiren if they miss, so there's risk involved in throwing an Extinction Scroll at it.<br>It can move on land and in water, but it cannot attack while underwater.",
       "ally_desc_en": "",
       "images": [
         {
@@ -6273,7 +6273,7 @@
       "family_name": "Water Strider",
       "family_name_jp": "アメンジャ",
       "family_id": "water_strider",
-      "family_desc_en": "",
+      "family_desc_en": "Boss of Shuten Trail Mid. Moves at double speed, and picks up items to throw at Shiren.<br>Three Water Striders appear in the boss room of Shuten Trail Mid, and it appears as a regular enemy in later dungeons, starting in Onigashima.<br>Unlike the Kappa family, it can carry items around, and throws them in a straight line.<br>Thrown items will never fall into pots, but will instead hit Shiren.<br>Can move over water, and can also pick up items that are underwater.<br>Prioritizes picking up items rather than attacking Shiren, but will focus on Shiren for a while after throwing an item.<br>Moves in a way to maintain a distance of 2 tiles from Shiren while carrying an item.",
       "ally_desc_en": "",
       "images": [
         {
@@ -6325,8 +6325,8 @@
       "family_name": "Spearfish Family",
       "family_name_jp": "オトト兵, オトト軍曹, オトト大将, オトトげんすい",
       "family_id": "spearfish_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Fish-like monster that can act both on land and inside water.<br>Can attack while underwater starting at Lv2, and also runs toward water when its HP gets low to recover HP.<br>Lv2+ Spearfish monsters may drop a Fish Spear when defeated.<br>It has low defense, but has somewhat high HP.",
+      "ally_desc_en": "Oddly enough, the Spearfish with highest attack is actually the first one raised to the growth limit.",
       "images": [
         {
           "filename": "spearfish.png",
@@ -6492,7 +6492,7 @@
       "family_name": "Orcan Family",
       "family_name_jp": "シャチーン, シャチーダ, シャチオーン",
       "family_id": "orcan_family",
-      "family_desc_en": "",
+      "family_desc_en": "An amphibious monster that resembles an Orca.<br>If Shiren walks next to it while it's underwater, it will perform a jumping attack double the power of a regular attack.<br>The jumping attack can hit through corners, and the monster will land 2 tiles forward on the opposite side afterward.<br>The jumping attack can be blocked using a Reflect Shield (返) or Dodge Shield (身).<br>Runs toward water to heal when its HP gets low, but its recovery speed is slower than the Spearfish family.",
       "ally_desc_en": "",
       "images": [
         {
