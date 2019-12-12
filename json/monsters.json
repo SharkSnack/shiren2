@@ -7235,7 +7235,7 @@
       "family_name": "Shopkeeper Family",
       "family_name_jp": "店主, 店長, 大店長",
       "family_id": "shopkeeper_family",
-      "family_desc_en": "",
+      "family_desc_en": "NPCs that are present in dungeon shops. Strongest characters in the game.<br>Doesn't hesitate to punish those who steal, and can summon Sheriffs and Guard Dogs with a yell.<br>Changes to enemy mode when Shiren either steals or attacks.<br>Attacks monsters that deal damage to them, and can level up as a result.<br>Shiren will perform an attack instead of a conversation if he tries to talk while the shopkeeper is chasing a monster.<br>Doesn't attack Shiren if he attacks through a posessed monster, but they will attack the posessed monster.<br>Gains the ability to reflect magic and thrown items at higher levels, but their stats don't change after a level up.<br>For example, an Asst. Manager normally has 700 HP and 300 attack, but an Asst. Manager who leveled up from a Shopkeeper will only have 500 HP and 200 attack.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7360,7 +7360,7 @@
       "family_name": "Trader Family",
       "family_name_jp": "行商人, おしうり",
       "family_id": "trader_family",
-      "family_desc_en": "",
+      "family_desc_en": "Picks up a max of 10 items that are on the ground, and leaves a Voucher in their place.<br>Talking to a Trader opens a shop menu where you can buy items as long as Shiren's inventory isn't full.<br>Prices are the same as dungeon shops, but you are unable to sell items.<br>Low attack, but high HP. Changes to enemy mode if the Trader is attacked, or if Shiren enters thief mode.<br>Drops 25 Vouchers when defeated, and the items it was carrying vanish.<br>Shiren will also enter thief mode if the Trader is defeated through an action deemed to be performed by Shiren.<br>Defeating it by stepping on a Landmine won't trigger thief mode, but using an Explosion Scroll will.<br>However, if you have the trapper bracelet equipped, it will be deemed an action performed by Shiren. Though interestingly, defeating it by using a Spoil Trap won't trigger thief mode.<br>Drops merchandise if tripped, and doesn't trigger enemy or thief mode. However, swinging a Balance Staff will deal damage, so the Trader will change to enemy mode.<br>You can avoid the Trader entering enemy mode toward Shiren by making them trip using a posessed armordillo.<br>Hawkers naturally appear only in Hawker Houses inside the Sealed Room dungeon.<br>Hawkers move toward Shiren and force the shopping window to open, which can be quite annoying.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7449,7 +7449,7 @@
       "family_name": "Sheriff",
       "family_name_jp": "とうぞく番",
       "family_id": "sheriff",
-      "family_desc_en": "",
+      "family_desc_en": "NPCs that appears only when Shiren enters thief mode. No special abilities, but has high stats.<br>Few spawn when there's a Monster House on the current floor, so you could attempt to steal if you find one.<br>Can be banished by an Extinction Scroll, but then more Guard Dogs will spawn in their place, so there's little point in doing so.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7498,7 +7498,7 @@
       "family_name": "Guard Dog",
       "family_name_jp": "番犬",
       "family_id": "guard_dog",
-      "family_desc_en": "",
+      "family_desc_en": "NPCs that only appears when Shiren enters thief mode.<br>Not as strong as Shopkeepers or Sheriffs, but moves at double speed.<br>Few spawn when there's a Monster House on the current floor, so you could attempt to steal if you find one.<br>Can be banished by an Extinction Scroll, but then more Sheriffs will spawn in their place, so there's little point in doing so.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7549,7 +7549,7 @@
       "family_name": "Shuten Child",
       "family_name_jp": "シュテン村の子",
       "family_id": "shuten_child",
-      "family_desc_en": "",
+      "family_desc_en": "NPCs that you end up having to rescue inside the Sealed Room dungeon.<br>Rescue them by talking to them, which results in immediately exiting from the dungeon.<br>Spawns again on the next floor if they happen to be defeated on the current floor.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7598,7 +7598,7 @@
       "family_name": "Clay Figures",
       "family_name_jp": "土人形【並】, 土人形【良】, 土人形【優】",
       "family_id": "clay_figures",
-      "family_desc_en": "",
+      "family_desc_en": "Figures that can be made from Soil castle materials.<br>Wanders around the floor on its own, chasing and attacking monsters.<br>Shiren doesn't gain experience when the figure defeats a monster.<br>The figure won't level up or grow in strength when it defeats monsters.<br>Monsters will level up when they defeat a figure, so they can be used to capture higher level monsters.<br>Once it attacks a monster, it won't attack anything else until that monster is defeated.<br>If it attacks Shiren while confused, it will chase and attack Shiren until either Shiren or the figure collapses.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7708,7 +7708,7 @@
       "family_name": "Oni Dolls",
       "family_name_jp": "鬼木偶, 鬼木偶その2",
       "family_id": "oni_dolls",
-      "family_desc_en": "",
+      "family_desc_en": "Appears only inside the Training Hall. Created by Napus Villagers to practice fighting monsters.<br>Doesn't move or attack, but still provides experience points when defeated.<br>The amount of experience points can be boosted by using a weapon with the 幸 or 天 seals.<br>Can drop riceballs or Gitan if you have the 飯, に, or 銭 seals as well, but the ケ seal has no effect.",
       "ally_desc_en": "",
       "images": [
         {
