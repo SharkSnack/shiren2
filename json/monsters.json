@@ -6492,7 +6492,7 @@
       "family_name": "Orcan Family",
       "family_name_jp": "シャチーン, シャチーダ, シャチオーン",
       "family_id": "orcan_family",
-      "family_desc_en": "An amphibious monster that resembles an Orca.<br>If Shiren walks next to it while it's underwater, it will perform a jumping attack double the power of a regular attack.<br>The jumping attack can hit through corners, and the monster will land 2 tiles forward on the opposite side afterward.<br>The jumping attack can be blocked using a Reflect Shield (返) or Dodge Shield (身).<br>Runs toward water to heal when its HP gets low, but its recovery speed is slower than the Spearfish family.",
+      "family_desc_en": "Amphibious monster that resembles an Orca.<br>If Shiren walks next to it while it's underwater, it will perform a jumping attack double the power of a regular attack.<br>The jumping attack can hit through corners, and the monster will land 2 tiles forward on the opposite side afterward.<br>The jumping attack can be blocked using a Reflect Shield (返) or Dodge Shield (身).<br>Runs toward water to heal when its HP gets low, but its recovery speed is slower than the Spearfish family.",
       "ally_desc_en": "",
       "images": [
         {
@@ -6619,8 +6619,8 @@
       "family_name": "Aqua Dragon Family",
       "family_name_jp": "水龍, 海龍, 水神龍",
       "family_id": "aqua_dragon_family",
-      "family_desc_en": "",
-      "ally_desc_en": "",
+      "family_desc_en": "Dragon type monster that can exhale an icy breath that freezes targets.<br>Only able to move in water, but it can still attack if it ends up on land.<br>Due to its tall body, it can both attack and receive damage from targets on land while it's standing in water.<br>It won't be able to turn its body if the water it's standing in gets frozen, such as from reading a Freeze Scroll.<br>Cannot use its special attack when it's outside of water.",
+      "ally_desc_en": "You'll want to use an item like Evaporate Scroll before throwing a Monster Pot when trying to capture one.<br>An ally Aqua Dragon family monster won't be able to move on land, but that means it can be used as a wall.<br>It will use its freezing breath special attack when you send it out of its pot, even on land.<br>Water Shinryu has a higher growth limit than earlier levels, so it becomes quite powerful when maxed.",
       "images": [
         {
           "filename": "aqua_dragon.png",
@@ -6749,7 +6749,7 @@
       "family_name": "Shotfish Family",
       "family_name_jp": "テッポーウオー, テッポウ竜, キングオトシゴン",
       "family_id": "shotfish_family",
-      "family_desc_en": "",
+      "family_desc_en": "Monster that always gets generated in water.<br>Shotfish monsters cannot move or attack when they're outside of water.<br>Shoots water at Shiren, dealing a fixed amount of damage and turning his items wet for various effects.<br>You can throw stones or attack using a Fish Spear (水 seal) to deal damage to it from land.<br>Evaporate Scroll or Wall Collapse Scroll will remove all water on the current floor, leaving it vulnerable to attacks.<br>It can occasionally be seen dueling with Himakichi underwater.",
       "ally_desc_en": "",
       "images": [
         {
@@ -6884,7 +6884,7 @@
       "family_name": "Small Oni Family",
       "family_name_jp": "チビオニ, ゴツオニ, ズングリオニ",
       "family_id": "small_oni_family",
-      "family_desc_en": "",
+      "family_desc_en": "Oni clan members that can be found in Onigashima.<br>Small Oni lacks special abilities, but has high stats compared to other early game monsters.<br>Rocky Oni moves at double speed, and Stumpy Oni tosses stones like Porky monsters.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7007,7 +7007,7 @@
       "family_name": "Lanky Oni Family",
       "family_name_jp": "ヤセオニ, ヒョロオニ, ガリガリオニ",
       "family_id": "small_oni_family",
-      "family_desc_en": "",
+      "family_desc_en": "Oni clan members who can only be seen during the Galaha boss fight at Onigashima.<br>Shoots Iron Arrows from a distance, similar to Boy Carts.<br>However, unlike Boy Carts, they make an effort to avoid shooting their Oni allies.<br>Levels 2 and 3 can only be seen if a Lanky Oni levels up during the boss fight.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7132,7 +7132,7 @@
       "family_name": "Galaha",
       "family_name_jp": "ガラハ",
       "family_id": "galaha",
-      "family_desc_en": "",
+      "family_desc_en": "Mid boss of Onigashima. (16F)<br>Has somewhat mediocre stats for a boss.<br>Issues commands at his squad of Oni to change formations during the fight.<br>Once defeated, you won't have to fight him again at Onigashima until after you defeat Boss Oni.",
       "ally_desc_en": "",
       "images": [
         {
@@ -7183,7 +7183,7 @@
       "family_name": "Boss Oni",
       "family_name_jp": "鬼親分",
       "family_id": "boss_oni",
-      "family_desc_en": "",
+      "family_desc_en": "Boss of Onigashima. High offense and defense.<br>Has many special abilities, including a fire breath attack and the ability to cure status conditions.<br>There are many ways to approach this fight, but the easiest methods to defeat him would be to throw a Storage Pot with a total of 4,500+ Gitan inside, or a Surprise Pot with pent-up-anger inside.",
       "ally_desc_en": "",
       "images": [
         {
