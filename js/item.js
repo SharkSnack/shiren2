@@ -215,8 +215,10 @@ function item_details (data, category) {
                  <div class="detail-section1">
                  <p>${item.desc_en}</p>
                  <img src="../../image/${category}/${item.image.filename}" width="${item.image.width}" height="${item.image.height}">
-                 <p>Locations:<br>${item.locations.join('<br>')}</p>
-                 </div>
+                 `);
+        html.push(`<p>Locations:</p>`);
+        html.push( locations_list(item) );
+        html.push(`</div>
                  <table class="detail-table">
                  <tr>
                  <th>${equipment_stat_label}</th>
@@ -504,5 +506,17 @@ function seal_stacking_table (item, category) {
              </table>
              </div>`);
   }
+  return html.join('\n');
+}
+
+function locations_list (item) {
+  let html = [];
+
+  html.push(`<ul>`);
+  for (let i = 0; i < item.locations.length; i++) {
+    html.push(`<li>${item.locations[i]}</li>`);
+  }
+  html.push(`</ul>`);
+
   return html.join('\n');
 }
