@@ -213,7 +213,7 @@ function item_details (data, category) {
                  <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
                  <div class="detail-entry">
                  <div class="detail-section1">
-                 <p>${item.desc_en}</p>
+                 <p class="item_desc">${item.desc_en}</p>
                  <img src="../../image/${category}/${item.image.filename}" width="${item.image.width}" height="${item.image.height}">
                  `);
         html.push(`<p>Locations:</p>`);
