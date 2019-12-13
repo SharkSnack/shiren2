@@ -1,3 +1,13 @@
+h2 {
+  padding-left: 10px;
+  background-color: #def
+}
+
+h4 {
+  font-weight: normal;
+  border: 10px solid #def;
+}
+
 .heading {
   background-color: #def;
   text-align: center;

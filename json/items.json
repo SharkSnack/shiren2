@@ -20,9 +20,9 @@
       "price_plus": 300,
       "phrase": "",
       "desc_short_en": "Found with +4 ~ +8 upgrade value.",
-      "desc_en": "Low attack, but comes with an upgrade value ranging from +4 to +8. It is never found cursed. Recommended to use as synthesis fodder to strengthen a stronger weapon.",
+      "desc_en": "Low attack, but comes with an upgrade value ranging from +4 to +8.<br>It is never found cursed. Use as synthesis fodder to strengthen a stronger weapon.",
       "locations": [
-        "Onigashima (T)"
+        "Onigashima (Trader)"
       ]
     },
     {
@@ -45,15 +45,15 @@
       "price_plus": 20,
       "phrase": "コルヤギ",
       "desc_short_en": "",
-      "desc_en": "Said to be the weakest weapon. However, since it has 3 slots, it can be used as a base when making a Healing Sword. Ally Iai monsters will always fling a Club in dungeons where weapons normally do not appear.",
+      "desc_en": "Said to be the weakest weapon.<br>However, it has 3 slots so it can be used as a base when making a Healing Sword. Ally Iai or Shihan monsters will always fling a Club in dungeons where weapons normally do not appear.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (FT)",
-        "Shuten Trail Hard (T)",
-        "Onigashima (F)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor, Trader)",
+        "Shuten Trail Hard (Trader)",
+        "Onigashima (Floor)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -76,14 +76,14 @@
       "price_plus": 35,
       "phrase": "こぷやほ",
       "desc_short_en": "",
-      "desc_en": "Stronger than a Club. It's often used as a base when making a Healing Sword.",
+      "desc_en": "Stronger than a Club, but still pretty weak.<br>It's often used as a base when making a Healing Sword.",
       "locations": [
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (FT)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (F)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -106,9 +106,9 @@
       "price_plus": 2250,
       "phrase": "",
       "desc_short_en": "",
-      "desc_en": "Has the second highest number of synthesis slots. Popular as a backup sword with stacked effects, or as a seal container to free up storage space while trying for Mijinha or Kaburasutegi.",
+      "desc_en": "Has the second highest number of synthesis slots.<br>Popular as a secondary sword with stacked effects. (examples: 飯, 火, or 幸).<br>Can be used as a seal container to free up storage space while trying for Mijinha or Kaburasutegi.",
       "locations": [
-        "Sealed Room (G)"
+        "Sealed Room (Golden Interval)"
       ]
     },
     {
@@ -131,14 +131,14 @@
       "price_plus": 45,
       "phrase": "みぬれふ",
       "desc_short_en": "",
-      "desc_en": "Decent attack and 5 slots, so it can be used as a main weapon. However, it's still a little weak for post-game dungeons. You can use it as a base for making a Healing Sword, or stack seals such as food and fire and use it as a secondary weapon. Take a Katana+99 with 5 seals to the blacksmith, and he will transform it into a Fiery Fuuma.",
+      "desc_en": "Popular weapon among wanderers.<br>It has decent attack and 5 slots, so it can be used as a main weapon.<br>However, it's still on the weaker side for post-game dungeons.<br>Can be used as a base for making a Healing Sword, or as a secondary weapon with stacked seals. (examples: 飯 and 火)<br>Take a Katana+99 with 5 seals to the blacksmith to transform it into a Fiery Fuuma.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPSTG)",
-        "Onigashima (F)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -161,12 +161,12 @@
       "price_plus": 180,
       "phrase": "",
       "desc_short_en": "",
-      "desc_en": "Very popular as a base weapon. However, it's quite rare before post-game dungeons. There is a small chance to obtain it from the Surprise Pot found on 15F of Shuten Trail Hard, or from a Trader in Onigashima.",
+      "desc_en": "Very popular as a base weapon. However, it's quite rare before post-game dungeons.<br>There's a low chance to obtain it from Surprise Pots found on 15F of Shuten Trail Hard, or from a Trader in Onigashima.",
       "locations": [
-        "Shuten Trail Hard (U)",
-        "Onigashima (T)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Shuten Trail Hard (Surprise)",
+        "Onigashima (Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -189,11 +189,11 @@
       "price_plus": 200,
       "phrase": "",
       "desc_short_en": "Rustproof.",
-      "desc_en": "Sword made of Ivory. Rustproof. Transforms into Daisangen Sword with 3 中 seals (Dragon Tile Bracelet). The rustproof ability won't transfer if used as synthesis fodder.",
+      "desc_en": "Sword made of Ivory. Rustproof.<br>Transforms into Daisangen Sword with 3 中 seals.<br>The rustproof ability won't transfer if used as synthesis fodder.",
       "locations": [
-        "Onigashima (G)",
-        "Sealed Room (P)",
-        "Road to the End (FPG)"
+        "Onigashima (Golden Interval)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Golden Interval)"
       ]
     },
     {
@@ -216,11 +216,11 @@
       "price_plus": 2250,
       "phrase": "るおへぎ",
       "desc_short_en": "",
-      "desc_en": "High attack, but 1 less slot than Dotanuki. Bring a Manji-Kabra with 月, 火, 水, 木, and 金 seals to the blacksmith to transform it into a Kaburasutegi.",
+      "desc_en": "High attack, but 1 less slot than Dotanuki.<br>Bring a Manji-Kabra with 月, 火, 水, 木, and 金 seals (in that order) to the blacksmith to transform it into a Kaburasutegi.",
       "locations": [
-        "Onigashima (P)",
-        "Sealed Room (P)",
-        "Road to the End (PG)"
+        "Onigashima (Presto)",
+        "Sealed Room (Presto)",
+        "Road to the End (Presto, Golden Interval)"
       ]
     },
     {
@@ -243,7 +243,7 @@
       "price_plus": 4800,
       "phrase": "",
       "desc_short_en": "Rustproof. Synthesize 3 中 seals onto an Ivory Sword.",
-      "desc_en": "Created by synthesizing 3 中 seals onto an Ivory Sword. Rustproof. Difficult to make due to the rarity of Dragon Tile Bracelets. Cannot be used as synthesis fodder, or as a base for Healing Sword.",
+      "desc_en": "Created by synthesizing 3 中 seals onto an Ivory Sword. Rustproof.<br>Difficult to make due to the rarity of Dragon Tile Bracelets.<br>Cannot be used as synthesis fodder, or as a base for Healing Sword.",
       "locations": [
         "Synthesis Only"
       ]
@@ -268,7 +268,7 @@
       "price_plus": 2000,
       "phrase": "",
       "desc_short_en": "Katana+99 with 5 seals to the Blacksmith.",
-      "desc_en": "3rd strongest sword in the game. Obtained by bringing a Katana+99 with 5 seals to the blacksmith. It's weaker than a Katana+99 right after transforming, and alternatives like Ryujin Sword are pretty close in power and are easier to make, so it's more for collectors.",
+      "desc_en": "3rd strongest sword in the game.<br>Obtained by bringing a Katana+99 with 5 seals to the blacksmith.<br>It's weaker than a Katana+99 right after transforming, and alternatives like Ryujin Sword are pretty close in power and are easier to make, so it's more for collectors.",
       "locations": [
         "Blacksmith (Special Recipe)"
       ]
@@ -293,9 +293,9 @@
       "price_plus": 12000,
       "phrase": "",
       "desc_short_en": "",
-      "desc_en": "Legendary sword exclusive to Shiren 2, and it's the 2nd strongest sword in the game. Has the highest number of slots among all weapons. Obtained from golden interval treasure chests deep inside the \"Road to the End\" dungeon (90-95F).",
+      "desc_en": "Legendary sword exclusive to Shiren 2, and it's the 2nd strongest sword in the game.<br>Has the highest number of slots among all weapons.<br>Obtained from 90-95F golden interval chests inside the \"Road to the End\" dungeon.",
       "locations": [
-        "Road to the End (C)"
+        "Road to the End (Treasure Chest)"
       ]
     },
     {
@@ -318,7 +318,7 @@
       "price_plus": 8250,
       "phrase": "",
       "desc_short_en": "Manji-Kabura with 月, 火, 水, 木, and 金 seals to the Blacksmith.",
-      "desc_en": "Strongest sword in the game. Obtained by bringing a Manji-Kabura with 月, 火, 水, 木, and 金 seals (in that order) to the blacksmith. The 火 seal can be from either Flame Grass or Dragon Grass.",
+      "desc_en": "Strongest sword in the game.<br>Obtained by bringing a Manji-Kabura with 月, 火, 水, 木, and 金 seals (in that order) to the blacksmith. The 火 seal can be from either Flame Grass or Dragon Grass.",
       "locations": [
         "Blacksmith (Special Recipe)"
       ]
@@ -343,14 +343,14 @@
       "price_plus": 250,
       "phrase": "",
       "desc_short_en": "Deals x1.5 damage to Ghost monsters.",
-      "desc_en": "Weapon that deals x1.5 damage to Ghost type monsters. Ghost monsters include Gale, Pumphantasm, Yamikichi, and Bone Dragon families. Great seal to have in dungeons where Typhoon appears.",
+      "desc_en": "Weapon that deals x1.5 damage to Ghost type monsters.<br>(Gale, Pumphantasm, Yamikichi, and Bone Dragon families)<br>Great seal to have in dungeons where Typhoon appears.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (FPG)",
-        "Onigashima (PUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Floor, Presto, Golden Interval)",
+        "Onigashima (Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -373,13 +373,13 @@
       "price_plus": 250,
       "phrase": "",
       "desc_short_en": "Deals x1.5 damage to Drain monsters.",
-      "desc_en": "Weapon that deals x1.5 damage to Drain type monsters. Drain monsters include Twisty Hani, Slug, Scorpion, and Hunger Puppet families. Nice seal to have, considering the special abilities of Drain type monsters are often quite bothersome.",
+      "desc_en": "Weapon that deals x1.5 damage to Drain type monsters.<br>(Slug, Scorpion, Hunger Puppet families, and Twisty Hani)<br>Nice seal to have, since the special attacks of Drain type monsters can be quite bothersome.",
       "locations": [
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (G)",
-        "Onigashima (PUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Golden Interval)",
+        "Onigashima (Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -402,14 +402,14 @@
       "price_plus": 225,
       "phrase": "",
       "desc_short_en": "Deals x1.5 damage to One-eyed monsters.",
-      "desc_en": "Weapon that deals x1.5 damage to One-eyed monsters. One-eyed monsters include Ironhead, Golem, and Gazer families. Gazer's hypnosis can be nullified with an Echo Shield, so this seal isn't very necessary.",
+      "desc_en": "Weapon that deals x1.5 damage to One-eyed monsters.<br>(Ironhead, Golem, and Gazer families)<br>Gazer's hypnosis can be nullified with an Echo Shield, so this seal isn't very necessary.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (FPG)",
-        "Onigashima (PUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Floor, Presto, Golden Interval)",
+        "Onigashima (Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -432,7 +432,7 @@
       "price_plus": 5000,
       "phrase": "",
       "desc_short_en": "Deals x1.5 damage to Bomb monsters.",
-      "desc_en": "Weapon that deals x1.5 damage to Bomb type monsters. Bomb monsters include the Wolf Droid family, Pop Tank, Cranky Tank, and Patient Bag. Obtained every time you win against Boss Oni in Onigashima after you've finished the main story.",
+      "desc_en": "Weapon that deals x1.5 damage to Bomb type monsters.<br>(Wolf Droid family, Pop Tank, Cranky Tank, and Patient Bag)<br>Obtained each time you defeat Boss Oni in Onigashima after finishing the main story.",
       "locations": [
         "Onigashima (Clear Reward)"
       ]
@@ -457,10 +457,10 @@
       "price_plus": 500,
       "phrase": "",
       "desc_short_en": "Deals x1.5 damage to Dragon monsters.",
-      "desc_en": "Weapon that deals x1.5 damage to Dragon type monsters. Dragon monsters include Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families. Excellent as a base weapon. Synthesize 3 竜 seals onto it to transform it into a Ryujin Sword.",
+      "desc_en": "Weapon that deals x1.5 damage to Dragon type monsters.<br>(Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families)<br>Synthesize 3 竜 seals onto it to transform it into a Ryujin Sword.<br>Excellent as a main weapon.",
       "locations": [
-        "Onigashima (G)",
-        "Road to the End (G)"
+        "Onigashima (Golden Interval)",
+        "Road to the End (Golden Interval)"
       ]
     },
     {
@@ -483,7 +483,7 @@
       "price_plus": 3000,
       "phrase": "",
       "desc_short_en": "Deals x2.0 damage to Dragon monsters. Synthesize 3 竜 seals onto a Dragon Killer.",
-      "desc_en": "Powerful weapon created by synthesizing 3 竜 seals onto a Dragon Killer. Deals x2.0 damage to Dragon type monsters, which includes Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families. Often used as a main weapon while working towards Mijinha or Kaburasutegi. Cannot be used as a base for Healing Sword.",
+      "desc_en": "Powerful weapon created by synthesizing 3 竜 seals onto a Dragon Killer.<br>Deals x2.0 damage to Dragon type monsters.<br>(Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families)<br>Often used as a main weapon while working towards Mijinha or Kaburasutegi.<br>Cannot be used as a base for Healing Sword.",
       "locations": [
         "Synthesis Only"
       ]
@@ -508,9 +508,9 @@
       "price_plus": 800,
       "phrase": "",
       "desc_short_en": "30% chance to turn defeated monsters into Gitan.",
-      "desc_en": "Weapon that hosts the spirit of a Gamarra. Has a 30% chance to transform defeated monsters into Gitan. Defeated monsters can still drop other items, such as area drops or riceballs from the 飯 seal.",
+      "desc_en": "Weapon that hosts the spirit of a Gamarra.<br>Has a 30% chance to transform defeated monsters into Gitan.<br>Defeated monsters can still drop other items, such as area drops or riceballs. (飯 seal)",
       "locations": [
-        "Shuten Trail Hard (C)"
+        "Shuten Trail Hard (Treasure Chest)"
       ]
     },
     {
@@ -533,12 +533,12 @@
       "price_plus": 175,
       "phrase": "ヨキタモ",
       "desc_short_en": "Dig through walls. Breaks after digging for a while.",
-      "desc_en": "Pickaxe that can dig through walls. Breaks after digging for a while (15 ~ 60 uses). Useful for creating paths when stealing from shops, or making shortcuts in general. Synthesize 5 堀 seals onto it to transform it into a Wonder Pickaxe.",
+      "desc_en": "Pickaxe that can dig through walls.<br>Breaks after digging for a while. (15 ~ 60 uses)<br>Useful for creating paths when stealing from shops, or making shortcuts in general.<br>Synthesize 5 堀 seals onto it to transform it into a Wonder Pickaxe.",
       "locations": [
-        "Onigashima (FP)",
-        "Halfway Well (F)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Onigashima (Floor, Presto)",
+        "Halfway Well (Floor)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -561,11 +561,11 @@
       "price_plus": 25,
       "phrase": "",
       "desc_short_en": "Can be eaten to restore fullness by 20%. Disappears if eaten.",
-      "desc_en": "Gobo, also known as burdock root, used as a weapon. Can be eaten to restore fullness by 20%. The weapon is lost if eaten.",
+      "desc_en": "Gobo, also known as burdock root, used as a weapon.<br>Can be eaten to restore fullness by 20%. The weapon is lost if eaten.",
       "locations": [
-        "Onigashima (FP)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Onigashima (Floor, Presto)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -588,9 +588,9 @@
       "price_plus": 500,
       "phrase": "てよだぼ",
       "desc_short_en": "Raises attack accuracy to 100%.",
-      "desc_en": "Sword that ensures all of your attacks will connect. Greatly reduces the amount of danger within an adventure by eliminating actions received as a result of missed attacks. Some say using it is cheating, and therefore personally ban its usage.",
+      "desc_en": "Sword that ensures all of your attacks will connect.<br>Greatly reduces the amount of danger within an adventure, since it eliminates actions received as a result of missed attacks.<br>Some say using it is cheating, and therefore personally ban its usage.",
       "locations": [
-        "Sealed Room (G)"
+        "Sealed Room (Golden Interval)"
       ]
     },
     {
@@ -613,9 +613,9 @@
       "price_plus": 500,
       "phrase": "",
       "desc_short_en": "8% chance to turn defeated monsters into riceballs.",
-      "desc_en": "Weapon that hosts the spirit of a Nigiri Morph. Has a 8% chance to transform defeated monsters into riceballs. Its effect is more potent than the 飯 seal, and can eliminate hunger issues altogether.",
+      "desc_en": "Weapon that hosts the spirit of a Nigiri Morph.<br>Has a 8% chance to transform defeated monsters into riceballs.<br>Its effect is more potent than the 飯 seal, and can eliminate hunger issues altogether.",
       "locations": [
-        "Shuten Trail Hard (C)"
+        "Shuten Trail Hard (Treasure Chest)"
       ]
     },
     {
@@ -638,11 +638,11 @@
       "price_plus": 300,
       "phrase": "",
       "desc_short_en": "Rustproof (blue).",
-      "desc_en": "Sword made out of gold. Low attack, but it will never rust. Provides a blue 金 seal when synthesized. Monsoon Dolls will tear off a red 金 seal first, but a blue one has the same odds to be removed as the other seals.",
+      "desc_en": "Sword made out of gold. Low attack, but it will never rust.<br>Provides a blue 金 seal when synthesized. Monsoon Dolls will tear off a red 金 seal first, but a blue one has the same odds to be removed as the other seals.",
       "locations": [
-        "Onigashima (GC)",
-        "Sealed Room (PC)",
-        "Road to the End (FPC)"
+        "Onigashima (Golden Interval, Treasure Chest)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Floor, Presto, Treasure Chest)"
       ]
     },
     {
@@ -665,11 +665,11 @@
       "price_plus": 100,
       "phrase": "ルコウス",
       "desc_short_en": "Bite to restore fullness by 30% at the cost of -1 upgrade value.",
-      "desc_en": "Dried Bonito used as a weapon. Can be bitten to restore fullness by 30% at the cost of decreasing upgrade value by 1. Cannot bite once the weapon's attack is at 0. Often synthesized onto Disposable Sword to create a weapon that can be bitten 35 times (1050% fullness).",
+      "desc_en": "Dried Bonito used as a weapon.<br>Can be bitten to restore fullness by 30% at the cost of lowering upgrade value by 1.<br>Cannot bite once the weapon's attack is at 0.<br>Often synthesized onto a Disposable Sword to create a weapon that can be bitten 35 times. (1050% fullness)",
       "locations": [
-        "Onigashima (FPS)",
-        "Sealed Room (P)",
-        "Road to the End (FPS)"
+        "Onigashima (Floor, Presto, Shop)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop)"
       ]
     },
     {
@@ -692,14 +692,14 @@
       "price_plus": 200,
       "phrase": "パカリツ",
       "desc_short_en": "Allows you to hit underwater monsters.",
-      "desc_en": "Weapon that allows you to hit underwater monsters. Useful against monsters such as Shotfish, Spearfish, Orcan, Kappa, and Zalokleft. Rare drop from Lv2+ Spearfish monsters.",
+      "desc_en": "Weapon that allows you to hit underwater monsters.<br>Useful against monsters such as Shotfish, Spearfish, Orcan, Kappa, and Zalokleft.<br>Rare drop from Lv2+ Spearfish monsters.",
       "locations": [
-        "Shuten Trail Mid (M)",
-        "Onigashima (PSM)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (M)",
-        "Road to the End (SM)"
+        "Shuten Trail Mid (Monster)",
+        "Onigashima (Presto, Shop, Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Monster)",
+        "Road to the End (Shop, Monster)"
       ]
     },
     {
@@ -722,14 +722,14 @@
       "price_plus": 250,
       "phrase": "ほんうじ",
       "desc_short_en": "Allows you to attack in a 3-way pattern.",
-      "desc_en": "An enchanted sword that can attack in a 3-way pattern. Useful for monster house entrances and attacking around corners. Plays well with Healing Sword, along with Scout and Phantasm bracelets.",
+      "desc_en": "An enchanted sword that can attack in a 3-way pattern.<br>Useful for monster house entrances and attacking around corners.<br>Plays well with Healing Sword, along with Scout and Phantasm bracelets.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (PS)",
-        "Shuten Trail Hard (FPSG)",
-        "Onigashima (UST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Presto, Shop)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Golden Interval)",
+        "Onigashima (Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -752,7 +752,7 @@
       "price_plus": 2000,
       "phrase": "",
       "desc_short_en": "Restores HP equal to 1/3 of damage dealt.",
-      "desc_en": "Sword that restores HP equal to 1/3 of the damage dealt, out of the monster's remaining HP. Created by synthesizing 薬 弟 命 seals onto a weapon. One of the best seals in the game, so synthesizing it should be prioritized.",
+      "desc_en": "Sword that restores HP equal to 1/3 of the damage dealt, out of the monster's remaining HP.<br>Created by synthesizing 薬 弟 命 seals onto a weapon.<br>One of the best seals in the game, so synthesizing it should be prioritized.",
       "locations": [
         "Synthesis Only"
       ]
@@ -777,14 +777,14 @@
       "price_plus": 160,
       "phrase": "",
       "desc_short_en": "Chance to fling a weapon when attacking.",
-      "desc_en": "Sword that has a chance to fling a weapon from monsters when attacking. Damage is not dealt if disarming occurs, so you'll be vulnerable to a counter attack. Rare drop from Lv2+ Kengo monsters. Can also be used to obtain monster-exclusive drops, but the odds remain the same.",
+      "desc_en": "Sword that can fling a weapon from a monster when attacking.<br>Damage is not dealt if disarming occurs, so you'll be vulnerable to a counter attack.<br>Can be used to obtain monster-exclusive drops, but the odds remain the same.<br>Rare drop from Lv2+ Kengo monsters.",
       "locations": [
-        "Shuten Trail Mid (M)",
-        "Shuten Trail Hard (M)",
-        "Onigashima (M)",
-        "Halfway Well (M)",
-        "Sealed Room (M)",
-        "Road to the End (M)"
+        "Shuten Trail Mid (Monster)",
+        "Shuten Trail Hard (Monster)",
+        "Onigashima (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Monster)",
+        "Road to the End (Monster)"
       ]
     },
     {
@@ -807,12 +807,12 @@
       "price_plus": 750,
       "phrase": "",
       "desc_short_en": "Guarantees a critical hit after missing 2 attacks.",
-      "desc_en": "This sword begins to glow after 2 missed attacks, and deals a 100% accuracy critical hit for x1.5 damage on the next attack. Overshadowed by the 必 seal, but still has a use in the Road to the End dungeon where Homing Blade doesn't appear.",
+      "desc_en": "This sword begins to glow after 2 missed attacks, and deals a 100% accuracy critical hit for x1.5 damage on the next attack.<br>Overshadowed by the 必 seal, but still has a use inside the \"Road to the End\" dungeon where Homing Blade doesn't appear.",
       "locations": [
-        "Shuten Trail Hard (U)",
-        "Onigashima (PS)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Shuten Trail Hard (Surprise)",
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -835,7 +835,7 @@
       "price_plus": 2000,
       "phrase": "",
       "desc_short_en": "Dig through walls. Will never break.",
-      "desc_en": "Pickaxe that will never break while digging through walls. Created by synthesizing 5 堀 seals onto a Pickaxe. Very useful for creating shortcuts, and also plays well with Razor Wind's ability to attack around corners.",
+      "desc_en": "Pickaxe that will never break while digging through walls.<br>Created by synthesizing 5 堀 seals onto a Pickaxe.<br>Very useful for stealing and creating shortcuts.<br>Plays well with Razor Wind's ability to attack around corners.",
       "locations": [
         "Synthesis Only"
       ]
@@ -860,12 +860,12 @@
       "price_plus": 150,
       "phrase": "",
       "desc_short_en": "Lowers upgrade value by 1 every time you deal damage.",
-      "desc_en": "Sword that starts out with very high attack, but loses 1 upgrade value every time you deal damage. Synthesizing the 金 seal onto it won't prevent the loss. Wanderers often synthesize the か seal onto it to turn it into a food source worth 1050% fullness.",
+      "desc_en": "Starts out with very high attack, but loses 1 upgrade value every time you deal damage.<br>Synthesizing the 金 seal onto it won't prevent the loss of upgrade value.<br>The か seal can be synthesized onto it to use it as a food source worth 1050% fullness.",
       "locations": [
-        "Shuten Trail Mid (P)",
-        "Onigashima (PS)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Shuten Trail Mid (Presto)",
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -888,15 +888,15 @@
       "price_plus": 200,
       "phrase": "タエチメ",
       "desc_short_en": "Two-handed. Breaks traps. Breaks after a while if used to break traps.",
-      "desc_en": "Two-handed weapon that can break traps. Breaks after a while if used to break traps. There are other ways to deal with traps such as walking around them, splashing water on them, and swinging a Knockback Staff, so it doesn't see much use. Rare drop from Lv2+ Piko Hammer monsters.",
+      "desc_en": "Two-handed weapon that can break traps.<br>Breaks after a while if used to break traps.<br>There are other ways to deal with traps such as walking around them, splashing water on them, and swinging a Knockback Staff, so it doesn't see much use.<br>Rare drop from Lv2+ Piko Hammer monsters.",
       "locations": [
-        "Shuten Trail Easy (M)",
-        "Shuten Trail Hard (UM)",
-        "Onigashima (UST)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (P)",
-        "Road to the End (FPUSTM)"
+        "Shuten Trail Easy (Monster)",
+        "Shuten Trail Hard (Surprise, Monster)",
+        "Onigashima (Surprise, Shop, Trader)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster)"
       ]
     },
     {
@@ -919,9 +919,9 @@
       "price_plus": 1000,
       "phrase": "",
       "desc_short_en": "Two-handed. Player takes 1 step back when hitting monsters or walls.",
-      "desc_en": "Two-handed weapon that pushes you backward by 1 tile when you hit a monster or wall. Solid option for 1-on-1 fights, as long as the target doesn't have a ranged attack. Can only be used as a base in synthesis.",
+      "desc_en": "Two-handed weapon that pushes you back by 1 tile when you hit a monster or wall.<br>Solid option for 1-on-1 fights, as long as the target doesn't have a ranged attack.<br>Can only be used as a base in synthesis.",
       "locations": [
-        "Onigashima (ST)"
+        "Onigashima (Shop, Trader)"
       ]
     },
     {
@@ -944,9 +944,9 @@
       "price_plus": 1000,
       "phrase": "",
       "desc_short_en": "Two-handed. Breaks traps. Will never break.",
-      "desc_en": "Two-handed weapon that can break traps. Will never break. More useful than a Mallet since it doesn't break, but there are other ways to deal with traps, so it's not really worth taking up a seal slot.",
+      "desc_en": "Two-handed weapon that can break traps. Will never break.<br>More useful than a Mallet since it doesn't break, but there are other ways to deal with traps, so it's not really worth taking up a seal slot.",
       "locations": [
-        "Sealed Room (G)"
+        "Sealed Room (Golden Interval)"
       ]
     },
     {
@@ -969,10 +969,10 @@
       "price_plus": 250,
       "phrase": "",
       "desc_short_en": "Two-handed. Hit all monsters in a 1 tile radius.",
-      "desc_en": "Two-handed weapon that can hit all monsters in a 1 tile radius. Two-handed means you have 0 defense which is extremely dangerous if you're surrounded, and the 三 seal is usually enough to take out groups of monsters, so it doesn't see much use. Can only be used as a base in synthesis.",
+      "desc_en": "Two-handed weapon that can hit all monsters in a 1 tile radius.<br>Two-handed means you have 0 defense which is extremely dangerous if you're surrounded, and the 三 seal is usually enough to take out groups of monsters, so it doesn't see much use.<br>Can only be used as a base in synthesis.",
       "locations": [
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -995,13 +995,13 @@
       "price_plus": 500,
       "phrase": "ヌヌセラ",
       "desc_short_en": "Two-handed. Piercing attack two tiles forward.",
-      "desc_en": "Two-handed weapon that can pierce through monsters 2 tiles forward. Decent option early on since it lets you get 2 hits in before receing a counter attack. Can only be used as a base in synthesis.",
+      "desc_en": "Two-handed weapon that can pierce through monsters 2 tiles forward.<br>Decent option early on since it lets you get 2 hits in before receing a counter attack.<br>Can only be used as a base in synthesis.",
       "locations": [
-        "Shuten Trail Mid (S)",
-        "Shuten Trail Hard (S)",
-        "Onigashima (FPST)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Shuten Trail Mid (Shop)",
+        "Shuten Trail Hard (Shop)",
+        "Onigashima (Floor, Presto, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -1024,11 +1024,11 @@
       "price_plus": 300,
       "phrase": "",
       "desc_short_en": "Two-handed. 35% chance to deal a x1.5 damage critical hit.",
-      "desc_en": "Two-handed weapon that has a 35% chance to deal a x1.5 damage critical hit. Rare drop from Lv2+ Taur monsters. Decent option to increase your damage output. However, Taurs only appear in post-game dungeons, so by the time you obtain one you might not need it.",
+      "desc_en": "Two-handed weapon that has a 35% chance to deal a x1.5 damage critical hit.<br>Decent option to increase your damage output. However, Taurus monsters only appear in post-game dungeons, so by the time you obtain one you might not need it.<br>Rare drop from Lv2+ Taurus monsters.",
       "locations": [
-        "Shrine's Hidden Hole (M)",
-        "Sealed Room (M)",
-        "Road to the End (M)"
+        "Shrine's Hidden Hole (Monster)",
+        "Sealed Room (Monster)",
+        "Road to the End (Monster)"
       ]
     },
     {
@@ -1051,14 +1051,14 @@
       "price_plus": 250,
       "phrase": "",
       "desc_short_en": "Two-handed. Hits 3 tiles forward.",
-      "desc_en": "Two-handed weapon that can hit monsters 3 tiles forward. To increase its effectiveness, synthesize a 銀 seal onto it to attack through walls, or a 三 to attack around corners. Rare drop from Lv2+ Ironhead monsters. Can only be used as a base in synthesis.",
+      "desc_en": "Two-handed weapon that can hit monsters 3 tiles forward.<br>Synthesize a 銀 seal onto it to attack through walls, or a 三 to attack around corners.<br>Rare drop from Lv2+ Ironhead monsters.<br>Can only be used as a base in synthesis.",
       "locations": [
-        "Shuten Trail Hard (M)",
-        "Onigashima (M)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (M)",
-        "Road to the End (M)"
+        "Shuten Trail Hard (Monster)",
+        "Onigashima (Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Monster)",
+        "Road to the End (Monster)"
       ]
     }
   ],

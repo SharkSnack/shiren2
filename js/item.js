@@ -32,24 +32,6 @@ $(document).ready(function() {
   }
 });
 
-// Locations key used in all item pages
-function locations_key () {
-  let html = `<div>
-              <p>Locations Key:</p>
-              <p>
-                F = Floor |
-                P = Presto |
-                U = Surprise |
-                S = Shop |
-                T = Trader |
-                M = Monster |
-                G = Golden Interval |
-                C = Treasure Chest
-              </p>
-            </div>`;
-  return html;
-}
-
 // Item Summary Table HTML
 function item_summary_table (data, category) {
   let caption = category[0].toUpperCase() +  category.slice(1);
@@ -70,9 +52,10 @@ function item_summary_table (data, category) {
   let th_material_other = ['Name', 'Buy', 'Sell', 'Phrase', 'Info'];
   let th_decoration = ['Name', 'Location', 'Info'];
 
+  html.push(`<h2>${caption} Summary</h2>`);
+
   // summary table header row
   html.push(`<table>
-          <caption>${caption} Summary</caption>
           <thead>
           <tr>`);
   switch (category) {
@@ -216,10 +199,7 @@ function item_details (data, category) {
   let ranged_power = '';
 
   // section heading
-  html.push(`<div class="heading">${heading} Details</div>
-          <div class="detail">`);
-
-  html.push( locations_key() );
+  html.push(`<h2>Weapon Details</h2>`);
 
   // item entries
   for (let i = 0; i < data[category].length; i++) {
@@ -235,7 +215,7 @@ function item_details (data, category) {
                  <div class="detail-section1">
                  <p>${item.desc_en}</p>
                  <img src="../../image/${category}/${item.image.filename}" width="${item.image.width}" height="${item.image.height}">
-                 <p>Locations: ${item.locations.join(', ')}</p>
+                 <p>Locations:<br>${item.locations.join('<br>')}</p>
                  </div>
                  <table class="detail-table">
                  <tr>
