@@ -11,6 +11,7 @@ body {
   color: #444;
   min-width: 186px;
   max-width: 186px;
+  line-height: 100%;
 }
 
 .sidebar-menu a {
@@ -35,6 +36,15 @@ body {
 
 .sidebar-sub-category {
   font-size: 80%;
+}
+
+.sidebar-links {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sidebar-links-sub {
+  padding-bottom: 5px;
 }
 
 .content {
