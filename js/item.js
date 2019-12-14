@@ -199,7 +199,7 @@ function item_details (data, category) {
   let ranged_power = '';
 
   // section heading
-  html.push(`<h2>Weapon Details</h2>`);
+  html.push(`<h2>${heading} Details</h2>`);
 
   // item entries
   for (let i = 0; i < data[category].length; i++) {
@@ -214,8 +214,7 @@ function item_details (data, category) {
                  <div class="detail-entry">
                  <div class="detail-section1">
                  <p class="item_desc">${item.desc_en}</p>
-                 <img src="../../image/${category}/${item.image.filename}" width="${item.image.width}" height="${item.image.height}">
-                 `);
+                 <img src="../../image/${category}/${item.image.filename}" width="${item.image.width}" height="${item.image.height}">`);
         html.push(`<p>Locations:</p>`);
         html.push( locations_list(item) );
         html.push(`</div>
@@ -257,9 +256,10 @@ function item_details (data, category) {
                  <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
                  <div class="detail-entry">
                  <div class="detail-section1">
-                 <p>${item.desc_en}</p>
-                 <p>Locations: ${item.locations.join(', ')}</p>
-                 </div>
+                 <p class="item_desc">${item.desc_en}</p>`);
+        html.push(`<p>Locations:</p>`);
+        html.push( locations_list(item) );
+        html.push(`</div>
                  <table class="detail-table">
                  <tr>
                  <th>Buy</th>
@@ -288,9 +288,10 @@ function item_details (data, category) {
                  <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
                  <div class="detail-entry">
                  <div class="detail-section1">
-                 <p>${item.desc_en}</p>
-                 <p>Locations: ${item.locations.join(', ')}</p>
-                 </div>
+                 <p class="item_desc">${item.desc_en}</p>`);
+        html.push(`<p>Locations:</p>`);
+        html.push( locations_list(item) );
+        html.push(`</div>
                  <table class="detail-table">
                  <tr>
                  <th>Phrase</th>
@@ -307,9 +308,10 @@ function item_details (data, category) {
                  <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
                  <div class="detail-entry">
                  <div class="detail-section1">
-                 <p>${item.desc_en}</p>
-                 <p>Locations: ${item.locations.join(', ')}</p>
-                 </div>
+                 <p class="item_desc">${item.desc_en}</p>`);
+        html.push(`<p>Locations:</p>`);
+        html.push( locations_list(item) );
+        html.push(`</div>
                  <table class="detail-table">
                  <tr>
                  <th>Power</th>
@@ -339,9 +341,10 @@ function item_details (data, category) {
                  <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
                  <div class="detail-entry">
                  <div class="detail-section1">
-                 <p>${item.desc_en}</p>
-                 <p>Locations: ${item.locations.join(', ')}</p>
-                 </div>
+                 <p class="item_desc">${item.desc_en}</p>`);
+        html.push(`<p>Locations:</p>`);
+        html.push( locations_list(item) );
+        html.push(`</div>
                  <table class="detail-table">
                  <tr>
                  <th>Buy</th>

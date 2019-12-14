@@ -1083,12 +1083,12 @@
       "price_plus": 175,
       "phrase": "",
       "desc_short_en": "Found with +4 ~ +8 upgrade value.",
-      "desc_en": "Low defense, but comes with an upgrade value ranging from +4 to +8. It is never found cursed. Recommended to use as synthesis fodder to strengthen a stronger shield.",
+      "desc_en": "Low defense, but comes with an upgrade value ranging from +4 to +8.<br>It is never found cursed. Use as synthesis fodder to strengthen a stronger shield.",
       "locations": [
-        "Shuten Trail Hard (U)",
-        "Onigashima (TC)",
-        "Sealed Room (PC)",
-        "Road to the End (PC)"
+        "Shuten Trail Hard (Surprise)",
+        "Onigashima (Trader, Treasure Chest)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Presto, Treasure Chest)"
       ]
     },
     {
@@ -1111,14 +1111,14 @@
       "price_plus": 150,
       "phrase": "んたぬれ",
       "desc_short_en": "",
-      "desc_en": "Shield said to be passed down from a foreign tribe. Can be useful as a synthesis seal container since it doesn't have an innate ability, but it's a bit too weak to use as a main shield.",
+      "desc_en": "Shield said to be passed down from a foreign tribe.<br>Can be useful as a synthesis seal container since it doesn't have an innate ability.<br>It's a bit too weak to use as a main shield.",
       "locations": [
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (FT)",
-        "Shuten Trail Hard (TG)",
-        "Onigashima (FPUT)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor, Trader)",
+        "Shuten Trail Hard (Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -1141,9 +1141,9 @@
       "price_plus": 1200,
       "phrase": "",
       "desc_short_en": "",
-      "desc_en": "This shield lacks innate abilities, but comes with max synthesis slots. Doesn't have very high defense, but the number of slots more than makes up for it.",
+      "desc_en": "This shield lacks innate abilities, but comes with max synthesis slots.<br>Doesn't have very high defense, but the number of slots makes up for it.",
       "locations": [
-        "Sealed Room (G)"
+        "Sealed Room (Golden Interval)"
       ]
     },
     {
@@ -1166,14 +1166,14 @@
       "price_plus": 700,
       "phrase": "へめなの",
       "desc_short_en": "",
-      "desc_en": "Shield made out of a giant beetle shell. Pretty solid defense, and can be used as a main shield. Doesn't have an innate ability.",
+      "desc_en": "Shield made out of a giant beetle shell. Doesn't have an innate ability.<br>Pretty solid defense, and can be used as a main shield.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPSTG)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -1196,11 +1196,11 @@
       "price_plus": 1000,
       "phrase": "",
       "desc_short_en": "Rustproof.",
-      "desc_en": "Shield made of ivory. Rustproof. Transforms into Daisangen Shield with 3 中 seals (Dragon Tile Bracelet). The rustproof ability won't transfer if used as synthesis fodder.",
+      "desc_en": "Shield made of ivory. Rustproof.<br>Transforms into Daisangen Shield with 3 中 seals.<br>The rustproof ability won't transfer if used as synthesis fodder.",
       "locations": [
-        "Onigashima (G)",
-        "Sealed Room (P)",
-        "Road to the End (FPG)"
+        "Onigashima (Golden Interval)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Golden Interval)"
       ]
     },
     {
@@ -1223,10 +1223,10 @@
       "price_plus": 1500,
       "phrase": "ユムクス",
       "desc_short_en": "",
-      "desc_en": "Shield with high defense. Good option as a main shield. Insert a Fuuma Shield+99 into a Presto Pot to transform it into a Helix Shield, though note that upgrade value and seals will reset if you do so.",
+      "desc_en": "Shield with high defense. Good option as a main shield.<br>Insert a Fuuma Shield+99 into a Presto Pot to transform it into a Helix Shield, though note that upgrade value and seals will reset if you do so.",
       "locations": [
-        "Sealed Room (PG)",
-        "Road to the End (P)"
+        "Sealed Room (Presto, Golden Interval)",
+        "Road to the End (Presto)"
       ]
     },
     {
@@ -1249,7 +1249,7 @@
       "price_plus": 4800,
       "phrase": "",
       "desc_short_en": "Rustproof. Synthesize 3 中 seals onto an Ivory Shield.",
-      "desc_en": "Created by synthesizing 3 中 seals onto an Ivory Shield. Rustproof. Difficult to make due to the rarity of Dragon Tile Bracelets. Cannot be used as synthesis fodder.",
+      "desc_en": "Created by synthesizing 3 中 seals onto an Ivory Shield. Rustproof.<br>Difficult to make due to the rarity of Dragon Tile Bracelets.<br>Cannot be used as synthesis fodder.",
       "locations": [
         "Synthesis Only"
       ]
@@ -1274,9 +1274,9 @@
       "price_plus": 6000,
       "phrase": "",
       "desc_short_en": "",
-      "desc_en": "Legendary shield exclusive to Shiren 2, and it's the 2nd strongest shield in the game. Very high defense and slot count, which makes it excellent as a main shield.",
+      "desc_en": "Legendary shield exclusive to Shiren 2, and it's the 2nd strongest shield in the game.<br>Very high defense and slot count, which makes it excellent as a main shield.",
       "locations": [
-        "Road to the End (G)"
+        "Road to the End (Golden Interval)"
       ]
     },
     {
@@ -1299,9 +1299,9 @@
       "price_plus": 5500,
       "phrase": "",
       "desc_short_en": "",
-      "desc_en": "Strongest shield in the game. Obtained by inserting a Fuuma Shield+99 into a Presto Pot. This applies to all equipment, but you can synthesize Blank Scrolls with Mixer monsters to increase the number of slots.",
+      "desc_en": "Strongest shield in the game.<br>Obtained by inserting a Fuuma Shield+99 into a Presto Pot.<br>This applies to all equipment, but you can synthesize Blank Scrolls with Mixer monsters to increase the number of slots.",
       "locations": [
-        "Presto Pot (Special)"
+        "Presto Pot (Special Condition)"
       ]
     },
     {
@@ -1324,7 +1324,7 @@
       "price_plus": 4000,
       "phrase": "",
       "desc_short_en": "Max fullness is reduced to 1%, and also prevents hunger.",
-      "desc_en": "Shield that reduces max fullness to 1% while also stopping hunger. However, Hunger Puppet monsters can still lower your fullness, and Kengo monsters can disarm your shield, so you still have to be careful. Created by synthesizing 3 重 seals onto a Heavy Shield.",
+      "desc_en": "Created by synthesizing 3 重 seals onto a Heavy Shield.<br>Shield that reduces max fullness to 1% while also stopping hunger.<br>However, Hunger Puppet monsters can still lower your fullness, and Kengo monsters can disarm your shield, so you still have to be careful.",
       "locations": [
         "Synthesis Only"
       ]
@@ -1349,11 +1349,11 @@
       "price_plus": 1000,
       "phrase": "",
       "desc_short_en": "Increases evasion to 35%.",
-      "desc_en": "Shield that makes it easier to evade physical attacks by increasing evasion to 35%. Not only do you take less damage overall, but higher evasion also means bracelets last longer.",
+      "desc_en": "Shield that makes it easier to evade physical attacks by increasing evasion to 35%.<br>Great seal to have, since higher evasion means bracelets last longer.",
       "locations": [
-        "Onigashima (PSTC)",
-        "Sealed Room (PC)",
-        "Road to the End (PSTC)"
+        "Onigashima (Presto, Shop, Trader, Treasure Chest)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Presto, Shop, Trader, Treasure Chest)"
       ]
     },
     {
@@ -1376,11 +1376,11 @@
       "price_plus": 1200,
       "phrase": "",
       "desc_short_en": "Reflects magic.",
-      "desc_en": "Shield that reflects magic, including Gazer hypnosis, Tusker staves, Sheep Priest spells, and Grass Receive Staff. Cannot reflect Straw Voodoll curses, Twisty Hani dances, or Hunger Puppet songs.",
+      "desc_en": "Shield that reflects magic, including Gazer hypnosis, Tusker staves, Sheep Priest spells, and Grass Receive Staff.<br>Cannot reflect Straw Voodoll curses, Twisty Hani dances, or Hunger Puppet songs.",
       "locations": [
-        "Onigashima (C)",
-        "Sealed Room (PC)",
-        "Road to the End (PSTC)"
+        "Onigashima (Treasure Chest)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Presto, Shop, Trader, Treasure Chest)"
       ]
     },
     {
@@ -1403,11 +1403,11 @@
       "price_plus": 1000,
       "phrase": "",
       "desc_short_en": "Rustproof (blue).",
-      "desc_en": "Shield made out of gold. Low defense, but it will never rust. Provides a blue 金 seal when synthesized. Monsoon Dolls will tear off a red 金 seal first, but a blue one has the same odds to be removed as the other seals.",
+      "desc_en": "Shield made out of gold. Low defense, but it will never rust.<br>Provides a blue 金 seal when synthesized.<br>Monsoon Dolls will tear off a red 金 seal first, but a blue one has the same odds to be removed as the other seals.",
       "locations": [
-        "Onigashima (G)",
-        "Sealed Room (PC)",
-        "Road to the End (FPSC)"
+        "Onigashima (Golden Interval)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Floor, Presto, Shop, Treasure Chest)"
       ]
     },
     {
@@ -1430,15 +1430,15 @@
       "price_plus": 200,
       "phrase": "どでとぴ",
       "desc_short_en": "Halves hunger rate. Rustproof.",
-      "desc_en": "Shield that halves your hunger rate. Rustproof. Ally Kengo monsters will always fling a Leather Shield in dungeons where shields normally do not appear.",
+      "desc_en": "Shield that halves your hunger rate. Rustproof.<br>Ally Kengo monsters will always fling a Leather Shield in dungeons where shields normally do not appear.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (FST)",
-        "Shuten Trail Hard (FPSTG)",
-        "Onigashima (FPST)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -1461,9 +1461,9 @@
       "price_plus": 1500,
       "phrase": "",
       "desc_short_en": "Allows you to dodge projectiles.",
-      "desc_en": "Shield that allows you to dodge projectiles. However, cannonballs will still explode, and dodged objects can activate traps if you're standing on one. Makes it very easy to gather arrows. The Reflect seal takes priority if you have that synthesized.",
+      "desc_en": "Shield that allows you to dodge projectiles. Makes it very easy to gather arrows.<br>However, cannonballs will still explode, and dodged objects can activate traps if you happen to be standing on one.<br>The Reflect seal takes priority if you also have that synthesized.",
       "locations": [
-        "Sealed Room (C)"
+        "Sealed Room (Treasure Chest)"
       ]
     },
     {
@@ -1486,11 +1486,11 @@
       "price_plus": 1000,
       "phrase": "ドピセモ",
       "desc_short_en": "Prevents your items from getting cursed.",
-      "desc_en": "Shield that prevents all of your items from getting cursed by Straw Voodoll monsters. Is it never found cursed. Synthesizing an Exorcism Scroll with a Mixer monster provides the same effect.",
+      "desc_en": "Shield that prevents all items from getting cursed by Straw Voodoll monsters.<br>Is it never found cursed. Synthesizing an Exorcism Scroll with a Mixer monster provides the same effect.",
       "locations": [
-        "Onigashima (ST)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Onigashima (Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -1513,9 +1513,9 @@
       "price_plus": 400,
       "phrase": "",
       "desc_short_en": "Gain Gitan equal to 10% of damage received.",
-      "desc_en": "Shield that hosts the spirit of a Gamarra. Allows you to obtain Gitan equal to 10% of the amount of damage received from enemy attacks. It's quite rare, despite its lackluster ability.",
+      "desc_en": "Shield that hosts the spirit of a Gamarra.<br>Obtain Gitan equal to 10% of the amount of damage received from enemy attacks.<br>It's quite rare, despite its lackluster ability.",
       "locations": [
-        "Sealed Room (G)"
+        "Sealed Room (Golden Interval)"
       ]
     },
     {
@@ -1538,14 +1538,14 @@
       "price_plus": 600,
       "phrase": "ヌスネア",
       "desc_short_en": "Prevents poison from lowering strength.",
-      "desc_en": "Shield made out of special fish scales that resist poison. Prevents poison arrows, poison grass, and Scorpion stings from lowering strength. Note that it doesn't prevent loss of strength from Slug licks or spoiled riceballs.",
+      "desc_en": "Shield made out of special fish scales that resist poison.<br>Prevents poison arrows, poison grass, and Scorpion stings from lowering strength.<br>Note that it doesn't prevent loss of strength from Slug licks or Spoiled Riceballs.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPG)",
-        "Onigashima (FPT)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Golden Interval)",
+        "Onigashima (Floor, Presto, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -1568,11 +1568,11 @@
       "price_plus": 1500,
       "phrase": "",
       "desc_short_en": "Gain exp equal to 130% of damage received.",
-      "desc_en": "Shield that lets you gain exp equal to 130% of the amount of damage you receive from attacks. Note that you won't gain exp from traps. Good to equip early on, but you'll want to switch to a stronger shield as you progress.",
+      "desc_en": "Gain exp equal to 130% of the amount of damage you receive from attacks.<br>Note that you won't gain exp from traps. Good to equip early on, but you'll want to switch to a stronger shield as you progress.",
       "locations": [
-        "Onigashima (UC)",
-        "Sealed Room (PC)",
-        "Road to the End (FPSTG)"
+        "Onigashima (Surprise, Treasure Chest)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Floor, Presto, Shop, Trader, Golden Interval)"
       ]
     },
     {
@@ -1595,11 +1595,11 @@
       "price_plus": 600,
       "phrase": "",
       "desc_short_en": "Prevents monsters from stealing items and Gitan.",
-      "desc_en": "Shield modeled after a Zalokleft. Prevents item and Gitan theft by Zalokleft, Gamarra, and Gyadon monsters. Note that it can't prevent Kengo monsters from disarming you, since disarming is not considered stealing.",
+      "desc_en": "Shield modeled after a Zalokleft.<br>Prevents item and Gitan theft by Zalokleft, Gamarra, and Gyadon monsters.<br>Note that it can't prevent Kengo monsters from disarming you, since disarming is not considered stealing.",
       "locations": [
-        "Onigashima (T)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Onigashima (Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -1622,9 +1622,9 @@
       "price_plus": 1800,
       "phrase": "",
       "desc_short_en": "Reflects projectiles.",
-      "desc_en": "Shield that reflects projectiles, including cannonballs, porky stones, and monsters thrown by Tiger Tossers. Cannot reflect silver arrows or objects falling from above. If a reflected cannonball hits a Shopkeeper, the Shopkeeper will go after you instead of the monster.",
+      "desc_en": "Reflects projectiles, including cannonballs, porky stones, and monsters.<br>Cannot reflect silver arrows or objects falling from above.<br>If a reflected cannonball hits a Shopkeeper, they will attack you instead of the monster.",
       "locations": [
-        "Sealed Room (C)"
+        "Sealed Room (Treasure Chest)"
       ]
     },
     {
@@ -1647,14 +1647,14 @@
       "price_plus": 400,
       "phrase": "ぎぼびわ",
       "desc_short_en": "Reflects 30% of damage received back at monsters.",
-      "desc_en": "Shield that reflects 30% of damage received from physical attacks back at monsters. Cannot reflect damage if the target is inside a wall. Note that reflected damage can still cause Slugs and Zaloklefts to divide.",
+      "desc_en": "Shield that reflects 30% of damage received from physical attacks back at monsters.<br>Cannot reflect damage if the target is inside a wall.<br>Note that reflected damage can still cause Slugs and Zaloklefts to divide.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPSTG)",
-        "Onigashima (PS)",
-        "Sealed Room (P)",
-        "Road to the End (FPS)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop)"
       ]
     },
     {
@@ -1677,9 +1677,9 @@
       "price_plus": 1200,
       "phrase": "",
       "desc_short_en": "Prevents traps from activating.",
-      "desc_en": "Shield that prevents traps from activating. Note that you can still choose to manually trigger traps if you're standing on one. One of the strongest seals in the game, to the point of being a balance breaker.",
+      "desc_en": "Shield that prevents traps from activating.<br>Note that you can still choose to manually trigger traps if you're standing on one.<br>One of the strongest seals in the game, to the point of being a balance breaker.",
       "locations": [
-        "Halfway Well (C)"
+        "Halfway Well (Treasure Chest)"
       ]
     },
     {
@@ -1702,14 +1702,14 @@
       "price_plus": 500,
       "phrase": "ねぺなは",
       "desc_short_en": "Reduces explosion damage by 30%.",
-      "desc_en": "Shield that reduces damage from explosions by 30%. Explosion damage sources include landmines, bomber statues, Pop Tank, Wolf Roid, Patient Bag monsters, and others.",
+      "desc_en": "Shield that reduces damage from explosions by 30%.<br>Explosion damage sources include landmines, bomber statues, Pop Tank, Wolf Roid, Patient Bag monsters, etc.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPSTG)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -1732,10 +1732,10 @@
       "price_plus": 800,
       "phrase": "",
       "desc_short_en": "Reduces fire damage by 30%.",
-      "desc_en": "Shield that reduces fire damage by 30%. Can be used as a main shield, but also popular as a secondary shield for floors with Archdragons. Combine with a 火 seal to increase the fire damage reduction to 50%. (30% + 20% = 50%).",
+      "desc_en": "Shield that reduces fire damage by 30%.<br>Can be used as a main shield, or as a secondary shield for floors with Archdragons.<br>Pair it with a 火 seal to increase the fire damage reduction to 50%. (30% + 20% = 50%)",
       "locations": [
-        "Onigashima (G)",
-        "Road to the End (G)"
+        "Onigashima (Golden Interval)",
+        "Road to the End (Golden Interval)"
       ]
     },
     {
@@ -1758,12 +1758,12 @@
       "price_plus": 300,
       "phrase": "ゾテソボ",
       "desc_short_en": "Doubles hunger rate.",
-      "desc_en": "Shield with high defense, but also doubles hunger rate. Can synthesize a 皮 seal to counter the effect, but with only 3 slots, it's not really worth it. Synthesize 3 重 seals onto it to transform it into a Nirvana Shield.",
+      "desc_en": "Shield with high defense, but also doubles hunger rate.<br>Synthesize a 皮 seal to counter the effect, but with only 3 slots, it's not really worth it.<br>Synthesize 3 重 seals onto it to transform it into a Nirvana Shield.",
       "locations": [
-        "Shuten Trail Hard (F)",
-        "Onigashima (FPS)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor, Presto, Shop)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -1786,14 +1786,14 @@
       "price_plus": 160,
       "phrase": "",
       "desc_short_en": "Lowers upgrade value by 1 every time you take damage.",
-      "desc_en": "Shield that starts out with very high defense, but loses 1 upgrade value every time you take damage. Fixed damage such as quarter staff will still lower its upgrade value, but traps, poison grass, surprise pot explosions, and fire pillars won't.",
+      "desc_en": "Starts out with very high defense, but loses 1 upgrade value every time you take damage.<br>Fixed damage such as quarter staff will still lower its upgrade value, but traps, poison grass, surprise pot explosions, and fire pillars won't.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (P)",
-        "Onigashima (P)",
-        "Sealed Room (P)",
-        "Road to the End (FPS)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Presto)",
+        "Onigashima (Presto)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop)"
       ]
     },
     {
@@ -1816,19 +1816,19 @@
       "price_plus": 1300,
       "phrase": "",
       "desc_short_en": "Two-handed. Raises both attack and defense when equipped.",
-      "desc_en": "Two-handed shield that raises both attack and defense when equipped. A decent option early on, but you'll want to switch to stronger equipment as you progress. Can only be used as a base in synthesis.",
+      "desc_en": "Two-handed shield that raises both attack and defense when equipped.<br>Decent option early on, but you'll want to switch to stronger equipment as you progress.<br>Can only be used as a base in synthesis.",
       "locations": [
-        "Onigashima (ST)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Onigashima (Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     }
   ],
   "bracelet": [
     {
-      "name_en": "Stat Lock Bracelet",
+      "name_en": "Level Lock Bracelet",
       "name_jp": "くねくねよけの腕輪",
-      "id": "stat_lock_bracelet",
+      "id": "level_lock_bracelet",
       "seal": "",
       "stack": "",
       "stack_label": "",
@@ -1836,10 +1836,10 @@
       "price_sell": 1500,
       "phrase": "",
       "desc_short_en": "Protects against level down effects.",
-      "desc_en": "Protects against the level down effects of Twisty Hani's dance and Gazelle Pope's spell. Doesn't prevent level down effects from eating or getting hit by Grasses.",
+      "desc_en": "Protects against the level down effects of Twisty Hani's dance and Gazelle Pope spells.<br>Doesn't prevent level down effects from eating or getting hit by Grasses.",
       "locations": [
-        "Onigashima (FP)",
-        "Road to the End (F)"
+        "Onigashima (Floor, Presto)",
+        "Road to the End (Floor)"
       ]
     },
     {
@@ -1853,14 +1853,14 @@
       "price_sell": 2000,
       "phrase": "リヒピシ",
       "desc_short_en": "Thrown items will pierce through walls and monsters.",
-      "desc_en": "Thrown items will fly forever, piercing through walls and monsters. Useful for clearing out a line of monsters. Be careful not to accidentally throw important items while it's equipped. ",
+      "desc_en": "Thrown items will fly forever, piercing through walls and monsters.<br>Be careful not to accidentally throw important items while it's equipped.<br>Useful for clearing out a Monster House from outside the room or lines of monsters in hallways, but can cause accidents if the thrown item or projectile hits a Shopkeeper.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PT)",
-        "Shuten Trail Hard (FPT)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -1874,10 +1874,10 @@
       "price_sell": 2000,
       "phrase": "",
       "desc_short_en": "Thrown items will always miss. Used in creating Daisangen equipment.",
-      "desc_en": "Thrown items will always miss their target, including throwing items at Mixer monsters. Can be used to activate traps if a monster is standing on one. Provides a 中 seal which is needed for synthesizing Daisangen equipment.",
+      "desc_en": "Thrown items will always miss their target, including throwing items at Mixer monsters.<br>Can be used to activate traps if a monster is standing on one.<br>Provides a 中 seal which is needed for synthesizing Daisangen equipment.",
       "locations": [
-        "Onigashima (ST)",
-        "Road to the End (S)"
+        "Onigashima (Shop, Trader)",
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -1891,9 +1891,9 @@
       "price_sell": 2000,
       "phrase": "",
       "desc_short_en": "Thrown items fly in a random direction.",
-      "desc_en": "Thrown items will fly in a random direction. There's no practical use for it, but it can be sold for a decent amount. Ally Shihan monsters will always fling this bracelet where bracelets normally do not appear.",
+      "desc_en": "Thrown items will fly in a random direction.<br>There's no practical use for it, but it can be sold for a decent amount.<br>Ally Shihan monsters will always fling this bracelet in dungeons where bracelets normally do not appear.",
       "locations": [
-        "Road to the End (FS)"
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -1907,14 +1907,14 @@
       "price_sell": 2500,
       "phrase": "",
       "desc_short_en": "Protects against strength modifying slug licks and sheep spells.",
-      "desc_en": "Protects against strength lowering Slug licks and Sheep Priest spells. Note that it doesn't protect against strength loss from poisons, such as poison arrows and Scorpion stings.",
+      "desc_en": "Protects against strength lowering Slug licks and Sheep Priest spells.<br>Note that it doesn't protect against strength loss from poisons, such as poison arrows and Scorpion stings.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PT)",
-        "Shuten Trail Hard (FPT)",
-        "Onigashima (PUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Trader)",
+        "Onigashima (Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -1928,11 +1928,11 @@
       "price_sell": 2500,
       "phrase": "",
       "desc_short_en": "Restores 5 HP per turn, but also doubles hunger rate.",
-      "desc_en": "Restores 5 HP per turn, but also doubles hunger rate. Plays well with Nirvana Shield and No Hunger Bracelet. Asuka can equip it without any negative side effects.",
+      "desc_en": "Restores 5 HP per turn, but also doubles hunger rate.<br>Plays well with Nirvana Shield and No Hunger Bracelet.<br>Asuka can equip it without any negative side effects.",
       "locations": [
-        "Shuten Trail Hard (U)",
-        "Onigashima (S)",
-        "Road to the End (S)"
+        "Shuten Trail Hard (Surprise)",
+        "Onigashima (Shop)",
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -1946,11 +1946,11 @@
       "price_sell": 2500,
       "phrase": "",
       "desc_short_en": "Thrown items will curve when hitting walls.",
-      "desc_en": "Thrown items will curve when hitting walls or corners. Porky stones and piercing items such as silver arrows won't be affected.",
+      "desc_en": "Thrown items will curve when hitting walls or corners.<br>Porky stones and piercing items such as silver arrows won't be affected.",
       "locations": [
-        "Shuten Trail Hard (U)",
-        "Onigashima (FPS)",
-        "Road to the End (FS)"
+        "Shuten Trail Hard (Surprise)",
+        "Onigashima (Floor, Presto, Shop)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -1964,10 +1964,10 @@
       "price_sell": 2500,
       "phrase": "",
       "desc_short_en": "Protects against fullness loss by Hunger Puppet songs.",
-      "desc_en": "Prevents Hunger Puppet songs from lowering fullness or max fullness. Not very useful, but can be sold for a decent amount.",
+      "desc_en": "Prevents Hunger Puppet songs from lowering fullness or max fullness.<br>Not very useful, but can be sold for a decent amount.",
       "locations": [
-        "Onigashima (F)",
-        "Road to the End (F)"
+        "Onigashima (Floor)",
+        "Road to the End (Floor)"
       ]
     },
     {
@@ -1981,10 +1981,10 @@
       "price_sell": 2500,
       "phrase": "",
       "desc_short_en": "Makes you drop items randomly as you walk.",
-      "desc_en": "Makes you drop items randomly as you walk. No practical use for it, but it can be sold for a decent amount.",
+      "desc_en": "Makes you drop items randomly as you walk.<br>No practical use for it, but it can be sold for a decent amount.",
       "locations": [
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -1998,14 +1998,14 @@
       "price_sell": 3400,
       "phrase": "",
       "desc_short_en": "Increases strength by 3.",
-      "desc_en": "Increases strength by 3 while equipped. Has a higher selling price compared to other 5000 Gitan bracelets.",
+      "desc_en": "Increases strength by 3 while equipped.<br>Has a higher selling price compared to other 5000 Gitan bracelets.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PT)",
-        "Shuten Trail Hard (FPT)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2019,11 +2019,11 @@
       "price_sell": 3000,
       "phrase": "メペング",
       "desc_short_en": "Thrown items will always hit their target.",
-      "desc_en": "Thrown items will always hit their target. Can be paired with Pierce Bracelet to quickly thin out groups of monsters.",
+      "desc_en": "Thrown items will always hit their target.<br>Can be paired with Pierce Bracelet to quickly thin out groups of monsters.",
       "locations": [
-        "Shuten Trail Hard (FG)",
-        "Onigashima (PS)",
-        "Road to the End (S)"
+        "Shuten Trail Hard (Floor, Golden Interval)",
+        "Onigashima (Presto, Shop)",
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -2037,9 +2037,9 @@
       "price_sell": 1500,
       "phrase": "",
       "desc_short_en": "Deal x5.0 damage critical hits, but shatters if you take damage.",
-      "desc_en": "Regular attacks turn into x5.0 damage super critical hits. However, the bracelet will shatter the moment you take damage.",
+      "desc_en": "Regular attacks turn into x5.0 damage super critical hits.<br>However, the bracelet will shatter the moment you take damage.",
       "locations": [
-        "Sealed Room (G)"
+        "Sealed Room (Golden Interval)"
       ]
     },
     {
@@ -2053,11 +2053,11 @@
       "price_sell": 5000,
       "phrase": "",
       "desc_short_en": "Lets you walk through walls and float over water. Drains 5% HP per turn inside walls.",
-      "desc_en": "Lets you walk through walls and float over water. Drains HP equal to 5% of your max HP each turn inside a wall. Unequip over water or inside a wall to warp to a random location on the current floor.",
+      "desc_en": "Lets you walk through walls and float over water.<br>Drains HP equal to 5% of your max HP each turn inside a wall.<br>Unequip over water or inside a wall to warp to a random room on the current floor.",
       "locations": [
-        "Onigashima (G)",
-        "Sealed Room (P)",
-        "Road to the End (PUST)"
+        "Onigashima (Golden Interval)",
+        "Sealed Room (Presto)",
+        "Road to the End (Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2071,14 +2071,14 @@
       "price_sell": 5000,
       "phrase": "ベゲトザ",
       "desc_short_en": "Reveals monster, item, and statue locations on the map.",
-      "desc_en": "Reveals monster, item, and statue locations on the map. Possibly the strongest single item effect in the game, to the point of being a balance breaker.",
+      "desc_en": "Reveals monster, item, and statue locations on the map.<br>Possibly the strongest single item effect in the game.<br>Some players personally ban its usage, due to it being a balance breaker.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (FP)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Floor, Presto)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2092,11 +2092,11 @@
       "price_sell": 7500,
       "phrase": "",
       "desc_short_en": "Halves the accuracy of attacks and projectiles directed at you. Burns up if you take fire damage.",
-      "desc_en": "Greatly increases evasion, halving the accuracy of normal attacks and projectiles directed at you. However, it's made of paper, so it will burn up if you take fire damage.",
+      "desc_en": "Increases evasion, halving the accuracy of monster regular attacks and projectiles.<br>However, it's made of paper, so it will burn up if you take fire damage.",
       "locations": [
-        "Onigashima (PS)",
-        "Sealed Room (G)",
-        "Road to the End (S)"
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Golden Interval)",
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -2110,10 +2110,10 @@
       "price_sell": 7500,
       "phrase": "",
       "desc_short_en": "Redirects damage from physical attacks to a nearby monster.",
-      "desc_en": "Redirects damage from physical attacks to a nearby monster. If there are no other monsters nearby, you'll take damage as normal. If a monster defeats another monster due to this effect, the attacking monster will level up.",
+      "desc_en": "Redirects damage from physical attacks to a nearby monster.<br>If there are no other monsters nearby, you'll take damage as normal.<br>The attacking monster will level up if it defeats another monster due to this effect.<br>Bracelets will still take damage when successfully redirecting attacks.<br>Asuka will not redirect attacks when she has this bracelet equipped.",
       "locations": [
-        "Sealed Room (G)",
-        "Road to the End (S)"
+        "Sealed Room (Golden Interval)",
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -2127,10 +2127,10 @@
       "price_sell": 7500,
       "phrase": "セダベタ",
       "desc_short_en": "Stops natural hunger depletion.",
-      "desc_en": "Stops hunger. No negative side effects. Note that it only stops natural hunger depletion, so Hunger Puppet songs will still lower fullness. Doesn't prevent HP loss if your fullness is already at 0%.",
+      "desc_en": "Stops hunger. No negative side effects.<br>Doesn't prevent HP loss if your fullness is already at 0%.<br>Note that it only stops natural hunger depletion, so Hunger Puppet songs will still lower fullness.",
       "locations": [
-        "Shuten Trail Hard (C)",
-        "Road to the End (S)"
+        "Shuten Trail Hard (Treasure Chest)",
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -2144,9 +2144,9 @@
       "price_sell": 7500,
       "phrase": "",
       "desc_short_en": "Doubles hunger rate.",
-      "desc_en": "Doubles hunger rate. There's no practical use for it, but it can be sold for a large sum of Gitan.",
+      "desc_en": "Doubles hunger rate.<br>There's no practical use for it, but it can be sold for a large sum of Gitan.",
       "locations": [
-        "Road to the End (S)"
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -2160,7 +2160,7 @@
       "price_sell": 1000,
       "phrase": "",
       "desc_short_en": "Can pick up and set traps, and monsters will trigger them.",
-      "desc_en": "Lets you pick up and set traps. Monsters that step on traps will trigger them. Attack and Exp modifiers are applied like inside the Halfway Well dungeon while equipped. Note that defeating a Trader with traps triggers a robbery.",
+      "desc_en": "Lets you pick up and set traps, and monsters that step on traps will trigger them.<br>Cracks more easily than other bracelets. (<a href=\"\">durability values</a> for details)<br>Note that defeating a Trader using traps triggers thief mode.<br>Pair it with a Scout Bracelet to display all traps on the current floor on the map.<br>It's not mentioned in the description, but modifiers that lower attack and exp gain are applied like inside the \"Halfway Well\" dungeon while it's equipped.",
       "locations": [
         "Halfway Well (Clear Reward)"
       ]
@@ -2178,13 +2178,13 @@
       "price_sell": 1,
       "phrase": "",
       "desc_short_en": "Restores 35% fullness. Also comes with a random negative effect. Increases max fullness by 1% if full.",
-      "desc_en": "Restores 35% fullness, but deals 4 damage and comes with a negative side effect. Negative effects include level-1, strength-3, confusion, sleep, and blindness. Increases max fullness by 1% if full.",
+      "desc_en": "Restores 35% fullness, but deals 4 damage and comes with a negative side effect.<br>Negative effects include level-1, strength-3, confusion, sleep, and blindness.<br>Increases max fullness by 1% if full.",
       "locations": [
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (F)",
-        "Onigashima (F)",
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -2199,16 +2199,16 @@
       "price_sell": 50,
       "phrase": "",
       "desc_short_en": "Restores 50% fullness. Increases max fullness by 3% if full.",
-      "desc_en": "Restores 50% fullness. Increases max fullness by 3% if full. Can be used to synthesize the 飯 seal, which is commonly synthesized onto a secondary weapon early game to help avoid starvation.",
+      "desc_en": "Restores 50% fullness. Increases max fullness by 3% if full.<br>Provides the 飯 seal when synthesized onto equipment.<br>Commonly synthesized onto a secondary weapon early game to help avoid starvation.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FP)",
-        "Shuten Trail Hard (FPT)",
-        "Onigashima (FST)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (S)",
-        "Sealed Room (FP)",
-        "Road to the End (FPST)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto)",
+        "Shuten Trail Hard (Floor, Presto, Trader)",
+        "Onigashima (Floor, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Shop)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -2223,15 +2223,15 @@
       "price_sell": 100,
       "phrase": "ほにがけ",
       "desc_short_en": "Restores 100% fullness. Increases max fullness by 5% if full.",
-      "desc_en": "Restores 100% fullness. Increases max fullness by 5% if full. You'll always start with a Large Riceball when entering dungeons. Nigiri Morph monsters transform items into this riceball.",
+      "desc_en": "Restores 100% fullness. Increases max fullness by 5% if full.<br>You'll always start with a Large Riceball when entering dungeons.<br>Nigiri Morph monsters transform items into this riceball.",
       "locations": [
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (F)",
-        "Onigashima (F)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -2246,11 +2246,11 @@
       "price_sell": 100,
       "phrase": "ゼポプタ",
       "desc_short_en": "Restores 30% fullness. Also comes with a random positive effect. Increases max fullness by 2% if full.",
-      "desc_en": "Restores 30% fullness, and comes with a positive side effect. Positive effects include strength+1, HP recovery, item identification, sleep immunity, walk without waking sleeping monsters, stop hunger, and poison immunity. Increases max fullness by 2% if full.",
+      "desc_en": "Restores 30% fullness, and comes with a positive side effect.<br>Positive effects include strength+1, HP recovery, item identification, sleep immunity, walk without waking sleeping monsters, stop hunger, and poison immunity.<br>Increases max fullness by 2% if full.",
       "locations": [
-        "Onigashima (PS)",
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -2265,13 +2265,13 @@
       "price_sell": 150,
       "phrase": "",
       "desc_short_en": "Restores fullness to max. Also increases max fullness by 7%.",
-      "desc_en": "Restores fullness to max, and also increases max fullness by 7%. The best riceball in the game. Keep it safe from spoiling by placing it inside a holding pot.",
+      "desc_en": "Restores fullness to max, and also increases max fullness by 7%.<br>The best riceball in the game. Keep it safe from spoiling by placing it inside a holding pot.",
       "locations": [
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (FS)",
-        "Onigashima (PS)",
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor, Shop)",
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     }
   ],
@@ -2288,9 +2288,9 @@
       "price_sell": 25,
       "phrase": "",
       "desc_short_en": "",
-      "desc_en": "Restores 5% fullness like all other grasses, but otherwise doesn't have an effect. Revival Grass turns into this grass after taking effect.",
+      "desc_en": "Restores 5% fullness like all other grasses, but otherwise doesn't have an effect.<br>Revival Grass turns into this grass after taking effect.",
       "locations": [
-        "Road to the End (S)"
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -2305,16 +2305,16 @@
       "price_sell": 50,
       "phrase": "マジナイ",
       "desc_short_en": "Restores 25 HP. Increases max HP by 2 if already max. Used in synthesizing a Healing Sword.",
-      "desc_en": "Restores 25 HP. Increases max HP by 2 points if HP is already at max. Can be thrown at Ghost type monsters to deal 25 damage. The 薬 seal restores a small amount of HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword.",
+      "desc_en": "Restores 25 HP. Increases max HP by 2 points if HP is already at max.<br>Can be thrown at Ghost type monsters to deal 25 damage.<br>The 薬 seal restores a small amount of HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword.",
       "locations": [
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (F)",
-        "Onigashima (F)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (S)",
-        "Sealed Room (FP)",
-        "Road to the End (FS)"
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Shop)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -2329,10 +2329,10 @@
       "price_sell": 150,
       "phrase": "",
       "desc_short_en": "Lowers level by 1.",
-      "desc_en": "Lowers level by 1 when eaten. Can also be thrown at a monster to lower its rank. Plays well with a Pierce Bracelet if used in such a way.",
+      "desc_en": "Lowers level by 1 when eaten.<br>Can be thrown at a monster to lower its level by 1.<br>Plays well with a Pierce Bracelet if used in such a way.",
       "locations": [
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2347,16 +2347,16 @@
       "price_sell": 150,
       "phrase": "",
       "desc_short_en": "Increases movement speed by 1 stage.",
-      "desc_en": "Increases movement speed by 1 stage for 12 turns. Max movement speed stage is +2, where you get 3 actions per turn. If thrown at a monster, the target will gain a permanent movement speed boost.",
+      "desc_en": "Increases movement speed by 1 stage for 12 turns.<br>Max movement speed stage is +2, where you get 3 actions per turn.<br>If thrown at a monster, the target will gain a permanent movement speed boost.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPUST)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (S)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Shop)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2371,16 +2371,16 @@
       "price_sell": 150,
       "phrase": "",
       "desc_short_en": "Warps you to a random room on the current floor.",
-      "desc_en": "Warps you to a random room on the current floor when eaten. Can be thrown at a monster to warp them instead. Good for getting out of sticky situations, but if you're unlucky, you might end up jumping out of the frying pan and into the fire.",
+      "desc_en": "Warps you to a random room on the current floor when eaten.<br>Can be thrown at a monster to warp them instead.<br>Good for getting out of sticky situations, but if you're unlucky, you might end up jumping out of the frying pan and into the fire.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPUST)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2395,15 +2395,15 @@
       "price_sell": 200,
       "phrase": "",
       "desc_short_en": "Increases max HP by 5 points. Used in synthesizing a Healing Sword.",
-      "desc_en": "Increases max HP by 5 points when eaten. Provides the 命 seal when synthesized, which is used in synthesizing a Healing Sword. When synthesized onto a shield, the 命 seal increases the base defense of the shield.",
+      "desc_en": "Increases max HP by 5 points when eaten.<br>Provides the 命 seal when synthesized, which is used in synthesizing a Healing Sword.<br>When synthesized onto a shield, the 命 seal increases the base defense of the shield.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2418,11 +2418,11 @@
       "price_sell": 200,
       "phrase": "",
       "desc_short_en": "Increases max fullness by 10%.",
-      "desc_en": "Increases max fullness by 10% when eaten. Max fullness maxes out at 200%. The effect isn't too noteworthy, so you might as well eat it right away instead of waiting to find a Boost Grass.",
+      "desc_en": "Increases max fullness by 10% when eaten. Max fullness maxes out at 200%.<br>You might as well eat it right away instead of waiting to find a Boost Grass.",
       "locations": [
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2437,10 +2437,10 @@
       "price_sell": 200,
       "phrase": "",
       "desc_short_en": "Lowers max fullness by 10%.",
-      "desc_en": "Lowers max fullness by 10% when eaten. The lowest max fullness value is 0%. Nothing good will come from keeping it on hand, so either sell it, insert it into a Presto Pot, or throw it away.",
+      "desc_en": "Lowers max fullness by 10% when eaten. The lowest max fullness value is 0%.<br>Nothing good will come from keeping it on hand, so sell it, insert it into a Presto Pot, or throw it away.",
       "locations": [
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -2455,15 +2455,15 @@
       "price_sell": 200,
       "phrase": "",
       "desc_short_en": "Restores lost strength to max. Deals 50 damage to Slugs when thrown.",
-      "desc_en": "Restores lost strength to max when eaten. Can be thrown at Slug monsters to deal 50 damage. The 消 seal is equivalent to the う seal from a Scale Shield, and blocks poison. Note that the seal cannot block Slug licks.",
+      "desc_en": "Restores lost strength to max when eaten.<br>Can be thrown at Slug monsters to deal 50 damage.<br>The 消 seal is equivalent to the う seal from a Scale Shield, and blocks poison.<br>Note that the seal cannot block Slug licks.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPUST)",
-        "Halfway Well (S)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Halfway Well (Shop)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2478,9 +2478,9 @@
       "price_sell": 200,
       "phrase": "",
       "desc_short_en": "Lowers level to 1 and reduces current HP to 1.",
-      "desc_en": "Lowers level to 1 and reduces current HP to 1 when eaten. Provides the 超 seal if synthesized, which curses the equipment and lowers your level by 1 every time you attack (weapon) or take damage (shield). Possibly the most dangerous item in the game, but only appears in shops inside the \"Roat to the End\" dungeon 71F+.",
+      "desc_en": "Lowers level to 1 and reduces current HP to 1 when eaten.<br>Provides the 超 seal if synthesized, which curses the equipment and lowers your level by 1 every time you attack (weapon) or take damage (shield).<br>Possibly the most dangerous item in the game, but only appears in shops inside the \"Roat to the End\" dungeon 71F+.",
       "locations": [
-        "Road to the End (S)"
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -2495,11 +2495,11 @@
       "price_sell": 100,
       "phrase": "おたべは",
       "desc_short_en": "Deals a random negative effect to all characters in the room.",
-      "desc_en": "Makes you tell jokes, superstitions, serial novels, and one-liners, which deals a random negative effect to all characters in the room. Effects include slow, sleep, confusion, paralysis, freeze, neutral NPCs turn hostile, and ~30 damage. If no one else is in the room, you become the target of the negative effect.",
+      "desc_en": "Makes you tell jokes, superstitions, serial novels, and one-liners, which deals a random negative effect to all characters in the room.<br>Effects include slow, sleep, confusion, paralysis, freeze, anger NPCs, and ~30 damage.<br>If no one else is in the room, you become the target of the negative effect.",
       "locations": [
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2514,17 +2514,17 @@
       "price_sell": 250,
       "phrase": "ノザノサ",
       "desc_short_en": "Restores 100 HP. Increases max HP by 4 if already max. Used in synthesizing a Healing Sword.",
-      "desc_en": "Restores 100 HP. Increases max HP by 4 points if HP is already at max. Can be thrown at Ghost type monsters to deal 100 damage. The 弟 seal restores some HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword. Excellent to synthesize onto shields.",
+      "desc_en": "Restores 100 HP. Increases max HP by 4 points if HP is already at max.<br>Can be thrown at Ghost type monsters to deal 100 damage.<br>The 弟 seal restores some HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword.<br>Excellent to synthesize onto shields.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (F)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (S)",
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Shop)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -2539,15 +2539,15 @@
       "price_sell": 250,
       "phrase": "",
       "desc_short_en": "Allows you to see hidden traps and invisible monsters.",
-      "desc_en": "Grass that allows you to see hidden traps and invisible monsters. Can also cure blindness. Note that the effect will wear off if you become blinded after eating it.",
+      "desc_en": "Grass that allows you to see hidden traps and invisible monsters.<br>Also cures blindness. The effect will wear off if you become blinded after eating it.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPS)",
-        "Shuten Trail Hard (FPS)",
-        "Onigashima (FP)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop)",
+        "Shuten Trail Hard (Floor, Presto, Shop)",
+        "Onigashima (Floor, Presto)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2564,15 +2564,15 @@
       "price_sell": 250,
       "phrase": "",
       "desc_short_en": "Deal a ranged fire attack that deals 63~77 damage.",
-      "desc_en": "Performs a ranged fire attack that deals 63~77 damage when eaten, or 45~55 damage when thrown. The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield.",
+      "desc_en": "Performs a ranged fire attack that deals 63~77 damage when eaten.<br>Can also be thrown to deal 45~55 damage.<br>The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (F)",
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (F)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor)"
       ]
     },
     {
@@ -2589,14 +2589,14 @@
       "price_sell": 350,
       "phrase": "",
       "desc_short_en": "Deal a fire attack 1 tile forward that deals 63~77 damage.",
-      "desc_en": "Performs a fire attack 1 tile forward that deals 63~77 damage when eaten, or 40~49 damage when thrown. The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield. Basically a weaker Dragon Grass, but worth more Gitan.",
+      "desc_en": "Performs a fire attack 1 tile forward that deals 63~77 damage when eaten.<br>Can also be thrown to deal 40~49 damage.<br>The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield.<br>Basically a weaker Dragon Grass, but worth more Gitan.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPS)",
-        "Shuten Trail Hard (FPS)",
-        "Onigashima (FPU)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop)",
+        "Shuten Trail Hard (Floor, Presto, Shop)",
+        "Onigashima (Floor, Presto, Surprise)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2611,13 +2611,13 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Doubles effectiveness of grass items for 10 turns.",
-      "desc_en": "Doubles effectiveness of grass items for 10 turns when eaten. Also doubles the effectiveness of grasses used by grass receive staff, grass toss staff, and grass effect pot. Often used before strength grass. Note that some grasses don't gain a boosted effect, such as Revival Grass, Sight Grass, and Antidote Grass.",
+      "desc_en": "Doubles effectiveness of grass items for 10 turns when eaten.<br>Often used before strength grass.<br>Doubles the effectiveness of grass receive staff, grass toss staff, and grass effect pot.<br>Note that some grasses don't gain boosted effects, such as Revival Grass, Sight Grass, Antidote Grass, etc.",
       "locations": [
-        "Shuten Trail Hard (FP)",
-        "Onigashima (FPUST)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Hard (Floor, Presto)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2632,16 +2632,16 @@
       "price_sell": 700,
       "phrase": "",
       "desc_short_en": "Increases strength by 1, or increases max strength by 1 if already at max.",
-      "desc_en": "Increases strength by 1, or increases max strength by 1 if already at max. Often used with grass receive staff, grass toss staff, or Boost Grass to increase gains. The ち seal increases a weapon's base attack. Mr. Drone monsters always drop this grass.",
+      "desc_en": "Increases strength by 1, or increases max strength by 1 if already at max.<br>Often used with grass receive staff, grass toss staff, or Boost Grass to increase gains.<br>The ち seal increases a weapon's base attack.<br>Mr. Drone monsters always drop this grass.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPSTM)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPUSTM)",
-        "Shrine's Hidden Hole (M)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUSTM)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader, Monster)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader, Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster)"
       ]
     },
     {
@@ -2656,14 +2656,14 @@
       "price_sell": 700,
       "phrase": "",
       "desc_short_en": "Deals 5 damage, lowers strength by 1 point, and inflicts slow.",
-      "desc_en": "Deals 5 damage, lowers strength by 1 point, and inflicts slow when eaten. Can be thrown at a monster to inflict slow and reduce its attack (x0.6). Note that it has the same price as Strength Grass.",
+      "desc_en": "Deals 5 damage, lowers strength by 1 point, and inflicts slow when eaten.<br>Can be thrown at a monster to inflict slow and reduce its attack (x0.6).<br>Note that it has the same price as Strength Grass.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPT)",
-        "Shuten Trail Hard (FPT)",
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2680,15 +2680,15 @@
       "price_sell": 1000,
       "phrase": "",
       "desc_short_en": "Increases level by 1.",
-      "desc_en": "Increases level by 1 when eaten. Can be thrown at a monster to increase its rank by 1. Mr. Helico has a 85% chance to drop this grass. The 幸 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).",
+      "desc_en": "Increases level by 1 when eaten.<br>Can be thrown at a monster to increase its rank by 1.<br>Mr. Helico has a 85% chance to drop this grass.<br>The 幸 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPSTM)",
-        "Shuten Trail Hard (FPUST)",
-        "Onigashima (FSM)",
-        "Shrine's Hidden Hole (M)",
-        "Sealed Room (P)",
-        "Road to the End (FPUSTM)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader, Monster)",
+        "Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader)",
+        "Onigashima (Floor, Shop, Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster)"
       ]
     },
     {
@@ -2703,10 +2703,10 @@
       "price_sell": 1000,
       "phrase": "",
       "desc_short_en": "Lowers level by 3.",
-      "desc_en": "Lowers level by 3 when eaten. Can be thrown at a monster to lower its rank by 3. If synthesized, the 不 seal lowers equipment strength by a significant amount.",
+      "desc_en": "Lowers level by 3 when eaten.<br>Can be thrown at a monster to lower its level by 3.<br>If synthesized, the 不 seal lowers equipment strength by a significant amount.",
       "locations": [
-        "Sealed Room (FP)",
-        "Road to the End (PS)"
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Presto, Shop)"
       ]
     },
     {
@@ -2721,17 +2721,17 @@
       "price_sell": 1250,
       "phrase": "ヨワハゼ",
       "desc_short_en": "Revives you if you collapse in a dungeon.",
-      "desc_en": "Automatically revives you if your HP drops to 0 inside of a dungeon. Doesn't activate if it's inside of a pot. Turns into Weeds after taking effect. HP, strength, and fullness is restored to max upon reviving. Mr. Gyro has a 75% chance to drop this grass.",
+      "desc_en": "Automatically revives you if your HP drops to 0 inside of a dungeon.<br>Doesn't activate if it's inside of a pot.<br>Turns into Weeds after taking effect.<br>HP, strength, and fullness is restored to max upon reviving.<br>Mr. Gyro has a 75% chance to drop this grass.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPSTM)",
-        "Shuten Trail Hard (FPUST)",
-        "Onigashima (FPUSTMC)",
-        "Shrine's Hidden Hole (FM)",
-        "Halfway Well (S)",
-        "Sealed Room (PC)",
-        "Road to the End (FPUSTMC)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader, Monster)",
+        "Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader, Monster, Treasure Chest)",
+        "Shrine's Hidden Hole (Floor, Monster)",
+        "Halfway Well (Shop)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster, Treasure Chest)"
       ]
     },
     {
@@ -2748,11 +2748,11 @@
       "price_sell": 1500,
       "phrase": "アトノセ",
       "desc_short_en": "Increases level by 3.",
-      "desc_en": "Increases level by 3 when eaten. Can be used with grass receive staff or Boost Grass to increase gains. The 天 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield). Excellent to synthesize onto a main weapon.",
+      "desc_en": "Increases level by 3 when eaten.<br>Can be used with grass receive staff or Boost Grass to increase gains.<br>The 天 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).<br>Excellent to synthesize onto a main weapon.",
       "locations": [
-        "Onigashima (UC)",
-        "Sealed Room (C)",
-        "Road to the End (UC)"
+        "Onigashima (Surprise, Treasure Chest)",
+        "Sealed Room (Treasure Chest)",
+        "Road to the End (Surprise, Treasure Chest)"
       ]
     }
   ],

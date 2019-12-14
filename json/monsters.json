@@ -125,7 +125,7 @@
       "family_name": "Chintala Family",
       "family_name_jp": "チンタラ, ちゅうチンタラ, おおチンタラ",
       "family_id": "chintala_family",
-      "family_desc_en": "The secondary mascot monster of the Shiren series.<br>A notable characteristic is that it grows larger for each increase in rank.",
+      "family_desc_en": "The secondary mascot monster of the Shiren series.<br>A notable characteristic is that it grows larger with each increase in rank.",
       "ally_desc_en": "",
       "images": [
         {
@@ -2962,7 +2962,7 @@
       "family_name": "Sheep Priest Family",
       "family_name_jp": "ヒツジ神官, ヤギ司祭, ガゼル教皇",
       "family_id": "sheep_priest_family",
-      "family_desc_en": "Monster that resembles a sheep dressed like a priest. Casts spells that temporarily reduce Shiren's stats.<br>Level 1 halves strength, level 2 halves max HP, and level 3 halves level.<br>The spell effects are stronger at higher levels, but the spells don't last as long.<br>The number of remaining turns doesn't get extended if the spell is cast again while under the effect of the spell.<br>All of its spells can be reflected with an Echo Shield. Sheep Priest's spells can also be blocked by a Salty Bracelet, and Gazelle Pope's spells can be blocked by a Stat Lock Bracelet.",
+      "family_desc_en": "Monster that resembles a sheep dressed like a priest. Casts spells that temporarily reduce Shiren's stats.<br>Level 1 halves strength, level 2 halves max HP, and level 3 halves level.<br>The spell effects are stronger at higher levels, but the spells don't last as long.<br>The number of remaining turns doesn't get extended if the spell is cast again while under the effect of the spell.<br>All of its spells can be reflected with an Echo Shield. Sheep Priest's spells can also be blocked by a Salty Bracelet, and Gazelle Pope's spells can be blocked by a Level Lock Bracelet.",
       "ally_desc_en": "",
       "images": [
         {
@@ -3079,7 +3079,7 @@
           "special_attack_rate": "40%",
           "notes": [
             "Special attack halves level for 20~30 turns.",
-            "Can be nullified with an Echo Shield or Stat Lock Bracelet.",
+            "Can be nullified with an Echo Shield or Level Lock Bracelet.",
             "HP damage as a result of halved level remains when the spell wears off."
           ],
           "notes_ally": [
@@ -4902,7 +4902,7 @@
       "family_name": "Twisty Hani",
       "family_name_jp": "くねくねハニー",
       "family_id": "twisty_hani",
-      "family_desc_en": "Monster that has the appearance of a Haniwa. (clay figure)<br>Performs a twisty dance that lowers a target's level by 1.<br>A Stat Lock Bracelet can nullify the dance's level down effect.<br>Cannot use its special attack against a target that is level 1.<br>Always generated asleep, and guaranteed to wake up when you move within 1 tile of it.<br>Its high special attack usage rate means you'll rapidly lose levels if you can't defeat it quickly.<br>That said, it offers a higher item drop rate and decent experience, so it may be worth the trouble to attack it.<br>If you do so, it's safer to attack from a distance by shooting arrows, throwing stones, or rolling cannonballs.",
+      "family_desc_en": "Monster that has the appearance of a Haniwa. (clay figure)<br>Performs a twisty dance that lowers a target's level by 1.<br>A Level Lock Bracelet can nullify the dance's level down effect.<br>Cannot use its special attack against a target that is level 1.<br>Always generated asleep, and guaranteed to wake up when you move within 1 tile of it.<br>Its high special attack usage rate means you'll rapidly lose levels if you can't defeat it quickly.<br>That said, it offers a higher item drop rate and decent experience, so it may be worth the trouble to attack it.<br>If you do so, it's safer to attack from a distance by shooting arrows, throwing stones, or rolling cannonballs.",
       "ally_desc_en": "",
       "images": [
         {
