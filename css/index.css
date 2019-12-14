@@ -30,6 +30,9 @@ body {
 
 .sidebar-category {
   padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
   color: #444;
   background-color: #c8e3ff;
 }
