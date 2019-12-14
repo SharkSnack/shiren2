@@ -3144,9 +3144,9 @@
       "price_sell": 100,
       "phrase": "",
       "desc_short_en": "Activates all traps in the room. Only available in Halfway Well.",
-      "desc_en": "Activates all traps in the room. Only works if you have the Trapper status such as when you're inside the Halfway Well dungeon. Perhaps it can be used to trap flying monsters.",
+      "desc_en": "Activates all traps in the room.<br>Only works when you have the Trapper status.<br>Perhaps it can be used to trap flying monsters.",
       "locations": [
-        "Halfway Well (FS)"
+        "Halfway Well (Floor, Shop)"
       ]
     },
     {
@@ -3161,13 +3161,13 @@
       "price_sell": 250,
       "phrase": "",
       "desc_short_en": "Identifies an unidentified item. Occasionally identifies all items in your inventory.",
-      "desc_en": "Identifies an unidentified item, revealing its name and uses if it's a staff. Occasionally identifies all items in your inventory that are not inside pots. The 識 seal reveals disguised and invisible monsters when you attack them (weapon) or take damage from their attacks (shield).",
+      "desc_en": "Identifies an unidentified item, revealing its name and uses if it's a staff.<br>Occasionally identifies all items in your inventory that are not inside pots.<br>The 識 seal reveals disguised and invisible monsters when you attack them (weapon) or take damage from their attacks (shield).",
       "locations": [
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (F)",
-        "Onigashima (FS)",
-        "Sealed Room (F)",
-        "Road to the End (FG)"
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor, Shop)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Golden Interval)"
       ]
     },
     {
@@ -3182,13 +3182,13 @@
       "price_sell": 250,
       "phrase": "しでもろ",
       "desc_short_en": "Deals 25~30 damage to all monsters in the room.",
-      "desc_en": "Lightning strikes all monsters in the room, dealing 25~30 each. However, Oni are immune to lightning and are healed by it. Lightning will strike every monster in a 1 tile radius if you're in a hallway. Lightning cannot hit monsters inside walls.",
+      "desc_en": "Lightning strikes all monsters in the room, dealing 25~30 each.<br>However, Oni are immune to lightning and are healed by it.<br>Lightning will strike all monsters in a 1 tile radius if you're in a hallway.<br>Lightning cannot hit monsters inside walls.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Hard (FP)",
-        "Onigashima (FP)",
-        "Road to the End (FS)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Hard (Floor, Presto)",
+        "Onigashima (Floor, Presto)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -3203,14 +3203,14 @@
       "price_sell": 250,
       "phrase": "",
       "desc_short_en": "Creates fire pillars around Shiren that deal 20 damage per turn.",
-      "desc_en": "Creates fire pillars around Shiren that deal 20 damage per turn. Great for wiping out monster houses in lower floors, but note that you might end up burning allies and items as well. Some enemies are also immune to fire damage, such as Tiny Phoenix.",
+      "desc_en": "Creates fire pillars around Shiren that deal 20 damage per turn.<br>Great for wiping out monster houses early on, but note that you might end up burning allies and items as well.<br>Some enemies are also immune to fire damage, such as Tiny Phoenix.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PT)",
-        "Shuten Trail Hard (FP)",
-        "Onigashima (F)",
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Trader)",
+        "Shuten Trail Hard (Floor, Presto)",
+        "Onigashima (Floor)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -3225,11 +3225,11 @@
       "price_sell": 250,
       "phrase": "",
       "desc_short_en": "Escape from a dungeon with your Gitan and equipped items.",
-      "desc_en": "Escape from a dungeon with your Gitan and equipped items (weapon, shield, bracelets, ranged). Cannot escape if you're being chased by guard dogs and sheriffs. The 帰 seal lets you keep the weapon or shield it's synthesized on if you collapse in a dungeon. Note that it can't prevent equipment loss by other methods, such as Kengo monsters flinging it away. Always found identified.",
+      "desc_en": "Escape from a dungeon with your Gitan and currently equipped items.<br>Cannot escape if you're being chased by guard dogs and sheriffs.<br>The 帰 seal lets you keep the weapon or shield it's synthesized onto if you collapse.<br>It can't prevent equipment loss by other means, such as Kengo monsters flinging it away.<br>Always found identified.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FP)",
-        "Shuten Trail Hard (FP)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto)",
+        "Shuten Trail Hard (Floor, Presto)"
       ]
     },
     {
@@ -3244,9 +3244,9 @@
       "price_sell": 250,
       "phrase": "",
       "desc_short_en": "Restores 20% fullness when eaten.",
-      "desc_en": "Restores 20% fullness when eaten. Cannot be eaten if it's unidentified or if your mouth is sealed shut. Eating it also registers it in the Blank Scroll list.",
+      "desc_en": "Restores 20% fullness when eaten.<br>Cannot be eaten if it's unidentified or if your mouth is sealed shut.<br>Eating it also registers it in the Blank Scroll list.",
       "locations": [
-        "Road to the End (FS)"
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -3261,14 +3261,14 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Removes curses from currently equipped items.",
-      "desc_en": "Removes curses from currently equipped items. Also removes curses from Asuka's equipment if she is standing next to you. The 祓 seal prevents your weapon from getting cursed (weapon) or prevents all items from getting cursed (shield). There's a bug where if you synthesize it onto equipment with the 呪 seal, the 呪 seal gets deleted and it also doesn't gain the 祓 seal.",
+      "desc_en": "Removes curses from currently equipped items.<br>Also removes curses from Asuka's equipment if she is standing next to you.<br>The 祓 seal prevents your weapon from getting cursed (weapon) or prevents all items from getting cursed (shield).<br>There's a bug where if you synthesize it onto equipment with the 呪 seal, the 呪 seal gets deleted and it also doesn't gain the 祓 seal.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3283,11 +3283,11 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Freezes all water on the floor, and traps underwater monsters in ice.",
-      "desc_en": "Freezes all water on the floor while trapping underwater monsters in ice. Items that were underwater float to the surface, so it can be used to recover items that fell in water.",
+      "desc_en": "Freezes all water on the floor while trapping underwater monsters in ice.<br>Underwater items float to the surface, so it can be used to recover items that fell in water.",
       "locations": [
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3302,14 +3302,14 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Summons up to 4 shadows that distract enemies for 10 turns.",
-      "desc_en": "Summons up to 4 shadows that distract enemies for 10 turns. The shadows won't attack enemies, but they can draw the attention of almost any attack, including Archdragon's floor-wide fire breath. However, you still might get hit by ranged attacks that pass through the shadows, such as Ironhead's attacks or Pop Tank's cannonballs.",
+      "desc_en": "Summons up to 4 shadows that distract enemies for 10 turns.<br>The shadows won't attack enemies, but they can draw the attention of almost any attack, including Archdragon's floor-wide fire breath.<br>However, you still might get hit by ranged attacks that pass through the shadows, such as Ironhead's attacks or Pop Tank's cannonballs.",
       "locations": [
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Hard (F)",
-        "Onigashima (FPS)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor, Presto, Shop)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -3324,11 +3324,11 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Removes all traps in the room.",
-      "desc_en": "Removes all traps in the room. Useful for monster houses, but not really worth taking up a spot in your inventory. Can be used after a Wall Collapse Scroll to guarantee a safe path to the stairs.",
+      "desc_en": "Removes all traps in the room.<br>Useful for monster houses, but not really worth taking up a spot in your inventory.<br>Can be used after a Wall Collapse Scroll to guarantee a safe path to the stairs.",
       "locations": [
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3343,10 +3343,10 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Inflicts fear to all monsters within a 1 tile radius of Shiren for 10 turns.",
-      "desc_en": "Inflicts fear to all monsters within a 1 tile radius of Shiren for 10 turns. Monsters with fear will attack in the opposite direction, as if they're afraid something sinister is behind their backs. This scroll also works on monsters inside walls.",
+      "desc_en": "Inflicts fear to all monsters within a 1 tile radius of Shiren for 10 turns.<br>Monsters with fear will attack in the opposite direction, as if they're afraid something sinister is behind their backs.<br>This scroll also works on monsters inside walls.",
       "locations": [
-        "Onigashima (FP)",
-        "Road to the End (FS)"
+        "Onigashima (Floor, Presto)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -3361,12 +3361,12 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Escape from a dungeon with all of your items",
-      "desc_en": "Escape from a dungeon with all of your items. Cannot escape if you're being chased by guard dogs and sheriffs. Guaranteed floor item on specific floors of post-game dungeons. Can be used to steal from shops by placing merchandise inside Storage Pots before reading. Always found identified.",
+      "desc_en": "Escape from a dungeon with all of your items.<br>Cannot escape if you're being chased by guard dogs and sheriffs.<br>Guaranteed floor item on specific floors of post-game dungeons.<br>Can be used to steal by inserting merchandise into Storage Pots before reading.<br>Always found identified.",
       "locations": [
-        "Onigashima (FP)",
-        "Shrine's Hidden Hole (F=10, 20, 99)",
-        "Sealed Room (F=99)",
-        "Road to the End (F=30, 50, 70)"
+        "Onigashima (Floor, Presto)",
+        "Shrine's Hidden Hole (Floors 10, 20, 99)",
+        "Sealed Room (Floor 99)",
+        "Road to the End (Floors 30, 50, 70)"
       ]
     },
     {
@@ -3381,14 +3381,14 @@
       "price_sell": 600,
       "phrase": "ぬべりか<br>ゆめだい",
       "desc_short_en": "Increases your equipped weapon's upgrade value by 1.",
-      "desc_en": "Increases your equipped weapon's upgrade value by 1. Note that it cannot remove curses.",
+      "desc_en": "Increases your equipped weapon's upgrade value by 1.<br>Note that it cannot remove curses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (PUSTG)",
-        "Onigashima (FPUSTG)",
-        "Sealed Room (FPG)",
-        "Road to the End (FPUSTG)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Sealed Room (Floor, Presto, Golden Interval)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader, Golden Interval)"
       ]
     },
     {
@@ -3403,14 +3403,14 @@
       "price_sell": 600,
       "phrase": "ネリグキ",
       "desc_short_en": "Increases your equipped shield's upgrade value by 1.",
-      "desc_en": "Increases your equipped shield's upgrade value by 1. Note that it cannot remove curses.",
+      "desc_en": "Increases your equipped shield's upgrade value by 1.<br>Note that it cannot remove curses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (PUSTG)",
-        "Onigashima (FPUSTG)",
-        "Sealed Room (FPG)",
-        "Road to the End (FPUSTG)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Sealed Room (Floor, Presto, Golden Interval)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader, Golden Interval)"
       ]
     },
     {
@@ -3425,15 +3425,15 @@
       "price_sell": 600,
       "phrase": "",
       "desc_short_en": "Puts all monsters in the room to sleep for 10 turns. Monsters will move twice as fast when they wake up.",
-      "desc_en": "Puts all monsters in the room to sleep for 10 turns. Monsters will move twice as fast when they wake up. Cannot put monsters inside walls to sleep. The 眠 seal can put a monster to sleep for 5 turns when you attack it (weapon) or receive damage from it (shield). Note that sleep induced by the seal won't grant a speed increase after the monster wakes up.",
+      "desc_en": "Puts all monsters in the room to sleep for 10 turns.<br>Monsters will move twice as fast when they wake up.<br>Cannot put monsters inside walls to sleep.<br>The 眠 seal can put a monster to sleep for 5 turns when you attack it (weapon) or receive damage from it (shield).<br>Note that sleep induced by the seal won't grant a speed increase after the monster wakes up.",
       "locations": [
-        "Small Valley (F)",
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPSTG)",
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Small Valley (Floor)",
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3448,12 +3448,12 @@
       "price_sell": 750,
       "phrase": "",
       "desc_short_en": "Evaporates all water on the current floor.",
-      "desc_en": "Evaporates all water on the current floor. Monsters that can only move inside water will be unable to move, and some won't even be able to attack. Ice will not evaporate. Good to have for recovering items that fall into water. Also useful for capturing underwater monsters such as Shotfish.",
+      "desc_en": "Evaporates all water on the current floor. Ice will not evaporate.<br>Water-only monsters will be unable to move, and some won't even be able to attack.<br>Good to have for recovering items that fall into water.<br>Useful for capturing underwater monsters such as Shotfish.",
       "locations": [
-        "Onigashima (FPUST)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3468,11 +3468,11 @@
       "price_sell": 750,
       "phrase": "",
       "desc_short_en": "Deals damage in a similar fashion to Landmines. Place it on the ground and perform a regular attack to make it explode.",
-      "desc_en": "Deals damage in a similar fashion to Landmines. Place it on the ground and perform a regular attack to make it explode. Note that this is considered as an attack by Shiren, so if you blow up shop items or NPCs such as Traders, you'll be chased by Guard Dogs and Sherrifs.",
+      "desc_en": "Deals damage in a similar fashion to Landmines.<br>Place it on the ground and perform a regular attack to make it explode.<br>Note that this is considered as an attack by Shiren, so if you blow up shop items or NPCs such as Traders, you'll be chased by Guard Dogs and Sherrifs.",
       "locations": [
-        "Halfway Well (FS)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Halfway Well (Floor, Shop)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3487,13 +3487,13 @@
       "price_sell": 1000,
       "phrase": "",
       "desc_short_en": "Transforms the current floor into one giant room.",
-      "desc_en": "Transforms the current floor into one giant room when read. Water, ice, and unbreakable walls all vanish. By far the best way to search for Golden Intervals, and also makes it easier to steal from shops. However, some care must be taken when reading it, or else you might find yourself waking up a monster house, or being under the effect of floor-wide statue effects.",
+      "desc_en": "Transforms the current floor into one giant room when read.<br>Water, ice, and unbreakable walls all vanish.<br>Best way to search for Golden Intervals, and also makes it easier to steal from shops.<br>However, some care must be taken when reading it, or else you might find yourself waking up a monster house, or being under the effect of floor-wide statue effects.",
       "locations": [
-        "Onigashima (FPUT)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUT)"
+        "Onigashima (Floor, Presto, Surprise, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Trader)"
       ]
     },
     {
@@ -3508,12 +3508,12 @@
       "price_sell": 1000,
       "phrase": "",
       "desc_short_en": "Makes a pot unbreakable for the duration of the current adventure.",
-      "desc_en": "Makes the selected pot unbreakable for the duration of the current adventure. Good for protecting pots such as storage, water, and monster pots, but can be detrimental if used on pots such as sticky or synthesis pots. In particular, you'll instantly get a game over if a Kappa monster throws an unbreakable sticky pot at you, even if you have revival grass on hand.",
+      "desc_en": "Makes the selected pot unbreakable for the duration of the current adventure.<br>Good for protecting pots such as storage, water, and monster pots, but can be detrimental if used on pots such as sticky or synthesis pots.<br>In particular, you'll instantly get a game over if a Kappa monster throws an unbreakable sticky pot at you, even if you have revival grass on hand.",
       "locations": [
-        "Onigashima (ST)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Onigashima (Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3528,11 +3528,11 @@
       "price_sell": 1100,
       "phrase": "",
       "desc_short_en": "Increases the size of a pot by 1, up to a max size of 8.",
-      "desc_en": "Expands the selected pot, increasing its size by 1. Note that this scroll won't have an effect if it's read on a pot that is already at the maximum size of 8.",
+      "desc_en": "Expands the selected pot, increasing its size by 1.<br>Note that this scroll won't have an effect if it's read on a pot that is already at the maximum size of 8.",
       "locations": [
-        "Onigashima (PUST)",
-        "Sealed Room (P)",
-        "Road to the End (PUST)"
+        "Onigashima (Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3547,11 +3547,11 @@
       "price_sell": 1500,
       "phrase": "",
       "desc_short_en": "Suctions out all contents from a pot.",
-      "desc_en": "Suctions out all contents from a selected pot, including items, monsters, and even pent-up anger from inside Surprise Pots. Great for reusing expanded presto or upgrade pots.",
+      "desc_en": "Suctions out all contents from a selected pot, including items, monsters, and even pent-up anger from inside Surprise Pots.<br>Great for reusing expanded presto or upgrade pots.",
       "locations": [
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (PUST)"
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3566,11 +3566,11 @@
       "price_sell": 2000,
       "phrase": "",
       "desc_short_en": "Rustproofs a weapon or shield (red 金 seal). Can also be used to repair bracelets or turn iron arrows into silver arrows.",
-      "desc_en": "Makes a weapon or shield rustproof with a red 金 seal. Can also be used to repair bracelets or transform iron arrows into silver arrows (arrow count will be halved). Cannot remove curses. Monsoon Dolls will tear off a red 金 seal before any other seal, so this scroll effectively lets you protect your synthesized seals against a single use of Monsoon Doll's special attack.",
+      "desc_en": "Makes a weapon or shield rustproof with a red 金 seal. Cannot remove curses.<br>Can also repair bracelets, or transform iron arrows into silver arrows.<br>Monsoon Dolls will tear off a red 金 seal before any other seal, so this scroll effectively protects your synthesized seals against a single use of Monsoon Doll's special attack.",
       "locations": [
-        "Onigashima (TG)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Trader, Golden Interval)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3585,11 +3585,11 @@
       "price_sell": 2000,
       "phrase": "",
       "desc_short_en": "Restocks a shop to a max of 9 items for sale.",
-      "desc_en": "Restocks a shop to a max of 9 items for sale. Specialty shops such as bracelet shops will only restock items within the same category. You may need to expand the shop's size by breaking its walls to get all 9 items in the restock if the room is small. Note that N'dubbas can be included in the restock.",
+      "desc_en": "Restocks a shop to a max of 9 items for sale.<br>Specialty shops will only restock items within the same category.<br>You may need to expand the shop's size by breaking its walls to get all 9 items in the restock if the room is small.<br>Note that N'dubbas can be included in the restock.",
       "locations": [
-        "Onigashima (T)",
-        "Sealed Room (P)",
-        "Road to the End (FPUT)"
+        "Onigashima (Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Trader)"
       ]
     },
     {
@@ -3604,11 +3604,11 @@
       "price_sell": 2500,
       "phrase": "ムビルプ",
       "desc_short_en": "Write down any scroll you've used before, and then use this as that scroll. Synthesize to increase an equipment's slot count by 1.",
-      "desc_en": "Write the name of any scroll you've previously made use of, and then this scroll will act as that scroll. Can also be used as synthesis fodder with a Mixer monster to increase an equipment's slot count by 1, up to a max of 16 slots. You can revert the scroll back to a blank state by splashing water on it.",
+      "desc_en": "Select the name of any scroll you've read before, and this scroll will act as that scroll.<br>You can revert the scroll back to a blank state by splashing water on it.<br>When used as synthesis fodder with a Mixer monster, the equipment's slot count will increase by 1, up to a max of 16 slots.",
       "locations": [
-        "Onigashima (ST)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Onigashima (Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -3623,15 +3623,15 @@
       "price_sell": 2500,
       "phrase": "",
       "desc_short_en": "Place on the ground to create a safe zone where monsters next to the scroll cannot attack anything standing on top of the scroll.",
-      "desc_en": "Place this scroll on the ground to create a safe zone where monsters next to the scroll cannot attack anything standing on top of the scroll. Monsters will also be unable to walk on top of the scroll. Note that you can still get hit by ranged attacks while standing on the scroll. No effect if read instead of being placed on the ground.",
+      "desc_en": "Place this scroll on the ground to create a safe zone where monsters next to the scroll cannot attack anything standing on top of the scroll.<br>Monsters also cannot walk on top of the scroll.<br>Note that you can still get hit by ranged attacks while standing on the scroll.<br>No effect if read instead of being placed on the ground.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PST)",
-        "Shuten Trail Hard (FPUSTG)",
-        "Onigashima (FPUSTGC)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (FC)",
-        "Road to the End (FPSTC)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval, Treasure Chest)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor, Treasure Chest)",
+        "Road to the End (Floor, Presto, Shop, Trader, Treasure Chest)"
       ]
     },
     {
@@ -3646,10 +3646,10 @@
       "price_sell": 2500,
       "phrase": "",
       "desc_short_en": "Makes the stairs and all items on the current floor hop around when placed on the ground.",
-      "desc_en": "Resembles a Sanctuary Scroll. Makes the stairs and all items on the current floor hop around when placed on the ground. Shop items won't jump around, but disguised N'dubbas will. You can get rid of the effect by splashing water on the scroll (Water Pot) or burning the scroll (Fire Staff, Blaze Scroll).",
+      "desc_en": "Resembles a Sanctuary Scroll.<br>Makes stairs and all items on the current floor hop around when placed on the ground.<br>Shop items won't jump around, but disguised N'dubbas will.<br>You can get rid of the effect by splashing water on the scroll (Water Pot) or burning the scroll (Fire Staff, Blaze Scroll).",
       "locations": [
-        "Sealed Room (F)",
-        "Road to the End (FS)"
+        "Sealed Room (Floor)",
+        "Road to the End (Floor, Shop)"
       ]
     },
     {
@@ -3664,9 +3664,9 @@
       "price_sell": 400,
       "phrase": "",
       "desc_short_en": "Throw at a monster to make all instances of that monster vanish from the current adventure.",
-      "desc_en": "Throw at a monster to make all instances of that monster vanish from the current adventure. Note that other ranks in the family line will still appear. (ex: banish Pit Mamel → Mamel and Cave Mamel still appear). Also note that only 1 monster can be banished at a time, so if a second scroll is thrown at a monster, the first monster will start appearing again.",
+      "desc_en": "Throw at a monster to make all instances of it vanish from the current adventure.<br>Note that other ranks in the family line will still appear.<br>Example: banish Pit Mamel → Mamel and Cave Mamel still appear.<br>Also note that only 1 monster can be banished at a time, so if a second scroll is thrown at a monster, the first monster will start appearing again.",
       "locations": [
-        "Road to the End (S)"
+        "Road to the End (Shop)"
       ]
     }
   ],
@@ -3681,14 +3681,14 @@
       "price_use_sell": 25,
       "phrase": "",
       "desc_short_en": "Identifies items that are inserted into the pot. (size 3~6)",
-      "desc_en": "Identifies items that are inserted into the pot. Identifying reveals the item's name and number of uses if it's a staff. Cannot identify wet scrolls. Recommended to prioritize grass items for making a Healing Sword or boosting strength. Found in sizes 3~6.",
+      "desc_en": "Identifies items that are inserted into the pot. Cannot identify wet scrolls.<br>Identifying reveals the item's name and number of uses if it's a staff.<br>Recommended to prioritize grass items for making a Healing Sword, or to boost strength.<br>Found in sizes 3~6.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PST)",
-        "Shuten Trail Hard (PS)",
-        "Onigashima (FPUS)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Shop, Trader)",
+        "Shuten Trail Hard (Presto, Shop)",
+        "Onigashima (Floor, Presto, Surprise, Shop)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3701,10 +3701,10 @@
       "price_use_sell": 25,
       "phrase": "",
       "desc_short_en": "Degrades weapons, shields, and staves by -3 every time you advance to the next floor. (size 3~6)",
-      "desc_en": "Degrades weapons, shields, and staves by -3 every time you advance to the next floor. Gitan inside the pot will be reduced by 10~20% per floor as well. No effect on other item categories, so it can be used as storage for riceballs, strength grass, Mixer synthesis items, etc. Found in sizes 3~6.",
+      "desc_en": "Degrades weapons, shields, and staves by -3 every time you advance to the next floor.<br>Gitan inside the pot will be reduced by 10~20% per floor.<br>No effect on other item categories, so it can be used as storage for riceballs, Strength Grass, Mixer synthesis items, scrolls, etc.<br>Found in sizes 3~6.",
       "locations": [
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3717,14 +3717,14 @@
       "price_use_sell": 30,
       "phrase": "",
       "desc_short_en": "Pot that lets you take items out after being inserted. (size 4~6)",
-      "desc_en": "Pot that lets you take items out after being inserted. Protects riceballs from spoiling, and also prevents scrolls from getting wet. It may seem like a simple effect, but expanding your inventory is fantastic for roguelikes like Shiren. Found in sizes 4~6.",
+      "desc_en": "Pot that lets you take items out after being inserted.<br>Protects riceballs from spoiling, and also prevents scrolls from getting wet.<br>It may seem like a simple effect, but expanding your inventory is fantastic for roguelikes like Shiren.<br>Found in sizes 4~6.",
       "locations": [
-        "Shuten Trail Easy (FP)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPSTG)",
-        "Halfway Well (FS)",
-        "Road to the End (FUSTG)"
+        "Shuten Trail Easy (Floor, Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Halfway Well (Floor, Shop)",
+        "Road to the End (Floor, Surprise, Shop, Trader, Golden Interval)"
       ]
     },
     {
@@ -3737,13 +3737,13 @@
       "price_use_sell": 50,
       "phrase": "",
       "desc_short_en": "Transforms inserted items into other items. (size 3~5)",
-      "desc_en": "Transforms inserted items into other items. Often used to recycle unneeded items or single arrows. The list of possible items varies by dungeon. If used inside the storage in Napus Village, items will only transform into Weeds. Found in sizes 3~5.",
+      "desc_en": "Transforms inserted items into other items.<br>Often used to recycle unneeded items or single arrows.<br>The list of possible items varies by dungeon.<br>If used inside the storage in Napus Village, items will only transform into Weeds.<br>Found in sizes 3~5.",
       "locations": [
-        "Shuten Trail Mid (FST)",
-        "Shuten Trail Hard (FST)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Mid (Floor, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3756,10 +3756,10 @@
       "price_use_sell": 75,
       "phrase": "",
       "desc_short_en": "Your hand gets stuck inside the pot if you try to insert items. (size 3~5)",
-      "desc_en": "Your hand gets stuck inside the pot if you try to insert items. Your weapon will be unequipped, and you won't be able to pick up items. Punch monsters (10%) or walls (2%) to break the pot and free your hand. Your hand will remain stuck even if you advance to the next floor. Your hand won't get stuck if the pot's remaining size is 1, or if your equipped weapon is cursed. Throw to temporarily trap characters inside of the pot. Found in sizes 3~5.",
+      "desc_en": "Your hand gets stuck inside the pot if you try to insert items.<br>Your weapon will be unequipped, and you won't be able to pick up items.<br>Punch monsters (10%) or walls (2%) to break the pot and free your hand.<br>Your hand will remain stuck even if you advance to the next floor.<br>Your hand won't get stuck if the pot's remaining size is 1, or if your equipped weapon is cursed.<br>Throw to temporarily trap characters inside of the pot.<br>Found in sizes 3~5.",
       "locations": [
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3772,11 +3772,11 @@
       "price_use_sell": 75,
       "phrase": "",
       "desc_short_en": "Fill with water and pour it on the tile in front of you for various effects. (size 3~6)",
-      "desc_en": "Fill with water and pour it on the tile in front of you for various effects. Can pour water around corners. Identified the moment you select \"Insert\". Found in sizes 3~6.<br><br>Effects:<ul><li>Destroy traps.</li><li>Turn scrolls into wet scrolls.</li><li>Turn riceballs into spoiled riceballs.</li><li>Put out fires.</li><li>Halves attack of monsters wielding weapons (can stack).</li><li>Apply the seal effect to Bomb type monsters.</li><li>Remove the effect of scrolls stuck to the ground.</li><li>Erase the writing on blank scrolls (can reuse Blank:Sanctuary)</li></ul>Monsters with weapons:<ul><li>Ashigarudon family</li><li>Yamikichi family</li><li>Shaaga family</li><li>Gale family</li><li>Swordsman family</li><li>Taur family</li><li>Galaha</li></ul>Bomb type monsters:<ul><li>Pop Tank</li><li>Cranky Tank</li><li>Patient Bag</li><li>Wolf Droid family</li></ul>",
+      "desc_en": "Fill with water and pour it on the tile in front of you for various effects.<br>Can pour water around corners.<br>Identified the moment you select \"Insert\".<br>Found in sizes 3~6.</p><p>Effects:</p><ul><li>Destroy traps.</li><li>Turn scrolls into wet scrolls.</li><li>Turn riceballs into spoiled riceballs.</li><li>Put out fires.</li><li>Halves attack of monsters wielding weapons (can stack).</li><li>Apply the seal effect to Bomb type monsters.</li><li>Remove the effect of scrolls stuck to the ground.</li><li>Erase the writing on blank scrolls (can reuse Blank:Sanctuary)</li></ul>Monsters with weapons:<ul><li>Ashigarudon family</li><li>Yamikichi family</li><li>Shaaga family</li><li>Gale family</li><li>Kengo family</li><li>Taurus family</li><li>Galaha</li></ul>Bomb type monsters:<ul><li>Pop Tank</li><li>Cranky Tank</li><li>Patient Bag</li><li>Wolf Droid family</li></ul>",
       "locations": [
-        "Onigashima (FPUST)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3789,9 +3789,9 @@
       "price_use_sell": 100,
       "phrase": "",
       "desc_short_en": "Insert grass and every character in the room including Shiren receives the effect of getting hit by that grass. (size 3~6)",
-      "desc_en": "Insert grass and every character in the room including Shiren receives the effect of getting hit by that grass. Useful to insert Otogiriso when there are Ghost type monsters around, but be careful not to self-destruct by inserting Dragon or Flame grass. Found in sizes 3~6.",
+      "desc_en": "Insert grass and all characters in the room including Shiren receive the effect of getting hit by that grass.<br>Useful to insert Otogiriso when there are Ghost type monsters around, but be careful not to self-destruct by inserting Dragon or Flame grass.<br>Found in sizes 3~6.",
       "locations": [
-        "Road to the End (FUST)"
+        "Road to the End (Floor, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3804,12 +3804,12 @@
       "price_use_sell": 200,
       "phrase": "ざくぬに",
       "desc_short_en": "Insert items to fuse them together. Can only synthesize weapons with weapons, shields with shields, or staves with staves. (size 2~4)",
-      "desc_en": "Insert items to fuse them together. The first item acts as the base. Can only synthesize weapons with weapons, shields with shields, or staves with staves. This is the only pot that can be found with a size of 2. Found in sizes 2~4.",
+      "desc_en": "Insert items to fuse them together. The first item acts as the base.<br>Can only synthesize weapons with weapons, shields with shields, or staves with staves.<br>This is the only pot that can be found with a size of 2.<br>Found in sizes 2~4.",
       "locations": [
-        "Shuten Trail Hard (FG)",
-        "Onigashima (FPUST)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Shuten Trail Hard (Floor, Golden Interval)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -3822,9 +3822,9 @@
       "price_use_sell": 375,
       "phrase": "",
       "desc_short_en": "Increases upgrade value or uses of inserted equipment and staves by 1 every time you advance to the next floor. (size 3~6) ",
-      "desc_en": "Increases upgrade value or uses of inserted equipment and staves by 1 every time you advance to the next floor. Also increases the amount of inserted Gitan by a random amount between 10~20%. Possibly the best pot in the game, but can only be found in shops inside the Road to the End dungeon between 71~90F. If you manage to obtain it, be sure to use Pot Expand and Suction scrolls on it instead of breaking it. Found in sizes 3~6.",
+      "desc_en": "Increases upgrade value or uses of inserted equipment and staves by 1 every time you advance floors.<br>Also increases the amount of inserted Gitan by a random amount between 10~20%.<br>Only found in shops inside the \"Road to the End\" dungeon between floors 71~90F.<br>If you manage to obtain it, be sure to use Pot Expand and Suction scrolls on it instead of breaking it.<br>Found in sizes 3~6.",
       "locations": [
-        "Road to the End (S)"
+        "Road to the End (Shop)"
       ]
     },
     {
@@ -3837,11 +3837,11 @@
       "price_use_sell": 0,
       "phrase": "",
       "desc_short_en": "Contains items, monsters, or pent-up anger. You won't know which until you break it. (size 0)",
-      "desc_en": "Pot that contains items, monsters, or pent-up anger. You won't know which is inside until you break it. Pent-up anger has the same effect as a Big Landmine, so it's best to throw it at a wall from a distance. Items and monsters inside are set when the pot is first generated, and won't change even if you bring it into a different dungeon. Always has a purchase / sale price of 3000 / 1500 Gitan, no matter what's inside. Found in size 0 due to contents already being in it, however the number of contents ranges from 4~6.",
+      "desc_en": "Pot that contains items, monsters, or pent-up anger.<br>You won't know which is inside until you break it.<br>Pent-up anger has the same effect as a Big Landmine, so it's best to throw it at a wall from a distance.<br>The contents are set when the pot is generated, and won't change if you bring it into a different dungeon.<br>Always has a purchase / sale price of 3000 / 1500 Gitan, no matter what's inside.<br>Found in size 0 due to contents already being in it, however the number of contents ranges from 4~6.",
       "locations": [
-        "Shuten Trail Hard (F)",
-        "Onigashima (FG)",
-        "Road to the End (FSG)"
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor, Golden Interval)",
+        "Road to the End (Floor, Shop, Golden Interval)"
       ]
     },
     {
@@ -3854,13 +3854,13 @@
       "price_use_sell": 250,
       "phrase": "",
       "desc_short_en": "Contains equipment lost from collapsing in a previous adventure.",
-      "desc_en": "Pot that appears after collapsing and losing equipment. It contains the equipment you lost, but due to it being a memento, synthesis seals will be lost and upgrade value will be decreased. Once generated, the Memento Pot will only be available for 3 adventures, so if you care about the equipment you lost, you should hurry to collect it. Oracle Gran at the Shrine can tell you where the Memento Pot is currently located.",
+      "desc_en": "Pot that appears after collapsing and losing equipment.<br>It contains the equipment you lost, but due to it being a memento, synthesis seals will be lost and upgrade value will be decreased.<br>Once generated, the Memento Pot will only be available for 3 adventures, so if you care about the equipment you lost, you should hurry to collect it.<br>Oracle Gran at the Shrine can tell you where the Memento Pot is currently located.",
       "locations": [
-        "Shuten Trail Easy (F)",
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (F)",
-        "Onigashima (F)",
-        "Sealed Room (F)"
+        "Shuten Trail Easy (Floor)",
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor)",
+        "Onigashima (Floor)",
+        "Sealed Room (Floor)"
       ]
     },
     {
@@ -3873,10 +3873,10 @@
       "price_use_sell": 0,
       "phrase": "",
       "desc_short_en": "Throw at a monster to capture it and transform it into an ally. (size 1)",
-      "desc_en": "Throw at a monster to capture it and transform it into an ally. The pot will never miss when thrown, unless you have a Dragon Tile Bracelet equipped. Cannot capture Shopkeepers or Oni enemies. Ally monsters will always use their special attack on the first turn they are sent out. The pot will vanish if the ally monster is defeated, or if you advance to the next floor without returning it to the pot. If the pot is registered to Monster Kingdom, the monster will return there with 1/2 its growth, but otherwise the monster is lost. Main item of the Shrine's Hidden Hole dungeon. Always found in size 1.",
+      "desc_en": "Throw at a monster to capture it and transform it into an ally.<br>Main item of the Shrine's Hidden Hole dungeon.<br>The pot will never miss when thrown, unless you have a Dragon Tile Bracelet equipped.<br>Cannot capture Shopkeepers, Traders, or Oni enemies.<br>Ally monsters will always use their special attack on the first turn they are sent out.<br>The pot will vanish if the ally monster is defeated, or if you advance floors without returning it to the pot.<br>If the pot is registered to Monster Kingdom, the monster will return there with 1/2 its growth, but otherwise the monster is lost.<br>Always found in size 1.",
       "locations": [
-        "Shrine's Hidden Hole (F)",
-        "Road to the End (F)"
+        "Shrine's Hidden Hole (Floor)",
+        "Road to the End (Floor)"
       ]
     },
     {
@@ -3889,9 +3889,9 @@
       "price_use_sell": 0,
       "phrase": "",
       "desc_short_en": "Allows you to keep your Gitan if you collapse as long as this pot is in your inventory.",
-      "desc_en": "Allows you to keep your Gitan if you collapse as long as this pot is in your inventory. Takes up 3 item slots, so it's a somewhat heavy tradeoff, but perhaps it's good for beginners. Never breaks, even when thrown at a wall. Exclusively found on 1F of Shuten Trail Easy.",
+      "desc_en": "Allows you to keep your Gitan if you collapse as long as this pot is in your inventory.<br>Takes up 3 item slots, so it's a somewhat heavy tradeoff, but perhaps it's good for beginners.<br>Never breaks, even when thrown at a wall.<br>Exclusively found on 1F of Shuten Trail Easy.",
       "locations": [
-        "Shuten Trail Easy (F)"
+        "Shuten Trail Easy (Floor)"
       ]
     }
   ],
@@ -3909,15 +3909,15 @@
       "price_sell": 2,
       "phrase": "",
       "desc_short_en": "Low attack. Found in sets of 5~9.",
-      "desc_en": "Basic ranged weapon. Has the lowest attack among arrows, and is weaker than a punch. This goes for all ranged weapons, but it's excellent for softening up monsters before they get near you. Arrows are often inserted into a Presto Pot one at a time. Bowboy monsters fire these arrows. Found in sets of 5~9.",
+      "desc_en": "Basic ranged weapon. Has the lowest attack among arrows, and is weaker than a punch.<br>This goes for all projectiles, but excellent for softening up monsters before they reach you.<br>Arrows are often inserted into a Presto Pot one at a time.<br>Bow Boy monsters shoot these arrows.<br>Found in sets of 5~9.",
       "locations": [
-        "Shuten Trail Mid (M)",
-        "Shuten Trail Hard (M)",
-        "Onigashima (FM)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (PM)",
-        "Road to the End (FPSM)"
+        "Shuten Trail Mid (Monster)",
+        "Shuten Trail Hard (Monster)",
+        "Onigashima (Floor, Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto, Monster)",
+        "Road to the End (Floor, Presto, Shop, Monster)"
       ]
     },
     {
@@ -3933,16 +3933,16 @@
       "price_sell": 10,
       "phrase": "",
       "desc_short_en": "High attack. Found in sets of 4~8.",
-      "desc_en": "Direct upgrade to Wooden Arrows, and has the highest attack among arrows. Can transform them into Silver Arrows by reading a Plating Scroll on them, but the arrow count will be halved. Bow Carts fire these arrows. Found in sets of 4~8.",
+      "desc_en": "Direct upgrade to Wooden Arrows, and has the highest attack among arrows.<br>Can be transformed into Silver Arrows using a Plating Scroll, but the count will be halved.<br>Bow Cart monsters shoot these arrows.<br>Found in sets of 4~8.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPM)",
-        "Shuten Trail Hard (FPM)",
-        "Onigashima (M)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (PM)",
-        "Road to the End (PSTM)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Monster)",
+        "Shuten Trail Hard (Floor, Presto, Monster)",
+        "Onigashima (Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto, Monster)",
+        "Road to the End (Presto, Shop, Trader, Monster)"
       ]
     },
     {
@@ -3958,14 +3958,14 @@
       "price_sell": 20,
       "phrase": "",
       "desc_short_en": "Pierces through walls and enemies. Found in sets of 4~6.",
-      "desc_en": "Pierces through walls and characters, similar to the effect of having a Pierce Bracelet equipped. Horse Ronin monsters fire these arrows. Provides a 銀 seal which allows you to attack monsters inside walls. However, if thrown or a Kengo monster flings it away, the piece of equipment will fly outside of the map. Found in sets of 4~6.",
+      "desc_en": "Pierces through walls and characters, similar to the effect of a Pierce Bracelet.<br>Provides a 銀 seal which allows you to attack monsters inside walls.<br>However, the equipment will be lost if it's thrown, or if a Kengo monster flings it away.<br>Horse Ronin monsters shoot these arrows.<br>Found in sets of 4~6.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (FP)",
-        "Onigashima (P)",
-        "Sealed Room (P)",
-        "Road to the End (PST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Floor, Presto)",
+        "Onigashima (Presto)",
+        "Sealed Room (Presto)",
+        "Road to the End (Presto, Shop, Trader)"
       ]
     },
     {
@@ -3981,11 +3981,11 @@
       "price_sell": 40,
       "phrase": "ゴムニブ",
       "desc_short_en": "Chance to deal a critical hit. Found in sets of 10~15.",
-      "desc_en": "Has a 40% chance to deal a x1.5 damage critical hit. Critical arrows thrown by Kappa monsters may also deal a critical hit. Found in sets of 10~15.",
+      "desc_en": "Has a 40% chance to deal a x1.5 damage critical hit.<br>Critical arrows thrown by Kappa monsters may also deal a critical hit.<br>Found in sets of 10~15.",
       "locations": [
-        "Onigashima (UTC)",
-        "Sealed Room (PC)",
-        "Road to the End (PUSTC)"
+        "Onigashima (Surprise, Trader, Treasure Chest)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Presto, Surprise, Shop, Trader, Treasure Chest)"
       ]
     },
     {
@@ -4001,11 +4001,11 @@
       "price_sell": 80,
       "phrase": "",
       "desc_short_en": "Fires in a 3-way pattern that pierces through walls and enemies. Found in sets of 13~18.",
-      "desc_en": "Fires three silver arrows in a 3-way pattern. Only uses 1 arrow per ranged attack use, making it an excellent option to clear out monster houses. However, note that you can accidentally hit shopkeepers or traders elsewhere on the map. Found in sets of 13~18.",
+      "desc_en": "Fires three silver arrows in a 3-way pattern.<br>Only uses 1 arrow per use, making it an excellent option to clear out monster houses.<br>However, you may accidentally hit shopkeepers or traders elsewhere on the map.<br>Found in sets of 13~18.",
       "locations": [
-        "Onigashima (UTC)",
-        "Sealed Room (PC)",
-        "Road to the End (PUST)"
+        "Onigashima (Surprise, Trader, Treasure Chest)",
+        "Sealed Room (Presto, Treasure Chest)",
+        "Road to the End (Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -4021,14 +4021,14 @@
       "price_sell": 50,
       "phrase": "",
       "desc_short_en": "Deals damage to a target 2 tiles forward. Found in sets of 3~6.",
-      "desc_en": "Deals damage to a target 2 tiles forward. The stone arcs when thrown, so it can hit anything 2 tiles forward even if an object is in front of you. One of the few ways to deal with monsters that are underwater or inside walls. Can also activate traps where it lands. Found in sets of 3~6.",
+      "desc_en": "Deals damage to a target 2 tiles forward.<br>Stones arc when thrown, so they can hit 2 tiles forward even if an object is in front of you.<br>One of the few ways to deal with monsters that are underwater or inside walls.<br>Can activate traps where it lands.<br>Found in sets of 3~6.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (P)",
-        "Onigashima (FT)",
-        "Sealed Room (P)",
-        "Road to the End (FPST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Presto)",
+        "Onigashima (Floor, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Shop, Trader)"
       ]
     },
     {
@@ -4044,16 +4044,16 @@
       "price_sell": 70,
       "phrase": "ウロクロ",
       "desc_short_en": "Homes in on a target within 2 tiles of the direction you're facing. Found in sets of 3~6.",
-      "desc_en": "Similar to a stone, but higher attack and homes in on a target within 2 tiles of the direction you're facing. One of the few ways to deal with monsters that are underwater or inside walls. Can also activate traps where it lands. Porky monsters may drop these stones. Found in sets of 3~6.",
+      "desc_en": "Similar to stones, but higher attack.<br>Homes in on a target within 2 tiles of the direction you're facing.<br>One of the few ways to deal with monsters that are underwater or inside walls.<br>Can activate traps where it lands.<br>Porky monsters may drop these stones.<br>Found in sets of 3~6.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (FP)",
-        "Onigashima (TM)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (PM)",
-        "Road to the End (FPSTM)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Floor, Presto)",
+        "Onigashima (Trader, Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto, Monster)",
+        "Road to the End (Floor, Presto, Shop, Trader, Monster)"
       ]
     },
     {
@@ -4069,16 +4069,16 @@
       "price_sell": 50,
       "phrase": "ジソデブ",
       "desc_short_en": "Rolls up to 10 tiles forward and creates an explosion that deals 40 damage. Found in sets of 1~3.",
-      "desc_en": "Rolls on the ground up to 10 tiles forward and creates an explosion that deals 40 damage to anything within a 1 tile radius if it hits an object. Activates all traps along the path. Cannot hit underwater monsters. Occasionally explodes if dropped while tripping. Found in sets of 1~3.",
+      "desc_en": "Rolls on the ground up to 10 tiles forward and creates an explosion that deals 40 damage to everything within a 1 tile radius if it collides with an object.<br>Activates all traps along the path.<br>Cannot hit underwater monsters.<br>Occasionally explodes if dropped while tripping.<br>Found in sets of 1~3.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (FPM)",
-        "Onigashima (FSM)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (PM)",
-        "Road to the End (FPSTM)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Floor, Presto, Monster)",
+        "Onigashima (Floor, Shop, Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto, Monster)",
+        "Road to the End (Floor, Presto, Shop, Trader, Monster)"
       ]
     }
   ],
@@ -4090,10 +4090,10 @@
       "price_buy": 3000,
       "price_sell": 800,
       "phrase": "",
-      "desc_short_en": "Select [Make] to sculpt a decoy that has 20HP.",
-      "desc_en": "Select [Make] to sculpt a 20HP decoy that wanders around the floor on its own. Monsters that defeat the decoy will level up to their next rank, meaning it can be useful not only to escape dangerous situations, but also to collect higher rank monsters for Monster Kingdom.",
+      "desc_short_en": "Select [Make] to sculpt a decoy that has 20 HP.",
+      "desc_en": "Select [Make] to sculpt a 20 HP decoy that wanders around the floor on its own.<br>Monsters that defeat the decoy will level up, so it can be useful not only to escape dangerous situations, but also to collect higher level monsters for Monster Kingdom.",
       "locations": [
-        "Shuten Trail Easy (F)"
+        "Shuten Trail Easy (Floor)"
       ]
     },
     {
@@ -4103,11 +4103,11 @@
       "price_buy": "6000<br>(15000)",
       "price_sell": 1600,
       "phrase": "",
-      "desc_short_en": "Select [Make] to sculpt a decoy that has 35HP.",
-      "desc_en": "Select [Make] to sculpt a 35HP decoy that wanders around the floor on its own. Monsters that defeat the decoy will level up to their next rank, meaning it can be useful not only to escape dangerous situations, but also to collect higher rank monsters for Monster Kingdom.",
+      "desc_short_en": "Select [Make] to sculpt a decoy that has 35 HP.",
+      "desc_en": "Select [Make] to sculpt a 35 HP decoy that wanders around the floor on its own.<br>Monsters that defeat the decoy will level up, so it can be useful not only to escape dangerous situations, but also to collect higher level monsters for Monster Kingdom.",
       "locations": [
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (F)"
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Floor)"
       ]
     },
     {
@@ -4117,10 +4117,10 @@
       "price_buy": 9000,
       "price_sell": 2400,
       "phrase": "びおんわ",
-      "desc_short_en": "Select [Make] to sculpt a decoy that has 40HP.",
-      "desc_en": "Select [Make] to sculpt a 40HP decoy that wanders around the floor on its own. Monsters that defeat the decoy will level up to their next rank, meaning it can be useful not only to escape dangerous situations, but also to collect higher rank monsters for Monster Kingdom. Takes up 2 inventory slots.",
+      "desc_short_en": "Select [Make] to sculpt a decoy that has 40 HP.",
+      "desc_en": "Select [Make] to sculpt a 40 HP decoy that wanders around the floor on its own.<br>Monsters that defeat the decoy will level up, so it can be useful not only to escape dangerous situations, but also to collect higher level monsters for Monster Kingdom.<br>Takes up 2 inventory slots.",
       "locations": [
-        "Shuten Trail Hard (F)"
+        "Shuten Trail Hard (Floor)"
       ]
     },
     {
