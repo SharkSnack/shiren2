@@ -2160,7 +2160,7 @@
       "price_sell": 1000,
       "phrase": "",
       "desc_short_en": "Can pick up and set traps, and monsters will trigger them.",
-      "desc_en": "Lets you pick up and set traps, and monsters that step on traps will trigger them.<br>Cracks more easily than other bracelets. (<a href=\"\">durability values</a> for details)<br>Note that defeating a Trader using traps triggers thief mode.<br>Pair it with a Scout Bracelet to display all traps on the current floor on the map.<br>It's not mentioned in the description, but modifiers that lower attack and exp gain are applied like inside the \"Halfway Well\" dungeon while it's equipped.",
+      "desc_en": "Lets you pick up and set traps, and monsters that step on traps will trigger them.<br>Cracks more easily than other bracelets. (See <a href=\"\">durability values</a> for details)<br>Note that defeating a Trader using traps triggers thief mode.<br>Pair it with a Scout Bracelet to display all traps on the current floor on the map.<br>It's not mentioned in the description, but modifiers that lower attack and exp gain are applied like inside the \"Halfway Well\" dungeon while it's equipped.",
       "locations": [
         "Halfway Well (Clear Reward)"
       ]
@@ -2767,16 +2767,16 @@
       "price_use_sell": 12.5,
       "phrase": "",
       "desc_short_en": "Deals 5 damage and knocks a target away. Also works on items, traps, statues, and stairs. (4~7 uses)",
-      "desc_en": "Deals 5 damage and knocks a target away. Monsters will be sent 7 tiles, items and traps 10 tiles, statues 3 tiles, and stairs until it hits a wall. Note that pots will shatter when sent flying. Monsters that land on traps as a result of the knockback will trigger them, provided Shiren has the Trapper status. Found with 4~7 uses.",
+      "desc_en": "Deals 5 damage and knocks a target away.<br>Monsters will be sent 7 tiles, items and traps 10 tiles, statues 3 tiles, and stairs until it hits a wall.<br>Monsters that land on traps will trigger them, provided Shiren has the Trapper status.<br>Note that pots will shatter when sent flying.<br>Found with 4~7 uses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPT)",
-        "Shuten Trail Hard (FPT)",
-        "Onigashima (FPSTG)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Trader)",
+        "Onigashima (Floor, Presto, Shop, Trader, Golden Interval)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2789,12 +2789,12 @@
       "price_use_sell": 12.5,
       "phrase": "",
       "desc_short_en": "Lets you take control of a monster. (4~6 uses)",
-      "desc_en": "Lets you take control of a monster, allowing you to use their normal and special attacks. Shiren's body will be dragged behind the monster, so you'll want to protect it as you move around. You can return to your body mostly anytime, and you'll gain exp for the enemies you defeated while controlling the monster when you do so. Can only take control of monsters that can be registered in Monster Kingdom. Found with 4~6 uses.",
+      "desc_en": "Lets you take control of a monster, allowing you to use their normal and special attacks.<br>Shiren's body will be dragged behind the monster, so you'll want to protect it as you move around.<br>You can return to your body mostly anytime, and you'll gain exp for the enemies you defeated while controlling the monster when you do so.<br>Can only take control of monsters that can be registered in Monster Kingdom.<br>Found with 4~6 uses.",
       "locations": [
-        "Onigashima (FPUSTG)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2807,16 +2807,16 @@
       "price_use_sell": 20,
       "phrase": "",
       "desc_short_en": "Swap places with a target. (4~7 uses)",
-      "desc_en": "Swap places with a target. Doesn't work on statues. Traps will be triggered if the destination tile has a trap on the ground. This is also the case for monsters, provided Shiren has the Trapper status. Found with 4~7 uses.",
+      "desc_en": "Swap places with a target. Doesn't work on statues.<br>Traps will be triggered if the destination tile has a trap on the ground.<br>This is also the case for monsters, provided Shiren has the Trapper status.<br>Found with 4~7 uses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPT)",
-        "Shuten Trail Hard (FPT)",
-        "Onigashima (FPST)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Trader)",
+        "Onigashima (Floor, Presto, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2829,13 +2829,13 @@
       "price_use_sell": 20,
       "phrase": "",
       "desc_short_en": "Pulls a character, item, trap, statue, or stairs toward you. (4~7 uses)",
-      "desc_en": "Pulls a character, item, trap, statue, or stairs toward you. Can be thrown at a monster to pull them onto a trap and triggering it, provided Shiren has the Trapper status. Particularly useful for pulling stairs toward you after reading a Wall Collapse Scroll. Found with 4~7 uses.",
+      "desc_en": "Pulls a character, item, trap, statue, or stairs toward you.<br>Can be thrown at a monster to pull them onto a trap, provided Shiren has the Trapper status.<br>Particularly useful for pulling stairs toward you after reading a Wall Collapse Scroll.<br>Found with 4~7 uses.",
       "locations": [
-        "Onigashima (FPUT)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUT)"
+        "Onigashima (Floor, Presto, Surprise, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Trader)"
       ]
     },
     {
@@ -2848,16 +2848,16 @@
       "price_use_sell": 40,
       "phrase": "",
       "desc_short_en": "Restores 100 HP, or deals 100 damage to Ghost type monsters. (4~6 uses)",
-      "desc_en": "Restores a target's HP by 100 points, or deals 100 damage if the target is a Ghost type monster. Evil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated. Found with 4~6 uses.",
+      "desc_en": "Restores a target's HP by 100 points, or deals 100 damage if the target is a Ghost type monster.<br>Evil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated.<br>Found with 4~6 uses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (P)",
-        "Shuten Trail Hard (PUTM)",
-        "Onigashima (PSTM)",
-        "Shrine's Hidden Hole (FM)",
-        "Halfway Well (M)",
-        "Sealed Room (FM)",
-        "Road to the End (M)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto)",
+        "Shuten Trail Hard (Presto, Surprise, Trader, Monster)",
+        "Onigashima (Presto, Shop, Trader, Monster)",
+        "Shrine's Hidden Hole (Floor, Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Floor, Monster)",
+        "Road to the End (Monster)"
       ]
     },
     {
@@ -2870,16 +2870,16 @@
       "price_use_sell": 25,
       "phrase": "どなそぐ",
       "desc_short_en": "Protects you from tripping. Use to make a target trip and drop an item. (0~1 uses)",
-      "desc_en": "Protects the holder from tripping. Doesn't work if it's inside of a pot. Throw or swing it at a monster to make them trip and drop an item. Plays well with a Pierce Bracelet when used in this way. Note that No-Magic statues will prevent monsters from tripping, along with sleep from reading a Slumber Scroll. Found with 0~1 uses.",
+      "desc_en": "Protects the holder from tripping. Doesn't work if it's inside of a pot.<br>Throw or swing it at a monster to make them trip and drop an item.<br>Plays well with a Pierce Bracelet when used in this way.<br>Monsters won't trip if a No-Magic statue is present, or if they're asleep from a Slumber Scroll.<br>Found with 0~1 uses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPUST)",
-        "Onigashima (FPUST)",
-        "Shrine's Hidden Hole (F)",
-        "Halfway Well (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Halfway Well (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2892,15 +2892,15 @@
       "price_use_sell": 25,
       "phrase": "",
       "desc_short_en": "Displays info about monsters, allies, and statues. (5~7 uses)",
-      "desc_en": "Displays information about monsters, allies, and statues. Max HP is included in the descriptions for all targets except Boss Oni. Can also be used to reveal disguised Mimic Mask monsters. Found with 5~7 uses.",
+      "desc_en": "Displays information about monsters, allies, and statues.<br>Max HP is included in the descriptions for all targets except Boss Oni.<br>Can be used to identify disguised Copycat Mask monsters.<br>Found with 5~7 uses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PST)",
-        "Shuten Trail Hard (PST)",
-        "Onigashima (FPUST)",
-        "Shrine's Hidden Hole (F)",
-        "Sealed Room (FP)",
-        "Road to the End (PUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Shop, Trader)",
+        "Shuten Trail Hard (Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
+        "Shrine's Hidden Hole (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -2913,14 +2913,14 @@
       "price_use_sell": 12.5,
       "phrase": "",
       "desc_short_en": "Reduces a target's HP to 1/4 of its current value. (4~7 uses)",
-      "desc_en": "Reduces a target's HP to 1/4 of its current value. However, it will only deal 10 damage if a 10 damage statue is present. Emperor Tuskers carry this staff, and have a 10% chance of dropping one when they are defeated. Found with 4~7 uses.",
+      "desc_en": "Reduces a target's HP to 1/4 of its current value.<br>However, it will only deal 10 damage if a 10 damage statue is present.<br>Emperor Tuskers carry this staff, and have a 10% chance of dropping one when they are defeated.<br>Found with 4~7 uses.",
       "locations": [
-        "Shuten Trail Hard (M)",
-        "Onigashima (M)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (PM)",
-        "Road to the End (FPSM)"
+        "Shuten Trail Hard (Monster)",
+        "Onigashima (Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto, Monster)",
+        "Road to the End (Floor, Presto, Shop, Monster)"
       ]
     },
     {
@@ -2933,15 +2933,15 @@
       "price_use_sell": 20,
       "phrase": "",
       "desc_short_en": "Lowers movement speed by 1 stage. (3~6 uses)",
-      "desc_en": "Lowers a target's movement speed by 1 stage. If they are already at -1, it will paralyze the target instead. Paralysis prevents the target from taking any actions for 3 turns (Shiren) or 2 turns (monsters). Monarch Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated. Found with 3~6 uses.",
+      "desc_en": "Lowers a target's movement speed by 1 stage.<br>If they are already at -1, it will paralyze the target instead.<br>Paralysis prevents the target from taking any actions for 3 turns (Shiren) or 2 turns (monsters).<br>Monarch Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated.<br>Found with 3~6 uses.",
       "locations": [
-        "Shuten Trail Mid (F)",
-        "Shuten Trail Hard (M)",
-        "Onigashima (FPSMG)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (PM)",
-        "Road to the End (FPSTM)"
+        "Shuten Trail Mid (Floor)",
+        "Shuten Trail Hard (Monster)",
+        "Onigashima (Floor, Presto, Shop, Monster, Golden Interval)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto, Monster)",
+        "Road to the End (Floor, Presto, Shop, Trader, Monster)"
       ]
     },
     {
@@ -2954,14 +2954,14 @@
       "price_use_sell": 25,
       "phrase": "",
       "desc_short_en": "Prevents a target from dividing or using special abilities. (3~6 uses)",
-      "desc_en": "Prevents a target from dividing or using special abilities. Also resets movement speed if the target is not Shiren. Some monster abilities cannot be sealed, such as floating or fire-immunity. If Shiren is the target, he won't be able to eat, drink, or read for 35 turns. King Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated. Found with 3~6 uses.",
+      "desc_en": "Prevents a target from dividing or using special abilities.<br>Also resets movement speed if the target is not Shiren.<br>Some monster abilities cannot be sealed, such as floating or fire-immunity.<br>If Shiren is the target, he won't be able to eat, drink, or read for 35 turns.<br>King Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated.<br>Found with 3~6 uses.",
       "locations": [
-        "Shuten Trail Hard (PM)",
-        "Onigashima (M)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (PM)",
-        "Road to the End (FPUSM)"
+        "Shuten Trail Hard (Presto, Monster)",
+        "Onigashima (Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Presto, Monster)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Monster)"
       ]
     },
     {
@@ -2974,12 +2974,12 @@
       "price_use_sell": 50,
       "phrase": "",
       "desc_short_en": "Create a tunnel that continues until a room, hallway, or map edge. (3~7 uses)",
-      "desc_en": "Swing at a wall to create a tunnel that continues until a room, hallway, or map edge is met. Cannot dig diagonally. The magic bolt from a Tunnel Staff deals 10 damage. Found with 3~7 uses.",
+      "desc_en": "Swing at a wall to create a tunnel that continues until a room, hallway, or map edge is met.<br>The magic bolt from a Tunnel Staff deals 10 damage.<br>Cannot dig diagonally.<br>Found with 3~7 uses.",
       "locations": [
-        "Onigashima (FPT)",
-        "Halfway Well (F)",
-        "Sealed Room (FP)",
-        "Road to the End (FPT)"
+        "Onigashima (Floor, Presto, Trader)",
+        "Halfway Well (Floor)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Trader)"
       ]
     },
     {
@@ -2992,14 +2992,14 @@
       "price_use_sell": 50,
       "phrase": "",
       "desc_short_en": "Turns a target invisible for 20 turns. (3~7 uses)",
-      "desc_en": "Turns a target invisible for 20 turns (10 if the target is Shiren). Invisible monsters can't use their special abilities, and will wander around aimlessly until it wears off. Devil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated. Found with 3~7 uses.",
+      "desc_en": "Turns a target invisible for 20 turns (10 if the target is Shiren).<br>Invisible monsters can't use their special abilities, and will wander around aimlessly until it wears off.<br>Devil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated.<br>Found with 3~7 uses.",
       "locations": [
-        "Shuten Trail Hard (M)",
-        "Onigashima (M)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (M)",
-        "Road to the End (M)"
+        "Shuten Trail Hard (Monster)",
+        "Onigashima (Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Monster)",
+        "Road to the End (Monster)"
       ]
     },
     {
@@ -3012,14 +3012,14 @@
       "price_use_sell": 100,
       "phrase": "",
       "desc_short_en": "Increases movement speed by 1 stage. (3~7 uses)",
-      "desc_en": "Increases a target's movement speed by 1 stage. Max movement speed stage is +2, where you get 3 actions per turn. Bat Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated. Found with 3~7 uses.",
+      "desc_en": "Increases a target's movement speed by 1 stage.<br>Max movement speed stage is +2, where you get 3 actions per turn.<br>Bat Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated.<br>Found with 3~7 uses.",
       "locations": [
-        "Shuten Trail Hard (M)",
-        "Onigashima (M)",
-        "Shrine's Hidden Hole (M)",
-        "Halfway Well (M)",
-        "Sealed Room (M)",
-        "Road to the End (M)"
+        "Shuten Trail Hard (Monster)",
+        "Onigashima (Monster)",
+        "Shrine's Hidden Hole (Monster)",
+        "Halfway Well (Monster)",
+        "Sealed Room (Monster)",
+        "Road to the End (Monster)"
       ]
     },
     {
@@ -3032,14 +3032,14 @@
       "price_use_sell": 60,
       "phrase": "",
       "desc_short_en": "Lowers a target's attack accuracy to 0% for 21~31 turns. (3~6 uses)",
-      "desc_en": "Lowers a target's regular attack accuracy to 0% for 21~31 turns. Doesn't affect accuracy of special attacks or projectiles. Note that attacks will always connect regardless of this staff's effect if a target is sleeping, paralyzed, or caught in a bear trap, so you'll want to avoid using it on Monarch Tuskers and Paralysis Scorpions. Found with 3~6 uses.",
+      "desc_en": "Lowers a target's regular attack accuracy to 0% for 21~31 turns.<br>Doesn't affect accuracy of special attacks or projectiles.<br>Attacks will always connect regardless of this staff's effect if a target is sleeping, paralyzed, or caught in a bear trap, so you'll want to use a different option against Monarch Tuskers and Stun Scorpions.<br>Found with 3~6 uses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (PST)",
-        "Shuten Trail Hard (PS)",
-        "Onigashima (PUSTG)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Presto, Shop, Trader)",
+        "Shuten Trail Hard (Presto, Shop)",
+        "Onigashima (Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3052,14 +3052,14 @@
       "price_use_sell": 60,
       "phrase": "",
       "desc_short_en": "Creates a line of fire 5 tiles forward that deals 20 damage per turn. (4~7 uses)",
-      "desc_en": "Creates a line of fire 5 tiles forward that deals 20 damage per turn. Any items or statues along the path will burn up. Non-piercing projectiles will also burn up if they fly into the flames. Plays well with knockback staff, and can be used to get rid of Sanctaruy Scrolls placed on the ground. Found with 4~7 uses.",
+      "desc_en": "Creates a line of fire 5 tiles forward that deals 20 damage per turn.<br>Any items or statues along the path will burn up.<br>Non-piercing projectiles will also burn up if they fly into the flames.<br>Plays well with knockback staff, and can be used to get rid of Sanctaruy Scrolls placed on the ground.<br>Found with 4~7 uses.",
       "locations": [
-        "Shuten Trail Easy (P)",
-        "Shuten Trail Mid (FPST)",
-        "Shuten Trail Hard (FPST)",
-        "Onigashima (FPUT)",
-        "Sealed Room (P)",
-        "Road to the End (FPUST)"
+        "Shuten Trail Easy (Presto)",
+        "Shuten Trail Mid (Floor, Presto, Shop, Trader)",
+        "Shuten Trail Hard (Floor, Presto, Shop, Trader)",
+        "Onigashima (Floor, Presto, Surprise, Trader)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3072,11 +3072,11 @@
       "price_use_sell": 100,
       "phrase": "",
       "desc_short_en": "Lowers a target's level by 1. (4~6 uses)",
-      "desc_en": "Lowers a target's level by 1. Excellent for weakening or eliminating the special abilities of some of the more notorious monsters, such as Monsoon Dolls and Nigiri Morphs. Generally more valuable in the deeper floors of a dungeon. Found with 4~6 uses.",
+      "desc_en": "Lowers a target's level by 1.<br>Excellent for weakening the special abilities of monsters such as Monsoon Dolls and Nigiri Morphs.<br>Generally more valuable to have on hand in the deeper floors of a dungeon.<br>Found with 4~6 uses.",
       "locations": [
-        "Onigashima (PS)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -3089,11 +3089,11 @@
       "price_use_sell": 50,
       "phrase": "",
       "desc_short_en": "Increases a target's level by 1. (4~6 uses)",
-      "desc_en": "Increases a target's level by 1. Provides 500 exp if the target is Shiren. It may be good to assume all unidentified staves are this staff early game inside the \"Road to the End\" dungeon, since a leveled up monster can quickly ruin your adventure. Found with 4~6 uses.",
+      "desc_en": "Increases a target's level by 1.<br>Provides 500 exp if the target is Shiren.<br>It may be good to assume all unidentified staves are this staff early on inside the \"Road to the End\" dungeon, since a leveled up monster can quickly ruin your adventure.<br>Found with 4~6 uses.",
       "locations": [
-        "Onigashima (PS)",
-        "Sealed Room (P)",
-        "Road to the End (FP)"
+        "Onigashima (Presto, Shop)",
+        "Sealed Room (Presto)",
+        "Road to the End (Floor, Presto)"
       ]
     },
     {
@@ -3106,11 +3106,11 @@
       "price_use_sell": 60,
       "phrase": "",
       "desc_short_en": "Insert grass to transform it into a staff that tosses said grass. (4~7 uses)",
-      "desc_en": "Insert a grass item to transform it into a staff that tosses said grass. For example, insert an Otogiriso to transform it into a Otogiriso Toss Staff that will fire a magic bolt with the effect of getting hit by Otogiriso. Can be swung at monsters that reflect magic to have it behave in a similar fashion to a grass gain staff. Found with 4~7 uses.",
+      "desc_en": "Insert a grass item to transform it into a staff that tosses said grass.<br>For example, insert an Otogiriso to transform it into a Otogiriso Toss Staff that will fire a magic bolt with the effect of getting hit by Otogiriso.<br>Can be swung at monsters that reflect magic to have it behave in a similar fashion to a grass gain staff.<br>Found with 4~7 uses.",
       "locations": [
-        "Onigashima (PUSTG)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     },
     {
@@ -3123,11 +3123,11 @@
       "price_use_sell": 70,
       "phrase": "",
       "desc_short_en": "Insert grass to transform it into a staff that throws said grass at Shiren. (4~7 uses)",
-      "desc_en": "Insert a grass item to transform it into a staff that throws said grass at Shiren. For example, insert an Otogiriso to transform it into an Otogiriso Gain Staff, which will have the effect of Shiren getting hit by Otogiriso every time the staff is swung. Popular to use with Strength Grass and Angel Seeds. Found with 4~7 uses.",
+      "desc_en": "Insert a grass item to transform it into a staff that throws said grass at Shiren.<br>For example, insert an Otogiriso to transform it into an Otogiriso Gain Staff, which will have the effect of Shiren getting hit by Otogiriso every time the staff is swung.<br>Popular to use with Strength Grass and Angel Seeds.<br>Found with 4~7 uses.",
       "locations": [
-        "Onigashima (PUSTG)",
-        "Sealed Room (FP)",
-        "Road to the End (FPUST)"
+        "Onigashima (Presto, Surprise, Shop, Trader, Golden Interval)",
+        "Sealed Room (Floor, Presto)",
+        "Road to the End (Floor, Presto, Surprise, Shop, Trader)"
       ]
     }
   ],
