@@ -1,18 +1,8 @@
-.content {
-  color: #444;
-}
-
-.monster_images {
-  font-size: 0; /* this is so dumb, but it works to remove the space between images */
-}
-
-.monster_images img {
-  background-color: #444;
-  padding: 10px;
-}
-
 h2 {
   padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
   background-color: #def;
 }
 
@@ -21,32 +11,22 @@ h4 {
   border: 10px solid #def;
 }
 
-.monster_quick_links a {
-  text-decoration: none;
-  flex: initial 1 50%;
-  padding-right: 10px;
-  font-size: 80%;
-  color: #215dc6;
+.dungeon_heading {
+  margin: 0;
 }
 
-.monster_quick_links a:hover {
-  text-decoration: underline;
+.dungeon_desc {
+  display: flex;
+  flex-direction: row;
 }
 
-.monster_quick_links a:visited {
-  color: #a63d21;
+.dungeon_desc_text {
+  flex: 1 0;
 }
 
-.family_desc {
-  padding: 10px;
-  background-color: #f5faff;
-  border-radius: 5px;
-}
-
-.ally_desc {
-  padding: 10px;
-  background-color: #f5faff;
-  border-radius: 5px;
+.dungeon_desc_table {
+  white-space: nowrap;
+  width: auto;
 }
 
 table {
