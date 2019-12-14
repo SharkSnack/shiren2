@@ -1,7 +1,5 @@
 try {
-  $.getJSON("https://sharksnack.github.io/shiren2/json/dungeon.json", function(data) {
 
-  });
 } catch(e) {
   console.log(e);
 }
