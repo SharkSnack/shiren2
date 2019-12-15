@@ -11,24 +11,6 @@ h4 {
   border: 10px solid #def;
 }
 
-.dungeon_heading {
-  margin: 0;
-}
-
-.dungeon_desc {
-  display: flex;
-  flex-direction: row;
-}
-
-.dungeon_desc_text {
-  flex: 1 0;
-}
-
-.dungeon_desc_table {
-  white-space: nowrap;
-  width: auto;
-}
-
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
@@ -55,7 +37,7 @@ table th,
 table td {
   padding: 0.625em;
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid lightgray;
   font-size: 90%;
 }
 
@@ -63,6 +45,7 @@ table th {
   font-size: 0.85em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  border-color: #e1e1e1;
 }
 
 table a {
@@ -76,4 +59,57 @@ table a:hover {
 
 table a:visited {
   color: #a63d21;
+}
+
+.dungeon_heading {
+  margin: 0;
+}
+
+.dungeon_desc {
+  display: flex;
+  flex-direction: row;
+}
+
+.dungeon_desc_text {
+  flex: 1 0;
+}
+
+.dungeon_desc_table {
+  width: auto;
+}
+
+.dungeon_desc_table th {
+  font-size: 80%;
+}
+
+.monster_normal {
+  background-color: #e6e6fa;
+}
+
+.monster_weapon {
+  background-color: #9999FF;
+}
+
+.monster_ghost {
+  background-color: #FFFF99;
+}
+
+.monster_drain {
+  background-color: #FF99CC;
+}
+
+.monster_stealing {
+  background-color: #99CCFF;
+}
+
+.monster_item_change {
+  background-color: #CC99FF;
+}
+
+.monster_dragon {
+  background-color: #99CC00;
+}
+
+.monster_table_checkpoint {
+  background-color: #ebebeb;
 }
