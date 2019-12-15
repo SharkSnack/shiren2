@@ -1,3 +1,7 @@
+body {
+  font-family: arial;
+}
+
 h2 {
   padding-left: 10px;
   padding-top: 3px;
@@ -6,9 +10,37 @@ h2 {
   background-color: #def;
 }
 
+h3 {
+  font-size: 100%;
+  font-weight: normal;
+  border-top: 1px solid #def;
+  border-bottom: 3px solid #def;
+  border-left: 10px solid #def;
+  border-right: 3px solid #def;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 2px;
+}
+
 h4 {
   font-weight: normal;
-  border: 10px solid #def;
+  font-size: 90%;
+  border-left: 15px solid #def;
+  padding: 0.3em;
+}
+
+a {
+  color: #215dc6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #a63d21;
 }
 
 table {
@@ -46,19 +78,6 @@ table th {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   border-color: #e1e1e1;
-}
-
-table a {
-  color: #215dc6;
-  text-decoration: none;
-}
-
-table a:hover {
-  text-decoration: underline;
-}
-
-table a:visited {
-  color: #a63d21;
 }
 
 .dungeon_heading {
@@ -112,4 +131,28 @@ table a:visited {
 
 .monster_table_checkpoint {
   background-color: #ebebeb;
+}
+
+.dungeon_item_table_key p {
+  border-left: 15px solid #def;
+  padding: 4px;
+}
+
+.dungeon_item_table td,
+.dungeon_item_table th  {
+  padding: 4px;
+}
+
+.dungeon_item_category {
+  background-color: #ffffcc;
+}
+
+.dungeon_item_table_divider {
+  background-color: #ebebeb
+}
+
+.dungeon_item_table_notes {
+  font-size: 80%;
+  list-style-type: none;
+  padding: 0;
 }
