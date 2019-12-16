@@ -101,6 +101,10 @@ table th {
   font-size: 80%;
 }
 
+.dungeon_desc_warning {
+  color: red;
+}
+
 .monster_normal {
   background-color: #e6e6fa;
 }
