@@ -141,12 +141,28 @@ table th {
   background-color: #99CC00;
 }
 
+.monster_bomb {
+  background-color: #fc9;
+}
+
+.monster_bone {
+  background-color: yellow;
+}
+
 .monster_table_checkpoint {
   background-color: #ebebeb;
 }
 
 .dungeon_monster_table table {
-  font-size: 80%;
+  font-size: 75%;
+}
+
+.dungeon_monster_table_gold table {
+  font-size: 70%;
+}
+
+.dungeon_monster_table_gold th {
+  background-color: gold;
 }
 
 .dungeon_item_table_key p {
@@ -161,6 +177,10 @@ table th {
 
 .dungeon_item_category {
   background-color: #ffffcc;
+}
+
+.dungeon_item_table table {
+  font-size: 80%;
 }
 
 .dungeon_item_table_divider {
