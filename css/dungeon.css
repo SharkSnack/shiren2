@@ -121,8 +121,16 @@ table th {
   background-color: #FF99CC;
 }
 
-.monster_stealing {
+.monster_water {
   background-color: #99CCFF;
+}
+
+.monster_special {
+  background-color: silver;
+}
+
+.monster_one_eyed {
+  background-color: #cfc;
 }
 
 .monster_item_change {
@@ -135,6 +143,10 @@ table th {
 
 .monster_table_checkpoint {
   background-color: #ebebeb;
+}
+
+.dungeon_monster_table table {
+  font-size: 80%;
 }
 
 .dungeon_item_table_key p {
@@ -155,7 +167,7 @@ table th {
   background-color: #ebebeb
 }
 
-.dungeon_item_table_notes {
+.dungeon_table_notes {
   font-size: 80%;
   list-style-type: none;
   padding: 0;

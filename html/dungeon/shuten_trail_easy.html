@@ -387,8 +387,8 @@
             <table>
               <tr>
                 <th>1</th>
-                <td rowspan="2" class="monster_normal">Mamel</td>
-                <td rowspan="2" class="monster_normal">Chintala</td>
+                <td class="monster_normal">Mamel (12)</td>
+                <td class="monster_normal">Chintala (8)</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -396,6 +396,8 @@
               </tr>
               <tr>
                 <th>2</th>
+                <td class="monster_normal">Mamel (6)</td>
+                <td class="monster_normal">Chintala (12)</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -403,30 +405,38 @@
               </tr>
               <tr>
                 <th>3</th>
-                <td rowspan="2" class="monster_normal">Weather Doll</td>
-                <td rowspan="2" class="monster_weapon">Ashigarudon</td>
-                <td rowspan="2" class="monster_ghost">Yamikichi</td>
-                <td rowspan="2" class="monster_drain">Slug</td>
+                <td class="monster_normal">Weather Doll (10)</td>
+                <td class="monster_weapon">Ashigarudon (7)</td>
+                <td class="monster_ghost">Yamikichi (6)</td>
+                <td class="monster_drain">Slug (5)</td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th>4</th>
-                <td rowspan="3" class="monster_normal">Piko Hammer</td>
+                <td class="monster_normal">Weather Doll (9)</td>
+                <td class="monster_weapon">Ashigarudon (10)</td>
+                <td class="monster_ghost">Yamikichi (6)</td>
+                <td class="monster_drain">Slug (5)</td>
+                <td class="monster_normal">Piko Hammer (6)</td>
                 <td></td>
               </tr>
               <tr>
                 <th>5</th>
-                <td rowspan="2" class="monster_normal">Droplet Ninja</td>
-                <td rowspan="2" class="monster_normal">Armordillo</td>
+                <td class="monster_normal">Droplet Ninja (7)</td>
+                <td class="monster_normal">Armordillo (4)</td>
                 <td></td>
                 <td></td>
+                <td class="monster_normal">Piko Hammer (7)</td>
                 <td></td>
               </tr>
               <tr>
                 <th>6</th>
-                <td class="monster_drain">Hunger Puppet</td>
+                <td class="monster_normal">Droplet Ninja (6)</td>
+                <td class="monster_normal">Armordillo (6)</td>
+                <td class="monster_drain">Hunger Puppet (8)</td>
                 <td></td>
+                <td class="monster_normal">Piko Hammer (8)</td>
                 <td></td>
               </tr>
               <tr>
@@ -434,36 +444,54 @@
               </tr>
               <tr>
                 <th>7</th>
-                <td rowspan="3" class="monster_normal">N'dubba</td>
-                <td rowspan="2" class="monster_stealing">Zalokleft</td>
-                <td rowspan="2" class="monster_drain">Hunger Puppet</td>
+                <td class="monster_normal">N'dubba (3)</td>
+                <td class="monster_water">Zalokleft (8)</td>
+                <td class="monster_drain">Hunger Puppet (8)</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th>8</th>
-                <td rowspan="3" class="monster_weapon">Samuraidon</td>
-                <td rowspan="2" class="monster_normal">Horse Ronin</td>
+                <td class="monster_normal">N'dubba (3)</td>
+                <td class="monster_water">Zalokleft (8)</td>
+                <td class="monster_drain">Hunger Puppet (8)</td>
+                <td class="monster_weapon">Samuraidon (6)</td>
+                <td class="monster_normal">Horse Ronin (6)</td>
                 <td></td>
               </tr>
               <tr>
                 <th>9</th>
-                <td rowspan="2" class="monster_normal">Tiger Tosser</td>
-                <td rowspan="2" class="monster_item_change">Nigiri Morph</td>
+                <td class="monster_normal">N'dubba (3)</td>
+                <td class="monster_normal">Tiger Tosser (6)</td>
+                <td class="monster_item_change">Nigiri Morph (6)</td>
+                <td class="monster_weapon">Samuraidon (10)</td>
+                <td class="monster_normal">Horse Ronin (6)</td>
                 <td></td>
               </tr>
               <tr>
                 <th>10</th>
-                <td class="monster_normal">Landmine Ninja</td>
-                <td class="monster_normal">Sheep Priest</td>
-                <td class="monster_dragon">Shaaga</td>
+                <td class="monster_normal">Landmine Ninja (9)</td>
+                <td class="monster_normal">Tiger Tosser (6)</td>
+                <td class="monster_item_change">Nigiri Morph (6)</td>
+                <td class="monster_weapon">Samuraidon (8)</td>
+                <td class="monster_normal">Sheep Priest (9)</td>
+                <td class="monster_dragon">Shaaga (7)</td>
               </tr>
             </table>
+            <ul class="dungeon_table_notes">
+              <li>
+                <p>
+                  Numbers in parenthesis show monster spawn rate values.<br>
+                  Divide the number by the total for that row to get the %.<br>
+                  Example: Mamel (12), Chintala (8) → 12 ÷ 20 = 0.6, so Mamel spawns 60% of the time.
+                </p>
+              </li>
+            </ul>
           </div>
           <h2>Items</h2>
           <div class="dungeon_item_table_key">
-            <p>Key: <b>F</b>loor, <b>P</b>resto, <b>O</b>ther</p>
+            <p>Key: <b>F</b>loor, <b>P</b>resto, <b>M</b>onster</p>
           </div>
           <div class="dungeon_item_table">
             <table>
@@ -478,15 +506,15 @@
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
               </tr>
               <tr>
                 <td>Katana</td>
@@ -599,7 +627,7 @@
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
                 <td>Poison Grass</td>
                 <td></td>
                 <td>☆</td>
@@ -607,7 +635,7 @@
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
               </tr>
               <tr>
                 <td>Scale Shield</td>
@@ -681,11 +709,11 @@
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
               </tr>
               <tr>
                 <td>Tribal Shield</td>
@@ -716,7 +744,7 @@
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
                 <td>Exorcism Scroll</td>
                 <td></td>
                 <td>☆</td>
@@ -735,7 +763,7 @@
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
               </tr>
               <tr>
                 <td>Strength Bracelet</td>
@@ -808,7 +836,7 @@
                 <th>Name</th>
                 <th>F</th>
                 <th>P</th>
-                <th>O</th>
+                <th>M</th>
                 <td colspan="4" rowspan="6"></td>
                 <td colspan="4" rowspan="6"></td>
               </tr>
@@ -843,7 +871,7 @@
                 <td></td>
               </tr>
             </table>
-            <ul class="dungeon_item_table_notes">
+            <ul class="dungeon_table_notes">
               <li>
                 - Presto Pots, Surprise Pots, Shops, and Traders don't appear in Shuten Trail Easy.
               </li>
