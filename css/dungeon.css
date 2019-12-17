@@ -154,7 +154,11 @@ table th {
 }
 
 .dungeon_monster_table table {
-  font-size: 75%;
+  font-size: 70%;
+}
+
+.onigashima_monster_table table {
+  font-size: 65%;
 }
 
 .dungeon_monster_table_gold table {
