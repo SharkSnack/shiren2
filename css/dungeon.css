@@ -161,6 +161,10 @@ table th {
   font-size: 70%;
 }
 
+.hidden_hole_monster_table table {
+  font-size: 55%;
+}
+
 .dungeon_monster_table_gold table {
   font-size: 70%;
 }
