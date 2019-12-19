@@ -165,6 +165,10 @@ table th {
   font-size: 50%;
 }
 
+.sealed_room_monster_table table {
+  font-size: 50%;
+}
+
 .dungeon_monster_table_gold table {
   font-size: 70%;
 }
