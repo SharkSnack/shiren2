@@ -177,6 +177,18 @@ table th {
   background-color: gold;
 }
 
+.halfway_well_monster_table table {
+  font-size: 50%;
+}
+
+.halfway_well_monster_table_gold table {
+  font-size: 55%;
+}
+
+.halfway_well_monster_table_gold th {
+  background-color: gold;
+}
+
 .dungeon_monster_table_gold table {
   font-size: 70%;
 }
