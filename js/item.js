@@ -253,7 +253,7 @@ function item_details (data, category) {
       case 'grass':
       case 'scroll':
         html.push(`<div>
-                 <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
+                 <h3 id="${item.id}">${item.name_en} (${item.name_jp})</h3>
                  <div class="detail-entry">
                  <div class="detail-section1">
                  <p class="item_desc">${item.desc_en}</p>`);
@@ -285,7 +285,7 @@ function item_details (data, category) {
       case 'staff':
       case 'pot':
         html.push(`<div>
-                 <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
+                 <h3 id="${item.id}">${item.name_en} (${item.name_jp})</h3>
                  <div class="detail-entry">
                  <div class="detail-section1">
                  <p class="item_desc">${item.desc_en}</p>`);
@@ -305,7 +305,7 @@ function item_details (data, category) {
       case 'ranged':
         ranged_power = item.base_stat === '' ? '-' : item.base_stat;
         html.push(`<div>
-                 <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
+                 <h3 id="${item.id}">${item.name_en} (${item.name_jp})</h3>
                  <div class="detail-entry">
                  <div class="detail-section1">
                  <p class="item_desc">${item.desc_en}</p>`);
@@ -338,7 +338,7 @@ function item_details (data, category) {
       case 'material':
       case 'other':
         html.push(`<div>
-                 <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
+                 <h3 id="${item.id}">${item.name_en} (${item.name_jp})</h3>
                  <div class="detail-entry">
                  <div class="detail-section1">
                  <p class="item_desc">${item.desc_en}</p>`);
