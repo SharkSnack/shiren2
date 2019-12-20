@@ -52,7 +52,7 @@ function item_summary_table (data, category) {
   let th_material_other = ['Name', 'Buy', 'Sell', 'Phrase', 'Info'];
   let th_decoration = ['Name', 'Location', 'Info'];
 
-  html.push(`<h2>${caption} Summary</h2>`);
+  html.push(`<h2 class="page_heading">${caption} Summary</h2>`);
 
   // summary table header row
   html.push(`<table>
@@ -210,7 +210,7 @@ function item_details (data, category) {
       case 'weapon':
       case 'shield':
         html.push(`<div>
-                 <div id="${item.id}" class="detail-name">${item.name_en} (${item.name_jp})</div>
+                 <h3 id="${item.id}">${item.name_en} (${item.name_jp})</h3>
                  <div class="detail-entry">
                  <div class="detail-section1">
                  <p class="item_desc">${item.desc_en}</p>

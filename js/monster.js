@@ -35,14 +35,14 @@ function monster_details (data) {
 
   // loop through monsters based on monster type
   for (let i = 0; i < types.length; i++) {
-    html.push(`<h3 id="${types[i].toLowerCase()}">${types[i]}</h3>`);
+    html.push(`<h2 id="${types[i].toLowerCase()}">${types[i]}</h2>`);
 
     for (let n = 0; n < data.monsters.length; n++) {
       monster_family = data.monsters[n];
 
       // display monster entries by monster family
       if (monster_family.type === types[i]) {
-        html.push(`<h4 id="${monster_family.family_id}">${monster_family.family_name}  (${monster_family.family_name_jp})</h4>`);
+        html.push(`<h3 id="${monster_family.family_id}">${monster_family.family_name}  (${monster_family.family_name_jp})</h3>`);
 
         // monster family images
         html.push(`<div class="monster_images">`);
