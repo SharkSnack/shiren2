@@ -189,6 +189,10 @@ table th {
   background-color: gold;
 }
 
+.road_to_the_end_monster_table table {
+  font-size: 45%;
+}
+
 .dungeon_monster_table_gold table {
   font-size: 70%;
 }
