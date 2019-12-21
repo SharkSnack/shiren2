@@ -80,6 +80,10 @@ table th {
   border-color: #e1e1e1;
 }
 
+.golden_interval_items td {
+  text-align: left;
+}
+
 .dungeon_heading {
   margin: 0;
 }
