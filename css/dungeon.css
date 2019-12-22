@@ -240,3 +240,19 @@ table th {
   list-style-type: none;
   padding: 0;
 }
+
+.recommended_monster {
+  background-color: #f9c;
+}
+
+.stat_highlight_1 {
+  background-color: #ff9;
+}
+
+.stat_highlight_2 {
+  background-color: #fc9;
+}
+
+.recommended_monster_notes {
+  text-align: left;
+}
