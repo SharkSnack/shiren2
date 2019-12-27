@@ -182,17 +182,78 @@
     ■■■■■■■
           </pre>
           <h3 id="shield">Obtaining Food</h3>
-          <p></p>
+          <p>Riceballs are only found in shops, so you'll have to be a little creative when it comes to obtaining food.</p>
+          <p>Lure a Nigiri Morph onto a Poison Arrow Trap, and then have it transform some items into Large Riceballs.<br>It's best to increase max fullness to 200% using this method, along with keeping some riceballs on hand for later.</p>
+          <p>You might come across a Riceball Statue, which causes monsters to drop a Riceball when they're defeated.</p>
+          <p>As a last resort, you can use Spoil Traps to obtain Spoiled Riceballs, which should be eaten when there are no<br>enemies nearby, and ideally right after a level up to minimize the loss of experience if you get the level down side effect.</p>
           <h3 id="weapon">Leveling Shiren</h3>
-          <p></p>
+          <p>Use Chain and One-Way traps to create a chain reaction that provides lots of experience in a short amount of time.<br>It's best to wait until you come across a room that has a Sturdy Trap Statue before setting all of your traps to level up.<br>Avoid setting traps at room entrances on floors where Piko Hammer family monsters appear.</p>
           <h4 id="weapon">Leveling Enemies</h4>
-          <p></p>
-          <h4 id="weapon">Trap Combo</h4>
-          <p></p>
-          <h4 id="weapon">One-Way Trap Technique</h4>
-          <p></p>
+          <p>You'll gain more experience by leveling up the target monster prior to having them step on traps.<br>Cranky Tank (2300), Gigahead (3150), Horse Emperor (3100) are all good early game options.<br>Disable the leveled up monster by having them step on Strip and Poison Arrow traps.</p>
+          <pre class="dungeon_diagram">
+
+    S:Shiren  F:Fodder  M:Monster
+    □□□□□□
+    □SF□M□  Have the target monster defeat the fodder monster by moving
+    □□□□□□  Shiren so that the fodder is between the him and the monster.
+          </pre>
+          <h4 id="weapon">Trap Combos</h4>
+          <p>Place non-damaging traps after One-Way traps or around Chain traps. (Strip, Sleep, Spin, Rust, etc.)<br>Chain Trap activates the traps around it in a clockwise pattern.<br>If one of the traps is another chain trap, the chain trap will activate at the end.</p>
+          <pre class="dungeon_diagram">
+
+    Chain Trap activation order:
+    812
+    7●3
+    654
+          </pre>
+          <pre class="dungeon_diagram">
+
+    ●:Chain  ×:Non-damaging  ←:One-way  M:Monster
+    □□□□□□□□□
+    □×××□□□□□
+    □×●××□□□□  Placement Example 1:
+    □××●××□□□  Every trap will activate in this chain reaction placement.
+    □□××●××□□
+    □□□××●←←M
+    □□□□×××□□
+    □□□□□□□□□
+          </pre>
+          <pre class="dungeon_diagram">
+
+    ●: Chain  ×:Non-damaging  ↑:One-way  S:Statue  M:Monster
+    ■■■■□■■■■■
+    ■■■■M■■■■■  Placement Example 2:
+    ■■□×●××□□□  The one-way trap will activate at the end in this
+    ■■□××●××□□  placement, moving the monster outside of the room.
+    ■■□□××●×□□  The monster will enter the room again, starting
+    ■■□□□↑××□□  the chain reaction over and providing lots of exp.
+    ■■□□□□□□□□  However, Piko Hammer can break this setup.
+    ■■S□□□□□□□
+          </pre>
+          <h4 id="weapon">One-Way Trap Placements</h4>
+          <p>The following placements require a Sturdy Trap Statue to be present in the room.</p>
+          <pre class="dungeon_diagram">
+
+    ←:One-way
+    □□□□□        □□□□□        ■□□□□
+    □↓←←□        □↓←←□        ■□□□□
+    □↓□←□   or   □→□↑□   or   ■↓←□□
+    □→→↑□        ■■■■■        ■□↑□□
+    □□□□□        ■■■■■        ■■■■■
+          </pre>
           <h3 id="shield">Obtaining Items Efficiently</h3>
-          <p></p>
+          <p>Use a combination of a Summon Trap, Trip Stone, and either a Landslide Trap or Landmine to finish the monster off.<br>Just be careful not to place the Landmine in a location that ends up destroying the dropped items.</p>
+          <pre class="dungeon_diagram">
+
+    S:Summon  T:Trip  L:Landslide (Landmine)
+    □□□□□□□
+    □□□L□□□  Throw an item at the Summon Trap.
+    □□□□□□□  A summoned monster will trip and drop an item,
+    □□□T□□□  and then the group will collapse from the Landslide.
+    □□□□□□□
+    □□□S□□□  Use multiple Trip Stones / Chain Trap to improve efficiency.
+    ■■■■■■■
+          </pre>
           <h2 id="floor_guide">Important Items</h2>
           <p></p>
           <h3 id="waterfall_basin">Weapon</h3>
@@ -2711,9 +2772,9 @@
             <table>
               <tr>
                 <td colspan="4" class="dungeon_item_category">Weapon</td>
-                <td rowspan="21" class="dungeon_item_table_divider"></td>
+                <td rowspan="19" class="dungeon_item_table_divider"></td>
                 <td colspan="4" class="dungeon_item_category">Grass</td>
-                <td rowspan="21" class="dungeon_item_table_divider"></td>
+                <td rowspan="19" class="dungeon_item_table_divider"></td>
                 <td colspan="4" class="dungeon_item_category">Staff</td>
               </tr>
               <tr>
@@ -2916,18 +2977,12 @@
                 <td></td>
               </tr>
             </table>
-            <ul class="dungeon_table_notes">
-              <li>
-                ・ Presto Pots, Surprise Pots, and Traders don't appear in Halfway Well.
-              </li>
-              <li>
-                <p>
-                  ＊ One Trapper Bracelet is guaranteed to be on the ground on 10F.<br>
-                  If you proceed without picking it up, the Trapper Bracelet will continue to spawn on every floor past 10F until you pick it up.<br>
-                  However, it won't spawn if you already have a Trapper Bracelet in your inventory, so you won't be able to obtain 2 at the same time.
-                </p>
-              </li>
-            </ul>
+            <p class="dungeon_table_notes">
+              ・ Presto Pots, Surprise Pots, and Traders don't appear in Halfway Well.<br>
+              ＊ One Trapper Bracelet is guaranteed to be on the ground on 10F.<br>
+              If you proceed without picking it up, the Trapper Bracelet will continue to spawn on every floor past 10F until you pick it up.<br>
+              However, it won't spawn if you already have a Trapper Bracelet in your inventory, so you won't be able to obtain 2 at the same time.
+            </p>
           </div>
           <h2 id="floor_guide">Golden Interval</h2>
           <p>Text + Item Table</p>
