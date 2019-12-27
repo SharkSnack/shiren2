@@ -256,3 +256,11 @@ table th {
 .recommended_monster_notes {
   text-align: left;
 }
+
+.dungeon_diagram {
+  line-height: 110%;
+  border: 1px solid #dde;
+  margin-left: 1em;
+  margin-right: 2em;
+  background-color: #f0f8ff;
+}
