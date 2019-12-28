@@ -80,6 +80,12 @@ table th {
   border-color: #e1e1e1;
 }
 
+dt {
+  font-weight: bold;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
 .golden_interval_items td {
   text-align: left;
 }
