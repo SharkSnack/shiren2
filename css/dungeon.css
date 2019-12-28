@@ -119,6 +119,11 @@ dt {
   color: red;
 }
 
+.road_to_the_end_desc_table {
+  width: auto;
+  margin-right: 5em;
+}
+
 .monster_normal {
   background-color: #e6e6fa;
 }
