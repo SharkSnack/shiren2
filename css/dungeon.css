@@ -80,15 +80,14 @@ table th {
   border-color: #e1e1e1;
 }
 
-dt {
+dl {
   font-size: 90%;
+}
+
+dt {
   font-weight: bold;
   margin-left: 1em;
   margin-top: 1em;
-}
-
-dd {
-  font-size: 90%;
 }
 
 .golden_interval_items td {
