@@ -67,7 +67,7 @@ table th {
 
 table th,
 table td {
-  padding: 0.625em;
+  padding: 0.45em;
   text-align: center;
   border: 1px solid lightgray;
   font-size: 90%;
@@ -115,13 +115,23 @@ dt {
   font-size: 80%;
 }
 
+.dungeon_desc_table th,
+.dungeon_desc_table td {
+  padding: 0.625em;
+}
+
 .dungeon_desc_warning {
   color: red;
 }
 
 .road_to_the_end_desc_table {
   width: auto;
-  margin-right: 5em;
+  margin-right: 1em;
+}
+
+.road_to_the_end_desc_table th,
+.road_to_the_end_desc_table td {
+  padding: 0.625em;
 }
 
 .monster_normal {
@@ -210,6 +220,11 @@ dt {
 
 .road_to_the_end_monster_table table {
   font-size: 50%;
+}
+
+.road_to_the_end_monster_table th,
+.road_to_the_end_monster_table td {
+  padding: 0.4em;
 }
 
 .road_to_the_end_monster_table_gold table {
