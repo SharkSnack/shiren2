@@ -80,7 +80,10 @@ body {
 }
 
 .box {
-  padding: 10px;
+  padding-left: 6px;
+  padding-top: 10px;
+  padding-right: 4px;
+  padding-bottom: 10px;
   font-size: 110%;
 }
 
