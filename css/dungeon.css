@@ -279,3 +279,15 @@ dt {
   margin-right: 2em;
   background-color: #f0f8ff;
 }
+
+.seal_table_equipment {
+  background-color: #8cc8ff;
+}
+
+.seal_table_item {
+  background-color: #80ff80;
+}
+
+.seal_table_scroll {
+  background-color: #ffb4b4;
+}
