@@ -124,16 +124,6 @@ dt {
   color: red;
 }
 
-.road_to_the_end_desc_table {
-  width: auto;
-  margin-right: 1em;
-}
-
-.road_to_the_end_desc_table th,
-.road_to_the_end_desc_table td {
-  padding: 0.625em;
-}
-
 .monster_normal {
   background-color: #e6e6fa;
 }
