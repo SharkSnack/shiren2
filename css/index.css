@@ -3,6 +3,11 @@ body {
   margin: 5px;
 }
 
+.box {
+  padding: 10px;
+  font-size: 110%;
+}
+
 .sidebar {
   grid-area: sidebar;
 }
@@ -52,6 +57,7 @@ body {
 
 .content {
   grid-area: content;
+  padding-left: 0px;
 }
 
 .header {
@@ -77,14 +83,6 @@ body {
     "footer footer";
   background-color: #fff;
   color: #444;
-}
-
-.box {
-  padding-left: 6px;
-  padding-top: 10px;
-  padding-right: 4px;
-  padding-bottom: 10px;
-  font-size: 110%;
 }
 
 @media screen and (max-width: 600px) {
