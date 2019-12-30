@@ -1376,7 +1376,7 @@
       "price_plus": 1200,
       "phrase": "",
       "desc_short_en": "Reflects magic.",
-      "desc_en": "Shield that reflects magic, including Gazer hypnosis, Tusker staves, Sheep Priest spells, and Grass Receive Staff.<br>Cannot reflect Straw Voodoll curses, Twisty Hani dances, or Hunger Puppet songs.",
+      "desc_en": "Shield that reflects magic, including Gazer hypnosis, Tusker staves, Sheep Priest spells, and Grass Gain Staff.<br>Cannot reflect Straw Voodoll curses, Twisty Hani dances, or Hunger Puppet songs.",
       "locations": [
         "Onigashima (Treasure Chest)",
         "Sealed Room (Presto, Treasure Chest)",
@@ -2611,7 +2611,7 @@
       "price_sell": 500,
       "phrase": "",
       "desc_short_en": "Doubles effectiveness of grass items for 10 turns.",
-      "desc_en": "Doubles effectiveness of grass items for 10 turns when eaten.<br>Often used before strength grass.<br>Doubles the effectiveness of grass receive staff, grass toss staff, and grass effect pot.<br>Note that some grasses don't gain boosted effects, such as Revival Grass, Sight Grass, Antidote Grass, etc.",
+      "desc_en": "Doubles effectiveness of grass items for 10 turns when eaten.<br>Often used before strength grass.<br>Doubles the effectiveness of Grass Gain Staff, Grass Toss Staff, and Grass Effect Pot.<br>Note that some grasses don't gain boosted effects, such as Revival Grass, Sight Grass, Antidote Grass, etc.",
       "locations": [
         "Shuten Trail Hard (Floor, Presto)",
         "Onigashima (Floor, Presto, Surprise, Shop, Trader)",
@@ -2632,7 +2632,7 @@
       "price_sell": 700,
       "phrase": "",
       "desc_short_en": "Increases strength by 1, or increases max strength by 1 if already at max.",
-      "desc_en": "Increases strength by 1, or increases max strength by 1 if already at max.<br>Often used with grass receive staff, grass toss staff, or Boost Grass to increase gains.<br>The ち seal increases a weapon's base attack.<br>Mr. Drone monsters always drop this grass.",
+      "desc_en": "Increases strength by 1, or increases max strength by 1 if already at max.<br>Often used with Grass Gain Staff, Grass Toss taff, or Boost Grass to increase gains.<br>The ち seal increases a weapon's base attack.<br>Mr. Drone monsters always drop this grass.",
       "locations": [
         "Small Valley (Floor)",
         "Shuten Trail Easy (Floor, Presto)",
@@ -2748,7 +2748,7 @@
       "price_sell": 1500,
       "phrase": "アトノセ",
       "desc_short_en": "Increases level by 3.",
-      "desc_en": "Increases level by 3 when eaten.<br>Can be used with grass receive staff or Boost Grass to increase gains.<br>The 天 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).<br>Excellent to synthesize onto a main weapon.",
+      "desc_en": "Increases level by 3 when eaten.<br>Can be used with Grass Gain staff or Boost Grass to increase gains.<br>The 天 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).<br>Excellent to synthesize onto a main weapon.",
       "locations": [
         "Onigashima (Surprise, Treasure Chest)",
         "Sealed Room (Treasure Chest)",
