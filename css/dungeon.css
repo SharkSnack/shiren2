@@ -296,3 +296,8 @@ dt {
 .seal_table_scroll {
   background-color: #ffb4b4;
 }
+
+.cave_mamel_list {
+  margin-top: 0.5em;
+  list-style-type: circle;
+}
