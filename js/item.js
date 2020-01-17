@@ -42,12 +42,12 @@ function item_summary_table (data, category) {
   let equipment_stat_label = category === 'weapon' ? 'Atk' : 'Def';
   let price_buy = 0;
   let price_sell = 0;
-  let ranged_power = 0;
+  let projectile_power = 0;
 
   // headers by category
   let th_weapon_shield = ['Name', 'Seal', equipment_stat_label, 'Slots', 'Buy', 'Sell', 'Phrase', 'Info'];
   let th_bracelet_food_grass_scroll = ['Name', 'Seal', 'Buy', 'Sell', 'Phrase', 'Info'];
-  let th_ranged = ['Name', 'Power', 'Seal', 'Buy', 'Sell', 'Phrase', 'Info'];
+  let th_projectile = ['Name', 'Power', 'Seal', 'Buy', 'Sell', 'Phrase', 'Info'];
   let th_staff_pot = ['Name', 'Buy', '+1', 'Sell', '+1', 'Phrase', 'Info'];
   let th_material_other = ['Name', 'Buy', 'Sell', 'Phrase', 'Info'];
   let th_decoration = ['Name', 'Location', 'Info'];
@@ -79,9 +79,9 @@ function item_summary_table (data, category) {
         html.push(`<th scope="col">${th_staff_pot[i]}</th>`);
       }
       break;
-    case 'ranged':
-      for (let i = 0; i < th_ranged.length; i++) {
-        html.push(`<th scope="col">${th_ranged[i]}</th>`);
+    case 'projectile':
+      for (let i = 0; i < th_projectile.length; i++) {
+        html.push(`<th scope="col">${th_projectile[i]}</th>`);
       }
       break;
     case 'material':
@@ -149,12 +149,12 @@ function item_summary_table (data, category) {
                  <td data-label="Info">${item.desc_short_en || '-'}</td>
                  </tr>`);
         break;
-      case 'ranged':
+      case 'projectile':
         // be sure to display the value 0 instead of -
-        ranged_power = item.base_stat === '' ? '-' : item.base_stat;
+        projectile_power = item.base_stat === '' ? '-' : item.base_stat;
         html.push(`<tr>
                  <td scope="row" data-label="Name"><a href="${'#' + item.id}">${item.name_en}</a></td>
-                 <td data-label="Power">${ranged_power}</td>
+                 <td data-label="Power">${projectile_power}</td>
                  <td data-label="Seal">${item.seal || '-'}</td>
                  <td data-label="Buy">${item.price_buy}</td>
                  <td data-label="Sell">${item.price_sell}</td>
@@ -196,7 +196,7 @@ function item_details (data, category) {
 
   // category-specific variables
   let equipment_stat_label = (category === 'weapon') ? 'Atk' : 'Def';
-  let ranged_power = '';
+  let projectile_power = '';
 
   // section heading
   html.push(`<h2>${heading} Details</h2>`);
@@ -302,8 +302,8 @@ function item_details (data, category) {
         html.push(`</div>
                  </div>`);
         break;
-      case 'ranged':
-        ranged_power = item.base_stat === '' ? '-' : item.base_stat;
+      case 'projectile':
+        projectile_power = item.base_stat === '' ? '-' : item.base_stat;
         html.push(`<div>
                  <h3 id="${item.id}">${item.name_en} (${item.name_jp})</h3>
                  <div class="detail-entry">
@@ -315,7 +315,7 @@ function item_details (data, category) {
                  <table class="detail-table">
                  <tr>
                  <th>Power</th>
-                 <td>${ranged_power}</td>
+                 <td>${projectile_power}</td>
                  <th>Phrase</th>
                  <td>${item.phrase || '-'}</td>
                  </tr>
