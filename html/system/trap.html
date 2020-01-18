@@ -1,6 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Road To The End - Shiren 2 Wiki</title>
+    <title>Traps - Shiren 2 Wiki</title>
     <link rel="icon" href="/shiren2/favicon.ico">
     <meta charset="utf-8">
     <script
@@ -8,11 +9,202 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
-    <link rel="stylesheet" href="../../css/dungeon.css">
-    <script type="text/javascript" src="../../js/dungeon.js"></script>
+    <link rel="stylesheet" href="../../css/item.css">
+    <script src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
       <div id="header" class="box header"></div>
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
+        <h2 class="page_heading">Traps</h2>
+        <p>Text</p>
+        <table>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Damage</th>
+            <th>Notes</th>
+            <th>Break</th>
+          </tr>
+          <tr>
+            <td><img src="/shiren2/image/trap/trap_droplet.png" alt="Droplet"></td>
+            <td>Droplet Trap</td>
+            <td>5</td>
+            <td>A drop of water falls from above, dealing 5 damage.</td>
+            <td>6%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Burrs Trap</td>
+            <td>9</td>
+            <td>Burrs fall from above, dealing 9 damage.</td>
+            <td>8%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Rockfall Trap</td>
+            <td>13</td>
+            <td>A large rock falls from above, dealing 13 damage.</td>
+            <td>13%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Rockslide Trap</td>
+            <td>30</td>
+            <td>Multiple large rocks fall from above, dealing 30 damage.<br>Hits all characters in a 1-tile radius around the trap.<br>Can also hit underwater or frozen monsters.</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Wooden Arrow Trap</td>
+            <td>5</td>
+            <td>A Wooden Arrow comes from the right side of the<br>direction the character is facing, dealing 5 damage.<br>Can be avoided using a Dodge Shield or Reflect Shield.<br>The arrow can be picked up if dodged or reflected at a wall.<br>The arrow will pierce through walls until it hits something.</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Iron Arrow Trap</td>
+            <td>10</td>
+            <td>An Iron Arrow comes from the right side of the<br>direction the character is facing, dealing 10 damage.<br>Can be avoided using a Dodge Shield or Reflect Shield.<br>The arrow can be picked up if dodged or reflected at a wall.<br>The arrow will pierce through walls until it hits something.</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Poison Arrow Trap</td>
+            <td>3~6</td>
+            <td>A poison arrow comes from the right side of the direction the<br>character is facing, dealing 3~6 damage and lowering their strength.<br>Can be avoided using a Dodge Shield or Reflect Shield.<br>The arrow cannot be picked up if dodged or reflected at a wall,<br>and cannot be swallowed by a Mixer family monster.<br>The arrow will pierce through walls until it hits something.<br><br>Shiren or Ally: Lowers strength by 1 point.<br>Monster: Lowers strength to 0, making regular attacks deal 1 damage.</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Log Trap</td>
+            <td>3~7</td>
+            <td>A log comes flying from the right side of the direction the<br>character is facing, dealing 3~7 damage and knocking them away.</td>
+            <td>8%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Pitfall</td>
+            <td>3~6</td>
+            <td>Deals 3~6 damage, and advances to the floor below the current floor.<br>The floor advancing effect is nullified in areas such as Napus Storage,<br>boss rooms, or Shuffle Dungeon maps (excluding Shuten Mid 12F).<br><br>Monster: The monster falls into a void, instantly defeating it.<br>(Monsters defeated using Pitfalls won't drop items).</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Trip Stone</td>
+            <td>2~4</td>
+            <td></td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Landmine</td>
+            <td>50%</td>
+            <td></td>
+            <td>8%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Big Landmine</td>
+            <td>75%</td>
+            <td></td>
+            <td>8%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Flood Trap</td>
+            <td>75%</td>
+            <td></td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Rust Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>13%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Summon Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Spin Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Strip Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>13%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Spoil Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>8%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Bear Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>6%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Slow Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Sleep Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Spring</td>
+            <td>-</td>
+            <td></td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Monster Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Chain Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>7%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>One-Way Trap</td>
+            <td>-</td>
+            <td></td>
+            <td>15%</td>
+          </tr>
+        </table>
+      </div>
+      <div id="footer" class="box footer"></div>
+    </div>
+  </body>
+</html>

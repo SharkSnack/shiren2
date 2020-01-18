@@ -1,13 +1,13 @@
 $(document).ready(function() {
   // load some common HTML
   try {
-    $("#header").load("../html/header.html", function() {
+    $("#header").load("../../html/header.html", function() {
       console.log('info - loaded header');
     });
-    $("#sidebar").load("../html/sidebar.html", function() {
+    $("#sidebar").load("../../html/sidebar.html", function() {
       console.log('info - loaded sidebar');
     });
-    $("#footer").load("../html/footer.html", function() {
+    $("#footer").load("../../html/footer.html", function() {
       console.log('info - loaded footer');
     });
   } catch(e) {
