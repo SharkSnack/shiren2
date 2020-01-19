@@ -2,3 +2,13 @@ img {
   height: 24px;
   width: auto;
 }
+
+.table_trap_damage td,
+.table_trap_damage th {
+  padding: 4px 0.5em 4px 0.5em;
+}
+
+th.table_divider {
+  padding: 4px;
+  background-color: #ebebeb;
+}
