@@ -17,11 +17,11 @@ th.table_divider {
   font-size: 0.9em;
 }
 
-#trap_experience_table th {
+#table_trap_experience th {
   text-transform: none;
 }
 
-#trap_experience_table td,
-#trap_experience_table th {
+#table_trap_experience td,
+#table_trap_experience th {
   padding: 5px 0.5em 5px 0.5em;
 }
