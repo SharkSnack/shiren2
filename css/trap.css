@@ -7,3 +7,21 @@ th.table_divider {
   padding: 4px;
   background-color: #ebebeb;
 }
+
+.formula {
+  line-height: 110%;
+  border: 1px solid #dde;
+  margin-left: 1em;
+  margin-right: 2em;
+  background-color: #f0f8ff;
+  font-size: 0.9em;
+}
+
+#trap_experience_table th {
+  text-transform: none;
+}
+
+#trap_experience_table td,
+#trap_experience_table th {
+  padding: 5px 0.5em 5px 0.5em;
+}
