@@ -1486,7 +1486,7 @@
       "price_plus": 1000,
       "phrase": "ドピセモ",
       "desc_short_en": "Prevents your items from getting cursed.",
-      "desc_en": "Shield that prevents all items from getting cursed by Straw Voodoll monsters.<br>Is it never found cursed. Synthesizing an Exorcism Scroll with a Mixer monster provides the same effect.",
+      "desc_en": "Shield that prevents all items from getting cursed by Straw Voodoll monsters.<br>Is it never found cursed. Synthesizing a Purify Scroll with a Mixer monster provides the same effect.",
       "locations": [
         "Onigashima (Shop, Trader)",
         "Sealed Room (Presto)",
@@ -3250,7 +3250,7 @@
       ]
     },
     {
-      "name_en": "Exorcism Scroll",
+      "name_en": "Purify Scroll",
       "name_jp": "おはらいの巻物",
       "id": "exorcism_scroll",
       "seal": "祓",

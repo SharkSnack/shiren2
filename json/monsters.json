@@ -3373,7 +3373,7 @@
       "family_name": "Straw Voodoll Family",
       "family_name_jp": "ワラドール, クギワラドール, ゴスンドール",
       "family_id": "straw_voodoll_family",
-      "family_desc_en": "Monster that resembles a Voodoo Doll. Its special attack curses equipment.<br>Its curses can be blocked by a Holy Shield or the 祓 seal. (from Holy Shield or Exorcism Scroll)<br>Curses are treated as seals in Shiren 2, so it can only curse equipment if there is an open seal slot.<br>Levels 1 and 2 only use its special attack against Shiren or Asuka, while level 3 also uses it on Mamo.",
+      "family_desc_en": "Monster that resembles a Voodoo Doll. Its special attack curses equipment.<br>Its curses can be blocked by a Holy Shield or the 祓 seal. (from Holy Shield or Purify Scroll)<br>Curses are treated as seals in Shiren 2, so it can only curse equipment if there is an open seal slot.<br>Levels 1 and 2 only use its special attack against Shiren or Asuka, while level 3 also uses it on Mamo.",
       "ally_desc_en": "No special attack, but using a Possession Staff on a Voodoll monster will instantly remove curses.<br>Pretty strong as an ally thanks to a higher growth limit.",
       "images": [
         {
