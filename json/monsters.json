@@ -704,7 +704,7 @@
           ],
           "notes_ally": [
             "Ally: Doesn't run away.",
-            "Posession: Regular attacks only."
+            "Possession: Regular attacks only."
           ]
         },
         {
@@ -740,7 +740,7 @@
           ],
           "notes_ally": [
             "Ally: Doesn't run away.",
-            "Posession: Warps after receiving damage."
+            "Possession: Warps after receiving damage."
           ]
         },
         {
@@ -776,7 +776,7 @@
           ],
           "notes_ally": [
             "Ally: Doesn't run away.",
-            "Posession: Warps after receiving damage.",
+            "Possession: Warps after receiving damage.",
             "Can also warp using its special attack."
           ]
         }
@@ -968,7 +968,7 @@
           ],
           "notes_ally": [
             "Ally: Takes the form of a monster that can be found on that floor.",
-            "Posession: Special attack takes the form of the monster in front of it."
+            "Possession: Special attack takes the form of the monster in front of it."
           ]
         },
         {
@@ -1327,7 +1327,7 @@
           "notes_ally": [
             "Ally: Monsters aim for Snacky rather than Shiren.",
             "Monsters will level up when they defeat an ally Snacky.",
-            "Posession: Monsters aim for Snacky rather than Shiren."
+            "Possession: Monsters aim for Snacky rather than Shiren."
           ]
         }
       ]
@@ -1381,7 +1381,7 @@
           ],
           "notes_ally": [
             "Ally: Restores 50 HP to an ally within view who has taken damage.",
-            "Posession: Special attack restores 50 HP to an ally adjacent to it.",
+            "Possession: Special attack restores 50 HP to an ally adjacent to it.",
             "Cannot restore an enemy's HP."
           ]
         }
@@ -1437,7 +1437,7 @@
             "Warps in front of an ally and reflects magic if they are about to get hit by magic.",
             "Cannot act during the next turn after warping.",
             "Cannot warp if there isn't space in front of the ally.",
-            "Posession: Reflects magic."
+            "Possession: Reflects magic."
           ]
         }
       ]
@@ -1487,7 +1487,7 @@
           "notes_ally": [
             "Ally: Spawns 3 ally Armor Spiders when an enemy is in front of it.",
             "Max number of ally Armor Spiders is 5.",
-            "Posession: Can use its special even when there aren't enemies around."
+            "Possession: Can use its special even when there aren't enemies around."
           ]
         }
       ]
@@ -3301,7 +3301,7 @@
           "notes_ally": [
             "Ally: Swallows up to 2 thrown items and synthesizes them.",
             "Swallowed items will vanish if returned to its pot.",
-            "Posession: Swallows up to 2 items on the ground and synthesizes them.",
+            "Possession: Swallows up to 2 items on the ground and synthesizes them.",
             "Also swallows thrown items."
           ]
         },
@@ -3374,7 +3374,7 @@
       "family_name_jp": "ワラドール, クギワラドール, ゴスンドール",
       "family_id": "straw_voodoll_family",
       "family_desc_en": "Monster that resembles a Voodoo Doll. Its special attack curses equipment.<br>Its curses can be blocked by a Holy Shield or the 祓 seal. (from Holy Shield or Exorcism Scroll)<br>Curses are treated as seals in Shiren 2, so it can only curse equipment if there is an open seal slot.<br>Levels 1 and 2 only use its special attack against Shiren or Asuka, while level 3 also uses it on Mamo.",
-      "ally_desc_en": "No special attack, but using a Posession Staff on a Voodoll monster will instantly remove curses.<br>Pretty strong as an ally thanks to a higher growth limit.",
+      "ally_desc_en": "No special attack, but using a Possession Staff on a Voodoll monster will instantly remove curses.<br>Pretty strong as an ally thanks to a higher growth limit.",
       "images": [
         {
           "filename": "straw_voodoll.png",
@@ -3423,7 +3423,7 @@
           ],
           "notes_ally": [
             "Ally: Regular attacks only.",
-            "Posession: Removes curse from equipped shield."
+            "Possession: Removes curse from equipped shield."
           ]
         },
         {
@@ -3455,7 +3455,7 @@
           ],
           "notes_ally": [
             "Ally: Regular attacks only.",
-            "Posession: Removes curses from all equipped items."
+            "Possession: Removes curses from all equipped items."
           ]
         },
         {
@@ -3488,7 +3488,7 @@
           ],
           "notes_ally": [
             "Ally: Regular attacks only.",
-            "Posession: Removes curses from all equipment in inventory.",
+            "Possession: Removes curses from all equipment in inventory.",
             "Cannoy remove curses from items inside pots."
           ]
         }
@@ -3720,7 +3720,7 @@
           ],
           "notes_ally": [
             "Ally: Drops the item it stole when returning to its pot.",
-            "Posession: Special places a stolen item in front of it."
+            "Possession: Special places a stolen item in front of it."
           ]
         },
         {
@@ -4173,7 +4173,7 @@
           ],
           "notes_ally": [
             "Ally: Breathes fire that deals 35 damage to a target within view.",
-            "Posession: Breathes fire that deals 35 damage to a target on the current floor, including targets inside walls."
+            "Possession: Breathes fire that deals 35 damage to a target on the current floor, including targets inside walls."
           ]
         }
       ]
@@ -4183,7 +4183,7 @@
       "family_name_jp": "シャーガ, ナシャーガ, ラシャーガ",
       "family_id": "shaaga_family",
       "family_desc_en": "Snake-like monster with four arms. Higher levels attack multiple times during the same turn.<br>The number of attacks doesn't change, even if its movement increases to double or triple speed.<br>However, sealing it will remove this limit, so a double speed Shaaga would be able to attack twice.",
-      "ally_desc_en": "Posession allows for a greater number of attacks than when it's encountered as an enemy.",
+      "ally_desc_en": "Possession allows for a greater number of attacks than when it's encountered as an enemy.",
       "images": [
         {
           "filename": "shaaga.png",
@@ -4235,7 +4235,7 @@
           ],
           "notes_ally": [
             "Ally: Attacks 1 time, regardless of movement speed changes.",
-            "Posession: Attacks 3 times in a row."
+            "Possession: Attacks 3 times in a row."
           ]
         },
         {
@@ -4270,7 +4270,7 @@
           ],
           "notes_ally": [
             "Ally: Attacks 2 times, regardless of movement speed changes.",
-            "Posession: Attacks 4 times in a row."
+            "Possession: Attacks 4 times in a row."
           ]
         },
         {
@@ -4305,7 +4305,7 @@
           ],
           "notes_ally": [
             "Ally: Attacks 3 times, regardless of movement speed changes.",
-            "Posession: Attacks 5 times in a row."
+            "Possession: Attacks 5 times in a row."
           ]
         }
       ]
@@ -4500,7 +4500,7 @@
           "notes_ally": [
             "Ally: Moves in an unpredictable pattern.",
             "Guaranteed to attack the moment it's sent out of its pot.",
-            "Posession: Normal movement."
+            "Possession: Normal movement."
           ]
         },
         {
@@ -4641,7 +4641,7 @@
           ],
           "notes_ally": [
             "Ally: Moves at double speed, but can only attack once per turn.",
-            "Posession: Moves at double speed. No limit on number of attacks."
+            "Possession: Moves at double speed. No limit on number of attacks."
           ]
         },
         {
@@ -5302,7 +5302,7 @@
           ],
           "notes_ally": [
             "Ally: Special attack halves a target's HP.",
-            "Posession: Special attack restores fullness by 5% if used in front of an enemy."
+            "Possession: Special attack restores fullness by 5% if used in front of an enemy."
           ]
         },
         {
@@ -5336,7 +5336,7 @@
           ],
           "notes_ally": [
             "Ally: Same as Hunger Puppet.",
-            "Posession: Same as Hunger Puppet, but restores fullness by 7%."
+            "Possession: Same as Hunger Puppet, but restores fullness by 7%."
           ]
         },
         {
@@ -5370,7 +5370,7 @@
           ],
           "notes_ally": [
             "Ally: Same as Hunger Puppet.",
-            "Posession: Same as Hunger Puppet, but restores fullness by 9%."
+            "Possession: Same as Hunger Puppet, but restores fullness by 9%."
           ]
         },
         {
@@ -5404,7 +5404,7 @@
           ],
           "notes_ally": [
             "Ally: Same as Hunger Puppet.",
-            "Posession: Same as Hunger Puppet, but restores fullness by 11%."
+            "Possession: Same as Hunger Puppet, but restores fullness by 11%."
           ]
         }
       ]
@@ -5595,7 +5595,7 @@
           ],
           "notes_ally": [
             "Ally: Attacks targets up to 3 tiles forward.",
-            "Posession: Attacks can hit targets up to 4 tiles forward."
+            "Possession: Attacks can hit targets up to 4 tiles forward."
           ]
         },
         {
@@ -5850,7 +5850,7 @@
           "notes_ally": [
             "Ally: Tosses bombs at enemies within view.",
             "Bombs deal 15 damage, and home in on a target within 2 tiles.",
-            "Posession: Same as ally, but can also hit targets outside of view."
+            "Possession: Same as ally, but can also hit targets outside of view."
           ]
         },
         {
@@ -6032,7 +6032,7 @@
           ],
           "notes_ally": [
             "Shoots Wooden Arrows, and never directly attacks.",
-            "Posession: Same as ally, but can also perform regular attacks."
+            "Possession: Same as ally, but can also perform regular attacks."
           ]
         },
         {
@@ -6066,7 +6066,7 @@
           ],
           "notes_ally": [
             "Ally: Shoots Iron Arrows, and never directly attacks.",
-            "Posession: Same as ally, but can also perform regular attacks."
+            "Possession: Same as ally, but can also perform regular attacks."
           ]
         },
         {
@@ -6102,7 +6102,7 @@
           ],
           "notes_ally": [
             "Ally: Fires cannonballs, and never directly attacks.",
-            "Posession: Same as ally, but can also perform regular attacks."
+            "Possession: Same as ally, but can also perform regular attacks."
           ]
         },
         {
@@ -6316,7 +6316,7 @@
           ],
           "notes_ally": [
             "Ally: Drops the item it's carrying when it returns to its pot.",
-            "Posession: Special attack picks up an item on the ground, and using special attack again will make Water Strider throw it."
+            "Possession: Special attack picks up an item on the ground, and using special attack again will make Water Strider throw it."
           ]
         }
       ]

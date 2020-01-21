@@ -100,7 +100,7 @@ function monster_details (data) {
         if (monster_family.type !== "Oni" && monster_family.type !== "Other") {
 
           // monster as ally description
-          html.push(`<h5>Ally / Posession Staff:</h5>`);
+          html.push(`<h5>Ally / Possession Staff:</h5>`);
           if (monster_family.ally_desc_en !== "") {
             html.push(`<div class="ally_desc">${monster_family.ally_desc_en}</div>`);
           }

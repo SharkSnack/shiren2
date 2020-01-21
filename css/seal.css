@@ -1,3 +1,33 @@
 #quick_links li {
   font-size: 100%;
 }
+
+.seal_equipment {
+  background-color: #8cc8ff;
+}
+
+.seal_grass {
+  background-color: #80ff80;
+}
+
+.seal_scroll {
+  background-color: #ffb4b4;
+}
+
+.seal_curse {
+  background-color: #6699cc;
+}
+
+.table_seals th {
+  border-color: #bbb;
+}
+
+.table_seals td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 80%;
+}
+
+.text_left {
+  text-align: left;
+}
