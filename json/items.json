@@ -2467,9 +2467,9 @@
       ]
     },
     {
-      "name_en": "Super Unlucky Seed",
+      "name_en": "Disaster Seed",
       "name_jp": "超不幸の種",
-      "id": "super_unlucky_seed",
+      "id": "disaster_seed",
       "seal": "超",
       "stack": "No",
       "stack_label": "",
