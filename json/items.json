@@ -1797,11 +1797,11 @@
       ]
     },
     {
-      "name_en": "Spear Shield",
+      "name_en": "Halberd Shield",
       "name_jp": "矛の盾",
-      "id": "spear_shield",
+      "id": "halberd_shield",
       "image": {
-        "filename": "spear.png",
+        "filename": "halberd.png",
         "width": 60,
         "height": 66
       },
