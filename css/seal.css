@@ -27,6 +27,11 @@
   font-size: 80%;
 }
 
+.table_pro_con th,
+.table_pro_con td {
+  font-size: 0.65em;
+}
+
 .text_left {
   text-align: left;
 }
