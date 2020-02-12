@@ -3252,7 +3252,7 @@
     {
       "name_en": "Purify Scroll",
       "name_jp": "おはらいの巻物",
-      "id": "exorcism_scroll",
+      "id": "purify_scroll",
       "seal": "祓",
       "stack": "No",
       "stack_label": "",

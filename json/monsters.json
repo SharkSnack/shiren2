@@ -3111,7 +3111,7 @@
           "height": 77
         },
         {
-          "filename": "nigiri_manager.png",
+          "filename": "nigiri_master.png",
           "width": 62,
           "height": 77
         }
@@ -3215,7 +3215,7 @@
         {
           "name_en": "Nigiri Master",
           "name_jp": "にぎりもとじめ",
-          "id": "nigiri_manager",
+          "id": "nigiri_master",
           "rank": 4,
           "stats": {
             "hp": 70,
