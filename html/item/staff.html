@@ -18,8 +18,1502 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Staff Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">+1</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">+1</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#knockback_staff">Knockback Staff</a></td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="+1">25</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="+1">12.5</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals 5 damage and knocks a target away. Also works on items, traps, statues, and stairs. (4~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#possession_staff">Possession Staff</a></td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="+1">25</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="+1">12.5</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lets you take control of a monster. (4~6 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#swap_staff">Swap Staff</a></td>
+                  <td data-label="Buy">800</td>
+                  <td data-label="+1">40</td>
+                  <td data-label="Sell">400</td>
+                  <td data-label="+1">20</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Swap places with a target. (4~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#pull_staff">Pull Staff</a></td>
+                  <td data-label="Buy">800</td>
+                  <td data-label="+1">40</td>
+                  <td data-label="Sell">400</td>
+                  <td data-label="+1">20</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Pulls a character, item, trap, statue, or stairs toward you. (4~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#heal_staff">Heal Staff</a></td>
+                  <td data-label="Buy">800</td>
+                  <td data-label="+1">80</td>
+                  <td data-label="Sell">400</td>
+                  <td data-label="+1">40</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores 100 HP, or deals 100 damage to Ghost type monsters. (4~6 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#balance_staff">Balance Staff</a></td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="+1">50</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="+1">25</td>
+                  <td data-label="Phrase" class="summary_phrase">どなそぐ</td>
+                  <td data-label="Info">Protects you from tripping. Use to make a target trip and drop an item. (0~1 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#knowledge_staff">Knowledge Staff</a></td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="+1">50</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="+1">25</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Displays info about monsters, allies, and statues. (5~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#quarter_staff">Quarter Staff</a></td>
+                  <td data-label="Buy">1200</td>
+                  <td data-label="+1">60</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="+1">12.5</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Reduces a target's HP to 1/4 of its current value. (4~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#slow_staff">Slow Staff</a></td>
+                  <td data-label="Buy">1200</td>
+                  <td data-label="+1">60</td>
+                  <td data-label="Sell">400</td>
+                  <td data-label="+1">20</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers movement speed by 1 stage. (3~6 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#seal_staff">Seal Staff</a></td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="+1">100</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="+1">25</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Prevents a target from dividing or using special abilities. (3~6 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#tunnel_staff">Tunnel Staff</a></td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="+1">100</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="+1">50</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Create a tunnel that continues until a room, hallway, or map edge. (3~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#invisible_staff">Invisible Staff</a></td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="+1">100</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="+1">50</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Turns a target invisible for 20 turns. (3~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#swift_staff">Swift Staff</a></td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="+1">200</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="+1">100</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases movement speed by 1 stage. (3~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#miss_staff">Miss Staff</a></td>
+                  <td data-label="Buy">2500</td>
+                  <td data-label="+1">125</td>
+                  <td data-label="Sell">1200</td>
+                  <td data-label="+1">60</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers a target's attack accuracy to 0% for 21~31 turns. (3~6 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#fire_staff">Fire Staff</a></td>
+                  <td data-label="Buy">2500</td>
+                  <td data-label="+1">125</td>
+                  <td data-label="Sell">1200</td>
+                  <td data-label="+1">60</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Creates a line of fire 5 tiles forward that deals 20 damage per turn. (4~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#unlucky_staff">Unlucky Staff</a></td>
+                  <td data-label="Buy">2500</td>
+                  <td data-label="+1">250</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="+1">100</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers a target's level by 1. (4~6 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#happy_staff">Happy Staff</a></td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="+1">150</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="+1">50</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases a target's level by 1. (4~6 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#grass_toss_staff">Grass Tosser</a></td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="+1">150</td>
+                  <td data-label="Sell">1200</td>
+                  <td data-label="+1">60</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Insert grass to transform it into a staff that tosses said grass. (4~7 uses)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#grass_gain_staff">Grass Gainer</a></td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="+1">150</td>
+                  <td data-label="Sell">1400</td>
+                  <td data-label="+1">70</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Insert grass to transform it into a staff that throws said grass at Shiren. (4~7 uses)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Staff Details</h2>
+            <div>
+              <h3 id="knockback_staff">Knockback Staff (ふきとばしの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Deals 5 damage and knocks a target away.<br>Monsters will be sent 7 tiles, items and traps 10 tiles, statues 3 tiles, and stairs until it hits a wall.<br>Monsters that land on traps will trigger them, provided Shiren has the Trapper status.<br>Note that pots will shatter when sent flying.<br>Found with 4~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Shop, Trader, Golden Interval)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>25</td>
+                        <td>500</td>
+                        <td>525</td>
+                        <td>550</td>
+                        <td>575</td>
+                        <td>600</td>
+                        <td>625</td>
+                        <td>650</td>
+                        <td>675</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>12.5</td>
+                        <td>250</td>
+                        <td>262</td>
+                        <td>275</td>
+                        <td>287</td>
+                        <td>300</td>
+                        <td>312</td>
+                        <td>325</td>
+                        <td>337</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="possession_staff">Possession Staff (のりうつりの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lets you take control of a monster, allowing you to use their normal and special attacks.<br>Shiren's body will be dragged behind the monster, so you'll want to protect it as you move around.<br>You can return to your body mostly anytime, and you'll gain exp for the enemies you defeated while controlling the monster when you do so.<br>Can only take control of monsters that can be registered in Monster Kingdom.<br>Found with 4~6 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>25</td>
+                        <td>500</td>
+                        <td>525</td>
+                        <td>550</td>
+                        <td>575</td>
+                        <td>600</td>
+                        <td>625</td>
+                        <td>650</td>
+                        <td>675</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>12.5</td>
+                        <td>250</td>
+                        <td>262</td>
+                        <td>275</td>
+                        <td>287</td>
+                        <td>300</td>
+                        <td>312</td>
+                        <td>325</td>
+                        <td>337</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="swap_staff">Swap Staff (場所がえの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Swap places with a target. Doesn't work on statues.<br>Traps will be triggered if the destination tile has a trap on the ground.<br>This is also the case for monsters, provided Shiren has the Trapper status.<br>Found with 4~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>40</td>
+                        <td>800</td>
+                        <td>840</td>
+                        <td>880</td>
+                        <td>920</td>
+                        <td>960</td>
+                        <td>1000</td>
+                        <td>1040</td>
+                        <td>1080</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>420</td>
+                        <td>440</td>
+                        <td>460</td>
+                        <td>480</td>
+                        <td>500</td>
+                        <td>520</td>
+                        <td>540</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="pull_staff">Pull Staff (引きよせの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Pulls a character, item, trap, statue, or stairs toward you.<br>Can be thrown at a monster to pull them onto a trap, provided Shiren has the Trapper status.<br>Particularly useful for pulling stairs toward you after reading a Wall Collapse Scroll.<br>Found with 4~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>40</td>
+                        <td>800</td>
+                        <td>840</td>
+                        <td>880</td>
+                        <td>920</td>
+                        <td>960</td>
+                        <td>1000</td>
+                        <td>1040</td>
+                        <td>1080</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>420</td>
+                        <td>440</td>
+                        <td>460</td>
+                        <td>480</td>
+                        <td>500</td>
+                        <td>520</td>
+                        <td>540</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="heal_staff">Heal Staff (回復の杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores a target's HP by 100 points, or deals 100 damage if the target is a Ghost type monster.<br>Evil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated.<br>Found with 4~6 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Presto, Surprise, Trader, Monster)</li>
+                    <li>Onigashima (Presto, Shop, Trader, Monster)</li>
+                    <li>Shrine's Hidden Hole (Floor, Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Floor, Monster)</li>
+                    <li>Road to the End (Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>80</td>
+                        <td>800</td>
+                        <td>880</td>
+                        <td>960</td>
+                        <td>1040</td>
+                        <td>1120</td>
+                        <td>1200</td>
+                        <td>1280</td>
+                        <td>1360</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>40</td>
+                        <td>400</td>
+                        <td>440</td>
+                        <td>480</td>
+                        <td>520</td>
+                        <td>560</td>
+                        <td>600</td>
+                        <td>640</td>
+                        <td>680</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="balance_staff">Balance Staff (ころばぬ先の杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Protects the holder from tripping. Doesn't work if it's inside of a pot.<br>Throw or swing it at a monster to make them trip and drop an item.<br>Plays well with a Pierce Bracelet when used in this way.<br>Monsters won't trip if a No-Magic statue is present, or if they're asleep from a Slumber Scroll.<br>Found with 0~1 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">どなそぐ</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>50</td>
+                        <td>1000</td>
+                        <td>1050</td>
+                        <td>1100</td>
+                        <td>1150</td>
+                        <td>1200</td>
+                        <td>1250</td>
+                        <td>1300</td>
+                        <td>1350</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>25</td>
+                        <td>500</td>
+                        <td>525</td>
+                        <td>550</td>
+                        <td>575</td>
+                        <td>600</td>
+                        <td>625</td>
+                        <td>650</td>
+                        <td>675</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="knowledge_staff">Knowledge Staff (物知りの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Displays information about monsters, allies, and statues.<br>Max HP is included in the descriptions for all targets except Boss Oni.<br>Can be used to identify disguised Copycat Mask monsters.<br>Found with 5~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>50</td>
+                        <td>1000</td>
+                        <td>1050</td>
+                        <td>1100</td>
+                        <td>1150</td>
+                        <td>1200</td>
+                        <td>1250</td>
+                        <td>1300</td>
+                        <td>1350</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>25</td>
+                        <td>500</td>
+                        <td>525</td>
+                        <td>550</td>
+                        <td>575</td>
+                        <td>600</td>
+                        <td>625</td>
+                        <td>650</td>
+                        <td>675</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="quarter_staff">Quarter Staff (クオーターの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Reduces a target's HP to 1/4 of its current value.<br>However, it will only deal 10 damage if a 10 damage statue is present.<br>Emperor Tuskers carry this staff, and have a 10% chance of dropping one when they are defeated.<br>Found with 4~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Monster)</li>
+                    <li>Onigashima (Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto, Monster)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>60</td>
+                        <td>1200</td>
+                        <td>1260</td>
+                        <td>1320</td>
+                        <td>1380</td>
+                        <td>1440</td>
+                        <td>1500</td>
+                        <td>1560</td>
+                        <td>1620</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>12.5</td>
+                        <td>250</td>
+                        <td>262</td>
+                        <td>275</td>
+                        <td>287</td>
+                        <td>300</td>
+                        <td>312</td>
+                        <td>325</td>
+                        <td>337</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="slow_staff">Slow Staff (鈍足の杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lowers a target's movement speed by 1 stage.<br>If they are already at -1, it will paralyze the target instead.<br>Paralysis prevents the target from taking any actions for 3 turns (Shiren) or 2 turns (monsters).<br>Monarch Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated.<br>Found with 3~6 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Monster)</li>
+                    <li>Onigashima (Floor, Presto, Shop, Monster, Golden Interval)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto, Monster)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>60</td>
+                        <td>1200</td>
+                        <td>1260</td>
+                        <td>1320</td>
+                        <td>1380</td>
+                        <td>1440</td>
+                        <td>1500</td>
+                        <td>1560</td>
+                        <td>1620</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>420</td>
+                        <td>440</td>
+                        <td>460</td>
+                        <td>480</td>
+                        <td>500</td>
+                        <td>520</td>
+                        <td>540</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="seal_staff">Seal Staff (封印の杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Prevents a target from dividing or using special abilities.<br>Also resets movement speed if the target is not Shiren.<br>Some monster abilities cannot be sealed, such as floating or fire-immunity.<br>If Shiren is the target, he won't be able to eat, drink, or read for 35 turns.<br>King Tuskers carry this staff, and have a 3% chance of dropping one when they are defeated.<br>Found with 3~6 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Presto, Monster)</li>
+                    <li>Onigashima (Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto, Monster)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>100</td>
+                        <td>2000</td>
+                        <td>2100</td>
+                        <td>2200</td>
+                        <td>2300</td>
+                        <td>2400</td>
+                        <td>2500</td>
+                        <td>2600</td>
+                        <td>2700</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>25</td>
+                        <td>500</td>
+                        <td>525</td>
+                        <td>550</td>
+                        <td>575</td>
+                        <td>600</td>
+                        <td>625</td>
+                        <td>650</td>
+                        <td>675</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="tunnel_staff">Tunnel Staff (トンネルの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Swing at a wall to create a tunnel that continues until a room, hallway, or map edge is met.<br>The magic bolt from a Tunnel Staff deals 10 damage.<br>Cannot dig diagonally.<br>Found with 3~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Trader)</li>
+                    <li>Halfway Well (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>100</td>
+                        <td>2000</td>
+                        <td>2100</td>
+                        <td>2200</td>
+                        <td>2300</td>
+                        <td>2400</td>
+                        <td>2500</td>
+                        <td>2600</td>
+                        <td>2700</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>50</td>
+                        <td>1000</td>
+                        <td>1050</td>
+                        <td>1100</td>
+                        <td>1150</td>
+                        <td>1200</td>
+                        <td>1250</td>
+                        <td>1300</td>
+                        <td>1350</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="invisible_staff">Invisible Staff (とうめいの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Turns a target invisible for 20 turns (10 if the target is Shiren).<br>Invisible monsters can't use their special abilities, and will wander around aimlessly until it wears off.<br>Devil Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated.<br>Found with 3~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Monster)</li>
+                    <li>Onigashima (Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Monster)</li>
+                    <li>Road to the End (Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>100</td>
+                        <td>2000</td>
+                        <td>2100</td>
+                        <td>2200</td>
+                        <td>2300</td>
+                        <td>2400</td>
+                        <td>2500</td>
+                        <td>2600</td>
+                        <td>2700</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>50</td>
+                        <td>1000</td>
+                        <td>1050</td>
+                        <td>1100</td>
+                        <td>1150</td>
+                        <td>1200</td>
+                        <td>1250</td>
+                        <td>1300</td>
+                        <td>1350</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="swift_staff">Swift Staff (倍速の杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases a target's movement speed by 1 stage.<br>Max movement speed stage is +2, where you get 3 actions per turn.<br>Bat Kangaroos carry this staff, and have an 8% chance of dropping one when they are defeated.<br>Found with 3~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Monster)</li>
+                    <li>Onigashima (Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Monster)</li>
+                    <li>Road to the End (Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>200</td>
+                        <td>2000</td>
+                        <td>2200</td>
+                        <td>2400</td>
+                        <td>2600</td>
+                        <td>2800</td>
+                        <td>3000</td>
+                        <td>3200</td>
+                        <td>3400</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>100</td>
+                        <td>1000</td>
+                        <td>1100</td>
+                        <td>1200</td>
+                        <td>1300</td>
+                        <td>1400</td>
+                        <td>1500</td>
+                        <td>1600</td>
+                        <td>1700</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="miss_staff">Miss Staff (からぶりの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lowers a target's regular attack accuracy to 0% for 21~31 turns.<br>Doesn't affect accuracy of special attacks or projectiles.<br>Attacks will always connect regardless of this staff's effect if a target is sleeping, paralyzed, or caught in a bear trap, so you'll want to use a different option against Monarch Tuskers and Stun Scorpions.<br>Found with 3~6 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Presto, Shop)</li>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>125</td>
+                        <td>2500</td>
+                        <td>2625</td>
+                        <td>2750</td>
+                        <td>2875</td>
+                        <td>3000</td>
+                        <td>3125</td>
+                        <td>3250</td>
+                        <td>3375</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>60</td>
+                        <td>1200</td>
+                        <td>1260</td>
+                        <td>1320</td>
+                        <td>1380</td>
+                        <td>1440</td>
+                        <td>1500</td>
+                        <td>1560</td>
+                        <td>1620</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="fire_staff">Fire Staff (火ばしらの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Creates a line of fire 5 tiles forward that deals 20 damage per turn.<br>Any items or statues along the path will burn up.<br>Non-piercing projectiles will also burn up if they fly into the flames.<br>Plays well with knockback staff, and can be used to get rid of Sanctaruy Scrolls placed on the ground.<br>Found with 4~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>125</td>
+                        <td>2500</td>
+                        <td>2625</td>
+                        <td>2750</td>
+                        <td>2875</td>
+                        <td>3000</td>
+                        <td>3125</td>
+                        <td>3250</td>
+                        <td>3375</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>60</td>
+                        <td>1200</td>
+                        <td>1260</td>
+                        <td>1320</td>
+                        <td>1380</td>
+                        <td>1440</td>
+                        <td>1500</td>
+                        <td>1560</td>
+                        <td>1620</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="unlucky_staff">Unlucky Staff (不幸の杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lowers a target's level by 1.<br>Excellent for weakening the special abilities of monsters such as Monsoon Dolls and Nigiri Morphs.<br>Generally more valuable to have on hand in the deeper floors of a dungeon.<br>Found with 4~6 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>250</td>
+                        <td>2500</td>
+                        <td>2750</td>
+                        <td>3000</td>
+                        <td>3250</td>
+                        <td>3500</td>
+                        <td>3750</td>
+                        <td>4000</td>
+                        <td>4250</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>100</td>
+                        <td>1000</td>
+                        <td>1100</td>
+                        <td>1200</td>
+                        <td>1300</td>
+                        <td>1400</td>
+                        <td>1500</td>
+                        <td>1600</td>
+                        <td>1700</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="happy_staff">Happy Staff (しあわせの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases a target's level by 1.<br>Provides 500 exp if the target is Shiren.<br>It may be good to assume all unidentified staves are this staff early on inside the "Road to the End" dungeon, since a leveled up monster can quickly ruin your adventure.<br>Found with 4~6 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>150</td>
+                        <td>3000</td>
+                        <td>3150</td>
+                        <td>3300</td>
+                        <td>3450</td>
+                        <td>3600</td>
+                        <td>3750</td>
+                        <td>3900</td>
+                        <td>4050</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>50</td>
+                        <td>1000</td>
+                        <td>1050</td>
+                        <td>1100</td>
+                        <td>1150</td>
+                        <td>1200</td>
+                        <td>1250</td>
+                        <td>1300</td>
+                        <td>1350</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="grass_toss_staff">Grass Tosser (草投げの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Insert a grass item to transform it into a staff that tosses said grass.<br>For example, insert an Otogiriso to transform it into a Otogiriso Toss Staff that will fire a magic bolt with the effect of getting hit by Otogiriso.<br>Can be swung at monsters that reflect magic to have it behave in a similar fashion to a grass gain staff.<br>Found with 4~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>150</td>
+                        <td>3000</td>
+                        <td>3150</td>
+                        <td>3300</td>
+                        <td>3450</td>
+                        <td>3600</td>
+                        <td>3750</td>
+                        <td>3900</td>
+                        <td>4050</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>60</td>
+                        <td>1200</td>
+                        <td>1260</td>
+                        <td>1320</td>
+                        <td>1380</td>
+                        <td>1440</td>
+                        <td>1500</td>
+                        <td>1560</td>
+                        <td>1620</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="grass_gain_staff">Grass Gainer (草受けの杖)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Insert a grass item to transform it into a staff that throws said grass at Shiren.<br>For example, insert an Otogiriso to transform it into an Otogiriso Gain Staff, which will have the effect of Shiren getting hit by Otogiriso every time the staff is swung.<br>Popular to use with Strength Grass and Angel Seeds.<br>Found with 4~7 uses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Uses</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Buy</td>
+                        <td>150</td>
+                        <td>3000</td>
+                        <td>3150</td>
+                        <td>3300</td>
+                        <td>3450</td>
+                        <td>3600</td>
+                        <td>3750</td>
+                        <td>3900</td>
+                        <td>4050</td>
+                      </tr>
+                      <tr>
+                        <td>Sell</td>
+                        <td>70</td>
+                        <td>1400</td>
+                        <td>1470</td>
+                        <td>1540</td>
+                        <td>1610</td>
+                        <td>1680</td>
+                        <td>1750</td>
+                        <td>1820</td>
+                        <td>1890</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>
