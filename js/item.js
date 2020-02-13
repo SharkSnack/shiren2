@@ -416,7 +416,8 @@ function staff_pot_price_table (item, category) {
   }
   html.push(`</tr>
            </tbody>
-           </table>`);
+           </table>
+           </div>`);
 
   return html.join('\n');
 }

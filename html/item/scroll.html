@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,822 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Bracelet Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Seal</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#level_lock_bracelet">Level Lock Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">1500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Protects against level down effects.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#pierce_bracelet">Pierce Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">リヒピシ</td>
+                  <td data-label="Info">Thrown items will pierce through walls and monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#dragon_tile_bracelet">Dragon Tile Bracelet</a></td>
+                  <td data-label="Seal">中</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Thrown items will always miss. Used in creating Daisangen equipment.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#no_control_bracelet">No Control Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Thrown items fly in a random direction.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#salty_bracelet">Salty Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Protects against strength modifying slug licks and sheep spells.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#heal_bracelet">Heal Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores 5 HP per turn, but also doubles hunger rate.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#bend_bracelet">Bend Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Thrown items will curve when hitting walls.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#song_bracelet">Song Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Protects against fullness loss by Hunger Puppet songs.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#breadcrumb_bracelet">Breadcrumb Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Makes you drop items randomly as you walk.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#strength_bracelet">Strength Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">3400</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases strength by 3.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#bullseye_bracelet">Bullseye Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">7500</td>
+                  <td data-label="Sell">3000</td>
+                  <td data-label="Phrase" class="summary_phrase">メペング</td>
+                  <td data-label="Info">Thrown items will always hit their target.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#critical_bracelet">Critical Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">7500</td>
+                  <td data-label="Sell">1500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deal x5.0 damage critical hits, but shatters if you take damage.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#phantasm_bracelet">Phantasm Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">10000</td>
+                  <td data-label="Sell">5000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lets you walk through walls and float over water. Drains 5% HP per turn inside walls.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#scout_bracelet">Scout Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">10000</td>
+                  <td data-label="Sell">5000</td>
+                  <td data-label="Phrase" class="summary_phrase">ベゲトザ</td>
+                  <td data-label="Info">Reveals monster, item, and statue locations on the map.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#paper_thin_bracelet">Paper Thin Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">15000</td>
+                  <td data-label="Sell">7500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Halves the accuracy of attacks and projectiles directed at you. Burns up if you take fire damage.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#parry_bracelet">Parry Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">15000</td>
+                  <td data-label="Sell">7500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Redirects damage from physical attacks to a nearby monster.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#no_hunger_bracelet">No Hunger Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">15000</td>
+                  <td data-label="Sell">7500</td>
+                  <td data-label="Phrase" class="summary_phrase">セダベタ</td>
+                  <td data-label="Info">Stops natural hunger depletion.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#hunger_bracelet">Hunger Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">15000</td>
+                  <td data-label="Sell">7500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Doubles hunger rate.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#trapper_bracelet">Trapper Bracelet</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">25000</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Can pick up and set traps, and monsters will trigger them.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Bracelet Details</h2>
+            <div>
+              <h3 id="level_lock_bracelet">Level Lock Bracelet (くねくねよけの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Protects against the level down effects of Twisty Hani's dance and Gazelle Pope spells.<br>Doesn't prevent level down effects from eating or getting hit by Grasses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto)</li>
+                    <li>Road to the End (Floor)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>1500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="pierce_bracelet">Pierce Bracelet (遠投の腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Thrown items will fly forever, piercing through walls and monsters.<br>Be careful not to accidentally throw important items while it's equipped.<br>Useful for clearing out a Monster House from outside the room or lines of monsters in hallways, but can cause accidents if the thrown item or projectile hits a Shopkeeper.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">リヒピシ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="dragon_tile_bracelet">Dragon Tile Bracelet (白発白中の腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Thrown items will always miss their target, including throwing items at Mixer monsters.<br>Can be used to activate traps if a monster is standing on one.<br>Provides a 中 seal which is needed for synthesizing Daisangen equipment.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Shop, Trader)</li>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>中</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="no_control_bracelet">No Control Bracelet (ノーコンの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Thrown items will fly in a random direction.<br>There's no practical use for it, but it can be sold for a decent amount.<br>Ally Shihan monsters will always fling this bracelet in dungeons where bracelets normally do not appear.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="salty_bracelet">Salty Bracelet (まじしおの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Protects against strength lowering Slug licks and Sheep Priest spells.<br>Note that it doesn't protect against strength loss from poisons, such as poison arrows and Scorpion stings.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Trader)</li>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="heal_bracelet">Heal Bracelet (回復の腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 5 HP per turn, but also doubles hunger rate.<br>Plays well with Nirvana Shield and No Hunger Bracelet.<br>Asuka can equip it without any negative side effects.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Surprise)</li>
+                    <li>Onigashima (Shop)</li>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="bend_bracelet">Bend Bracelet (まがりの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Thrown items will curve when hitting walls or corners.<br>Porky stones and piercing items such as silver arrows won't be affected.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Surprise)</li>
+                    <li>Onigashima (Floor, Presto, Shop)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="song_bracelet">Song Bracelet (ハラヘリよけの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Prevents Hunger Puppet songs from lowering fullness or max fullness.<br>Not very useful, but can be sold for a decent amount.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor)</li>
+                    <li>Road to the End (Floor)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="breadcrumb_bracelet">Breadcrumb Bracelet (たれ流しの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Makes you drop items randomly as you walk.<br>No practical use for it, but it can be sold for a decent amount.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="strength_bracelet">Strength Bracelet (ちからの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases strength by 3 while equipped.<br>Has a higher selling price compared to other 5000 Gitan bracelets.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>3400</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="bullseye_bracelet">Bullseye Bracelet (百発百中の腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Thrown items will always hit their target.<br>Can be paired with Pierce Bracelet to quickly thin out groups of monsters.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Floor, Golden Interval)</li>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>7500</td>
+                      <th>Sell</th>
+                      <td>3000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">メペング</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="critical_bracelet">Critical Bracelet (超会心の腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Regular attacks turn into x5.0 damage super critical hits.<br>However, the bracelet will shatter the moment you take damage.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>7500</td>
+                      <th>Sell</th>
+                      <td>1500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="phantasm_bracelet">Phantasm Bracelet (パコレプキンの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lets you walk through walls and float over water.<br>Drains HP equal to 5% of your max HP each turn inside a wall.<br>Unequip over water or inside a wall to warp to a random room on the current floor.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Golden Interval)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>10000</td>
+                      <th>Sell</th>
+                      <td>5000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="scout_bracelet">Scout Bracelet (とうしの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Reveals monster, item, and statue locations on the map.<br>Possibly the strongest single item effect in the game.<br>Some players personally ban its usage, due to it being a balance breaker.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>10000</td>
+                      <th>Sell</th>
+                      <td>5000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ベゲトザ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="paper_thin_bracelet">Paper Thin Bracelet (紙一重の腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases evasion, halving the accuracy of monster regular attacks and projectiles.<br>However, it's made of paper, so it will burn up if you take fire damage.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Sealed Room (Golden Interval)</li>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>15000</td>
+                      <th>Sell</th>
+                      <td>7500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="parry_bracelet">Parry Bracelet (うけながしの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Redirects damage from physical attacks to a nearby monster.<br>If there are no other monsters nearby, you'll take damage as normal.<br>The attacking monster will level up if it defeats another monster due to this effect.<br>Bracelets will still take damage when successfully redirecting attacks.<br>Asuka will not redirect attacks when she has this bracelet equipped.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Golden Interval)</li>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>15000</td>
+                      <th>Sell</th>
+                      <td>7500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="no_hunger_bracelet">No Hunger Bracelet (ハラヘラズの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Stops hunger. No negative side effects.<br>Doesn't prevent HP loss if your fullness is already at 0%.<br>Note that it only stops natural hunger depletion, so Hunger Puppet songs will still lower fullness.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Treasure Chest)</li>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>15000</td>
+                      <th>Sell</th>
+                      <td>7500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">セダベタ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="hunger_bracelet">Hunger Bracelet (ハラヘリの腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Doubles hunger rate.<br>There's no practical use for it, but it can be sold for a large sum of Gitan.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>15000</td>
+                      <th>Sell</th>
+                      <td>7500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="trapper_bracelet">Trapper Bracelet (ワナ師の腕輪)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lets you pick up and set traps, and monsters that step on traps will trigger them.<br>Cracks more easily than other bracelets. (See <a href="">durability values</a> for details)<br>Note that defeating a Trader using traps triggers thief mode.<br>Pair it with a Scout Bracelet to display all traps on the current floor on the map.<br>It's not mentioned in the description, but modifiers that lower attack and exp gain are applied like inside the "Halfway Well" dungeon while it's equipped.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Halfway Well (Clear Reward)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>25000</td>
+                      <th>Sell</th>
+                      <td>1000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>

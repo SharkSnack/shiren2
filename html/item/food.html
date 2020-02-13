@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,473 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Food Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Seal</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#spoiled_riceball">Spoiled Riceball</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">40</td>
+                  <td data-label="Sell">1</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores 35% fullness. Also comes with a random negative effect. Increases max fullness by 1% if full.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#riceball">Riceball</a></td>
+                  <td data-label="Seal">飯</td>
+                  <td data-label="Buy">100</td>
+                  <td data-label="Sell">50</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores 50% fullness. Increases max fullness by 3% if full.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#">Large Riceball</a></td>
+                  <td data-label="Seal">飯</td>
+                  <td data-label="Buy">200</td>
+                  <td data-label="Sell">100</td>
+                  <td data-label="Phrase" class="summary_phrase">ほにがけ</td>
+                  <td data-label="Info">Restores 100% fullness. Increases max fullness by 5% if full.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#">Specialty Riceball</a></td>
+                  <td data-label="Seal">飯</td>
+                  <td data-label="Buy">200</td>
+                  <td data-label="Sell">100</td>
+                  <td data-label="Phrase" class="summary_phrase">ゼポプタ</td>
+                  <td data-label="Info">Restores 30% fullness. Also comes with a random positive effect. Increases max fullness by 2% if full.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#">Giant Riceball</a></td>
+                  <td data-label="Seal">飯</td>
+                  <td data-label="Buy">300</td>
+                  <td data-label="Sell">150</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores fullness to max. Also increases max fullness by 7%.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Food Details</h2>
+            <div>
+              <h3 id="spoiled_riceball">Spoiled Riceball (まずそうなおにぎり)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 35% fullness, but deals 4 damage and comes with a negative side effect.<br>Negative effects include level-1, strength-3, confusion, sleep, and blindness.<br>Increases max fullness by 1% if full.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Floor)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>40</td>
+                      <th>Sell</th>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="riceball">Riceball (おにぎり)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 50% fullness. Increases max fullness by 3% if full.<br>Provides the 飯 seal when synthesized onto equipment.<br>Commonly synthesized onto a secondary weapon early game to help avoid starvation.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Trader)</li>
+                    <li>Onigashima (Floor, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Shop)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>100</td>
+                      <th>Sell</th>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>飯</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Riceball Chance (%)</td>
+                        <td></td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="">Large Riceball (大きなおにぎり)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 100% fullness. Increases max fullness by 5% if full.<br>You'll always start with a Large Riceball when entering dungeons.<br>Nigiri Morph monsters transform items into this riceball.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor)</li>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Floor)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>200</td>
+                      <th>Sell</th>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>飯</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ほにがけ</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Riceball Chance (%)</td>
+                        <td></td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="">Specialty Riceball (特製おにぎり)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 30% fullness, and comes with a positive side effect.<br>Positive effects include strength+1, HP recovery, item identification, sleep immunity, walk without waking sleeping monsters, stop hunger, and poison immunity.<br>Increases max fullness by 2% if full.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>200</td>
+                      <th>Sell</th>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>飯</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ゼポプタ</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Riceball Chance (%)</td>
+                        <td></td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="">Giant Riceball (巨大なおにぎり)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores fullness to max, and also increases max fullness by 7%.<br>The best riceball in the game. Keep it safe from spoiling by placing it inside a holding pot.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Floor, Shop)</li>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>300</td>
+                      <th>Sell</th>
+                      <td>150</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>飯</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Riceball Chance (%)</td>
+                        <td></td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>

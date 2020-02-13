@@ -5,12 +5,12 @@
     <link rel="icon" href="/shiren2/favicon.ico">
     <meta charset="utf-8">
     <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,2607 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Weapon Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Seal</th>
+                  <th scope="col">Atk</th>
+                  <th scope="col">Slots</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#wooden_sword">Wooden Sword</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">2</td>
+                  <td data-label="Slots">1</td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">1500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Found with +4 ~ +8 upgrade value.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#club">Club</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">3</td>
+                  <td data-label="Slots">3</td>
+                  <td data-label="Buy">400</td>
+                  <td data-label="Sell">200</td>
+                  <td data-label="Phrase" class="summary_phrase">コルヤギ</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#nagamaki">Nagamaki</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">6</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">700</td>
+                  <td data-label="Sell">300</td>
+                  <td data-label="Phrase" class="summary_phrase">こぷやほ</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#sacred_sword">Sacred Sword</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">8</td>
+                  <td data-label="Slots">14</td>
+                  <td data-label="Buy">45000</td>
+                  <td data-label="Sell">20000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#katana">Katana</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">10</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">900</td>
+                  <td data-label="Sell">400</td>
+                  <td data-label="Phrase" class="summary_phrase">みぬれふ</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#dotanuki">Dotanuki</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">12</td>
+                  <td data-label="Slots">6</td>
+                  <td data-label="Buy">3600</td>
+                  <td data-label="Sell">1200</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#ivory_sword">Ivory Sword</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">13</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Rustproof.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#manjikabura">Manji-Kabura</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">18</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">15000</td>
+                  <td data-label="Sell">7000</td>
+                  <td data-label="Phrase" class="summary_phrase">るおへぎ</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#daisangen">Daisangen Sword</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">20</td>
+                  <td data-label="Slots">9</td>
+                  <td data-label="Buy">48000</td>
+                  <td data-label="Sell">32000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Rustproof. Synthesize 3 中 seals onto an Ivory Sword.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#fiery_fuuma">Fiery Fuuma</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">30</td>
+                  <td data-label="Slots">10</td>
+                  <td data-label="Buy">20000</td>
+                  <td data-label="Sell">10000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Katana+99 with 5 seals to the Blacksmith.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#mijinha">Mijinha</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">50</td>
+                  <td data-label="Slots">16</td>
+                  <td data-label="Buy">60000</td>
+                  <td data-label="Sell">40000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#kaburasutegi">Kaburasutegi</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">99</td>
+                  <td data-label="Slots">12</td>
+                  <td data-label="Buy">55000</td>
+                  <td data-label="Sell">20000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Manji-Kabura with 月, 火, 水, 木, and 金 seals to the Blacksmith.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#ghost_sickle">Ghost Sickle</a></td>
+                  <td data-label="Seal">仏</td>
+                  <td data-label="Atk">5</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals x1.5 damage to Ghost monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#drain_buster">Drain Buster</a></td>
+                  <td data-label="Seal">ド</td>
+                  <td data-label="Atk">6</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals x1.5 damage to Drain monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#cyclops_killer">Cyclops Killer</a></td>
+                  <td data-label="Seal">目</td>
+                  <td data-label="Atk">9</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">4500</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals x1.5 damage to One-eyed monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#crescent_arm">Crescent Arm</a></td>
+                  <td data-label="Seal">月</td>
+                  <td data-label="Atk">14</td>
+                  <td data-label="Slots">6</td>
+                  <td data-label="Buy">50000</td>
+                  <td data-label="Sell">25000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals x1.5 damage to Bomb monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#dragon_killer">Dragon Killer</a></td>
+                  <td data-label="Seal">竜</td>
+                  <td data-label="Atk">15</td>
+                  <td data-label="Slots">7</td>
+                  <td data-label="Buy">10000</td>
+                  <td data-label="Sell">5000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals x1.5 damage to Dragon monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#ryujin_sword">Ryujin Sword</a></td>
+                  <td data-label="Seal">龍</td>
+                  <td data-label="Atk">25</td>
+                  <td data-label="Slots">7</td>
+                  <td data-label="Buy">30000</td>
+                  <td data-label="Sell">15000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals x2.0 damage to Dragon monsters. Synthesize 3 竜 seals onto a Dragon Killer.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#gamarra_whip">Gamarra Whip</a></td>
+                  <td data-label="Seal">銭</td>
+                  <td data-label="Atk">2</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">16000</td>
+                  <td data-label="Sell">8000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">30% chance to turn defeated monsters into Gitan.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#pickaxe">Pickaxe</a></td>
+                  <td data-label="Seal">堀</td>
+                  <td data-label="Atk">2</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">3500</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">ヨキタモ</td>
+                  <td data-label="Info">Dig through walls. Breaks after digging for a while.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#gobo">Gobo</a></td>
+                  <td data-label="Seal">食</td>
+                  <td data-label="Atk">3</td>
+                  <td data-label="Slots">2</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Can be eaten to restore fullness by 20%. Disappears if eaten.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#homing_blade">Homing Blade</a></td>
+                  <td data-label="Seal">必</td>
+                  <td data-label="Atk">3</td>
+                  <td data-label="Slots">3</td>
+                  <td data-label="Buy">10000</td>
+                  <td data-label="Sell">5000</td>
+                  <td data-label="Phrase" class="summary_phrase">てよだぼ</td>
+                  <td data-label="Info">Raises attack accuracy to 100%.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#onigiri_sword">Onigiri Sword</a></td>
+                  <td data-label="Seal">に</td>
+                  <td data-label="Atk">3</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">10000</td>
+                  <td data-label="Sell">5000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">8% chance to turn defeated monsters into riceballs.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#golden_sword">Golden Sword</a></td>
+                  <td data-label="Seal">金</td>
+                  <td data-label="Atk">3</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">6000</td>
+                  <td data-label="Sell">3000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Rustproof (blue).</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#dried_bonito">Dried Bonito</a></td>
+                  <td data-label="Seal">か</td>
+                  <td data-label="Atk">4</td>
+                  <td data-label="Slots">2</td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="Phrase" class="summary_phrase">ルコウス</td>
+                  <td data-label="Info">Bite to restore fullness by 30% at the cost of -1 upgrade value.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#fish_spear">Fish Spear</a></td>
+                  <td data-label="Seal">水</td>
+                  <td data-label="Atk">4</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">パカリツ</td>
+                  <td data-label="Info">Allows you to hit underwater monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#razor_wind">Razor Wind</a></td>
+                  <td data-label="Seal">三</td>
+                  <td data-label="Atk">5</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">ほんうじ</td>
+                  <td data-label="Info">Allows you to attack in a 3-way pattern.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#healing_sword">Healing Sword</a></td>
+                  <td data-label="Seal">回</td>
+                  <td data-label="Atk">6</td>
+                  <td data-label="Slots">3</td>
+                  <td data-label="Buy">20000</td>
+                  <td data-label="Sell">10000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores HP equal to 1/3 of damage dealt.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#kengos_katana">Kengo's Katana</a></td>
+                  <td data-label="Seal">ケ</td>
+                  <td data-label="Atk">7</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">3200</td>
+                  <td data-label="Sell">900</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Chance to fling a weapon when attacking.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#spark_sword">Spark Sword</a></td>
+                  <td data-label="Seal">ス</td>
+                  <td data-label="Atk">7</td>
+                  <td data-label="Slots">6</td>
+                  <td data-label="Buy">15000</td>
+                  <td data-label="Sell">7500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Guarantees a critical hit after missing 2 attacks.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#wonder_pickaxe">Wonder Pickaxe</a></td>
+                  <td data-label="Seal">サ</td>
+                  <td data-label="Atk">13</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">20000</td>
+                  <td data-label="Sell">10000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Dig through walls. Will never break.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#disposable_sword">Disposable Sword</a></td>
+                  <td data-label="Seal">捨</td>
+                  <td data-label="Atk">35</td>
+                  <td data-label="Slots">3</td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">1500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers upgrade value by 1 every time you deal damage.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#mallet">Mallet</a></td>
+                  <td data-label="Seal">木</td>
+                  <td data-label="Atk">3</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">タエチメ</td>
+                  <td data-label="Info">Two-handed. Breaks traps. Breaks after a while if used to break traps.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#power_pole">Power Pole</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">5</td>
+                  <td data-label="Slots">4</td>
+                  <td data-label="Buy">20000</td>
+                  <td data-label="Sell">10000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Two-handed. Player takes 1 step back when hitting monsters or walls.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#iron_hammer">Iron Hammer</a></td>
+                  <td data-label="Seal">鉄</td>
+                  <td data-label="Atk">5</td>
+                  <td data-label="Slots">5</td>
+                  <td data-label="Buy">20000</td>
+                  <td data-label="Sell">10000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Two-handed. Breaks traps. Will never break.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#morning_star">Morning Star</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">5</td>
+                  <td data-label="Slots">6</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Two-handed. Hit all monsters in a 1 tile radius.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#spear">Spear</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">6</td>
+                  <td data-label="Slots">7</td>
+                  <td data-label="Buy">10000</td>
+                  <td data-label="Sell">4000</td>
+                  <td data-label="Phrase" class="summary_phrase">ヌヌセラ</td>
+                  <td data-label="Info">Two-handed. Piercing attack two tiles forward.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#minotaurs_axe">Minotaur's Axe</a></td>
+                  <td data-label="Seal">会</td>
+                  <td data-label="Atk">8</td>
+                  <td data-label="Slots">11</td>
+                  <td data-label="Buy">6000</td>
+                  <td data-label="Sell">2400</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Two-handed. 35% chance to deal a x1.5 damage critical hit.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#ironheads_head">Ironhead's Head</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Atk">9</td>
+                  <td data-label="Slots">7</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Two-handed. Hits 3 tiles forward.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Weapon Details</h2>
+            <div>
+              <h3 id="wooden_sword">Wooden Sword (きたえた木刀)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Low attack, but comes with an upgrade value ranging from +4 to +8.<br>It is never found cursed. Use as synthesis fodder to strengthen a stronger weapon.</p>
+                  <img src="../../image/weapon/wooden_sword.png" width="96" height="12">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>2</td>
+                      <th>Slots</th>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>1500</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>300</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="club">Club (こんぼう)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Said to be the weakest weapon.<br>However, it has 3 slots so it can be used as a base when making a Healing Sword. Ally Iai or Shihan monsters will always fling a Club in dungeons where weapons normally do not appear.</p>
+                  <img src="../../image/weapon/club.png" width="95" height="36">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor)</li>
+                    <li>Shuten Trail Mid (Floor, Trader)</li>
+                    <li>Shuten Trail Hard (Trader)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>3</td>
+                      <th>Slots</th>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>400</td>
+                      <th>Sell</th>
+                      <td>200</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>20</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>コルヤギ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="nagamaki">Nagamaki (長巻)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Stronger than a Club, but still pretty weak.<br>It's often used as a base when making a Healing Sword.</p>
+                  <img src="../../image/weapon/nagamaki.png" width="102" height="15">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor)</li>
+                    <li>Shuten Trail Mid (Floor, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>6</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>700</td>
+                      <th>Sell</th>
+                      <td>300</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>35</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>こぷやほ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="sacred_sword">Sacred Sword (神器の剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Has the second highest number of synthesis slots.<br>Popular as a secondary sword with stacked effects. (examples: 飯, 火, or 幸).<br>Can be used as a seal container to free up storage space while trying for Mijinha or Kaburasutegi.</p>
+                  <img src="../../image/weapon/sacred_sword.png" width="105" height="26">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>8</td>
+                      <th>Slots</th>
+                      <td>14</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>45000</td>
+                      <th>Sell</th>
+                      <td>20000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>2250</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="katana">Katana (カタナ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Popular weapon among wanderers.<br>It has decent attack and 5 slots, so it can be used as a main weapon.<br>However, it's still on the weaker side for post-game dungeons.<br>Can be used as a base for making a Healing Sword, or as a secondary weapon with stacked seals. (examples: 飯 and 火)<br>Take a Katana+99 with 5 seals to the blacksmith to transform it into a Fiery Fuuma.</p>
+                  <img src="../../image/weapon/katana.png" width="105" height="21">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>10</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>900</td>
+                      <th>Sell</th>
+                      <td>400</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>45</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>みぬれふ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="dotanuki">Dotanuki (どうたぬき)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Very popular as a base weapon. However, it's quite rare before post-game dungeons.<br>There's a low chance to obtain it from Surprise Pots found on 15F of Shuten Trail Hard, or from a Trader in Onigashima.</p>
+                  <img src="../../image/weapon/dotanuki.png" width="105" height="21">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Surprise)</li>
+                    <li>Onigashima (Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>12</td>
+                      <th>Slots</th>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3600</td>
+                      <th>Sell</th>
+                      <td>1200</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>180</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="ivory_sword">Ivory Sword (象牙の剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Sword made of Ivory. Rustproof.<br>Transforms into Daisangen Sword with 3 中 seals.<br>The rustproof ability won't transfer if used as synthesis fodder.</p>
+                  <img src="../../image/weapon/ivory_sword.png" width="102" height="27">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Golden Interval)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>13</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>200</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="manjikabura">Manji-Kabura (剛剣マンジカブラ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">High attack, but 1 less slot than Dotanuki.<br>Bring a Manji-Kabra with 月, 火, 水, 木, and 金 seals (in that order) to the blacksmith to transform it into a Kaburasutegi.</p>
+                  <img src="../../image/weapon/manji_kabura.png" width="111" height="32">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Presto, Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>18</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>15000</td>
+                      <th>Sell</th>
+                      <td>7000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>2250</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>るおへぎ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="daisangen">Daisangen Sword (大三元の剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Created by synthesizing 3 中 seals onto an Ivory Sword. Rustproof.<br>Difficult to make due to the rarity of Dragon Tile Bracelets.<br>Cannot be used as synthesis fodder, or as a base for Healing Sword.</p>
+                  <img src="../../image/weapon/daisangen_sword.png" width="99" height="30">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Synthesis Only</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>20</td>
+                      <th>Slots</th>
+                      <td>9</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>48000</td>
+                      <th>Sell</th>
+                      <td>32000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>4800</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="fiery_fuuma">Fiery Fuuma (火迅風魔刀)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">3rd strongest sword in the game.<br>Obtained by bringing a Katana+99 with 5 seals to the blacksmith.<br>It's weaker than a Katana+99 right after transforming, and alternatives like Ryujin Sword are pretty close in power and are easier to make, so it's more for collectors.</p>
+                  <img src="../../image/weapon/fiery_fuuma.png" width="111" height="29">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Blacksmith (Special Recipe)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>30</td>
+                      <th>Slots</th>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>20000</td>
+                      <th>Sell</th>
+                      <td>10000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>2000</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="mijinha">Mijinha (宝剣ミジンハ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Legendary sword exclusive to Shiren 2, and it's the 2nd strongest sword in the game.<br>Has the highest number of slots among all weapons.<br>Obtained from 90-95F golden interval chests inside the "Road to the End" dungeon.</p>
+                  <img src="../../image/weapon/mijinha.png" width="102" height="24">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Road to the End (Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>50</td>
+                      <th>Slots</th>
+                      <td>16</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>60000</td>
+                      <th>Sell</th>
+                      <td>40000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>12000</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="kaburasutegi">Kaburasutegi (秘剣カブラステギ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Strongest sword in the game.<br>Obtained by bringing a Manji-Kabura with 月, 火, 水, 木, and 金 seals (in that order) to the blacksmith. The 火 seal can be from either Flame Grass or Dragon Grass.</p>
+                  <img src="../../image/weapon/kaburasutegi.png" width="111" height="35">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Blacksmith (Special Recipe)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>99</td>
+                      <th>Slots</th>
+                      <td>12</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>55000</td>
+                      <th>Sell</th>
+                      <td>20000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>8250</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="ghost_sickle">Ghost Sickle (成仏のカマ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that deals x1.5 damage to Ghost type monsters.<br>(Gale, Pumphantasm, Yamikichi, and Bone Dragon families)<br>Great seal to have in dungeons where Typhoon appears.</p>
+                  <img src="../../image/weapon/ghost_sickle.png" width="90" height="51">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Golden Interval)</li>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>5</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>250</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>仏</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Damage (%)</td>
+                        <td></td>
+                        <td>150</td>
+                        <td>160</td>
+                        <td>170</td>
+                        <td>180</td>
+                        <td>190</td>
+                        <td>100</td>
+                        <td>140</td>
+                        <td>170</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>200</td>
+                        <td>250</td>
+                        <td>300</td>
+                        <td>350</td>
+                        <td>400</td>
+                        <td>450</td>
+                        <td>500</td>
+                        <td>550</td>
+                        <td>600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="drain_buster">Drain Buster (ドレインバスター)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that deals x1.5 damage to Drain type monsters.<br>(Slug, Scorpion, Hunger Puppet families, and Twisty Hani)<br>Nice seal to have, since the special attacks of Drain type monsters can be quite bothersome.</p>
+                  <img src="../../image/weapon/drain_buster.png" width="105" height="24">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Golden Interval)</li>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>6</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>250</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>ド</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Damage (%)</td>
+                        <td></td>
+                        <td>150</td>
+                        <td>160</td>
+                        <td>170</td>
+                        <td>180</td>
+                        <td>190</td>
+                        <td>200</td>
+                        <td>140</td>
+                        <td>270</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>300</td>
+                        <td>500</td>
+                        <td>500</td>
+                        <td>500</td>
+                        <td>500</td>
+                        <td>500</td>
+                        <td>500</td>
+                        <td>500</td>
+                        <td>500</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="cyclops_killer">Cyclops Killer (一ツ目殺し)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that deals x1.5 damage to One-eyed monsters.<br>(Ironhead, Golem, and Gazer families)<br>Gazer's hypnosis can be nullified with an Echo Shield, so this seal isn't very necessary.</p>
+                  <img src="../../image/weapon/cyclops_killer.png" width="102" height="20">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Golden Interval)</li>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>9</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4500</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>225</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>目</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Damage (%)</td>
+                        <td></td>
+                        <td>150</td>
+                        <td>160</td>
+                        <td>170</td>
+                        <td>180</td>
+                        <td>190</td>
+                        <td>200</td>
+                        <td>240</td>
+                        <td>270</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>300</td>
+                        <td>350</td>
+                        <td>400</td>
+                        <td>450</td>
+                        <td>500</td>
+                        <td>550</td>
+                        <td>600</td>
+                        <td>650</td>
+                        <td>700</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="crescent_arm">Crescent Arm (三日月刀)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that deals x1.5 damage to Bomb type monsters.<br>(Wolf Droid family, Pop Tank, Cranky Tank, and Patient Bag)<br>Obtained each time you defeat Boss Oni in Onigashima after finishing the main story.</p>
+                  <img src="../../image/weapon/crescent_arm.png" width="87" height="57">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Clear Reward)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>14</td>
+                      <th>Slots</th>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>50000</td>
+                      <th>Sell</th>
+                      <td>25000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>5000</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>月</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Damage (%)</td>
+                        <td></td>
+                        <td>150</td>
+                        <td>160</td>
+                        <td>170</td>
+                        <td>180</td>
+                        <td>190</td>
+                        <td>200</td>
+                        <td>240</td>
+                        <td>270</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>300</td>
+                        <td>350</td>
+                        <td>400</td>
+                        <td>450</td>
+                        <td>500</td>
+                        <td>550</td>
+                        <td>600</td>
+                        <td>650</td>
+                        <td>700</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="dragon_killer">Dragon Killer (ドラゴンキラー)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that deals x1.5 damage to Dragon type monsters.<br>(Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families)<br>Synthesize 3 竜 seals onto it to transform it into a Ryujin Sword.<br>Excellent as a main weapon.</p>
+                  <img src="../../image/weapon/dragon_killer.png" width="102" height="35">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Golden Interval)</li>
+                    <li>Road to the End (Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>15</td>
+                      <th>Slots</th>
+                      <td>7</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>10000</td>
+                      <th>Sell</th>
+                      <td>5000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>500</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>竜</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Damage (%)</td>
+                        <td></td>
+                        <td>150</td>
+                        <td>160</td>
+                        <td>170</td>
+                        <td>180</td>
+                        <td>190</td>
+                        <td>200</td>
+                        <td>240</td>
+                        <td>270</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>300</td>
+                        <td>350</td>
+                        <td>400</td>
+                        <td>450</td>
+                        <td>500</td>
+                        <td>550</td>
+                        <td>600</td>
+                        <td>650</td>
+                        <td>700</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="ryujin_sword">Ryujin Sword (龍神剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Powerful weapon created by synthesizing 3 竜 seals onto a Dragon Killer.<br>Deals x2.0 damage to Dragon type monsters.<br>(Shaaga, Aqua Dragon, Shotfish, Dragon, and Bone Dragon families)<br>Often used as a main weapon while working towards Mijinha or Kaburasutegi.<br>Cannot be used as a base for Healing Sword.</p>
+                  <img src="../../image/weapon/ryujin_sword.png" width="105" height="44">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Synthesis Only</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>25</td>
+                      <th>Slots</th>
+                      <td>7</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>30000</td>
+                      <th>Sell</th>
+                      <td>15000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>3000</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>龍</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Damage (%)</td>
+                        <td></td>
+                        <td>200</td>
+                        <td>220</td>
+                        <td>250</td>
+                        <td>270</td>
+                        <td>300</td>
+                        <td>350</td>
+                        <td>400</td>
+                        <td>500</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>550</td>
+                        <td>600</td>
+                        <td>600</td>
+                        <td>600</td>
+                        <td>600</td>
+                        <td>600</td>
+                        <td>600</td>
+                        <td>600</td>
+                        <td>600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="gamarra_whip">Gamarra Whip (ガマラのムチ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that hosts the spirit of a Gamarra.<br>Has a 30% chance to transform defeated monsters into Gitan.<br>Defeated monsters can still drop other items, such as area drops or riceballs. (飯 seal)</p>
+                  <img src="../../image/weapon/gamarra_whip.png" width="81" height="30">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>2</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>16000</td>
+                      <th>Sell</th>
+                      <td>8000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>800</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>銭</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Chance (%)</td>
+                        <td></td>
+                        <td>30</td>
+                        <td>35</td>
+                        <td>40</td>
+                        <td>45</td>
+                        <td>50</td>
+                        <td>55</td>
+                        <td>60</td>
+                        <td>65</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>70</td>
+                        <td>75</td>
+                        <td>80</td>
+                        <td>85</td>
+                        <td>90</td>
+                        <td>95</td>
+                        <td>96</td>
+                        <td>97</td>
+                        <td>98</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="pickaxe">Pickaxe (つるはし)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Pickaxe that can dig through walls.<br>Breaks after digging for a while. (15 ~ 60 uses)<br>Useful for creating paths when stealing from shops, or making shortcuts in general.<br>Synthesize 5 堀 seals onto it to transform it into a Wonder Pickaxe.</p>
+                  <img src="../../image/weapon/pickaxe.png" width="87" height="59">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto)</li>
+                    <li>Halfway Well (Floor)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>2</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3500</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>175</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>堀</td>
+                      <th>Phrase</th>
+                      <td>ヨキタモ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="gobo">Gobo (ごんぼう)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Gobo, also known as burdock root, used as a weapon.<br>Can be eaten to restore fullness by 20%. The weapon is lost if eaten.</p>
+                  <img src="../../image/weapon/gobo.png" width="84" height="20">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>3</td>
+                      <th>Slots</th>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>25</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>食</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="homing_blade">Homing Blade (必中の剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Sword that ensures all of your attacks will connect.<br>Greatly reduces the amount of danger within an adventure, since it eliminates actions received as a result of missed attacks.<br>Some say using it is cheating, and therefore personally ban its usage.</p>
+                  <img src="../../image/weapon/homing_blade.png" width="102" height="27">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>3</td>
+                      <th>Slots</th>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>10000</td>
+                      <th>Sell</th>
+                      <td>5000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>500</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>必</td>
+                      <th>Phrase</th>
+                      <td>てよだぼ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="onigiri_sword">Onigiri Sword (にぎりへんげの剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that hosts the spirit of a Nigiri Morph.<br>Has a 8% chance to transform defeated monsters into riceballs.<br>Its effect is more potent than the 飯 seal, and can eliminate hunger issues altogether.</p>
+                  <img src="../../image/weapon/onigiri_sword.png" width="93" height="35">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>3</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>10000</td>
+                      <th>Sell</th>
+                      <td>5000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>500</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>に</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Chance (%)</td>
+                        <td></td>
+                        <td>8</td>
+                        <td>12</td>
+                        <td>24</td>
+                        <td>36</td>
+                        <td>48</td>
+                        <td>60</td>
+                        <td>65</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>75</td>
+                        <td>80</td>
+                        <td>85</td>
+                        <td>90</td>
+                        <td>95</td>
+                        <td>96</td>
+                        <td>97</td>
+                        <td>98</td>
+                        <td>99</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="golden_sword">Golden Sword (金の剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Sword made out of gold. Low attack, but it will never rust.<br>Provides a blue 金 seal when synthesized. Monsoon Dolls will tear off a red 金 seal first, but a blue one has the same odds to be removed as the other seals.</p>
+                  <img src="../../image/weapon/golden_sword.png" width="102" height="24">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Golden Interval, Treasure Chest)</li>
+                    <li>Sealed Room (Presto, Treasure Chest)</li>
+                    <li>Road to the End (Floor, Presto, Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>3</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>6000</td>
+                      <th>Sell</th>
+                      <td>3000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>300</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>金</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="dried_bonito">Dried Bonito (かつおぶし)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Dried Bonito used as a weapon.<br>Can be bitten to restore fullness by 30% at the cost of lowering upgrade value by 1.<br>Cannot bite once the weapon's attack is at 0.<br>Often synthesized onto a Disposable Sword to create a weapon that can be bitten 35 times. (1050% fullness)</p>
+                  <img src="../../image/weapon/dried_bonito.png" width="84" height="21">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Shop)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>4</td>
+                      <th>Slots</th>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2000</td>
+                      <th>Sell</th>
+                      <td>1000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>100</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>か</td>
+                      <th>Phrase</th>
+                      <td>ルコウス</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="fish_spear">Fish Spear (オトトスピア)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Weapon that allows you to hit underwater monsters.<br>Useful against monsters such as Shotfish, Spearfish, Orcan, Kappa, and Zalokleft.<br>Rare drop from Lv2+ Spearfish monsters.</p>
+                  <img src="../../image/weapon/fish_spear.png" width="98" height="23">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Monster)</li>
+                    <li>Onigashima (Presto, Shop, Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Monster)</li>
+                    <li>Road to the End (Shop, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>4</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>200</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>水</td>
+                      <th>Phrase</th>
+                      <td>パカリツ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="razor_wind">Razor Wind (妖刀かまいたち)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">An enchanted sword that can attack in a 3-way pattern.<br>Useful for monster house entrances and attacking around corners.<br>Plays well with Healing Sword, along with Scout and Phantasm bracelets.</p>
+                  <img src="../../image/weapon/razor_wind.png" width="102" height="18">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Shop)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Golden Interval)</li>
+                    <li>Onigashima (Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>5</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>250</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>三</td>
+                      <th>Phrase</th>
+                      <td>ほんうじ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="healing_sword">Healing Sword (回復の剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Sword that restores HP equal to 1/3 of the damage dealt, out of the monster's remaining HP.<br>Created by synthesizing 薬 弟 命 seals onto a weapon.<br>One of the best seals in the game, so synthesizing it should be prioritized.</p>
+                  <img src="../../image/weapon/healing_sword.png" width="96" height="39">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Synthesis Only</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>6</td>
+                      <th>Slots</th>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>20000</td>
+                      <th>Sell</th>
+                      <td>10000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>2000</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>回</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="kengos_katana">Kengo's Katana (ケンゴウの刀)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Sword that can fling a weapon from a monster when attacking.<br>Damage is not dealt if disarming occurs, so you'll be vulnerable to a counter attack.<br>Can be used to obtain monster-exclusive drops, but the odds remain the same.<br>Rare drop from Lv2+ Kengo monsters.</p>
+                  <img src="../../image/weapon/kengos_katana.png" width="105" height="25.5">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Monster)</li>
+                    <li>Shuten Trail Hard (Monster)</li>
+                    <li>Onigashima (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Monster)</li>
+                    <li>Road to the End (Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>7</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3200</td>
+                      <th>Sell</th>
+                      <td>900</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>160</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>ケ</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="spark_sword">Spark Sword (スパークソード)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">This sword begins to glow after 2 missed attacks, and deals a 100% accuracy critical hit for x1.5 damage on the next attack.<br>Overshadowed by the 必 seal, but still has a use inside the "Road to the End" dungeon where Homing Blade doesn't appear.</p>
+                  <img src="../../image/weapon/spark_sword.png" width="105" height="22.5">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Surprise)</li>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>7</td>
+                      <th>Slots</th>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>15000</td>
+                      <th>Sell</th>
+                      <td>7500</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>750</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>ス</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="wonder_pickaxe">Wonder Pickaxe (サトリのつるはし)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Pickaxe that will never break while digging through walls.<br>Created by synthesizing 5 堀 seals onto a Pickaxe.<br>Very useful for stealing and creating shortcuts.<br>Plays well with Razor Wind's ability to attack around corners.</p>
+                  <img src="../../image/weapon/wonder_pickaxe.png" width="87" height="49.5">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Synthesis Only</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>13</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>20000</td>
+                      <th>Sell</th>
+                      <td>10000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>2000</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>サ</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="disposable_sword">Disposable Sword (使い捨ての剣)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Starts out with very high attack, but loses 1 upgrade value every time you deal damage.<br>Synthesizing the 金 seal onto it won't prevent the loss of upgrade value.<br>The か seal can be synthesized onto it to use it as a food source worth 1050% fullness.</p>
+                  <img src="../../image/weapon/disposable_sword.png" width="105" height="30">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Onigashima (Presto, Shop)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>35</td>
+                      <th>Slots</th>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>1500</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>150</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>捨</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="mallet">Mallet (木づち)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Two-handed weapon that can break traps.<br>Breaks after a while if used to break traps.<br>There are other ways to deal with traps such as walking around them, splashing water on them, and swinging a Knockback Staff, so it doesn't see much use.<br>Rare drop from Lv2+ Piko Hammer monsters.</p>
+                  <img src="../../image/weapon/mallet.png" width="88.5" height="48">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Monster)</li>
+                    <li>Shuten Trail Hard (Surprise, Monster)</li>
+                    <li>Onigashima (Surprise, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>3</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>200</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>木</td>
+                      <th>Phrase</th>
+                      <td>タエチメ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="power_pole">Power Pole (如意棒)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Two-handed weapon that pushes you back by 1 tile when you hit a monster or wall.<br>Solid option for 1-on-1 fights, as long as the target doesn't have a ranged attack.<br>Can only be used as a base in synthesis.</p>
+                  <img src="../../image/weapon/power_pole.png" width="96" height="13.5">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>5</td>
+                      <th>Slots</th>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>20000</td>
+                      <th>Sell</th>
+                      <td>10000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>1000</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="iron_hammer">Iron Hammer (アイアンハンマー)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Two-handed weapon that can break traps. Will never break.<br>More useful than a Mallet since it doesn't break, but there are other ways to deal with traps, so it's not really worth taking up a seal slot.</p>
+                  <img src="../../image/weapon/iron_hammer.png" width="90" height="48">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>5</td>
+                      <th>Slots</th>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>20000</td>
+                      <th>Sell</th>
+                      <td>10000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>1000</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>鉄</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="morning_star">Morning Star (モーニングスター)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Two-handed weapon that can hit all monsters in a 1 tile radius.<br>Two-handed means you have 0 defense which is extremely dangerous if you're surrounded, and the 三 seal is usually enough to take out groups of monsters, so it doesn't see much use.<br>Can only be used as a base in synthesis.</p>
+                  <img src="../../image/weapon/morning_star_rotated.png" width="99" height="39">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>5</td>
+                      <th>Slots</th>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>250</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="spear">Spear (ヤリ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Two-handed weapon that can pierce through monsters 2 tiles forward.<br>Decent option early on since it lets you get 2 hits in before receing a counter attack.<br>Can only be used as a base in synthesis.</p>
+                  <img src="../../image/weapon/spear.png" width="118.5" height="12">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Shop)</li>
+                    <li>Shuten Trail Hard (Shop)</li>
+                    <li>Onigashima (Floor, Presto, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>6</td>
+                      <th>Slots</th>
+                      <td>7</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>10000</td>
+                      <th>Sell</th>
+                      <td>4000</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>500</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>ヌヌセラ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="minotaurs_axe">Minotaur's Axe (ミノタウロスの斧)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Two-handed weapon that has a 35% chance to deal a x1.5 damage critical hit.<br>Decent option to increase your damage output. However, Taurus monsters only appear in post-game dungeons, so by the time you obtain one you might not need it.<br>Rare drop from Lv2+ Taurus monsters.</p>
+                  <img src="../../image/weapon/minotaurs_axe_rotated.png" width="84" height="54">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Sealed Room (Monster)</li>
+                    <li>Road to the End (Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>8</td>
+                      <th>Slots</th>
+                      <td>11</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>6000</td>
+                      <th>Sell</th>
+                      <td>2400</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>300</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>会</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Chance (%)</td>
+                        <td></td>
+                        <td>35</td>
+                        <td>40</td>
+                        <td>45</td>
+                        <td>50</td>
+                        <td>55</td>
+                        <td>60</td>
+                        <td>65</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>75</td>
+                        <td>80</td>
+                        <td>85</td>
+                        <td>90</td>
+                        <td>95</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>100</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="ironheads_head">Ironhead's Head (アイアンヘッドの頭)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Two-handed weapon that can hit monsters 3 tiles forward.<br>Synthesize a 銀 seal onto it to attack through walls, or a 三 to attack around corners.<br>Rare drop from Lv2+ Ironhead monsters.<br>Can only be used as a base in synthesis.</p>
+                  <img src="../../image/weapon/ironheads_head_rotated.png" width="84" height="30">
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Monster)</li>
+                    <li>Onigashima (Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Monster)</li>
+                    <li>Road to the End (Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Atk</th>
+                      <td>9</td>
+                      <th>Slots</th>
+                      <td>7</td>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>+1</th>
+                      <td>250</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>

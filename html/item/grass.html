@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,1603 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Grass Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Seal</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#weeds">Weeds</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">50</td>
+                  <td data-label="Sell">25</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">-</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#herb">Herb</a></td>
+                  <td data-label="Seal">薬</td>
+                  <td data-label="Buy">100</td>
+                  <td data-label="Sell">50</td>
+                  <td data-label="Phrase" class="summary_phrase">マジナイ</td>
+                  <td data-label="Info">Restores 25 HP. Increases max HP by 2 if already max. Used in synthesizing a Healing Sword.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#twisty_grass">Twisty Grass</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">300</td>
+                  <td data-label="Sell">150</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers level by 1.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#swift_grass">Swift Grass</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">300</td>
+                  <td data-label="Sell">150</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases movement speed by 1 stage.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#warp_grass">Warp Grass</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">300</td>
+                  <td data-label="Sell">150</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Warps you to a random room on the current floor.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#life_grass">Life Grass</a></td>
+                  <td data-label="Seal">命</td>
+                  <td data-label="Buy">400</td>
+                  <td data-label="Sell">200</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases max HP by 5 points. Used in synthesizing a Healing Sword.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#expand_seed">Expand Seed</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">400</td>
+                  <td data-label="Sell">200</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases max fullness by 10%.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#shrink_seed">Shrink Seed</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">400</td>
+                  <td data-label="Sell">200</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers max fullness by 10%.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#antidote_grass">Antidote Grass</a></td>
+                  <td data-label="Seal">消</td>
+                  <td data-label="Buy">400</td>
+                  <td data-label="Sell">200</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores lost strength to max. Deals 50 damage to Slugs when thrown.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#disaster_seed">Disaster Seed</a></td>
+                  <td data-label="Seal">超</td>
+                  <td data-label="Buy">400</td>
+                  <td data-label="Sell">200</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers level to 1 and reduces current HP to 1.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#talking_seed">Talking Seed</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">100</td>
+                  <td data-label="Phrase" class="summary_phrase">おたべは</td>
+                  <td data-label="Info">Deals a random negative effect to all characters in the room.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#otogiriso">Otogiriso</a></td>
+                  <td data-label="Seal">弟</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">ノザノサ</td>
+                  <td data-label="Info">Restores 100 HP. Increases max HP by 4 if already max. Used in synthesizing a Healing Sword.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#sight_grass">Sight Grass</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Allows you to see hidden traps and invisible monsters.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#dragon_grass">Dragon Grass</a></td>
+                  <td data-label="Seal">火</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deal a ranged fire attack that deals 63~77 damage.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#flame_grass">Flame Grass</a></td>
+                  <td data-label="Seal">火</td>
+                  <td data-label="Buy">700</td>
+                  <td data-label="Sell">350</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deal a fire attack 1 tile forward that deals 63~77 damage.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#boost_grass">Boost Grass</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Doubles effectiveness of grass items for 10 turns.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#strength_grass">Strength Grass</a></td>
+                  <td data-label="Seal">ち</td>
+                  <td data-label="Buy">1500</td>
+                  <td data-label="Sell">700</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases strength by 1, or increases max strength by 1 if already at max.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#poison_grass">Poison Grass</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1500</td>
+                  <td data-label="Sell">700</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals 5 damage, lowers strength by 1 point, and inflicts slow.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#happy_grass">Happy Grass</a></td>
+                  <td data-label="Seal">幸</td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases level by 1.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#unlucky_seed">Unlucky Seed</a></td>
+                  <td data-label="Seal">不</td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Lowers level by 3.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#revival_grass">Revival Grass</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">2500</td>
+                  <td data-label="Sell">1250</td>
+                  <td data-label="Phrase" class="summary_phrase">ヨワハゼ</td>
+                  <td data-label="Info">Revives you if you collapse in a dungeon.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#angel_seed">Angel Seed</a></td>
+                  <td data-label="Seal">天</td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">1500</td>
+                  <td data-label="Phrase" class="summary_phrase">アトノセ</td>
+                  <td data-label="Info">Increases level by 3.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Grass Details</h2>
+            <div>
+              <h3 id="weeds">Weeds (雑草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 5% fullness like all other grasses, but otherwise doesn't have an effect.<br>Revival Grass turns into this grass after taking effect.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>50</td>
+                      <th>Sell</th>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="herb">Herb (薬草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 25 HP. Increases max HP by 2 points if HP is already at max.<br>Can be thrown at Ghost type monsters to deal 25 damage.<br>The 薬 seal restores a small amount of HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor)</li>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Floor)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Shop)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>100</td>
+                      <th>Sell</th>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>薬</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">マジナイ</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>HP recovered</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>20</td>
+                        <td>30</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="twisty_grass">Twisty Grass (くねくね草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lowers level by 1 when eaten.<br>Can be thrown at a monster to lower its level by 1.<br>Plays well with a Pierce Bracelet if used in such a way.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>300</td>
+                      <th>Sell</th>
+                      <td>150</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="swift_grass">Swift Grass (すばやさ草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases movement speed by 1 stage for 12 turns.<br>Max movement speed stage is +2, where you get 3 actions per turn.<br>If thrown at a monster, the target will gain a permanent movement speed boost.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Shop)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>300</td>
+                      <th>Sell</th>
+                      <td>150</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="warp_grass">Warp Grass (高とび草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Warps you to a random room on the current floor when eaten.<br>Can be thrown at a monster to warp them instead.<br>Good for getting out of sticky situations, but if you're unlucky, you might end up jumping out of the frying pan and into the fire.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>300</td>
+                      <th>Sell</th>
+                      <td>150</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="life_grass">Life Grass (命の草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases max HP by 5 points when eaten.<br>Provides the 命 seal when synthesized, which is used in synthesizing a Healing Sword.<br>When synthesized onto a shield, the 命 seal increases the base defense of the shield.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>400</td>
+                      <th>Sell</th>
+                      <td>200</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>命</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Base Defense</td>
+                        <td></td>
+                        <td>+2</td>
+                        <td>+4</td>
+                        <td>+6</td>
+                        <td>+8</td>
+                        <td>+10</td>
+                        <td>+12</td>
+                        <td>+14</td>
+                        <td>+16</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>+18</td>
+                        <td>+20</td>
+                        <td>+22</td>
+                        <td>+24</td>
+                        <td>+26</td>
+                        <td>+28</td>
+                        <td>+30</td>
+                        <td>+40</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="expand_seed">Expand Seed (胃拡張の種)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases max fullness by 10% when eaten. Max fullness maxes out at 200%.<br>You might as well eat it right away instead of waiting to find a Boost Grass.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>400</td>
+                      <th>Sell</th>
+                      <td>200</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="shrink_seed">Shrink Seed (胃縮小の種)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lowers max fullness by 10% when eaten. The lowest max fullness value is 0%.<br>Nothing good will come from keeping it on hand, so sell it, insert it into a Presto Pot, or throw it away.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>400</td>
+                      <th>Sell</th>
+                      <td>200</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="antidote_grass">Antidote Grass (毒消し草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores lost strength to max when eaten.<br>Can be thrown at Slug monsters to deal 50 damage.<br>The 消 seal is equivalent to the う seal from a Scale Shield, and blocks poison.<br>Note that the seal cannot block Slug licks.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Halfway Well (Shop)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>400</td>
+                      <th>Sell</th>
+                      <td>200</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>消</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="disaster_seed">Disaster Seed (超不幸の種)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lowers level to 1 and reduces current HP to 1 when eaten.<br>Provides the 超 seal if synthesized, which curses the equipment and lowers your level by 1 every time you attack (weapon) or take damage (shield).<br>Possibly the most dangerous item in the game, but only appears in shops inside the "Roat to the End" dungeon 71F+.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>400</td>
+                      <th>Sell</th>
+                      <td>200</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>超</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="talking_seed">Talking Seed (話の種)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Makes you tell jokes, superstitions, serial novels, and one-liners, which deals a random negative effect to all characters in the room.<br>Effects include slow, sleep, confusion, paralysis, freeze, anger NPCs, and ~30 damage.<br>If no one else is in the room, you become the target of the negative effect.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">おたべは</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="otogiriso">Otogiriso (弟切草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 100 HP. Increases max HP by 4 points if HP is already at max.<br>Can be thrown at Ghost type monsters to deal 100 damage.<br>The 弟 seal restores some HP when you attack (weapon) or take damage (shield), and is one of the three seals used in synthesizing a Healing Sword.<br>Excellent to synthesize onto shields.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Shop)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>弟</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ノザノサ</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>HP Recovered</td>
+                        <td></td>
+                        <td>4</td>
+                        <td>7</td>
+                        <td>10</td>
+                        <td>13</td>
+                        <td>15</td>
+                        <td>18</td>
+                        <td>21</td>
+                        <td>24</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>27</td>
+                        <td>30</td>
+                        <td>33</td>
+                        <td>36</td>
+                        <td>39</td>
+                        <td>42</td>
+                        <td>45</td>
+                        <td>55</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="sight_grass">Sight Grass (めぐすり草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Grass that allows you to see hidden traps and invisible monsters.<br>Also cures blindness. The effect will wear off if you become blinded after eating it.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop)</li>
+                    <li>Onigashima (Floor, Presto)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="dragon_grass">Dragon Grass (ドラゴン草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Performs a ranged fire attack that deals 63~77 damage when eaten.<br>Can also be thrown to deal 45~55 damage.<br>The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor)</li>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Floor)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>火</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Fire Damage</td>
+                        <td></td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>18</td>
+                        <td>20</td>
+                        <td>23</td>
+                        <td>25</td>
+                        <td>30</td>
+                        <td>33</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>35</td>
+                        <td>40</td>
+                        <td>45</td>
+                        <td>50</td>
+                        <td>55</td>
+                        <td>60</td>
+                        <td>65</td>
+                        <td>70</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Reduction (%)</td>
+                        <td></td>
+                        <td>20</td>
+                        <td>24</td>
+                        <td>27</td>
+                        <td>29</td>
+                        <td>31</td>
+                        <td>33</td>
+                        <td>36</td>
+                        <td>39</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>42</td>
+                        <td>46</td>
+                        <td>50</td>
+                        <td>52</td>
+                        <td>54</td>
+                        <td>56</td>
+                        <td>58</td>
+                        <td>60</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="flame_grass">Flame Grass (火炎草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Performs a fire attack 1 tile forward that deals 63~77 damage when eaten.<br>Can also be thrown to deal 40~49 damage.<br>The 火 seal allows you to perform a ranged fire attack when you swing your weapon at max HP, or reduces fire damage if synthesized onto a shield.<br>Basically a weaker Dragon Grass, but worth more Gitan.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop)</li>
+                    <li>Onigashima (Floor, Presto, Surprise)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>700</td>
+                      <th>Sell</th>
+                      <td>350</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>火</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Fire Damage</td>
+                        <td></td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>18</td>
+                        <td>20</td>
+                        <td>23</td>
+                        <td>25</td>
+                        <td>30</td>
+                        <td>33</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>35</td>
+                        <td>40</td>
+                        <td>45</td>
+                        <td>50</td>
+                        <td>55</td>
+                        <td>60</td>
+                        <td>65</td>
+                        <td>70</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Reduction (%)</td>
+                        <td></td>
+                        <td>20</td>
+                        <td>24</td>
+                        <td>27</td>
+                        <td>29</td>
+                        <td>31</td>
+                        <td>33</td>
+                        <td>36</td>
+                        <td>39</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>42</td>
+                        <td>46</td>
+                        <td>50</td>
+                        <td>52</td>
+                        <td>54</td>
+                        <td>56</td>
+                        <td>58</td>
+                        <td>60</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="boost_grass">Boost Grass (よくきき草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Doubles effectiveness of grass items for 10 turns when eaten.<br>Often used before strength grass.<br>Doubles the effectiveness of Grass Gainer, Grass Tosser, and Grass Effect Pot.<br>Note that some grasses don't gain boosted effects, such as Revival Grass, Sight Grass, Antidote Grass, etc.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Floor, Presto)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1000</td>
+                      <th>Sell</th>
+                      <td>500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="strength_grass">Strength Grass (ちからの草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases strength by 1, or increases max strength by 1 if already at max.<br>Often used with Grass Gainer, Grass Toss taff, or Boost Grass to increase gains.<br>The ち seal increases a weapon's base attack.<br>Mr. Drone monsters always drop this grass.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader, Monster)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader, Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1500</td>
+                      <th>Sell</th>
+                      <td>700</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>ち</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Base Attack</td>
+                        <td></td>
+                        <td>+2</td>
+                        <td>+4</td>
+                        <td>+6</td>
+                        <td>+8</td>
+                        <td>+10</td>
+                        <td>+12</td>
+                        <td>+14</td>
+                        <td>+16</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>+18</td>
+                        <td>+20</td>
+                        <td>+22</td>
+                        <td>+24</td>
+                        <td>+26</td>
+                        <td>+28</td>
+                        <td>+30</td>
+                        <td>+32</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="poison_grass">Poison Grass (毒草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Deals 5 damage, lowers strength by 1 point, and inflicts slow when eaten.<br>Can be thrown at a monster to inflict slow and reduce its attack (x0.6).<br>Note that it has the same price as Strength Grass.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1500</td>
+                      <th>Sell</th>
+                      <td>700</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="happy_grass">Happy Grass (しあわせ草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases level by 1 when eaten.<br>Can be thrown at a monster to increase its rank by 1.<br>Mr. Helico has a 85% chance to drop this grass.<br>The 幸 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader, Monster)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Shop, Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2000</td>
+                      <th>Sell</th>
+                      <td>1000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>幸</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Exp Gain (%)</td>
+                        <td></td>
+                        <td>+10</td>
+                        <td>+40</td>
+                        <td>+70</td>
+                        <td>+100</td>
+                        <td>+130</td>
+                        <td>+160</td>
+                        <td>+190</td>
+                        <td>+220</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>+250</td>
+                        <td>+280</td>
+                        <td>+310</td>
+                        <td>+340</td>
+                        <td>+370</td>
+                        <td>+400</td>
+                        <td>+410</td>
+                        <td>+420</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Portion of Damage (%)</td>
+                        <td></td>
+                        <td>110</td>
+                        <td>140</td>
+                        <td>170</td>
+                        <td>200</td>
+                        <td>230</td>
+                        <td>260</td>
+                        <td>290</td>
+                        <td>320</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>350</td>
+                        <td>380</td>
+                        <td>410</td>
+                        <td>440</td>
+                        <td>470</td>
+                        <td>500</td>
+                        <td>510</td>
+                        <td>520</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="unlucky_seed">Unlucky Seed (不幸の種)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lowers level by 3 when eaten.<br>Can be thrown at a monster to lower its level by 3.<br>If synthesized, the 不 seal lowers equipment strength by a significant amount.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Presto, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2000</td>
+                      <th>Sell</th>
+                      <td>1000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>不</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Equipment Strength</td>
+                        <td></td>
+                        <td>-10</td>
+                        <td>-15</td>
+                        <td>-20</td>
+                        <td>-25</td>
+                        <td>-30</td>
+                        <td>-35</td>
+                        <td>-40</td>
+                        <td>-45</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>-50</td>
+                        <td>-55</td>
+                        <td>-60</td>
+                        <td>-65</td>
+                        <td>-70</td>
+                        <td>-75</td>
+                        <td>-80</td>
+                        <td>-85</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="revival_grass">Revival Grass (復活の草)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Automatically revives you if your HP drops to 0 inside of a dungeon.<br>Doesn't activate if it's inside of a pot.<br>Turns into Weeds after taking effect.<br>HP, strength, and fullness is restored to max upon reviving.<br>Mr. Gyro has a 75% chance to drop this grass.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader, Monster)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader, Monster, Treasure Chest)</li>
+                    <li>Shrine's Hidden Hole (Floor, Monster)</li>
+                    <li>Halfway Well (Shop)</li>
+                    <li>Sealed Room (Presto, Treasure Chest)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader, Monster, Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2500</td>
+                      <th>Sell</th>
+                      <td>1250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ヨワハゼ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="angel_seed">Angel Seed (天使の種)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases level by 3 when eaten.<br>Can be used with Grass Gain staff or Boost Grass to increase gains.<br>The 天 seal increases exp gained from defeating monsters (weapon), or provides exp as a portion of the damage you receive (shield).<br>Excellent to synthesize onto a main weapon.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Surprise, Treasure Chest)</li>
+                    <li>Sealed Room (Treasure Chest)</li>
+                    <li>Road to the End (Surprise, Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>1500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>天</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">アトノセ</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Exp Gain (%)</td>
+                        <td></td>
+                        <td>+50</td>
+                        <td>+100</td>
+                        <td>+150</td>
+                        <td>+200</td>
+                        <td>+250</td>
+                        <td>+300</td>
+                        <td>+350</td>
+                        <td>+400</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>+410</td>
+                        <td>+420</td>
+                        <td>+430</td>
+                        <td>+440</td>
+                        <td>+450</td>
+                        <td>+460</td>
+                        <td>+470</td>
+                        <td>+480</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Portion of Damage (%)</td>
+                        <td></td>
+                        <td>150</td>
+                        <td>200</td>
+                        <td>250</td>
+                        <td>300</td>
+                        <td>350</td>
+                        <td>400</td>
+                        <td>450</td>
+                        <td>500</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>510</td>
+                        <td>520</td>
+                        <td>530</td>
+                        <td>540</td>
+                        <td>550</td>
+                        <td>560</td>
+                        <td>570</td>
+                        <td>580</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>
