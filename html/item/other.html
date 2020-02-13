@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Misc Items - Shiren 2 Wiki</title>
+    <title>Other Items - Shiren 2 Wiki</title>
     <link rel="icon" href="/shiren2/favicon.ico">
     <meta charset="utf-8">
     <script
@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,235 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Other Item Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#voucher">Voucher</a></td>
+                  <td data-label="Buy">2</td>
+                  <td data-label="Sell">1</td>
+                  <td data-label="Phrase" class="summary_phrase">ごあはも</td>
+                  <td data-label="Info">Provides a 2% discount when buying items from shops. Up to 40 vouchers can be used per purchase. (80% off)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#water">Water</a></td>
+                  <td data-label="Buy">-</td>
+                  <td data-label="Sell">-</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Water inside of a Water Pot.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#ndubba">N'dubba</a></td>
+                  <td data-label="Buy">-</td>
+                  <td data-label="Sell">-</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">N'dubba monster disguised as an item.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#gitan">Gitan</a></td>
+                  <td data-label="Buy">-</td>
+                  <td data-label="Sell">-</td>
+                  <td data-label="Phrase" class="summary_phrase">ダシシヨ<br>ガミメノ<br>つこめの</td>
+                  <td data-label="Info">Deals damage equal to the amount of gitan divided by 10 when thrown.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#one_million_gitan">1,000,000 Gitan</a></td>
+                  <td data-label="Buy">980000</td>
+                  <td data-label="Sell">500000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals 10,000 damage when thrown.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#shirens_hand">Shiren's Hand</a></td>
+                  <td data-label="Buy">-</td>
+                  <td data-label="Sell">-</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Shiren's hand stuck inside of a sticky pot.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Other Item Details</h2>
+            <div>
+              <h3 id="voucher">Voucher (割引券)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Provides a 2% discount when buying items from shops. Up to 40 vouchers can be used per purchase. (80% off). Can be used a projectile, but only deals 1 damage. Traders will drop up to 25 vouchers when defeated.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (M)</li>
+                    <li>Shuten Trail Hard (M)</li>
+                    <li>Onigashima (M)</li>
+                    <li>Sealed Room (M)</li>
+                    <li>Road to the End (M)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2</td>
+                      <th>Sell</th>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ごあはも</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="water">Water (水)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Water inside of a Water Pot. It has many uses, including the ability to rust enemy weapons, spoil riceballs, destroy traps, and put out fires. Try splashing it on all sorts of things!</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Inventory after scooping water into a Water Pot.</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>-</td>
+                      <th>Sell</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="ndubba">N'dubba (ンドゥバ)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">N'dubba monster disguised as an item. Move an ally on top of a N'dubba, and then swap places with them to pick it up. Can be inserted into pots like other items, and Nigiri Morphs can transform it into a riceball. Throw it or place it on the ground to have it transform back into its monster form.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Disguised as items in various dungeons.</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>-</td>
+                      <th>Sell</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="gitan">Gitan (ギタン)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Money. Can be thrown to deal damage equal to the amount of gitan divided by 10. Deals a minimum of 1 damage, and a maximum of 9,999 damage.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (F)</li>
+                    <li>Shuten Trail Easy (FP)</li>
+                    <li>Shuten Trail Mid (FP)</li>
+                    <li>Shuten Trail Hard (FG)</li>
+                    <li>Onigashima (FMG)</li>
+                    <li>Shrine's Hidden Hole (FM)</li>
+                    <li>Halfway Well (MG)</li>
+                    <li>Sealed Room (FPMG)</li>
+                    <li>Road to the End (FMG)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>-</td>
+                      <th>Sell</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ダシシヨ<br>ガミメノ<br>つこめの</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="one_million_gitan">1,000,000 Gitan (100万ギタン)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">1 million gitan. Deals 10,000 damage when thrown. It's recommended to bring multiple bags into dungeons when going for high scores, since it's worth so much.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Automatically obtained when Gitan reaches 1,000,000.</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>980000</td>
+                      <th>Sell</th>
+                      <td>500000</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="shirens_hand">Shiren's Hand (シレンの手)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Shiren's hand stuck inside of a sticky pot. The description offers much praise, to the point where you may wonder if Shiren wrote it himself.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Inventory when hand is stuck inside a Sticky Pot.</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>-</td>
+                      <th>Sell</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>

@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,525 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Material Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#soil">Soil</a></td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">800</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Select [Make] to sculpt a decoy that has 20 HP.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#good_soil">Good Soil</a></td>
+                  <td data-label="Buy">6000<br>(15000)</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Select [Make] to sculpt a decoy that has 35 HP.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#perfect_soil">Perfect Soil</a></td>
+                  <td data-label="Buy">9000</td>
+                  <td data-label="Sell">2400</td>
+                  <td data-label="Phrase" class="summary_phrase">びおんわ</td>
+                  <td data-label="Info">Select [Make] to sculpt a decoy that has 40 HP.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#water">Water</a></td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">800</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Select [Use] to restore 50HP.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#good_water">Good Water</a></td>
+                  <td data-label="Buy">8000<br>(15000)</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Select [Use] to restore 100HP. Also cures ailments.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#perfect_water">Perfect Water</a></td>
+                  <td data-label="Buy">12000</td>
+                  <td data-label="Sell">2400</td>
+                  <td data-label="Phrase" class="summary_phrase">ぱらぽき</td>
+                  <td data-label="Info">Select [Use] to restore HP, fullness, and strength to max. Also cures ailments.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#wood">Wood</a></td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">800</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Throw at an enemy to deal 30 damage and 5 tiles worth of knockback.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#good_wood">Good Wood</a></td>
+                  <td data-label="Buy">6000<br>(15000)</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Throw at an enemy to deal 40 damage and 5 tiles worth of knockback.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#perfect_wood">Perfect Wood</a></td>
+                  <td data-label="Buy">9000</td>
+                  <td data-label="Sell">2400</td>
+                  <td data-label="Phrase" class="summary_phrase">モダテプ</td>
+                  <td data-label="Info">Throw at an enemy to deal 50 damage and 5 tiles worth of knockback.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#rock">Rock</a></td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">800</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Select [Throw] to make 4~5 rocks fall from above to enemies in the room, dealing 7 damage per rock.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#good_rock">Good Rock</a></td>
+                  <td data-label="Buy">6000<br>(15000)</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Select [Throw] to make 7~10 rocks fall from above to enemies in the room, dealing 7 damage per rock.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#perfect_rock">Perfect Rock</a></td>
+                  <td data-label="Buy">9000</td>
+                  <td data-label="Sell">2400</td>
+                  <td data-label="Phrase" class="summary_phrase">しみれれ</td>
+                  <td data-label="Info">Select [Throw] to make 12~15 rocks fall from above to enemies in the room, dealing 7 damage per rock.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#iron_sand">Iron Sand</a></td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">800</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Throw at a target to inflict blindness.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#good_iron_sand">Good Iron Sand</a></td>
+                  <td data-label="Buy">6000<br>(15000)</td>
+                  <td data-label="Sell">1600</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Throw at a target to inflict blindness, or select [Scatter] to blind all characters in a 1 tile radius.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#perfect_iron_sand">Perfect Iron Sand</a></td>
+                  <td data-label="Buy">9000</td>
+                  <td data-label="Sell">2400</td>
+                  <td data-label="Phrase" class="summary_phrase">はめんみ</td>
+                  <td data-label="Info">Throw at a target to inflict blindness, or select [Scatter] to blind all characters in the room.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Material Details</h2>
+            <div>
+              <h3 id="soil">Soil (土)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select [Make] to sculpt a 20 HP decoy that wanders around the floor on its own.<br>Monsters that defeat the decoy will level up, so it can be useful not only to escape dangerous situations, but also to collect higher level monsters for Monster Kingdom.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="good_soil">Good Soil (よい土)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select [Make] to sculpt a 35 HP decoy that wanders around the floor on its own.<br>Monsters that defeat the decoy will level up, so it can be useful not only to escape dangerous situations, but also to collect higher level monsters for Monster Kingdom.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Floor)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>6000<br>(15000)</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="perfect_soil">Perfect Soil (最高の土)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select [Make] to sculpt a 40 HP decoy that wanders around the floor on its own.<br>Monsters that defeat the decoy will level up, so it can be useful not only to escape dangerous situations, but also to collect higher level monsters for Monster Kingdom.<br>Takes up 2 inventory slots.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (Floor)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>9000</td>
+                      <th>Sell</th>
+                      <td>2400</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">びおんわ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="water">Water (鬼よけ水)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Special water that repels Oni. Select [Use] to restore 50HP. No effect when thrown at allies or monsters, but can be thrown at an Oni enemy to paralyze them.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="good_water">Good Water (よい鬼よけ水)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Special water that repels Oni. Select [Use] to restore 100HP. Also cures ailments.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (F)</li>
+                    <li>Shuten Trail Hard (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>8000<br>(15000)</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="perfect_water">Perfect Water (最高の鬼よけ水)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select [Use] to restore HP, fullness, and strength to max. Also cures ailments. Takes up 2 inventory slots.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>12000</td>
+                      <th>Sell</th>
+                      <td>2400</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ぱらぽき</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="wood">Wood (木)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Throw at an enemy to deal 30 damage and 5 tiles worth of knockback.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="good_wood">Good Wood (よい木)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Throw at an enemy to deal 40 damage and 5 tiles worth of knockback.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (F)</li>
+                    <li>Shuten Trail Hard (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>6000<br>(15000)</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="perfect_wood">Perfect Wood (最高の木)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Throw at an enemy to deal 50 damage and 5 tiles worth of knockback. Note that Perfect Wood can only be found in Shuten Trail Mid. Takes up 2 inventory slots.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>9000</td>
+                      <th>Sell</th>
+                      <td>2400</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">モダテプ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="rock">Rock (岩)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select [Throw] to make 4~5 rocks fall from above to enemies in the room, dealing 7 damage per rock. If a 10 Damage Statue is present, each rock will deal 10 damage.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="good_rock">Good Rock (よい岩)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select [Throw] to make 7~10 rocks fall from above to enemies in the room, dealing 7 damage per rock. If a 10 Damage Statue is present, each rock will deal 10 damage.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (F)</li>
+                    <li>Shuten Trail Hard (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>6000<br>(15000)</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="perfect_rock">Perfect Rock (最高の岩)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select [Throw] to make 12~15 rocks fall from above to enemies in the room, dealing 7 damage per rock. If a 10 Damage Statue is present, each rock will deal 10 damage. Takes up 2 inventory slots.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>9000</td>
+                      <th>Sell</th>
+                      <td>2400</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">しみれれ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="iron_sand">Iron Sand (砂鉄)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Throw at a target to inflict blindness.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="good_iron_sand">Good Iron Sand (よい砂鉄)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Throw at a target to inflict blindness, or select [Scatter] to blind all characters in a 1 tile radius.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (F)</li>
+                    <li>Shuten Trail Hard (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>6000<br>(15000)</td>
+                      <th>Sell</th>
+                      <td>1600</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="perfect_iron_sand">Perfect Iron Sand (最高の砂鉄)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Throw at a target to inflict blindness, or select [Scatter] to blind all characters in the room. Takes up 2 inventory slots.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Hard (F)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>9000</td>
+                      <th>Sell</th>
+                      <td>2400</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">はめんみ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>

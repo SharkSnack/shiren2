@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ranged - Shiren 2 Wiki</title>
+    <title>Projectiles - Shiren 2 Wiki</title>
     <link rel="icon" href="/shiren2/favicon.ico">
     <meta charset="utf-8">
     <script
@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,428 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Projectile Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Power</th>
+                  <th scope="col">Seal</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#wooden_arrow">Wooden Arrow</a></td>
+                  <td data-label="Power">-2</td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">20</td>
+                  <td data-label="Sell">2</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Low attack. Found in sets of 5~9.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#iron_arrow">Iron Arrow</a></td>
+                  <td data-label="Power">6</td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">60</td>
+                  <td data-label="Sell">10</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">High attack. Found in sets of 4~8.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#silver_arrow">Silver Arrow</a></td>
+                  <td data-label="Power">0</td>
+                  <td data-label="Seal">銀</td>
+                  <td data-label="Buy">80</td>
+                  <td data-label="Sell">20</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Pierces through walls and enemies. Found in sets of 4~6.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#critical_arrow">Critical Arrow</a></td>
+                  <td data-label="Power">2</td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">120</td>
+                  <td data-label="Sell">40</td>
+                  <td data-label="Phrase" class="summary_phrase">ゴムニブ</td>
+                  <td data-label="Info">Chance to deal a critical hit. Found in sets of 10~15.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#razor_arrow">Razor Arrow</a></td>
+                  <td data-label="Power">0</td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">200</td>
+                  <td data-label="Sell">80</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Fires in a 3-way pattern that pierces through walls and enemies. Found in sets of 13~18.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#stone">Stone</a></td>
+                  <td data-label="Power">8</td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">100</td>
+                  <td data-label="Sell">50</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals damage to a target 2 tiles forward. Found in sets of 3~6.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#porky_stone">Porky Stone</a></td>
+                  <td data-label="Power">12</td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">150</td>
+                  <td data-label="Sell">70</td>
+                  <td data-label="Phrase" class="summary_phrase">ウロクロ</td>
+                  <td data-label="Info">Homes in on a target within 2 tiles of the direction you're facing. Found in sets of 3~6.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#cannonball">Cannonball</a></td>
+                  <td data-label="Power">-</td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">100</td>
+                  <td data-label="Sell">50</td>
+                  <td data-label="Phrase" class="summary_phrase">ジソデブ</td>
+                  <td data-label="Info">Rolls up to 10 tiles forward and creates an explosion that deals 40 damage. Found in sets of 1~3.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Projectile Details</h2>
+            <div>
+              <h3 id="wooden_arrow">Wooden Arrow (木の矢)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Basic ranged weapon. Has the lowest attack among arrows, and is weaker than a punch.<br>This goes for all projectiles, but excellent for softening up monsters before they reach you.<br>Arrows are often inserted into a Presto Pot one at a time.<br>Bow Boy monsters shoot these arrows.<br>Found in sets of 5~9.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Monster)</li>
+                    <li>Shuten Trail Hard (Monster)</li>
+                    <li>Onigashima (Floor, Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto, Monster)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>-2</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>20</td>
+                      <th>Sell</th>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="iron_arrow">Iron Arrow (鉄の矢)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Direct upgrade to Wooden Arrows, and has the highest attack among arrows.<br>Can be transformed into Silver Arrows using a Plating Scroll, but the count will be halved.<br>Bow Cart monsters shoot these arrows.<br>Found in sets of 4~8.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Monster)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Monster)</li>
+                    <li>Onigashima (Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto, Monster)</li>
+                    <li>Road to the End (Presto, Shop, Trader, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>6</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>60</td>
+                      <th>Sell</th>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="silver_arrow">Silver Arrow (銀の矢)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Pierces through walls and characters, similar to the effect of a Pierce Bracelet.<br>Provides a 銀 seal which allows you to attack monsters inside walls.<br>However, the equipment will be lost if it's thrown, or if a Kengo monster flings it away.<br>Horse Ronin monsters shoot these arrows.<br>Found in sets of 4~6.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto)</li>
+                    <li>Onigashima (Presto)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Presto, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>0</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>80</td>
+                      <th>Sell</th>
+                      <td>20</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>銀</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="critical_arrow">Critical Arrow (会心の矢)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Has a 40% chance to deal a x1.5 damage critical hit.<br>Critical arrows thrown by Kappa monsters may also deal a critical hit.<br>Found in sets of 10~15.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Surprise, Trader, Treasure Chest)</li>
+                    <li>Sealed Room (Presto, Treasure Chest)</li>
+                    <li>Road to the End (Presto, Surprise, Shop, Trader, Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>2</td>
+                      <th>Phrase</th>
+                      <td>ゴムニブ</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>120</td>
+                      <th>Sell</th>
+                      <td>40</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="razor_arrow">Razor Arrow (かまいたちの矢)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Fires three silver arrows in a 3-way pattern.<br>Only uses 1 arrow per use, making it an excellent option to clear out monster houses.<br>However, you may accidentally hit shopkeepers or traders elsewhere on the map.<br>Found in sets of 13~18.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Surprise, Trader, Treasure Chest)</li>
+                    <li>Sealed Room (Presto, Treasure Chest)</li>
+                    <li>Road to the End (Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>0</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>200</td>
+                      <th>Sell</th>
+                      <td>80</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="stone">Stone (石)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Deals damage to a target 2 tiles forward.<br>Stones arc when thrown, so they can hit 2 tiles forward even if an object is in front of you.<br>One of the few ways to deal with monsters that are underwater or inside walls.<br>Can activate traps where it lands.<br>Found in sets of 3~6.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Presto)</li>
+                    <li>Onigashima (Floor, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>8</td>
+                      <th>Phrase</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>100</td>
+                      <th>Sell</th>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="porky_stone">Porky Stone (デブータの石)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Similar to stones, but higher attack.<br>Homes in on a target within 2 tiles of the direction you're facing.<br>One of the few ways to deal with monsters that are underwater or inside walls.<br>Can activate traps where it lands.<br>Porky monsters may drop these stones.<br>Found in sets of 3~6.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto)</li>
+                    <li>Onigashima (Trader, Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto, Monster)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>12</td>
+                      <th>Phrase</th>
+                      <td>ウロクロ</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>150</td>
+                      <th>Sell</th>
+                      <td>70</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="cannonball">Cannonball (大砲の弾)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Rolls on the ground up to 10 tiles forward and creates an explosion that deals 40 damage to everything within a 1 tile radius if it collides with an object.<br>Activates all traps along the path.<br>Cannot hit underwater monsters.<br>Occasionally explodes if dropped while tripping.<br>Found in sets of 1~3.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Monster)</li>
+                    <li>Onigashima (Floor, Shop, Monster)</li>
+                    <li>Shrine's Hidden Hole (Monster)</li>
+                    <li>Halfway Well (Monster)</li>
+                    <li>Sealed Room (Presto, Monster)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader, Monster)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Power</th>
+                      <td>-</td>
+                      <th>Phrase</th>
+                      <td>ジソデブ</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                      <th>Buy</th>
+                      <td>100</td>
+                      <th>Sell</th>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>

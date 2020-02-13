@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/item.css">
-    <script type="text/javascript" src="../../js/item.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,8 +18,1240 @@
       <div id="sidebar" class="box sidebar"></div>
       <div id="content" class="box content">
         <div>
-          <div id="item_summary_table"></div>
-          <div id="item_details"></div>
+          <div id="item_summary_table">
+            <h2 class="page_heading">Scroll Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Seal</th>
+                  <th scope="col">Buy</th>
+                  <th scope="col">Sell</th>
+                  <th scope="col">Phrase</th>
+                  <th scope="col">Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#trap_activate_scroll">Trap Activate Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">200</td>
+                  <td data-label="Sell">100</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Activates all traps in the room. Only available in Halfway Well.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#identify_scroll">Identify Scroll</a></td>
+                  <td data-label="Seal">識</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Identifies an unidentified item. Occasionally identifies all items in your inventory.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#lightning_scroll">Lightning Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">しでもろ</td>
+                  <td data-label="Info">Deals 25~30 damage to all monsters in the room.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#blaze_scroll">Blaze Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Creates fire pillars around Shiren that deal 20 damage per turn.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#retreat_scroll">Retreat Scroll</a></td>
+                  <td data-label="Seal">帰</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Escape from a dungeon with your Gitan and equipped items.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#squid_sushi_scroll">Squid Sushi Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">500</td>
+                  <td data-label="Sell">250</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restores 20% fullness when eaten.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#purify_scroll">Purify Scroll</a></td>
+                  <td data-label="Seal">祓</td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Removes curses from currently equipped items.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#freeze_scroll">Freeze Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Freezes all water on the floor, and traps underwater monsters in ice.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#decoy_scroll">Decoy Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Summons up to 4 shadows that distract enemies for 10 turns.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#trap_remove_scroll">Trap Remove Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Removes all traps in the room.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#fear_scroll">Fear Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Inflicts fear to all monsters within a 1 tile radius of Shiren for 10 turns.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#escape_scroll">Escape Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1000</td>
+                  <td data-label="Sell">500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Escape from a dungeon with all of your items</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#heaven_scroll">Heaven Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1200</td>
+                  <td data-label="Sell">600</td>
+                  <td data-label="Phrase" class="summary_phrase">ぬべりか<br>ゆめだい</td>
+                  <td data-label="Info">Increases your equipped weapon's upgrade value by 1.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#earth_scroll">Earth Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1200</td>
+                  <td data-label="Sell">600</td>
+                  <td data-label="Phrase" class="summary_phrase">ネリグキ</td>
+                  <td data-label="Info">Increases your equipped shield's upgrade value by 1.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#slumber_scroll">Slumber Scroll</a></td>
+                  <td data-label="Seal">眠</td>
+                  <td data-label="Buy">1200</td>
+                  <td data-label="Sell">600</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Puts all monsters in the room to sleep for 10 turns. Monsters will move twice as fast when they wake up.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#evaporate_scroll">Evaporate Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1500</td>
+                  <td data-label="Sell">750</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Evaporates all water on the current floor.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#explosion_scroll">Explosion Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">1500</td>
+                  <td data-label="Sell">750</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Deals damage in a similar fashion to Landmines. Place it on the ground and perform a regular attack to make it explode.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#wall_collapse_scroll">Wall Collapse Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Transforms the current floor into one giant room.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#sturdy_pot_scroll">Sturdy Pot Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="Sell">1000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Makes a pot unbreakable for the duration of the current adventure.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#pot_expand_scroll">Pot Expand Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">2000</td>
+                  <td data-label="Sell">1100</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Increases the size of a pot by 1, up to a max size of 8.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#suction_scroll">Suction Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">3000</td>
+                  <td data-label="Sell">1500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Suctions out all contents from a pot.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#plating_scroll">Plating Scroll</a></td>
+                  <td data-label="Seal">金</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Rustproofs a weapon or shield (red 金 seal). Can also be used to repair bracelets or turn iron arrows into silver arrows.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#restock_scroll">Restock Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">4000</td>
+                  <td data-label="Sell">2000</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Restocks a shop to a max of 9 items for sale.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#blank_scroll">Blank Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">5000</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">ムビルプ</td>
+                  <td data-label="Info">Write down any scroll you've used before, and then use this as that scroll. Synthesize to increase an equipment's slot count by 1.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#sanctuary_scroll">Sanctuary Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">7500</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Place on the ground to create a safe zone where monsters next to the scroll cannot attack anything standing on top of the scroll.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#sanctaruy_scroll">Sanctaruy Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">7500</td>
+                  <td data-label="Sell">2500</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Makes the stairs and all items on the current floor hop around when placed on the ground.</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Name"><a href="#extinction_scroll">Extinction Scroll</a></td>
+                  <td data-label="Seal">-</td>
+                  <td data-label="Buy">25000</td>
+                  <td data-label="Sell">400</td>
+                  <td data-label="Phrase" class="summary_phrase">-</td>
+                  <td data-label="Info">Throw at a monster to make all instances of that monster vanish from the current adventure.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="item_details">
+            <h2>Scroll Details</h2>
+            <div>
+              <h3 id="trap_activate_scroll">Trap Activate Scroll (ワナ作動の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Activates all traps in the room.<br>Only works when you have the Trapper status.<br>Perhaps it can be used to trap flying monsters.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Halfway Well (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>200</td>
+                      <th>Sell</th>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="identify_scroll">Identify Scroll (識別の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Identifies an unidentified item, revealing its name and uses if it's a staff.<br>Occasionally identifies all items in your inventory that are not inside pots.<br>The 識 seal reveals disguised and invisible monsters when you attack them (weapon) or take damage from their attacks (shield).</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Mid (Floor)</li>
+                    <li>Shuten Trail Hard (Floor)</li>
+                    <li>Onigashima (Floor, Shop)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>識</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="lightning_scroll">Lightning Scroll (いかずちの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Lightning strikes all monsters in the room, dealing 25~30 each.<br>However, Oni are immune to lightning and are healed by it.<br>Lightning will strike all monsters in a 1 tile radius if you're in a hallway.<br>Lightning cannot hit monsters inside walls.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor)</li>
+                    <li>Shuten Trail Hard (Floor, Presto)</li>
+                    <li>Onigashima (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">しでもろ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="blaze_scroll">Blaze Scroll (炎上の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Creates fire pillars around Shiren that deal 20 damage per turn.<br>Great for wiping out monster houses early on, but note that you might end up burning allies and items as well.<br>Some enemies are also immune to fire damage, such as Tiny Phoenix.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto)</li>
+                    <li>Onigashima (Floor)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="retreat_scroll">Retreat Scroll (引き上げの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Escape from a dungeon with your Gitan and currently equipped items.<br>Cannot escape if you're being chased by guard dogs and sheriffs.<br>The 帰 seal lets you keep the weapon or shield it's synthesized onto if you collapse.<br>It can't prevent equipment loss by other means, such as Kengo monsters flinging it away.<br>Always found identified.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto)</li>
+                    <li>Shuten Trail Hard (Floor, Presto)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>帰</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="squid_sushi_scroll">Squid Sushi Scroll (いかすしの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restores 20% fullness when eaten.<br>Cannot be eaten if it's unidentified or if your mouth is sealed shut.<br>Eating it also registers it in the Blank Scroll list.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>500</td>
+                      <th>Sell</th>
+                      <td>250</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="purify_scroll">Purify Scroll (おはらいの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Removes curses from currently equipped items.<br>Also removes curses from Asuka's equipment if she is standing next to you.<br>The 祓 seal prevents your weapon from getting cursed (weapon) or prevents all items from getting cursed (shield).<br>There's a bug where if you synthesize it onto equipment with the 呪 seal, the 呪 seal gets deleted and it also doesn't gain the 祓 seal.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1000</td>
+                      <th>Sell</th>
+                      <td>500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>祓</td>
+                      <th>Stack</th>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="freeze_scroll">Freeze Scroll (氷の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Freezes all water on the floor while trapping underwater monsters in ice.<br>Underwater items float to the surface, so it can be used to recover items that fell in water.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1000</td>
+                      <th>Sell</th>
+                      <td>500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="decoy_scroll">Decoy Scroll (分身の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Summons up to 4 shadows that distract enemies for 10 turns.<br>The shadows won't attack enemies, but they can draw the attention of almost any attack, including Archdragon's floor-wide fire breath.<br>However, you still might get hit by ranged attacks that pass through the shadows, such as Ironhead's attacks or Pop Tank's cannonballs.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Floor)</li>
+                    <li>Shuten Trail Hard (Floor)</li>
+                    <li>Onigashima (Floor, Presto, Shop)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1000</td>
+                      <th>Sell</th>
+                      <td>500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="trap_remove_scroll">Trap Remove Scroll (ワナけしの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Removes all traps in the room.<br>Useful for monster houses, but not really worth taking up a spot in your inventory.<br>Can be used after a Wall Collapse Scroll to guarantee a safe path to the stairs.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1000</td>
+                      <th>Sell</th>
+                      <td>500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="fear_scroll">Fear Scroll (ゾワゾワの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Inflicts fear to all monsters within a 1 tile radius of Shiren for 10 turns.<br>Monsters with fear will attack in the opposite direction, as if they're afraid something sinister is behind their backs.<br>This scroll also works on monsters inside walls.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1000</td>
+                      <th>Sell</th>
+                      <td>500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="escape_scroll">Escape Scroll (持ちかえりの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Escape from a dungeon with all of your items.<br>Cannot escape if you're being chased by guard dogs and sheriffs.<br>Guaranteed floor item on specific floors of post-game dungeons.<br>Can be used to steal by inserting merchandise into Storage Pots before reading.<br>Always found identified.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto)</li>
+                    <li>Shrine's Hidden Hole (Floors 10, 20, 99)</li>
+                    <li>Sealed Room (Floor 99)</li>
+                    <li>Road to the End (Floors 30, 50, 70)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1000</td>
+                      <th>Sell</th>
+                      <td>500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="heaven_scroll">Heaven Scroll (天の恵みの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases your equipped weapon's upgrade value by 1.<br>Note that it cannot remove curses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Sealed Room (Floor, Presto, Golden Interval)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1200</td>
+                      <th>Sell</th>
+                      <td>600</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ぬべりか<br>ゆめだい</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="earth_scroll">Earth Scroll (地の恵みの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Increases your equipped shield's upgrade value by 1.<br>Note that it cannot remove curses.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Sealed Room (Floor, Presto, Golden Interval)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1200</td>
+                      <th>Sell</th>
+                      <td>600</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ネリグキ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="slumber_scroll">Slumber Scroll (バクスイの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Puts all monsters in the room to sleep for 10 turns.<br>Monsters will move twice as fast when they wake up.<br>Cannot put monsters inside walls to sleep.<br>The 眠 seal can put a monster to sleep for 5 turns when you attack it (weapon) or receive damage from it (shield).<br>Note that sleep induced by the seal won't grant a speed increase after the monster wakes up.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Small Valley (Floor)</li>
+                    <li>Shuten Trail Easy (Floor, Presto)</li>
+                    <li>Shuten Trail Mid (Floor, Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Shop, Trader, Golden Interval)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1200</td>
+                      <th>Sell</th>
+                      <td>600</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>眠</td>
+                      <th>Stack</th>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="detail-section2">
+                  <table class="detail-table section2-table">
+                    <thead>
+                      <tr>
+                        <th>Seals</th>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Sleep Chance (%)</td>
+                        <td></td>
+                        <td>8</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 id="evaporate_scroll">Evaporate Scroll (水がれの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Evaporates all water on the current floor. Ice will not evaporate.<br>Water-only monsters will be unable to move, and some won't even be able to attack.<br>Good to have for recovering items that fall into water.<br>Useful for capturing underwater monsters such as Shotfish.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1500</td>
+                      <th>Sell</th>
+                      <td>750</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="explosion_scroll">Explosion Scroll (バクハの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Deals damage in a similar fashion to Landmines.<br>Place it on the ground and perform a regular attack to make it explode.<br>Note that this is considered as an attack by Shiren, so if you blow up shop items or NPCs such as Traders, you'll be chased by Guard Dogs and Sherrifs.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Halfway Well (Floor, Shop)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>1500</td>
+                      <th>Sell</th>
+                      <td>750</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="wall_collapse_scroll">Wall Collapse Scroll (大部屋の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Transforms the current floor into one giant room when read.<br>Water, ice, and unbreakable walls all vanish.<br>Best way to search for Golden Intervals, and also makes it easier to steal from shops.<br>However, some care must be taken when reading it, or else you might find yourself waking up a monster house, or being under the effect of floor-wide statue effects.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Halfway Well (Floor)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2000</td>
+                      <th>Sell</th>
+                      <td>1000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="sturdy_pot_scroll">Sturdy Pot Scroll (壺われずの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Makes the selected pot unbreakable for the duration of the current adventure.<br>Good for protecting pots such as storage, water, and monster pots, but can be detrimental if used on pots such as sticky or synthesis pots.<br>In particular, you'll instantly get a game over if a Kappa monster throws an unbreakable sticky pot at you, even if you have revival grass on hand.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Shop, Trader)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2000</td>
+                      <th>Sell</th>
+                      <td>1000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="pot_expand_scroll">Pot Expand Scroll (壺増大の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Expands the selected pot, increasing its size by 1.<br>Note that this scroll won't have an effect if it's read on a pot that is already at the maximum size of 8.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>2000</td>
+                      <th>Sell</th>
+                      <td>1100</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="suction_scroll">Suction Scroll (すいだしの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Suctions out all contents from a selected pot, including items, monsters, and even pent-up anger from inside Surprise Pots.<br>Great for reusing expanded presto or upgrade pots.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>3000</td>
+                      <th>Sell</th>
+                      <td>1500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="plating_scroll">Plating Scroll (メッキの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Makes a weapon or shield rustproof with a red 金 seal. Cannot remove curses.<br>Can also repair bracelets, or transform iron arrows into silver arrows.<br>Monsoon Dolls will tear off a red 金 seal before any other seal, so this scroll effectively protects your synthesized seals against a single use of Monsoon Doll's special attack.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Trader, Golden Interval)</li>
+                    <li>Sealed Room (Floor, Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>金</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="restock_scroll">Restock Scroll (仕入れ直しの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Restocks a shop to a max of 9 items for sale.<br>Specialty shops will only restock items within the same category.<br>You may need to expand the shop's size by breaking its walls to get all 9 items in the restock if the room is small.<br>Note that N'dubbas can be included in the restock.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Surprise, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>4000</td>
+                      <th>Sell</th>
+                      <td>2000</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="blank_scroll">Blank Scroll (白紙の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Select the name of any scroll you've read before, and this scroll will act as that scroll.<br>You can revert the scroll back to a blank state by splashing water on it.<br>When used as synthesis fodder with a Mixer monster, the equipment's slot count will increase by 1, up to a max of 16 slots.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Onigashima (Shop, Trader)</li>
+                    <li>Sealed Room (Presto)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>5000</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">ムビルプ</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="sanctuary_scroll">Sanctuary Scroll (聖域の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Place this scroll on the ground to create a safe zone where monsters next to the scroll cannot attack anything standing on top of the scroll.<br>Monsters also cannot walk on top of the scroll.<br>Note that you can still get hit by ranged attacks while standing on the scroll.<br>No effect if read instead of being placed on the ground.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Shuten Trail Easy (Presto)</li>
+                    <li>Shuten Trail Mid (Presto, Shop, Trader)</li>
+                    <li>Shuten Trail Hard (Floor, Presto, Surprise, Shop, Trader, Golden Interval)</li>
+                    <li>Onigashima (Floor, Presto, Surprise, Shop, Trader, Golden Interval, Treasure Chest)</li>
+                    <li>Shrine's Hidden Hole (Floor)</li>
+                    <li>Sealed Room (Floor, Treasure Chest)</li>
+                    <li>Road to the End (Floor, Presto, Shop, Trader, Treasure Chest)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>7500</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="sanctaruy_scroll">Sanctaruy Scroll (聖城の巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Resembles a Sanctuary Scroll.<br>Makes stairs and all items on the current floor hop around when placed on the ground.<br>Shop items won't jump around, but disguised N'dubbas will.<br>You can get rid of the effect by splashing water on the scroll (Water Pot) or burning the scroll (Fire Staff, Blaze Scroll).</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Sealed Room (Floor)</li>
+                    <li>Road to the End (Floor, Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>7500</td>
+                      <th>Sell</th>
+                      <td>2500</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 id="extinction_scroll">Extinction Scroll (ねだやしの巻物)</h3>
+              <div class="detail-entry">
+                <div class="detail-section1">
+                  <p class="item_desc">Throw at a monster to make all instances of it vanish from the current adventure.<br>Note that other ranks in the family line will still appear.<br>Example: banish Pit Mamel → Mamel and Cave Mamel still appear.<br>Also note that only 1 monster can be banished at a time, so if a second scroll is thrown at a monster, the first monster will start appearing again.</p>
+                  <p>Locations:</p>
+                  <ul>
+                    <li>Road to the End (Shop)</li>
+                  </ul>
+                </div>
+                <table class="detail-table">
+                  <tbody>
+                    <tr>
+                      <th>Buy</th>
+                      <td>25000</td>
+                      <th>Sell</th>
+                      <td>400</td>
+                    </tr>
+                    <tr>
+                      <th>Seal</th>
+                      <td>-</td>
+                      <th>Stack</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Phrase</th>
+                      <td colspan="3">-</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer" class="box footer"></div>
