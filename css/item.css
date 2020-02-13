@@ -61,12 +61,6 @@ a:visited {
   border-radius: 5px;
 }
 
-.statue_desc {
-  padding: 10px;
-  background-color: #f5faff;
-  border-radius: 5px;
-}
-
 .detail {
   display: flex;
   flex-wrap: wrap;
