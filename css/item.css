@@ -110,6 +110,10 @@ a:visited {
   border-right: 10px solid transparent;
 }
 
+.text_left {
+  text-align: left;
+}
+
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
