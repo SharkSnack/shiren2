@@ -152,6 +152,12 @@ table th {
   text-transform: uppercase;
 }
 
+.statue_location_table th,
+.statue_location_table td {
+  padding: 7px;
+  font-size: 80%;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;
