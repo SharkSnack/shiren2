@@ -107,6 +107,7 @@ a:visited {
 }
 
 .img_statue {
+  align-self: center;
   border-right: 10px solid transparent;
 }
 
