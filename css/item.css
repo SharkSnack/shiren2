@@ -203,6 +203,12 @@ dt {
   margin-top: 1em;
 }
 
+.ally_table td, 
+.ally_table th {
+  padding: 7px;
+  font-size: 80%;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;
