@@ -159,6 +159,40 @@ table th {
   font-size: 80%;
 }
 
+.material_table th,
+.material_table td {
+  padding: 7px;
+  font-size: 80%;
+}
+
+.material_table_sub_th {
+  background-color: #D0D8E0;
+}
+
+.material_table_soil {
+  background-color: #bbaa33;
+}
+
+.material_table_water {
+  background-color: #aaccff;
+}
+
+.material_table_wood {
+  background-color: #f9dd99;
+}
+
+.material_table_rock {
+  background-color: #e0e0e0;
+}
+
+.material_table_iron_sand {
+  background-color: #b0b0b0;
+}
+
+.warning_text {
+  color: red;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;

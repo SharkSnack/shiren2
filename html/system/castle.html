@@ -20,7 +20,7 @@
         <div>
           <h2 class="page_heading">Castle</h2>
           <p>As the story progresses, Shiren soon finds himself having to build a castle for the village.<br>Castle <a href="">Materials</a> can be found throughout Shuten Mountain, and each category comes in three grades.</p>
-          <p>The basic flow comes down to:<br><span style="color:purple;">Obtain materials in dungeons → Make castle parts at the summit → Return to the village and build.</span></p>
+          <p>The basic flow is:<br><span style="color:purple;">Obtain materials in dungeons → Make castle parts at the summit → Return to the village and build.</span></p>
           <p>Note that your save file will receive a castle icon when you complete the castle.</p>
           <ul>
             <li><a href="#how_to_build">How to Build</a></li>
@@ -37,54 +37,193 @@
             </ul>
           </ul>
           <h2 id="how_to_build">How to Build</h2>
-          <p>Text</p>
+          <p>There's a Processing Shop on the second floor of Shuten Summit, before the Raft Shop.<br>Talk to the person behind the counter there to turn castle materials into castle parts.<br>Then simply ride the raft back to Napus Village, and Shiren will automatically build the part.<br>Building takes an entire day, and you can't enter dungeons until you finish building the parts you brought.</p>
+          <p>As the story progresses, Oni will occasionally attack the castle, potentially breaking sections of the castle.<br>The way to counter that is to use higher grade materials to build break-resistant castle parts.</p>
           <h3 id="castle_materials">Castle Materials</h3>
-          <p>Text</p>
-          <p>Table</p>
-          <p>Text</p>
+          <p>The 5 categories of materials are "Soil", "Water", "Wood", "Rock", and "Iron Sand",<br>and the 3 grades of materials are "Normal", "Good", and "Perfect".<br>These materials can be used as regular items as well. (<a href="">Materials</a> page for details).</p>
+          <p>On a side note, <strong>Perfect grade materials take up 2 inventory slots</strong>.<br>Materials cannot be inserted into pots, but can be deposited by Mamo.<br>The locations of each category and grade of material is shown in the following table:</p>
+          <table class="material_table">
+            <thead>
+              <tr>
+                <th rowspan="2">Material</th>
+                <th colspan="3">Shuten Trail</th>
+              </tr>
+              <tr>
+                <th class="material_table_sub_th">Easy</th>
+                <th class="material_table_sub_th">Mid</th>
+                <th class="material_table_sub_th">Hard</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="material_table_soil">Soil</td>
+                <td>☆</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="material_table_soil">Good Soil</td>
+                <td></td>
+                <td>☆</td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_soil">Perfect Soil</td>
+                <td></td>
+                <td></td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_water">Water</td>
+                <td>☆</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="material_table_water">Good Water</td>
+                <td></td>
+                <td>☆</td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_water">Perfect Water</td>
+                <td></td>
+                <td></td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_wood">Wood</td>
+                <td>☆</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="material_table_wood">Good Wood</td>
+                <td></td>
+                <td>☆</td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_wood">Perfect Wood</td>
+                <td></td>
+                <td>☆</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="material_table_rock">Rock</td>
+                <td>☆</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="material_table_rock">Good Rock</td>
+                <td></td>
+                <td>☆</td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_rock">Perfect Rock</td>
+                <td></td>
+                <td></td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_iron_sand">Iron Sand</td>
+                <td>☆</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="material_table_iron_sand">Good Iron Sand</td>
+                <td></td>
+                <td>☆</td>
+                <td>☆</td>
+              </tr>
+              <tr>
+                <td class="material_table_iron_sand">Perfect Iron Sand</td>
+                <td></td>
+                <td></td>
+                <td>☆</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>As you can see, Perfect grade castle materials can be found in Shuten Trail Hard,<br>while Shuten Trail Easy only has Normal grade materials.<br>However, note that <span class="warning_text">Perfect Wood can only be found in Shuten Trail Mid.</span><br>It's easy to forget, so try to remember that when going on adventures.<br>Also note that Perfect grade materials can only be found on floors after Shuten Halfway.</p>
+          <p>Lastly, enemy monsters will never drop castle materials when tripped,<br>such as when using an ally Armordillo's special attack.</p>
           <h3 id="castle_parts">Castle Parts</h3>
-          <p>Text</p>
-          <p>Table</p>
-          <p>Text</p>
+          <p>The 5 categories of castle materials can be combined in different combinations to make castle parts.<br>The combinations for each type of castle part are:</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Part</th>
+                <th>Materials</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Honmaru</td>
+                <td class="text_left">Soil, Water, Wood, Rock, Iron Sand</td>
+              </tr>
+              <tr>
+                <td>Ninomaru</td>
+                <td class="text_left">Soil, Wood, Iron Sand</td>
+              </tr>
+              <tr>
+                <td>Inner Wall</td>
+                <td class="text_left">Soil, Wood</td>
+              </tr>
+              <tr>
+                <td>Outer Wall</td>
+                <td class="text_left">Soil, Water</td>
+              </tr>
+              <tr>
+                <td>Moat</td>
+                <td class="text_left">Water, Rock</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Completing a castle section requires 4 of the same castle part.<br>So at minimum, you need <strong>16 Soil, 12 Water, 12 Wood, 8 Rock, and 8 Iron Sand</strong> to complete the castle.<br>Prioritize Soil, Water, and Wood if you find yourself having to choose what to carry with a full inventory.</p>
+          <p>The grade of materials determines the grade of castle parts.<br>The 4 castle part grades are "Normal", "Resistant", "Sturdy", and "Unbreaking".<br>Using all Perfect grade materials leads to an Unbreaking grade castle part,<br>which just as the name implies, will never break as a result of Oni attacks.</p>
+          <p>Also, if the entire castle is built using Perfect grade parts, the castle will become a <strong>Golden Castle</strong>.<br>It's possible to upgrade parts even after the castle is completed, so you don't need to build it using<br>Perfect materials from the very beginning, but it's a fun challenge to go for at some point.</p>
           <h3 id="oni_attacks">Oni Attacks</h3>
-          <p>Text</p>
+          <p>As you build the castle and progress the story, Oni will begin to launch attacks on the castle.<br>The attack event itself is automatic, so there's no gameplay or fighting involved.<br>As a result of the attack, a castle section built using lower grade parts might be destroyed.<br>It's best to use higher grade castle parts so that you don't end up having to rebuild sections.</p>
+          <p>On a side note, a Perfect grade castle material can be found after the first Oni attack at the castle site.</p>
           <h2 id="post_completion">Post-Completion</h2>
-          <p>Text</p>
+          <p>Completing the castle grants access to <a href="">Onigashima</a>, and the ending plays after clearing that dungeon.<br>Once you enter post-game, a couple of new ways to interact with your castle become available.</p>
           <h3 id="castle_decorations">Castle Decorations</h3>
-          <p>Text</p>
+          <p>A variety of castle decorations can be obtained from post-game story events and dungeons.<br>Collecting these castle decorations and displaying them is part of the fun of post-game in Shiren 2.<br>See the <a href="">Castle Decorations</a> page for details on where to obtain each decoration.</p>
           <h3 id="changing_parts">Changing Parts・Golden Castle</h3>
-          <p>Text</p>
+          <p>You'll be able to upgrade sections of your castle using higher grade castle parts.<br>See what happens when you build a Golden Castle by using Perfect grade castle parts for all sections.</p>
           <h3 id="quick_golden_castle">Quickly Building a Golden Castle</h3>
           <dl>
             <dt>Necessary Items</dt>
             <dd>
-              Item<br>
-              Item<br>
-              Item<br>
-              Item<br>
-              Item<br>
-              Item<br>
-              Item<br>
-              Item
+              Decently strong weapon<br>
+              Decently strong shield<br>
+              Scout Bracelet<br>
+              Pumphantasm Bracelet<br>
+              Revival Grass<br>
+              Balance Staff<br>
+              Items for emergencies (Warp Grass, Slumber Scroll, etc.)<br>
+              10,000+ Gitan (In case a Trader grabs materials)
             </dd>
           </dl>
           <dl>
-            <dt>1 Level Up at the Training Hall</dt>
-            <dd>Text</dd>
+            <dt>1. Level Up at the Training Hall</dt>
+            <dd>Equip a sword with many 幸 seals (Happy Grass) to boost experience gain.</dd>
           </dl>
           <dl>
-            <dt>2 Ride the Cart to Shuten Halfway</dt>
-            <dd>Text</dd>
+            <dt>2. Ride the Cart to Shuten Halfway</dt>
+            <dd>Deposit all of your items to Mamo, and don't forget to bring Mamo along.</dd>
           </dl>
           <dl>
-            <dt>3 Proceed to Shuten Mid or Hard for Perfect Materials</dt>
+            <dt>3. Proceed to Shuten Mid or Hard for Perfect Materials</dt>
             <dd>
-              Text<br>
-              Text<br>
-              Text
+              Use Scout Bracelet to locate items, and take shortcuts using Phantasm Bracelet.<br>
+              Kengo is the only monster you need to worry about.<br>
+              Each run can take 8 minutes or less if you move optimally and take the shortest paths to items.
             </dd>
           </dl>
-          <p>Text</p>
+          <p>It's possible to return to 11F in Shuten Trail Mid by using a Pitfall, so one way to quickly collect<br>Perfect Wood would be to bring a Trapper Bracelet and numerous Pitfalls to repeat 11~12F.</p>
         </div>
       <div id="footer" class="box footer"></div>
     </div>
