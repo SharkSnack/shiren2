@@ -193,6 +193,16 @@ table th {
   color: red;
 }
 
+dl {
+  font-size: 90%;
+}
+
+dt {
+  font-weight: bold;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;
