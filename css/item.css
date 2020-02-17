@@ -210,7 +210,8 @@ dt {
 }
 
 .ally_h3 {
-  margin: revert;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 @media screen and (max-width: 600px) {
