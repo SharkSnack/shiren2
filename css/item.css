@@ -209,6 +209,10 @@ dt {
   font-size: 80%;
 }
 
+.ally_h3 {
+  margin: revert;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;
