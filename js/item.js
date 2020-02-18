@@ -1,7 +1,7 @@
 try {
   $.getJSON("https://sharksnack.github.io/shiren2/json/items.json", function(data) {
 
-    // Check filename to determine item category (ex: html/item/shield.html -> shield)
+    // Check filename to determine item category (ex: html/item/shields.html -> shield)
     var regex = /\w+(?=\.html)/;
     var category = window.location.pathname.match(regex)[0];
 
