@@ -8,6 +8,10 @@ body {
   display: inline;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .header-image {
   vertical-align: middle;
   margin-right: 20px;
