@@ -3,6 +3,20 @@ body {
   margin: 5px;
 }
 
+h1 {
+  font-size: 100%;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+.header-image {
+  vertical-align: middle;
+  float: left;
+  margin-right: 20px;
+}
+
 .box {
   padding: 10px;
   font-size: 110%;
