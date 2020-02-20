@@ -3,13 +3,22 @@ body {
   margin: 5px;
 }
 
+a {
+  color: #215dc6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #a63d21;
+}
+
 .header h1 {
   font-size: 100%;
   display: inline;
-}
-
-.header a {
-  text-decoration: none;
 }
 
 .header-image {
@@ -40,17 +49,7 @@ body {
 }
 
 .sidebar-menu a {
-  color: #215dc6;
-  text-decoration: none;
   font-size: 80%;
-}
-
-.sidebar-menu a:hover {
-  text-decoration: underline;
-}
-
-.sidebar_menu a:visited {
-  color: #a63d21;
 }
 
 .sidebar-category {
@@ -83,10 +82,6 @@ body {
 .header {
   grid-area: header;
   border-bottom: 1px ridge #333;
-}
-
-.header a {
-  color: #215dc6;
 }
 
 .wrapper {
