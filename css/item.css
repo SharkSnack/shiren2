@@ -207,6 +207,10 @@ dt {
   font-size: 80%;
 }
 
+.monster_kingdom_table td {
+  text-align: left;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;

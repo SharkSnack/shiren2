@@ -16,6 +16,16 @@ a:visited {
   color: #a63d21;
 }
 
+dl {
+  font-size: 90%;
+}
+
+dt {
+  font-weight: bold;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
 .header h1 {
   font-size: 100%;
   display: inline;
