@@ -17,6 +17,10 @@ body {
   margin-right: 20px;
 }
 
+.credit_text {
+  font-size: 70%;
+}
+
 .box {
   padding: 10px;
   font-size: 110%;
