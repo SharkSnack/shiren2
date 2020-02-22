@@ -211,6 +211,11 @@ dt {
   text-align: left;
 }
 
+.gallery_image {
+  padding-left: 10px;
+  padding-top: 1em;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;
