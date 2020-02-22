@@ -60,6 +60,7 @@ h4 {
 }
 
 .family_desc {
+  margin-top: 10px;
   padding: 10px;
   background-color: #f5faff;
   border-radius: 5px;
@@ -95,7 +96,7 @@ table th {
 
 table th,
 table td {
-  padding: 0.625em;
+  padding: 0.35em;
   text-align: center;
   border: 1px solid #ccc;
   font-size: 90%;
