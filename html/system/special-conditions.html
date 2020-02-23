@@ -23,7 +23,7 @@
       <main id="content" class="box content">
         <div>
           <h2 class="page_heading">Special Conditions</h2>
-          <p>Text</p>
+          <p>Special conditions fall into two categories - status conditions (ailments) and Shiren-exclusive effects.<br>Status conditions and Shiren-exclusive effects both include negative and positive effects.<br>This page includes information on how status conditions affect monsters as well.</p>
           <ul id="quick_links" class="quick_links">
             <li><a href="#status_conditions_ailments">Status Conditions (Ailments)</a>
               <ul>
@@ -39,18 +39,219 @@
             </li>
           </ul>
           <h2 id="status_conditions_ailments">Status Conditions (Ailments)</h2>
-          <p>Text</p>
+          <p>Shiren and monsters can be inflicted by effects called status conditions.<br>Conditions with negative effects are called ailments or "bad status", and restrict the character's actions.<br>Ailments can have a drastic impact toward combat or even your adventure as a whole.<br>It's good to have some basic knowledge for each one so that they can be utilized for benefit.<br>Since there are few conditions with positive effects, they're grouped with ailments.</p>
           <h3 id="status_condition_basics">Status Condition Basics</h3>
-          <p>Text</p>
+          <p>Most effects only last a certain number of turns, and are cured after the duration expires.<br>The status conditions that last for the entire time on the floor only apply to monsters.</p>
+          <p>Movement speed cannot be both slowed and hastened at the same time.<br>Think of it as the character's movement speed stage increasing or decreasing by 1.<br>There is one exception, however, where a Talk Seed effect can slow a character down<br>to 1 action every 2 turns even if they were moving at double or triple speed.</p>
+          <p>Paralysis is unrelated to movement speed, and can occur even when a character is hastened.<br>If a Slow Staff is swung at a character that already has slowed movement,<br>they will become paralyzed and their movement speed stage will reset.</p>
+          <p>Drinking <a href="/shiren2/html/item/castle-materials.html#good_water">Good Water</a> or <a href="/shiren2/html/item/castle-materials.html#perfect_water">Perfect Water</a> will cure all status conditions. (excluding hastened movement),<br>and being revived by <a href="/shiren2/html/item/grass.html#revival_grass">Revival Grass</a> will cure all status conditions.</p>
           <h3 id="status_condition_list">Status Condition List</h3>
-          <p>Text</p>
-          <p>Table</p>
+          <p>For rows with two descriptions, the above one is for Shiren, and the one below is for monsters.<br>Causes that have a monster name in brackets represent a special attack used by that monster.</p>
+          <p>Duration (turns) begins when Shiren first takes action after the character is inflicted by the condition.<br>For example, if a Devil Kangaroo swings its Invisible Staff at a monster,<br>in either case of the monster becoming invisible after acting or before acting,<br>the invisibility only ends after Shiren performs 20 turns worth of actions.<br>So the monster would have invisibility for 20 turns in the first case, and 21 turns in the second case.</p>
+          <table class="table_less_padding">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Visual</th>
+                <th>Turns</th>
+                <th>Information</th>
+                <th>Cause</th>
+                <th>Cure</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Confusion</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/confusion.png" width="52" height="28" alt="Ducklings circling"></td>
+                <td>10</td>
+                <td></td>
+                <td>Spin Trap<br>Spoiled Riceball<br>Talk Seed<br>[Gazer Family]<br>(Possession Staff)</td>
+                <td>Otogiriso</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td></td>
+                <td>Spin Trap<br>Talk Seed<br>[Gazer Family]</td>
+                <td>Otogiriso</td>
+              </tr>
+              <tr>
+                <td>Fear</td>
+                <td><img src="/shiren2/image/condition/fear.png" width="" height="" alt="Fear icon"></td>
+                <td>10</td>
+                <td></td>
+                <td>Fear Scroll</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Slow</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/slow.png" width="34" height="44" alt="God of slowness"></td>
+                <td>10</td>
+                <td></td>
+                <td rowspan="2">Slow Trap<br>Slow Staff<br>Poison Grass<br>Talk Seed<br>[Demon Scorpion]<br>[Monarch Tusker]</td>
+                <td rowspan="2">Swift Grass<br>Swift Staff</td>
+              </tr>
+              <tr>
+                <td>∞</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Swift</td>
+                <td rowspan="2">Faster idle<br>animation</td>
+                <td>10</td>
+                <td></td>
+                <td>Swift Grass<br>Swift Staff<br>[Bat Kangaroo]</td>
+                <td rowspan="2">Slow Staff<br>Slow Trap<br>Poison Grass</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td></td>
+                <td>Swift Grass<br>Swift Staff<br>Slumber Scroll<br>[Bat Kangaroo]</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Blindness</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/blindness.png" width="16" height="16" alt="Blindness icon"></td>
+                <td>10</td>
+                <td></td>
+                <td>Iron Sand Items<br>Spoiled Riceball</td>
+                <td>Sight Grass (Eat)</td>
+              </tr>
+              <tr>
+                <td>∞</td>
+                <td></td>
+                <td>Iron Sand Items</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Invisible</td>
+                <td rowspan="2">Invisible<br>character</td>
+                <td>10</td>
+                <td></td>
+                <td rowspan="2">Invisible Staff<br>[Devil Kangaroo]</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td></td>
+                <td><a href="/shiren2/html/item/scrolls.html#identify_scroll">識 seal</a></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Miss</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/miss.png" width="24" height="15" alt="Miss icon"></td>
+                <td>25</td>
+                <td></td>
+                <td rowspan="2">Miss Staff</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Sleep</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/sleep.png" width="26" height="31" alt="Sleep icon"></td>
+                <td>5</td>
+                <td></td>
+                <td>Sleep Gas<br>Sleep Statue<br>Spoiled Riceball<br>Talk Seed</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td></td>
+                <td>Sleep Gas<br>Sleep Statue<br>Talk Seed<br>Slumber Scroll<br><a href="/shiren2/html/item/scrolls.html#slumber_scroll">眠 seal</a></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Frozen</td>
+                <td rowspan="2">Character<br>frozen in ice</td>
+                <td>1</td>
+                <td></td>
+                <td rowspan="2">Talk Seed<br>[Aqua Dragon Family]</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Paralysis</td>
+                <td rowspan="2">Character<br>turns yellow</td>
+                <td>3</td>
+                <td></td>
+                <td rowspan="2">Slow Staff<br>[Stun Scorpion]<br>[Monarch Tusker]<br>[Rock Beast]<br>[Boulder Beast]</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Seal</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/seal.png" width="" height="" alt="Seal icon"></td>
+                <td>35</td>
+                <td></td>
+                <td>Seal Staff<br>[King Tusker]</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>∞</td>
+                <td></td>
+                <td>Seal Staff<br>Strip Trap<br>[King Tusker]<br>[Monsoon Doll]</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Riceball</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/riceball.png" width="" height="" alt="Riceball"></td>
+                <td>10</td>
+                <td></td>
+                <td><a href="/shiren2/html/item/food.html#riceball">飯 seal</a> (shield)<br>[Nigiri Boss]<br>[Nigiri Master]</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>∞</td>
+                <td></td>
+                <td>[Nigiri Boss]<br>[Nigiri Master]</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Stasis</td>
+                <td rowspan="2">Character<br>stops moving</td>
+                <td>40</td>
+                <td></td>
+                <td rowspan="2">Talk Seed</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>∞</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Pot</td>
+                <td rowspan="2"><img src="/shiren2/image/condition/pot.png" width="" height="" alt="Turn into a pot"></td>
+                <td>3~8</td>
+                <td></td>
+                <td rowspan="2"><a href="/shiren2/html/item/pots.html#sticky_pot">Sticky Pot</a></td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td>5~8</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td rowspan="2">Boost</td>
+                <td rowspan="2">No visual</td>
+                <td rowspan="2">10</td>
+                <td></td>
+                <td rowspan="2"><a href="/shiren2/html/item/grass.html#boost_grass">Boost Grass</a> (Eat)</td>
+                <td rowspan="2">-</td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
           <h2 id="shiren_exclusive_conditions">Shiren Exclusive Conditions</h2>
-          <p>Text</p>
+          <p>Some special conditions are exclusive to Shiren.<br>Of these effects, ones that are caused by items can be particularly helpful during adventures.</p>
           <h3 id="shiren_exclusive_condition_basics">Shiren Exclusive Condition Basics</h3>
-          <p>Text</p>
+          <p>Whereas status conditions include many negative effects, most Shiren-exclusive effects are positive,<br>and none of them wear off based on the number of turns that have passed.</p>
           <h3 id="shiren_exclusive_condition_list">Shiren Exclusive Condition List</h3>
-          <p>Text</p>
+          <p>The "Turns" column is used to show effect duration.<br>"Floor" in the Turns column means the effect lasts the entire time spent on the current floor.<br>See the "Cure" column for rows with "-" for Turns to see how the effect wears off.</p>
           <p>Table</p>
         </div>
       </main>
