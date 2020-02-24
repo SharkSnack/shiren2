@@ -53,7 +53,7 @@
               <tr>
                 <th>Name</th>
                 <th>Visual</th>
-                <th>Turns</th>
+                <th>Turn</th>
                 <th>Info</th>
                 <th>Cause</th>
                 <th>Cure</th>
@@ -249,13 +249,13 @@
           <h3 id="shiren_exclusive_condition_basics">Shiren Exclusive Condition Basics</h3>
           <p>Whereas status conditions include many negative effects, most Shiren-exclusive effects are positive,<br>and none of them wear off based on the number of turns that have passed.</p>
           <h3 id="shiren_exclusive_condition_list">Shiren Exclusive Condition List</h3>
-          <p>The "Turns" column is used to show effect duration.<br>"Floor" in the Turns column means the effect lasts the entire time spent on the current floor.</p>
+          <p>The "Turn" column is used to show effect duration.<br>"Floor" in the Turn column means the effect lasts the entire time spent on the current floor.</p>
           <table class="table_less_padding">
             <thead>
               <tr>
                 <th>Name</th>
                 <th>Visual</th>
-                <th>Turns</th>
+                <th>Turn</th>
                 <th>Info</th>
                 <th>Cause</th>
                 <th>Cure</th>
@@ -266,7 +266,7 @@
                 <td>Starvation</td>
                 <td><img src="/shiren2/image/condition/starvation.png" width="127" height="44" alt="Level and HP"><br>UI darkens</td>
                 <td>-</td>
-                <td class="text_left"></td>
+                <td class="text_left">Condition that occurs when fullness reaches 0%.<br>Natural HP recovery stops, and instead Shiren<br>will lose 1 HP per turn until he collapses.<br>Allies and monsters don't have hunger.<br>Can be cured by possessing a Hunger Puppet<br>monster and using their special attack.<br>iDash is disabled.</td>
                 <td>Turns passing<br>[Hunger Puppet F.]</td>
                 <td>Riceballs<br>Squid Sushi Scroll<br>Grass, Seed (Eat)<br>Gobo (Eat)<br>Dried Bonito (Bite)<br>Perfect Water</td>
               </tr>
@@ -274,7 +274,7 @@
                 <td>Hollow</td>
                 <td><img src="/shiren2/image/condition/hollow.png" width="77" height="86" alt="White eyes"></td>
                 <td>-</td>
-                <td class="text_left"></td>
+                <td class="text_left">Shiren's lifeless body while controlling a monster.<br>He is unable to perform any actions in this state.<br>The body is dragged behind the possessed monster,<br>but will not follow if inflicted by confusion.<br><br>Shiren will return to his body if [Back] is selected<br>or if the possessed monster is defeated.<br>Returning to the body will not end the turn,<br>and can be done from a distance.<br>Equipment stats and hunger still apply to<br>Shiren's body, but traps won't be triggered.<br><br>Hunger rate will be doubled or tripled if a monster<br>with double or triple movement speed is possessed.<br>Monsters prioritize attacking Shiren's body,<br>and Shiren's remaining HP will be displayed<br>momentarily when he receives damage.<br>Both possession and Hollow states will be<br>canceled if Shiren is revived by a Revival Grass.</td>
                 <td>Possession Staff</td>
                 <td>-</td>
               </tr>
@@ -282,15 +282,23 @@
                 <td>Sight</td>
                 <td>None</td>
                 <td>Floor</td>
-                <td class="text_left"></td>
+                <td class="text_left">Sight status gained by eating Sight Grass.<br>Hidden traps become visible, and invisible<br>characters can be faintly seen.<br>The effect is canceled if blinded,<br>but will not wear off if revived by Revival Grass.</td>
                 <td>Sight Grass (Eat)</td>
                 <td>Iron Sand Items<br>Spoiled Riceball</td>
+              </tr>
+              <tr>
+                <td>Silent</td>
+                <td>None</td>
+                <td>Floor</td>
+                <td class="text_left">Specialty Riceball effect.<br>Sleeping monsters never wake up when Shiren<br>walks nearby, or when Shiren enters or exits rooms.</td>
+                <td>Specialty Riceball</td>
+                <td>-</td>
               </tr>
               <tr>
                 <td>Sleepless</td>
                 <td>None</td>
                 <td>Floor</td>
-                <td class="text_left"></td>
+                <td class="text_left">Specialty Riceball effect.<br>Shiren will no longer fall asleep from Sleep Trap,<br>Sleep Statue, Talk Seed, or Spoiled Riceball.<br>However, a <a href="/shiren2/html/system/glitches.html#no_effect_specialty_riceball">glitch</a> exists where the effect is negated.<br>Does not wear off if revived by Revival Grass.</td>
                 <td>Specialty Riceball</td>
                 <td>-</td>
               </tr>
@@ -298,7 +306,7 @@
                 <td>Poison Immunity</td>
                 <td>None</td>
                 <td>Floor</td>
-                <td class="text_left"></td>
+                <td class="text_left">Specialty Riceball effect.<br>Prevents the loss of strength due to Poison Arrows,<br>Poison Grass, Scorpion, Sheep Priest, and Slug licks.<br>Combination of Scale Shield + Salty Bracelet, but<br>cannot prevent strength loss from Spoiled Riceballs.<br>Like above, a <a href="/shiren2/html/system/glitches.html#no_effect_specialty_riceball">glitch</a> exists where the effect is negated.</td>
                 <td>Specialty Riceball</td>
                 <td>-</td>
               </tr>
@@ -306,7 +314,7 @@
                 <td>Pick up Identify</td>
                 <td>None</td>
                 <td>Floor</td>
-                <td class="text_left"></td>
+                <td class="text_left">Specialty Riceball effect.<br>Items that are picked up, inserted or taken from a pot,<br>or purchased from a Trader will be auto-identified.<br>This includes items inserted into Presto Pots.<br>Does not wear off if revived by Revival Grass.</td>
                 <td>Specialty Riceball</td>
                 <td>-</td>
               </tr>
@@ -314,7 +322,7 @@
                 <td>No Hunger</td>
                 <td>None</td>
                 <td>Floor</td>
-                <td class="text_left"></td>
+                <td class="text_left">Specialty Riceball effect.<br>Stops the natural depletion of fullness due to turns.</td>
                 <td>Specialty Riceball</td>
                 <td>-</td>
               </tr>
