@@ -54,7 +54,7 @@
                 <th>Name</th>
                 <th>Visual</th>
                 <th>Turns</th>
-                <th>Information</th>
+                <th>Info</th>
                 <th>Cause</th>
                 <th>Cure</th>
               </tr>
@@ -64,13 +64,13 @@
                 <td rowspan="2">Confusion</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/confusion.png" width="91" height="135" alt="Ducklings circle"></td>
                 <td>10</td>
-                <td class="text_left"></td>
+                <td class="text_left">Movement and attack direction becomes unpredictable.<br>All other actions can be performed normally, such as stepping<br>in place, throwing items, reading scrolls, and swinging staves.<br>Attacks can hit NPCs and allies, so be careful if you have<br>a weapon with the 三 seal (Razor Wind) or Morning Star.</td>
                 <td>Spin Trap<br>Spoiled Riceball<br>Talk Seed<br>[Gazer F.]<br>(Possession Staff)</td>
                 <td>Otogiriso</td>
               </tr>
               <tr>
                 <td>20</td>
-                <td class="text_left"></td>
+                <td class="text_left">Movement and attack direction becomes unpredictable.<br>Attacks still have a chance to line up with Shiren or allies.<br>The monster cannot use special attacks while confused,<br>but passive abilities such as Patient Bag exploding or<br>Tonosamadon reflecting items still occur.</td>
                 <td>Spin Trap<br>Talk Seed<br>[Gazer F.]</td>
                 <td>Otogiriso</td>
               </tr>
@@ -78,7 +78,7 @@
                 <td>Fear</td>
                 <td><img src="/shiren2/image/condition/fear.png" width="91" height="155" alt="Sweat icon"></td>
                 <td>10</td>
-                <td class="text_left"></td>
+                <td class="text_left">Becomes afraid that something sinister is behind them,<br>making them attack in the opposite direction.<br>There's no way to inflict Shiren with Fear.<br>Can be used to intetionally level up a monster.<br>If a monster you're controlling is inflicted by fear,<br>face the opposite direction before attacking to hit the target.</td>
                 <td>Fear Scroll</td>
                 <td>-</td>
               </tr>
@@ -86,38 +86,38 @@
                 <td rowspan="2">Slow</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/slow.png" width="70" height="119" alt="God of Slowness"></td>
                 <td>10</td>
-                <td class="text_left"></td>
+                <td class="text_left">Can only act once every 2 turns.<br>Doubles duration of conditions such as sleep and paralysis.<br>If you get hit by a Slow Staff while already slowed,<br>movement speed will reset and you will be paralyzed.<br>Note that you can be slowed again while paralyzed.</td>
                 <td rowspan="2">Slow Trap<br>Slow Staff<br>Poison Grass<br>Talk Seed<br>[Demon Scorpion]<br>[Monarch Tusker]</td>
                 <td rowspan="2">Swift Grass<br>Swift Staff</td>
               </tr>
               <tr>
                 <td>∞</td>
-                <td class="text_left"></td>
+                <td class="text_left">Can only act once every 2 turns.<br>If they get hit by a Slow Staff while already slowed,<br>movement speed will reset and they will be paralyzed.<br>Movement speed will reset when sealed,<br>but a sealed monster can be slowed again.</td>
               </tr>
               <tr>
                 <td rowspan="2">Swift</td>
                 <td rowspan="2">Faster idle<br>animation</td>
                 <td>10</td>
-                <td class="text_left"></td>
+                <td class="text_left">Can act 2 times per turn if double, or 3 times per turn if triple.<br>Becomes triple speed if already at double speed. (max: triple)<br>Movement speed is lowered by 1 stage if slowed.<br>To be clear, this status condition is not an ailment.</td>
                 <td>Swift Grass<br>Swift Staff<br>[Bat Kangaroo]</td>
                 <td rowspan="2">Slow Staff<br>Slow Trap<br>Poison Grass</td>
               </tr>
               <tr>
                 <td>20</td>
-                <td class="text_left"></td>
+                <td class="text_left">Can act 2 times per turn if double, or 3 times per turn if triple.<br>Becomes triple speed if already at double speed. (max: triple)<br>Movement speed is lowered by 1 stage if slowed.<br>Some monsters are naturally double or triple speed.<br>Sealing a fast monster will reset their movement speed.</td>
                 <td>Swift Grass<br>Swift Staff<br>Slumber Scroll<br>[Bat Kangaroo]</td>
               </tr>
               <tr>
                 <td rowspan="2">Blindness</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/blind.png" width="70" height="109" alt="Crossed out eyes"></td>
                 <td>10</td>
-                <td class="text_left"></td>
+                <td class="text_left">Unable to see other characters, items, traps, and stairs.<br>Can still see the current floor's map shape.<br>Cancels the Sight effect if Shiren had eaten Sight Grass.<br>Unable to dash, and cannot step on Gitan without picking it up.<br>All other actions can be performed normally,<br>and attack accuracy remains the same.</td>
                 <td>Iron Sand Items<br>Spoiled Riceball</td>
                 <td>Sight Grass (Eat)</td>
               </tr>
               <tr>
                 <td>∞</td>
-                <td class="text_left"></td>
+                <td class="text_left">Walks forward without changing directions.<br>Attacks any character in front of it, including other monsters.<br>Randomly changes direction if it hits a wall or waterway.<br>Cannot use their special attack, even if possessed.</td>
                 <td>Iron Sand Items</td>
                 <td>-</td>
               </tr>
@@ -125,124 +125,122 @@
                 <td rowspan="2">Invisible</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/invisible.png" width="70" height="88" alt="Sprite vanishes"></td>
                 <td>10</td>
-                <td class="text_left"></td>
+                <td class="text_left">No longer detected by enemies or statues (Ouch, Stone Toss).<br>Still receive damage like normal while invisible.<br>Wears off if you drink Good Water or Perfect Water.</td>
                 <td rowspan="2">Invisible Staff<br>[Devil Kangaroo]</td>
                 <td>-</td>
               </tr>
               <tr>
                 <td>20</td>
-                <td class="text_left"></td>
+                <td class="text_left">Monster completely disappears. (Including on the map).<br>Walks around aimlessly while invisible, similar to Pumphantasm.<br>Cannot use their special attack.<br>Possessed invisible monsters can walk normally,<br>but still cannot use their special attack.<br><br>Name changes to "Something", making it difficult to figure out<br>what monster it is based on their attack sound effect alone.<br>Wider attacks such as Lightning Scroll or Razor Wind can help.<br>Shiren can see invisible monsters if he has the Sight status.</td>
                 <td><a href="/shiren2/html/item/scrolls.html#identify_scroll">識 seal</a></td>
               </tr>
               <tr>
                 <td rowspan="2">Miss</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/miss.png" width="67" height="121" alt="Miss icon"></td>
                 <td>25</td>
-                <td class="text_left"></td>
+                <td class="text_left">Regular attack accuracy is halved, and the effect<br>of 必 seal (Homing Blade) is nullified.<br>Doesn't seem to affect the accuracy of thrown items.</td>
                 <td rowspan="2">Miss Staff</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>30</td>
-                <td class="text_left"></td>
+                <td class="text_left">Regular attacks will always miss.<br>Can use their special attack like normal.<br>Regular attacks are guaranteed to hit if the target<br>is unable to move due to a status condition or Bear Trap.</td>
               </tr>
               <tr>
                 <td rowspan="2">Sleep</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/sleep.png" width="78" height="89" alt="Sleeping zZz"></td>
                 <td>5</td>
-                <td class="text_left"></td>
+                <td class="text_left">Unable to perform any actions until they wake up.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.<br>Cannot be tripped.</td>
                 <td>Sleep Gas<br>Sleep Statue<br>Spoiled Riceball<br>Talk Seed</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>5</td>
-                <td class="text_left"></td>
+                <td class="text_left">Unable to perform any actions until they wake up.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.<br>Note that monsters that are generated while sleeping<br>(natural sleep) differs from this status condition.<br><br>Sleep lasts 5 turns, or 10 turns if a Slumber Scroll is read.<br>Monsters waking up after a Slumber Scroll sleep will have<br>a permanent increase in movement speed by 1 stage.<br>Cannot be tripped.</td>
                 <td>Sleep Gas<br>Sleep Statue<br>Talk Seed<br>Slumber Scroll<br><a href="/shiren2/html/item/scrolls.html#slumber_scroll">眠 seal</a></td>
               </tr>
               <tr>
                 <td rowspan="2">Freeze</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/freeze.png" width="63" height="70" alt="Blue sprite"></td>
                 <td>1</td>
-                <td class="text_left"></td>
+                <td rowspan="2" class="text_left">Unable to perform any actions.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.<br>Cannot be tripped.</td>
                 <td rowspan="2">Talk Seed<br>[Aqua Dragon F.]</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td class="text_left"></td>
               </tr>
               <tr>
                 <td rowspan="2">Paralysis</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/paralysis.png" width="65" height="70" alt="Yellow sprite"></td>
                 <td>3</td>
-                <td class="text_left"></td>
+                <td rowspan="2" class="text_left">Unable to perform any actions.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.</td>
                 <td rowspan="2">Slow Staff<br>[Stun Scorpion]<br>[Monarch Tusker]<br>[Rock Beast]<br>[Boulder Beast]</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td class="text_left"></td>
               </tr>
               <tr>
                 <td rowspan="2">Seal</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/seal.png" width="72" height="124" alt="Seal icon"></td>
                 <td>35</td>
-                <td class="text_left"></td>
+                <td class="text_left">Cannot read scrolls or use grasses, seeds, riceballs, or water.<br>Attempting to use the above items will end your turn.<br>Can still bite a weapon with the か seal (Dried Bonito).</td>
                 <td>Seal Staff<br>[King Tusker]</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>∞</td>
-                <td class="text_left"></td>
+                <td class="text_left">Prevents the use of special attacks and nullifies abilities,<br>making it so that monsters only use regular attacks.<br><br>Most characteristics like the ability to divide<br>or having unpredictable movement are also nullified.<br>However, some won't be nullified, such as Floating, Flying,<br>Amphibious elements, fire immunity, lightning immunity,<br>Boss Oni's ailment recovery, Shopkeeper and Trader abilities.<br><br>Bomb type monsters can be sealed using a Water Pot.<br>(or Flood Trap in Patient Bag's case).<br>Movement speed will be reset when a monster is sealed.</td>
                 <td>Seal Staff<br>Strip Trap<br>[King Tusker]<br>[Monsoon Doll]</td>
               </tr>
               <tr>
                 <td rowspan="2">Riceball</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/riceball.png" width="74" height="71" alt="Riceball"></td>
                 <td>10</td>
-                <td class="text_left"></td>
+                <td class="text_left">Cannot use items. ([Items] and [Ground] menu options vanish)<br>Weapon, shield, and bracelet stats and effects are nullified.</td>
                 <td><a href="/shiren2/html/item/food.html#riceball">飯 seal</a> (shield)<br>[Nigiri Boss]<br>[Nigiri Master]</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>∞</td>
-                <td class="text_left"></td>
+                <td class="text_left">Cannot use their special attack. (Similar to being sealed)</td>
                 <td>[Nigiri Boss]<br>[Nigiri Master]</td>
               </tr>
               <tr>
                 <td rowspan="2">Stasis</td>
                 <td rowspan="2">Character<br>stops moving</td>
                 <td>40</td>
-                <td class="text_left"></td>
+                <td class="text_left">Unable to perform any actions.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.<br>Stasis is canceled if you receive damage.<br>Possibly canceled if you get hit by certain special attacks?</td>
                 <td rowspan="2">Talk Seed</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>∞</td>
-                <td></td>
+                <td class="text_left">Unable to perform any actions.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.<br>Stasis is canceled if they receive damage.<br>Possibly canceled if they get hit by certain special attacks?<br>Throwing Water (castle material) at Oni will inflict this condition.</td>
               </tr>
               <tr>
                 <td rowspan="2">Pot</td>
                 <td rowspan="2"><img src="/shiren2/image/condition/pot.png" width="86" height="84" alt="Pot"></td>
                 <td>3~8</td>
-                <td class="text_left"></td>
+                <td class="text_left">Status condition inflicted when hit by a thrown Sticky Pot.<br>Unable to perform any actions.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.<br><br>Pot shatters instead of Shiren taking damage when attacked.<br>Some monsters only use special attacks toward the pot.<br>Adventure instantly ends if Shiren is hit by a sturdy Sticky Pot.</td>
                 <td rowspan="2"><a href="/shiren2/html/item/pots.html#sticky_pot">Sticky Pot</a></td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
                 <td>5~8</td>
-                <td class="text_left"></td>
+                <td class="text_left">Unable to perform any actions.<br>Cannot evade attacks, including attacks from characters<br>inflicted by the Miss status condition.<br>Pot shatters instead of Shiren taking damage when attacked.<br>Some monsters only use special attacks toward the pot.<br><br>Many effects are nullified. (Pull, Knockback, and Swap still work)<br>Monsters will attack the pot if it's blocking the path.<br>Cannot cancel this status condition if hit by a sturdy Sticky Pot.</td>
               </tr>
               <tr>
                 <td rowspan="2">Boost</td>
                 <td rowspan="2">None</td>
                 <td rowspan="2">10</td>
-                <td class="text_left"></td>
+                <td class="text_left">Doubles the effects of eating grasses and seeds.</td>
                 <td rowspan="2"><a href="/shiren2/html/item/grass.html#boost_grass">Boost Grass</a> (Eat)</td>
                 <td rowspan="2">-</td>
               </tr>
               <tr>
-                <td class="text_left"></td>
+                <td class="text_left">Doubles the effects of eating grasses and seeds.<br>Himakichi is the only other character that can [Eat] Boost Grass.</td>
               </tr>
             </tbody>
           </table>
@@ -258,7 +256,7 @@
                 <th>Name</th>
                 <th>Visual</th>
                 <th>Turns</th>
-                <th>Information</th>
+                <th>Info</th>
                 <th>Cause</th>
                 <th>Cure</th>
               </tr>
