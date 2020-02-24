@@ -23,7 +23,7 @@
       <main id="content" class="box content">
         <div>
           <h2 class="page_heading">Gameplay Basics</h2>
-          <p>Text</p>
+          <p>This page provides information for Shiren 2's various gameplay systems and mechanics.</p>
           <ul id="quick_links" class="quick_links">
             <li><a href="#dungeon_related">Dungeon Related</a>
               <ul>
@@ -146,7 +146,38 @@
           </ul>
           <h2 id="dungeon_related">Dungeon Related</h2>
           <h3 id="turns">Turns</h3>
-          <p>Text</p>
+          <dl>
+            <dt>Turns and Turn-Ending Actions</dt>
+            <dd></dd>
+          </dl>
+          <p>Being a turn-based roguelike, Shiren and monsters take turns when performing actions in this game.<br>Generally, turn-ending actions include movement, attacks, using an item, and stepping in place.<br>Your turn <span class="text_non_turn_ending">does not</span> end from idling, checking item details, or otherwise navigating menus.<br>The following actions are easy to forget / mistake:</p>
+          <ul>
+            <li>Equipping a weapon, shield, or bracelet <span class="text_turn_ending">does</span> end the turn, but equipping a projectile <span class="text_non_turn_ending">does not</span>.</li>
+            <li>Talking to an ally character <span class="text_non_turn_ending">does not</span> end the turn.</li>
+            <li>Talking to a Shopkeeper or Trader <span class="text_turn_ending">does</span> end the turn.</li>
+            <li>Placing a trap on the ground <span class="text_non_turn_ending">does not</span> end the turn.</li>
+            <li>Failing to place an item on the ground <span class="text_non_turn_ending">does not</span> end the turn.</li>
+            <li>Successfully taking control of a monster using a Possession Staff <span class="text_non_turn_ending">does not</span> end the turn.</li>
+            <li>Cancelling a possession and returning to your body <span class="text_non_turn_ending">does not</span> end the turn.</li>
+          </ul>
+          <dl>
+            <dt>Turns Elapsing</dt>
+            <dd></dd>
+          </dl>
+          <p>Various effects or events occur based on the number of turns that have elapsed.<br>Try your best to not waste turns with meaningless actions.</p>
+          <ul>
+            <li><a href="/shiren2/html/system/gameplay-basics.html#hp">HP</a> regenerates every turn at a rate of 0.5% of your max HP. (decimals accumulate)</li>
+            <li><a href="/shiren2/html/system/gameplay-basics.html#fullness">Fullness</a> decreases by 1% every 10 turns.</li>
+            <li>A new monster is generated every 50 turns.</li>
+            <li>A Sheriff or Guard Dog is generated once per turn during Thief Mode.</li>
+            <li><a href="/shiren2/html/system/gameplay-basics.html#wind">Wind</a> sweeps you out of the dungeon when 2100 turns have elapsed.</li>
+          </ul>
+          <dl>
+            <dt>Turn Processing Order</dt>
+            <dd>Shiren→Fire weakening→Enemy movement→Traps→Fire damage (move)→Enemy attack→Fire damage→Turn End</dd>
+          </dl>
+          <p>Enemies standing on a tile that is on fire who received fire damage due to an action by Shiren<br>will not take additional fire damage on the same turn unless they move to a different tile that is on fire.</p>
+          <p>Characters other than Shiren with double or triple movement speed who receive fire damage<br>by moving to a tile that is on fire will end their turn when they receive the fire damage.</p>
           <h3 id="wind">Wind</h3>
           <p>Text</p>
           <h3 id="dungeon_types">Dungeon Types</h3>

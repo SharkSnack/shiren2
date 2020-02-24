@@ -180,6 +180,14 @@ table th {
   color: red;
 }
 
+.text_non_turn_ending {
+  color: #66f;
+}
+
+.text_turn_ending {
+  color: #f66;
+}
+
 dl {
   font-size: 90%;
 }
