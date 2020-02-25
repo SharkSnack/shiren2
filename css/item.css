@@ -192,6 +192,15 @@ table th {
   color: orange;
 }
 
+.diagram {
+  padding: 4px;
+  line-height: 110%;
+  border: 1px solid #dde;
+  margin-left: 1em;
+  margin-right: 2em;
+  background-color: #f0f8ff;
+}
+
 dl {
   font-size: 90%;
 }
