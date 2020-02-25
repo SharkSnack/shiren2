@@ -179,11 +179,103 @@
           <p>Enemies standing on a tile that is on fire who received fire damage due to an action by Shiren<br>will not take additional fire damage on the same turn unless they move to a different tile that is on fire.</p>
           <p>Characters other than Shiren with double or triple movement speed who receive fire damage<br>by moving to a tile that is on fire will end their turn when they receive the fire damage.</p>
           <h3 id="wind">Wind</h3>
-          <p>Text</p>
+          <p>If you linger on the same floor inside of a dungeon for a long time, a strong wind begins to blow.<br>(Also occurs inside the Training Hall and Napus Storage)</p>
+          <p>The gusts happen 3 times, and Shiren is swept back to Napus Village on the third gust of wind.<br>Being swept away by wind is equivalent to collapsing, so you'll lose all items and Gitan.<br>Asuka and Mamo's items will not be lost, and items on the floor inside Napus Storage will be safe.</p>
+          <ul>
+            <li>First gust of wind occurs on turn 1500</li>
+            <li>Second gust of wind occurs on turn 1800</li>
+            <li>Third gust of wind occurs on turn 2100</li>
+          </ul>
+          <p>Recollections that play after resuming a suspended game will include wind in the playback,<br>so you can use that to check how many gusts of wind occurred.</p>
           <h3 id="dungeon_types">Dungeon Types</h3>
-          <p>Text</p>
+          <p>There are 2 types of dungeons, which are called "Shuffle Dungeon" and "Random Dungeon".</p>
+          <dl>
+            <dt>Shuffle Dungeon</dt>
+            <dd></dd>
+          </dl>
+          <ul>
+            <li>The map for the floor is randomly selected from a set of predefined patterns.
+              <ul>
+                <li>The same pattern will never be repeated during an adventure.</li>
+                <li>Boss floors such as Shuten Trail Hard 15F only have one pattern.</li>
+              </ul>
+            </li>
+            <li>The maps are generally very pretty, and have many fine details depicting nature.
+              <ul>
+                <li>It's thought that Shiren 2 is among the most detailed games made for the Nintendo 64.</li>
+                <li>Hallways and rooms vary in shape and feel more natural compared to lines and rectangles seen elsewhere.</li>
+              </ul>
+            </li>
+            <li>Monster Houses and dungeon shops will never be generated. (Traders can still appear)</li>
+            <li>Some item and monster special attack effects are nullified in this type of map.
+              <ul>
+                <li>Any effect that alters the shape of the map is nullified.<br>(Pickaxe, Wonder Pickaxe, Tunnel Staff, Wall Collapse Scroll, Rock Beast, Boulder Beast, explosions)</li>
+                <li>Nothing happens to the water on the current floor when Evaporate Scroll or Freeze Scroll is read.</li>
+                <li>Passing through walls is not allowed. (Pumphantasm family, Typhoon, Phantasm Bracelet)</li>
+                <li>Note that items with piercing properties still pierce through objects and walls. (Pierce Bracelet, etc.)</li>
+              </ul>
+            </li>
+            <li>Nothing happens when a Flood Trap activates, and Pitfalls deal damage without changing floors.
+              <ul>
+                <li>These traps are never generated in this map type, but can be brought in and set using a Trapper Bracelet.</li>
+                <li>Shuten Trail Mid 12F is the only exception, where falling in a Pitfall returns you to 11F.</li>
+              </ul>
+            </li>
+            <li>There's a <span class="warning_text">glitch</span> that hard-locks the game in Shuffle Dungeon maps. <a href="/shiren2/html/system/glitches.html#shuffle_dungeon_hardlock">→Glitches</a></li>
+            <li>This dungeon type occurs only on select floors of Shuten Trails, boss floors of Onigashima, and Golden Intervals.
+              <ul>
+                <li>In other words, Shuffle Dungeons are rarely seen in post-game dungeons.</li>
+              </ul>
+            </li>
+          </ul>
+          <p><span class="text_orange">Dungeons: Small Valley, Shuten Easy (1~4F, 7F, 9~10F), Shuten Mid (3~4F, 6~7F, 9~13F),<br>Shuten Hard (1~2F, 10~15F), Golden Interval, Onigashima (16F, 25F)</span></p>
+          <dl>
+            <dt>Random Dungeon</dt>
+            <dd></dd>
+          </dl>
+          <ul>
+            <li>There are no predefined patterns, and each floor is generated completely randomly.</li>
+            <li>Every tile is a ground, water, ice, wall, or unbreakable wall tile. There are no hole / bottomless pit tiles.</li>
+            <li>
+              <ul>
+                <li>Rooms can have features such as water or ice, single column wall tiles spaced throughout the room, etc.</li>
+                <li>Other features include small islands within a room, maze-like rooms with only a 1 tile radius of view, etc.</li>
+              </ul>
+            </li>
+            <li>Waterways can be generated, which sometimes have a similar appearance to hallways.</li>
+            <li>Monster Houses, dungeon shops, and Traders have a chance of being generated.</li>
+            <li>Golden Stairs that lead to <a href="/shiren2/html/system/golden-interval.html">Golden Intervals</a> can rarely be found hidden in a wall tile in this dungeon type.</li>
+            <li>All dungeons starting with Onigashima are Random Dungeons, and have a limited field of view.</li>
+          </ul>
+          <p><span class="text_orange">Dungeons: Shuten Easy (5~6F, 8F), Shuten Mid (1~2F, 5F, 8F), Shuten Hard (3~9F),<br>Onigashima, Shrine's Hidden Hole, Halfway Well, Sealed Room, Road to the End</span></p>
           <h3 id="field_of_view">Field of View</h3>
-          <p>Text</p>
+          <ul>
+            <li>Shiren has a set distance he can see called field of view.
+              <ul>
+                <li>The view radius is 1 tile in hallways, and is the entire room + 1 tile along the edge of the room inside rooms.</li>
+                <li>The location of items, monsters, and statues are displayed on the map if they are within Shiren's view.</li>
+                <li>Single room floors and some Shuffle Dungeon maps don't differentiate between rooms and hallways,<br>and instead have a 5 tile field of view (within a 11 tile radius).</li>
+                <li>You can still see past Shiren's field of view in Shuffle Dungeons, but not in darker dungeons such as Onigashima.</li>
+              </ul>
+            </li>
+            <li>Monsters also have their own field of view.
+              <ul>
+                <li>They'll attack Shiren if he is visible, and will chase after him into the same hallway if they see him enter one.</li>
+                <li>They can seemingly see Shiren from 2 tiles away in hallways, but they won't use their special attack from that distance.
+                  <ul>
+                    <li>Monsters in a room will also move toward Shiren if he is standing on a tile right outside the room.</li>
+                  </ul>
+                </li>
+                <li>Monsters that can pass through walls can see Shiren from anywhere on the current floor.</li>
+                <li>Some monsters can use special attacks toward Shiren or other monsters even if they aren't in view,<br>such as Porky throwing stones at Shiren, or Bat Kangaroo swinging its staff at other monsters.</li>
+              </ul>
+            </li>
+            <li>Note that statues and items like scrolls that affect the entire room don't include the tile right outside of the room.
+              <ul>
+                <li>Except for Rock (castle material) items, which can hit monsters right outside of the room.</li>
+              </ul>
+            </li>
+          </ul>
           <h3 id="dungeon_mechanics">Dungeon Mechanics</h3>
           <h4 id="shops">Shops</h4>
           <p>Text</p>

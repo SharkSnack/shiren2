@@ -188,6 +188,10 @@ table th {
   color: #f66;
 }
 
+.text_orange {
+  color: orange;
+}
+
 dl {
   font-size: 90%;
 }
