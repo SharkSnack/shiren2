@@ -53,12 +53,12 @@
                     <li><a href="#4_rooms_2_hallways">4 Rooms (2 Hallways)</a></li>
                     <li><a href="#8_rooms">8 Rooms</a></li>
                     <li><a href="#12_rooms">12 Rooms</a></li>
-                    <li><a href="#octopus_shape">1 Large Room + Small Rooms (Octopus Shape)</a></li>
+                    <li><a href="#octopus_shape">1 Medium Room + Small Rooms (Octopus Shape)</a></li>
                     <li><a href="#single_branched_rooms">Single Branched Rooms</a></li>
                     <li><a href="#single_path">Single Path</a></li>
                   </ul>
                 </li>
-                <li><a href="#item_and_character_limit">Item and Character Limit</a></li>
+                <li><a href="#item_and_character_limits">Item and Character Limits</a></li>
                 <li><a href="#score_leaderboard">Score (Leaderboard)</a></li>
               </ul>
             </li>
@@ -367,46 +367,64 @@
           <p>The outer wall can be broken using items like Tunnel Staff and Pickaxe,<br>so one strategy would be to create a tunnel and then swing a Fire Staff<br>or shoot Silver Arrows to clear out lines of enemies that follow you.<br>Unlike other games in the series, this map type is not guaranteed to be a Monster House.</p>
           <img src="/shiren2/image/maps/1_medium_room.png" width="480" height="360" alt="1_medium_room.png">
           <h4 id="1_large_frozen_room">1 Large Frozen Room</h4>
-          <p>Text</p>
+          <p>The entire floor is one large room with frozen floors.<br>Monster Houses and shops will never be generated in this map type.<br>Walls and waterways are never generated, but statues can be present.<br>Like single large rooms, the field of view is limited to 5 tiles (11 tile radius).<br>It's easy to get caught in traps on these floors due to all of the sliding on ice.</p>
           <img src="/shiren2/image/maps/1_large_frozen_room.png" width="480" height="360" alt="1_large_frozen_room.png">
           <h4 id="2_rooms">2 Rooms</h4>
-          <p>Text</p>
+          <p>The entire floor is two large rectangular rooms connected by a single hallway.<br>It's common for the hallway to have turns, rather than being a straight horizontal line.<br>Monster Houses are not guaranteed, and shops will never be generated.<br>The field of view is not limited, so scrolls and statues affect everything in the room.</p>
           <img src="/shiren2/image/maps/2_rooms.png" width="480" height="360" alt="2_rooms.png">
           <h4 id="4_rooms">4 Rooms</h4>
-          <p>Text</p>
+          <p>Four rectangular rooms connected by hallways in a 2x2 layout.<br>Monster Houses are not guaranteed, and shops will never be generated.</p>
           <img src="/shiren2/image/maps/4_rooms.png" width="480" height="360" alt="4_rooms.png">
           <h4 id="2_rooms_dumbbell">2 Rooms (Dumbbell Shape)</h4>
-          <p>Text</p>
+          <p>The entire floor is two circular rooms connected by a single horizontal hallway.<br>Monster Houses and shops will never be generated.<br>Items and monsters are generated in the opposite room from where Shiren starts.<br>The start of the floor is safe, but monsters quickly flow in from the opposite room.<br>Items like Fire Staff and Silver Arrows can make quick work of monsters on the floor.</p>
           <img src="/shiren2/image/maps/2_rooms_dumbbell.png" width="480" height="360" alt="2_rooms_dumbbell.png">
           <h4 id="4_rooms_2_hallways">4 Rooms (2 Hallways)</h4>
-          <p>Text</p>
+          <p>The entire floor is four rooms placed in cardinal directions connected by 2 hallways.<br>Shops will never be generated in this map type.<br>Each room has four entrances, and each set of two hallways leads to the next room.<br>It's more efficient in terms of number of turns and fullness depletion<br>to explore the floor using the inner hallways rather than the outer hallways.</p>
           <img src="/shiren2/image/maps/4_rooms_2_hallways.png" width="480" height="360" alt="4_rooms_2_hallways.png">
           <h4 id="8_rooms">8 Rooms</h4>
-          <p>Text</p>
+          <p>The entire floor is 8 rooms in a 4x2 layout, with one hallway going around the outside.<br>It's best to explore the floor using the inner hallways when possible,<br>since monsters tend to end up circling the floor in the outer hallway.<br>Unlike previous games, this map type doesn't have a greater chance of generating shops.</p>
           <img src="/shiren2/image/maps/8_rooms.png" width="480" height="360" alt="8_rooms.png">
           <h4 id="12_rooms">12 Rooms</h4>
-          <p>Text</p>
+          <p>The entire floor is a hallway grid layout with a total of 12 rooms placed on the end points.<br>It can take quite a few turns to explore the floor due to the number of rooms,<br>combined with having to return to the hallways after checking each end point.<br>Consider using a Pickaxe or Tunnel Staff to create shortcuts between rooms.<br>Unlike previous games, this map type doesn't have a greater chance of generating shops.</p>
           <img src="/shiren2/image/maps/12_rooms.png" width="480" height="360" alt="12_rooms.png">
-          <h4 id="octopus_shape">1 Large Room + Small Rooms (Octopus Shape)</h4>
-          <p>Text</p>
+          <h4 id="octopus_shape">1 Medium Room + Small Rooms (Octopus Shape)</h4>
+          <p>The entire floor is one medium sized room with individual hallways leading to single rooms.<br>Also called "Crab Shape", "Sun Shape", "Radial Shape", and "Octopus Shape".<br>Expect to encounter many monsters due to having to return to the center after checking each room.<br>Be careful not to get surrounded at the start, since monsters will quickly flow into the center room.<br>Particularly tricky when monsters with ranged attacks are present, such as Sky Dragon.</p>
           <img src="/shiren2/image/maps/octopus_shape.png" width="480" height="360" alt="octopus_shape.png">
           <h4 id="single_branched_rooms">Single Branched Rooms</h4>
-          <p>Text</p>
+          <p>The entire floor consists of rooms connected by one hallway between each room.<br>(The number of hallways = number of rooms - 1).<br>Each branch eventually leads to a room as a dead end, so it's common to encounter monsters.<br>However, on rare occasions hallways can end up looping or having branches (such as a cross-shape).<br>One of the most common map types, with <a href="/shiren2/html/dungeon/road-to-the-end.html">Road to the End</a> having 30 floors of either this or single path layouts.</p>
           <img src="/shiren2/image/maps/single_branched_rooms.png" width="480" height="360" alt="single_branched_rooms.png">
           <h4 id="single_path">Single Path</h4>
-          <p>Text</p>
+          <p>The entire floor consists of a single path between rooms without any branching hallways.<br>(The number of hallways = number of rooms - 1).<br>Expect to encounter every monster on the floor, often having to fight multiple in a row.</p>
           <img src="/shiren2/image/maps/single_path.png" width="480" height="360" alt="single_path.png">
           <p class="credit_text">Map Images source: <a href="http://shiren2.lsx3.com/?%B4%F0%CB%DC%A5%B7%A5%B9%A5%C6%A5%E0#r9dd5da8">風来のシレン2 鬼襲来！シレン城！ 攻略Wiki</a></p>
-          <h3 id="item_and_character_limit">Item and Character Limit</h3>
-          <p>Text</p>
+          <h3 id="item_and_character_limits">Item and Character Limits</h3>
+          <p>There is a maximum number of items and characters that can be present on a floor.</p>
           <dl>
             <dt>Item limit</dt>
-            <dd>Text</dd>
+            <dd>
+              The max number of items (including both inventory and the ground) is 160, including traps.<br>
+              Monsters will no longer drop new items or traps when the number of items is at the limit.<br>
+              Actions that increase the number of items are nullified, such as shooting an arrow from a stack [99 arrows → 98 + 1].<br>
+              Some monsters like Bow Boy won't be able to use their special attack.<br>
+              A monster inside of a Monster Pot is counted as an item, so Monster Pots cannot be thrown at monsters.<br>
+              Captured monsters won't be able to return to their pot if the item limit is reached while they're out.<br>
+              Items on the ground inside Napus Storage will begin to vanish if there are 161 or more items<br>between your inventory and the number of items on the ground.
+            </dd>
           </dl>
-          <pre class="diagram">Item disappearing order</pre>
+          <pre class="diagram">
+            16BGLQV
+            27CHMRW If there are 161 items, the item at position 1 will vanish,
+            38DINSX and if there are 170 items, items at positions 1~A will vanish.
+            49EJOTY
+            5AFKPUZ
+          </pre>
           <dl>
             <dt>Character limit</dt>
-            <dd>Text</dd>
+            <dd>
+              The max number of characters is 30, and includes Shiren, monsters, allies, NPCs, statues, decoys, and figures.<br>
+              Monsters will no longer be generated, and items like Decoy Scroll and Soil will not generate shadows or figures.<br>
+              Ally monsters also cannot be sent out of their pots when the character limit is reached.
+            </dd>
           </dl>
           <h3 id="score_leaderboard">Score (Leaderboard)</h3>
           <p>Score is calculated when you either clear a dungeon, or collapse and return from a dungeon.<br>The leaderboard keeps track of 30 placements per dungeon.</p>

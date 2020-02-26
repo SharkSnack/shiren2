@@ -199,6 +199,7 @@ table th {
   margin-left: 1em;
   margin-right: 2em;
   background-color: #f0f8ff;
+  white-space: pre-line;
 }
 
 dl {
