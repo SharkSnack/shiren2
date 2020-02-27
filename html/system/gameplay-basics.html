@@ -130,7 +130,7 @@
               <ul>
                 <li><a href="#storage">Storage</a></li>
                 <li><a href="#blacksmith">Blacksmith</a></li>
-                <li><a href="#traders_shop">Trader's Shop</a></li>
+                <li><a href="#trader_shops">Trader Shops</a></li>
                 <li><a href="#bank">Bank</a></li>
               </ul>
             </li>
@@ -504,7 +504,7 @@
           </dl>
           <ul>
             <li>Synthesize using different category items as ingredients (ex: grasses, scrolls) when equipment is used as a base.</li>
-            <li>Different category items can only be synthesized by throwing items at a Mixer family monster.
+            <li>Different category items can only be synthesized by throwing items at a <a href="/shiren2/html/system/monsters.html#mixer_family">Mixer</a> family monster.
               <ul>
                 <li>To be clear, you cannot synthesize different category items together using a Synthesis Pot.</li>
               </ul>
@@ -589,7 +589,7 @@
           <h3 id="fire_pillars">Fire Pillars</h3>
           <p>Text</p>
           <h3 id="ally_items_asuka_mamo">Ally Items (Asuka, Mamo)</h3>
-          <p>Asuka's equipment and items stored inside Mamo's drawers generally carry forward between adventures.<br>They will both drop their items if they collapse inside a dungeon.<br>However, there are a few cases where Asuka and Mamo's items will vanish:</p>
+          <p><a href="/shiren2/html/system/allies.html#asuka">Asuka</a>'s equipment and items stored inside <a href="/shiren2/html/system/allies.html#mamo">Mamo</a>'s drawers generally carry forward between adventures.<br>They will both drop their items if they collapse inside a dungeon.<br>However, there are a few cases where Asuka and Mamo's items will vanish:</p>
           <ul>
             <li>Selecting [Return to Napus Village] from the main menu.</li>
             <li>Copying a journal. (Asuka and Mamo's items will vanish in the copy).</li>
@@ -618,7 +618,7 @@
           <p>　※ See the item, monster, seal, and secret phrase pages for details.</p>
           <h3 id="hp">HP</h3>
           <h4 id="shiren_ally_hp">Shiren, Ally HP</h4>
-          <p>Shiren always starts with 15 HP at the beginning of an adventure, and max HP never falls below 15.<br>Max HP increases with each level up, and items can be used to increase max HP as well. (max: 999).<br>Max HP decreases if Shiren loses levels due to monster special attacks or item effects.<br>Note that Mamo starts with 100 HP, since it doesn't have the ability to gain levels.</p>
+          <p>Shiren always starts with 15 HP at the beginning of an adventure, and max HP never falls below 15.<br>Max HP increases with each level up, and items can be used to increase max HP as well. (max: 999).<br>Max HP decreases if Shiren loses levels due to monster special attacks or item effects.<br>Note that <a href="/shiren2/html/system/allies.html#mamo">Mamo</a> starts with 100 HP, since it doesn't have the ability to gain levels.</p>
           <p>Remaining HP regenerates at a rate equal to 0.5% of max HP per turn.<br>Decimals accumulate, and will be reflected in the remaining HP once the value reaches 1.<br>Some HP is restored after receiving an attack if you have the 薬 or 弟 seal synthesized onto your shield,<br>but note that the HP restoration occurs after the HP loss, so if the amount of damage surpasses<br>the amount of remaining HP, you'll collapse before the HP restoration occurs.</p>
           <h4 id="monster_hp">Monster HP</h4>
           <p>Max HP increases for ally monsters when they grow stronger, and items like Life Grass<br>can be used to increase max HP for both ally and enemy monsters. (max: 9999).<br>However, max HP increases from sources other than growth are temporary,<br>and will be reset when the ally monster returns to its pot.<br>Monsters do not regenerate HP, but ally monsters will be fully healed when they return to their pot.</p>
@@ -635,7 +635,10 @@
           <p>　※ See the item, monster, seal, trap, and secret phrase pages for details.</p>
           <h3 id="strength">Strength</h3>
           <h4 id="shiren_ally_strength">Shiren, Ally Strength</h4>
-          <p>Text</p>
+          <p>Shiren starts each adventure with 8 strength, and can increase max strength up to 99.<br>Some items and monster special attacks can lower strength, down to a minimum value of 1.</p>
+          <p>Strength is twice as potent as weapon strength in calculating attack for Shiren and his allies,<br>but it can only be increased through the use of specific items.</p>
+          <p>Level ups and strength both factor into attack calculation, but if choosing to spend time increasing<br>one or the other, strength should be prioritized since the attack increase is immediate and can be felt<br>throughout the entire adventure, whereas level ups occur naturally as you progress through the dungeon<br>either way, and slow down the further you progress.</p>
+          <p>Note that being revived by Revival Grass will restore strength, similar to eating Antidote Grass.</p>
           <dl>
             <dt>Items</dt>
             <dd>Strength Grass, Antidote Grass, Revival Grass, Poison Grass, Specialty Riceball,<br>Spoiled Riceball, Scale Shield, Strength Bracelet, Salty Bracelet.</dd>
@@ -644,9 +647,10 @@
             <dt>Other</dt>
             <dd>Synthesis seals (う, 消), Poison Trap, secret phrases (べのぜざ, プタプク)</dd>
           </dl>
-          <p>Text</p>
+          <p>　※ See the item, monster, seal, trap, and secret phrase pages for details.</p>
           <h4 id="monster_strength">Monster Strength (Attack)</h4>
-          <p>Text</p>
+          <p>For monsters, attack = strength + 1.<br>Attack ranges from 1~9999, except for enemy <a href="/shiren2/html/system/monsters.html#gamarra_family">Gamarras</a> and <a href="/shiren2/html/system/monsters.html#zalokleft_family">Zaloklefts</a>, which have 0 attack. (-1 strength).<br><a href="/shiren2/html/system/monsters.html#mixer_family">Mixer</a> family monsters can increase their attack beyond 9999 by swallowing items.</p>
+          <p>Both enemy and ally monsters will have their attack modified by the following special attacks and items:<br>(Note that ally monster strength will be reset when they return to their pot).</p>
           <table class="table_less_padding">
             <thead>
               <tr>
@@ -689,7 +693,7 @@
               </tr>
             </tbody>
           </table>
-          <p>Text</p>
+          <p>Water Pot only lowers attack of <a href="/shiren2/html/system/monsters.html#weapon">Weapon</a> element monsters.<br>Lowering effects stack, and lost strength can be restored using Antidote Grass.<br>However, Sheep Priest's spell does not stack, and cannot be cured by Antidote Grass.<br>Poison Trap will lower strength by 50% (25% of regular amount) if under the effect of Sheep Priest's spell.</p>
           <h3 id="fullness">Fullness</h3>
           <p>Text</p>
           <ul>
@@ -1300,7 +1304,7 @@
             </li>
             <li></li>
           </ul>
-          <h3 id="traders_shop">Trader's Shop</h3>
+          <h3 id="trader_shops">Trader Shops</h3>
           <p>You can purchase and sell items at Trader shops found at Shuten Halfway and Shuten Summit.<br>The list of items for sale is as follows:</p>
           <table class="table_less_padding">
             <thead>
