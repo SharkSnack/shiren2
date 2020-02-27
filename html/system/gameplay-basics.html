@@ -654,7 +654,7 @@
           <table class="table_less_padding">
             <thead>
               <tr>
-                <th>Ability・Item</th>
+                <th>Sp.Attack・Item</th>
                 <th>Attack</th>
               </tr>
             </thead>
@@ -695,11 +695,13 @@
           </table>
           <p>Water Pot only lowers attack of <a href="/shiren2/html/system/monsters.html#weapon">Weapon</a> element monsters.<br>Lowering effects stack, and lost strength can be restored using Antidote Grass.<br>However, Sheep Priest's spell does not stack, and cannot be cured by Antidote Grass.<br>Poison Trap will lower strength by 50% (25% of regular amount) if under the effect of Sheep Priest's spell.</p>
           <h3 id="fullness">Fullness</h3>
-          <p>Text</p>
+          <p>Shiren's fullness starts at 100%/100% when he enters a dungeon.<br>Max fullness can be increased up to 200%, and decreased down to the minimum value of 0%.<br>Shiren's fullness decreases by 1% every 10 turns. (So 100% is equal to 1000 turns).<br>If a Leather Shield is equipped, Shiren's hunger rate will be halved. (1% every 20 turns).</p>
+          <p>Once fullness reaches 0, Shiren will be inflicted with the starvation special condition.<br>The UI darkens, natural HP regeneration stops, and Shiren loses 1 HP every turn.<br>iDash and stepping in place are both disabled so that you don't accidentally collapse from a missed input.</p>
+          <p>Some things to keep in mind regarding fullness:</p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Eating a grass item restores 5% fullness.</li>
+            <li>Getting revived by Revival Grass restores fullness to max.</li>
+            <li>Possessing a Hunger Puppet monster and using its special attack at a monster restores some fullness.</li>
           </ul>
           <dl>
             <dt>Items</dt>
@@ -712,23 +714,24 @@
           <p>　※ See the item, monster, seal, trap, statue, and secret phrase pages for details.</p>
           <h2 id="combat_related">Combat Related</h2>
           <h3 id="attack">Attack</h3>
-          <p>Text</p>
+          <p>This section takes all stats into account when defining attack, rather than just weapon strength.<br>If the target has 0 defense, the amount of damage dealt will be the attack value + variance.</p>
           <h4 id="base_attack">Base Attack</h4>
-          <p>Text</p>
+          <p>Base attack is a character's attack based on their level, separate from strength and weapon strength.<br>This stat is not 1:1 with the character's current level, but instead has an assigned value per level.<br>See the <a href="/shiren2/html/playing/exp-and-stats.html#shiren_ally_stats">Exp & Stats</a> page for base attack values per character.</p>
           <h4 id="attack_calculation">Attack Calculation</h4>
-          <p>Text</p>
-          <pre class="diagram">(attack formula)</pre>
-          <p>Text</p>
+          <p>Monsters have an attack value of strength + 1.<br>Shiren and his allies use the following formula:</p>
+          <pre class="diagram">Attack = int((int(weapon strength / 2) + strength + 8) * base attack / 16)</pre>
+          <p>Thrown items and projectiles have a strength value, which is treated as weapon strength in the formula.</p>
           <h3 id="defense">Defense</h3>
-          <p>Text</p>
+          <p>This section considers shield strength and base defense as separate stats.</p>
           <h4 id="shiren_ally_defense">Shiren, Ally Defense</h4>
-          <p>Text</p>
+          <p>Shiren has 0 base defense without a shield equipped, and Mamo has a base defense of 20.<br>Other allies have slightly varying base defense, which also increases with level ups.<br>Allies will never have their defense lowered by anything except leveling down.<br>When Shiren or Asuka has a shield equipped, shield strength / 2 is added to their base defense.<br>See the <a href="/shiren2/html/playing/exp-and-stats.html#shiren_ally_stats">Exp & Stats</a> page for base defense values per character.</p>
           <h4 id="monster_defense">Monster Defense</h4>
-          <p>Text</p>
+          <p>Monsters have predefined base defense values, which never increase based on growth.<br>Also, monsters will have their defense halved when they are attacked by other monsters.</p>
+          <p>Monsters can have their defense lowered by the following special attacks and traps:</p>
           <table class="table_less_padding table_text_left">
             <thead>
               <tr>
-                <th>Ability・Trap</th>
+                <th>Sp.Attack・Trap</th>
                 <th>Defense</th>
               </tr>
             </thead>
