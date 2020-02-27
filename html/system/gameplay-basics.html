@@ -613,40 +613,82 @@
             <dt>Monsters</dt>
             <dd>Twisty Hani, Gazelle Pope, Mr. Helico (Happy Grass).</dd>
             <dt>Other</dt>
-            <dd>Synthesis seals (幸, 天, and 超), secret phrases (そあぞけ, パゾエバ).</dd>
+            <dd>Synthesis seals (幸, 天, 超), secret phrases (そあぞけ, パゾエバ).</dd>
           </dl>
-          <p>　※ See the item, monster, and seal pages for details.</p>
+          <p>　※ See the item, monster, seal, and secret phrase pages for details.</p>
           <h3 id="hp">HP</h3>
           <h4 id="shiren_ally_hp">Shiren, Ally HP</h4>
-          <p>Text</p>
+          <p>Shiren always starts with 15 HP at the beginning of an adventure, and max HP never falls below 15.<br>Max HP increases with each level up, and items can be used to increase max HP as well. (max: 999).<br>Max HP decreases if Shiren loses levels due to monster special attacks or item effects.<br>Note that Mamo starts with 100 HP, since it doesn't have the ability to gain levels.</p>
+          <p>Remaining HP regenerates at a rate equal to 0.5% of max HP per turn.<br>Decimals accumulate, and will be reflected in the remaining HP once the value reaches 1.<br>Some HP is restored after receiving an attack if you have the 薬 or 弟 seal synthesized onto your shield,<br>but note that the HP restoration occurs after the HP loss, so if the amount of damage surpasses<br>the amount of remaining HP, you'll collapse before the HP restoration occurs.</p>
           <h4 id="monster_hp">Monster HP</h4>
-          <p>Text</p>
+          <p>Max HP increases for ally monsters when they grow stronger, and items like Life Grass<br>can be used to increase max HP for both ally and enemy monsters. (max: 9999).<br>However, max HP increases from sources other than growth are temporary,<br>and will be reset when the ally monster returns to its pot.<br>Monsters do not regenerate HP, but ally monsters will be fully healed when they return to their pot.</p>
           <h4 id="things_that_affect_hp">Things that affect HP</h4>
-          <p>Text</p>
+          <p>The following list excludes things that simply deal damage or modify level.</p>
           <dl>
             <dt>Items</dt>
-            <dd>Text</dd>
+            <dd>Herb, Otogiriso, Life Grass, Revival Grass, Water (castle material), Poison Grass,<br>Specialty Riceball, Spoiled Riceball, Heal Staff, Quarter Staff, Healing Sword, Heal Bracelet.</dd>
             <dt>Monsters</dt>
-            <dd>Text</dd>
+            <dd>Evil Kangaroo, Emperor Tusker, Tiny Phoenix, Goat Pastor.</dd>
             <dt>Other</dt>
-            <dd>Text</dd>
+            <dd>Synthesis seals (薬, 弟, 回), starvation, Landmine, Big Landmine, Flood Trap, secret phrases (ゾザロラ, よえさぬ).</dd>
           </dl>
-          <p>Text</p>
+          <p>　※ See the item, monster, seal, trap, and secret phrase pages for details.</p>
           <h3 id="strength">Strength</h3>
           <h4 id="shiren_ally_strength">Shiren, Ally Strength</h4>
           <p>Text</p>
           <dl>
             <dt>Items</dt>
-            <dd>Text</dd>
+            <dd>Strength Grass, Antidote Grass, Revival Grass, Poison Grass, Specialty Riceball,<br>Spoiled Riceball, Scale Shield, Strength Bracelet, Salty Bracelet.</dd>
             <dt>Monsters</dt>
-            <dd>Text</dd>
+            <dd>Slug family, Scorpion, Sheep Priest, Mr. Drone (Strength Grass).</dd>
             <dt>Other</dt>
-            <dd>Text</dd>
+            <dd>Synthesis seals (う, 消), Poison Trap, secret phrases (べのぜざ, プタプク)</dd>
           </dl>
           <p>Text</p>
           <h4 id="monster_strength">Monster Strength (Attack)</h4>
           <p>Text</p>
-          <p>Table</p>
+          <table class="table_less_padding">
+            <thead>
+              <tr>
+                <th>Ability・Item</th>
+                <th>Attack</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text_left">Sheep Priest</td>
+                <td class="text_left">x0.5 (25 turns)</td>
+              </tr>
+              <tr>
+                <td class="text_left">Scorpion, Water Pot</td>
+                <td class="text_left">x0.5</td>
+              </tr>
+              <tr>
+                <td class="text_left">Intolerable Slug, Poison Grass</td>
+                <td class="text_left">x0.6</td>
+              </tr>
+              <tr>
+                <td class="text_left">Rancor Slug</td>
+                <td class="text_left">x0.7</td>
+              </tr>
+              <tr>
+                <td class="text_left">Serious Slug</td>
+                <td class="text_left">x0.8</td>
+              </tr>
+              <tr>
+                <td class="text_left">Slug</td>
+                <td class="text_left">x0.9</td>
+              </tr>
+              <tr>
+                <td class="text_left">Poison Trap</td>
+                <td class="text_left">Lowered to 1 (0 strength)</td>
+              </tr>
+              <tr>
+                <td class="text_left">Strength Grass</td>
+                <td class="text_left">+1</td>
+              </tr>
+            </tbody>
+          </table>
           <p>Text</p>
           <h3 id="fullness">Fullness</h3>
           <p>Text</p>
@@ -657,13 +699,13 @@
           </ul>
           <dl>
             <dt>Items</dt>
-            <dd>Text</dd>
+            <dd>Riceballs, Squid Sushi Scroll, Shrink Seed, Expand Seed, other grasses, Perfect Water, Dried Bonito,<br>Gobo, Leather Shield, Heavy Shield, Nirvana Shield, Song Bracelet, Hunger Bracelet,<br>No Hunger Bracelet, Heal Bracelet, Onigiri Sword.</dd>
             <dt>Monsters</dt>
-            <dd>Text</dd>
+            <dd>Hunger Puppet family, Nigiri Morph family.</dd>
             <dt>Other</dt>
-            <dd>Text</dd>
+            <dd>Synthesis seals (皮, 重, サ, か, 食, 飯), Spoil Trap, Riceball Statue, starvation, secret phrase (まはむえ).</dd>
           </dl>
-          <p>Text</p>
+          <p>　※ See the item, monster, seal, trap, statue, and secret phrase pages for details.</p>
           <h2 id="combat_related">Combat Related</h2>
           <h3 id="attack">Attack</h3>
           <p>Text</p>
@@ -679,70 +721,571 @@
           <p>Text</p>
           <h4 id="monster_defense">Monster Defense</h4>
           <p>Text</p>
-          <p>Table</p>
+          <table class="table_less_padding table_text_left">
+            <thead>
+              <tr>
+                <th>Ability・Trap</th>
+                <th>Defense</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Rust Trap</td>
+                <td>Lowered to 0</td>
+              </tr>
+              <tr>
+                <td>Stormy Doll</td>
+                <td>Lowered to 0</td>
+              </tr>
+              <tr>
+                <td>Rainy Doll</td>
+                <td>x0.65</td>
+              </tr>
+            </tbody>
+          </table>
           <h3 id="damage_calculation">Damage Calculation</h3>
-          <p>Text</p>
-          <pre class="diagram">(damage formula)</pre>
-          <p>Text</p>
+          <p>Damage is calculated roughly using the following formula:</p>
+          <pre class="diagram">Average damage = attack * ((35/36)^defense)<br>Max damage = average damage + (average damage/8)<br>Min damage = average damage - (average damage/8)</pre>
+          <p>Specific damage percentages is shown in the following table:</p>
           <dl>
-            <dt>Text</dt>
+            <dt>Amount of damage factoring defense</dt>
             <dd></dd>
           </dl>
-          <p>Table</p>
+          <table class="table_less_padding table_text_right">
+            <thead>
+              <tr>
+                <th>Def</th>
+                <th>Shield</th>
+                <th>Damage (%)</th>
+                <th class="table_divider"></th>
+                <th>Def</th>
+                <th>Shield</th>
+                <th>Damage (%)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>97.2</td>
+                <td rowspan="55" class="table_divider"></td>
+                <td>56</td>
+                <td>112</td>
+                <td>20.6</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>4</td>
+                <td>94.5</td>
+                <td>57</td>
+                <td>114</td>
+                <td>20.0</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>6</td>
+                <td>91.9</td>
+                <td>58</td>
+                <td>116</td>
+                <td>19.5</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>8</td>
+                <td>89.4</td>
+                <td>59</td>
+                <td>118</td>
+                <td>19.0</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>10</td>
+                <td>86.9</td>
+                <td>60</td>
+                <td>120</td>
+                <td>18.4</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>12</td>
+                <td>84.5</td>
+                <td>61</td>
+                <td>122</td>
+                <td>17.9</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>14</td>
+                <td>82.1</td>
+                <td>62</td>
+                <td>124</td>
+                <td>17.4</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>16</td>
+                <td>79.9</td>
+                <td>63</td>
+                <td>126</td>
+                <td>16.9</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>18</td>
+                <td>77.6</td>
+                <td>64</td>
+                <td>128</td>
+                <td>16.5</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>20</td>
+                <td>75.4</td>
+                <td>65</td>
+                <td>130</td>
+                <td>16.0</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>22</td>
+                <td>73.4</td>
+                <td>66</td>
+                <td>132</td>
+                <td>15.6</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>24</td>
+                <td>71.3</td>
+                <td>67</td>
+                <td>134</td>
+                <td>15.1</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>26</td>
+                <td>69.4</td>
+                <td>68</td>
+                <td>136</td>
+                <td>14.7</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>28</td>
+                <td>67.4</td>
+                <td>69</td>
+                <td>138</td>
+                <td>14.3</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>30</td>
+                <td>65.6</td>
+                <td>70</td>
+                <td>140</td>
+                <td>13.9</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>32</td>
+                <td>63.7</td>
+                <td>71</td>
+                <td>142</td>
+                <td>13.5</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>34</td>
+                <td>61.9</td>
+                <td>72</td>
+                <td>144</td>
+                <td>13.2</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>36</td>
+                <td>60.2</td>
+                <td>73</td>
+                <td>146</td>
+                <td>12.8</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>38</td>
+                <td>58.5</td>
+                <td>74</td>
+                <td>148</td>
+                <td>12.4</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>40</td>
+                <td>56.9</td>
+                <td>75</td>
+                <td>150</td>
+                <td>12.1</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>42</td>
+                <td>55.3</td>
+                <td>76</td>
+                <td>152</td>
+                <td>11.7</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>44</td>
+                <td>53.8</td>
+                <td>77</td>
+                <td>154</td>
+                <td>11.4</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>46</td>
+                <td>52.3</td>
+                <td>78</td>
+                <td>156</td>
+                <td>11.1</td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>48</td>
+                <td>50.9</td>
+                <td>79</td>
+                <td>158</td>
+                <td>10.8</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>50</td>
+                <td>49.5</td>
+                <td>80</td>
+                <td>160</td>
+                <td>10.5</td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>52</td>
+                <td>48.1</td>
+                <td>81</td>
+                <td>162</td>
+                <td>10.2</td>
+              </tr>
+              <tr>
+                <td>27</td>
+                <td>54</td>
+                <td>46.7</td>
+                <td>82</td>
+                <td>164</td>
+                <td>9.9</td>
+              </tr>
+              <tr>
+                <td>28</td>
+                <td>56</td>
+                <td>45.5</td>
+                <td>83</td>
+                <td>166</td>
+                <td>9.6</td>
+              </tr>
+              <tr>
+                <td>29</td>
+                <td>58</td>
+                <td>44.2</td>
+                <td>84</td>
+                <td>168</td>
+                <td>9.4</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td>60</td>
+                <td>43.0</td>
+                <td>85</td>
+                <td>170</td>
+                <td>9.1</td>
+              </tr>
+              <tr>
+                <td>31</td>
+                <td>62</td>
+                <td>41.7</td>
+                <td>86</td>
+                <td>172</td>
+                <td>8.8</td>
+              </tr>
+              <tr>
+                <td>32</td>
+                <td>64</td>
+                <td>40.6</td>
+                <td>87</td>
+                <td>174</td>
+                <td>8.6</td>
+              </tr>
+              <tr>
+                <td>33</td>
+                <td>66</td>
+                <td>39.5</td>
+                <td>88</td>
+                <td>176</td>
+                <td>8.4</td>
+              </tr>
+              <tr>
+                <td>34</td>
+                <td>68</td>
+                <td>38.4</td>
+                <td>89</td>
+                <td>178</td>
+                <td>8.1</td>
+              </tr>
+              <tr>
+                <td>35</td>
+                <td>70</td>
+                <td>37.3</td>
+                <td>90</td>
+                <td>180</td>
+                <td>7.9</td>
+              </tr>
+              <tr>
+                <td>36</td>
+                <td>72</td>
+                <td>36.3</td>
+                <td>91</td>
+                <td>182</td>
+                <td>7.7</td>
+              </tr>
+              <tr>
+                <td>37</td>
+                <td>74</td>
+                <td>35.2</td>
+                <td>92</td>
+                <td>184</td>
+                <td>7.5</td>
+              </tr>
+              <tr>
+                <td>38</td>
+                <td>76</td>
+                <td>34.3</td>
+                <td>93</td>
+                <td>186</td>
+                <td>7.2</td>
+              </tr>
+              <tr>
+                <td>39</td>
+                <td>78</td>
+                <td>33.3</td>
+                <td>94</td>
+                <td>188</td>
+                <td>7.1</td>
+              </tr>
+              <tr>
+                <td>40</td>
+                <td>80</td>
+                <td>32.4</td>
+                <td>95</td>
+                <td>190</td>
+                <td>6.9</td>
+              </tr>
+              <tr>
+                <td>41</td>
+                <td>82</td>
+                <td>31.5</td>
+                <td>96</td>
+                <td>192</td>
+                <td>6.7</td>
+              </tr>
+              <tr>
+                <td>42</td>
+                <td>84</td>
+                <td>30.6</td>
+                <td>97</td>
+                <td>194</td>
+                <td>6.5</td>
+              </tr>
+              <tr>
+                <td>43</td>
+                <td>86</td>
+                <td>29.8</td>
+                <td>98</td>
+                <td>196</td>
+                <td>6.3</td>
+              </tr>
+              <tr>
+                <td>44</td>
+                <td>88</td>
+                <td>28.9</td>
+                <td>99</td>
+                <td>198</td>
+                <td>6.1</td>
+              </tr>
+              <tr>
+                <td>45</td>
+                <td>90</td>
+                <td>28.1</td>
+                <td>100</td>
+                <td>200</td>
+                <td>6.0</td>
+              </tr>
+              <tr>
+                <td>46</td>
+                <td>92</td>
+                <td>27.3</td>
+                <td>101</td>
+                <td>202</td>
+                <td>5.8</td>
+              </tr>
+              <tr>
+                <td>47</td>
+                <td>94</td>
+                <td>26.6</td>
+                <td>102</td>
+                <td>204</td>
+                <td>5.6</td>
+              </tr>
+              <tr>
+                <td>48</td>
+                <td>96</td>
+                <td>25.9</td>
+                <td>103</td>
+                <td>206</td>
+                <td>5.5</td>
+              </tr>
+              <tr>
+                <td>49</td>
+                <td>98</td>
+                <td>25.1</td>
+                <td>104</td>
+                <td>208</td>
+                <td>5.3</td>
+              </tr>
+              <tr>
+                <td>50</td>
+                <td>100</td>
+                <td>24.5</td>
+                <td>105</td>
+                <td>210</td>
+                <td>5.2</td>
+              </tr>
+              <tr>
+                <td>51</td>
+                <td>102</td>
+                <td>23.8</td>
+                <td>106</td>
+                <td>212</td>
+                <td>5.0</td>
+              </tr>
+              <tr>
+                <td>52</td>
+                <td>104</td>
+                <td>23.1</td>
+                <td>107</td>
+                <td>214</td>
+                <td>4.9</td>
+              </tr>
+              <tr>
+                <td>53</td>
+                <td>106</td>
+                <td>22.4</td>
+                <td>108</td>
+                <td>216</td>
+                <td>4.7</td>
+              </tr>
+              <tr>
+                <td>54</td>
+                <td>108</td>
+                <td>21.8</td>
+                <td>109</td>
+                <td>218</td>
+                <td>4.6</td>
+              </tr>
+              <tr>
+                <td>55</td>
+                <td>110</td>
+                <td>21.2</td>
+                <td>110</td>
+                <td>220</td>
+                <td>4.5</td>
+              </tr>
+            </tbody>
+          </table>
           <h3 id="accuracy">Accuracy</h3>
           <h4 id="shirens_accuracy">Shiren's Accuracy</h4>
           <dl>
             <dt>Regular Attack</dt>
-            <dd>Text</dd>
+            <dd>1872 / 2000 = 93.6% ≒ 15/16 or so?</dd>
             <dt>Projectile</dt>
-            <dd>Text</dd>
+            <dd>(Not researched)</dd>
           </dl>
           <h4 id="monster_accuracy">Monster Accuracy</h4>
           <dl>
             <dt>Regular Attack</dt>
-            <dd>Text</dd>
+            <dd>13136 / 15000 = 87.6% ≒ 7/8</dd>
             <dt>Projectile</dt>
-            <dd>Text</dd>
+            <dd>(Not researched)</dd>
           </dl>
           <h4 id="accuracy_modifiers">Accuracy Modifiers</h4>
-          <p>Text</p>
+          <p>Some equipment abilities and special conditions can modify accuracy.</p>
           <dl>
             <dt>100% Accuracy</dt>
             <dd></dd>
           </dl>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Regular attacks using a Homing Blade (必 seal).</li>
+            <li>Regular attacks against a paralyzed or sleeping target.</li>
+            <li>Shooting a projectile or throwing an item with a Bullseye Bracelet equipped.</li>
           </ul>
           <dl>
             <dt>0% Accuracy</dt>
             <dd></dd>
           </dl>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Monster regular attacks while inflicted with the Miss status condition.</li>
+            <li>Regular attacks against a target that has a shield with 16 見 seals + 1 Paper Thin Bracelet equipped.</li>
+            <li>Shooting a projectile or throwing an item with a Dragon Tile Bracelet equipped.</li>
           </ul>
           <dl>
             <dt>Other</dt>
             <dd></dd>
           </dl>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Regular attacks against a target that has a shield with 見 seals equipped. (<a href="/shiren2/html/item/shields.html#evasive_shield">Evasive Shield</a>).</li>
+            <li>Regular attacks against a target with Paper Thin Bracelets equipped. (One = 1/2, Two = 1/4).</li>
+            <li>Regular attacks by Shiren or allies while inflicted with the Miss status condition. (1/2).<br>Note that Homing Blade's effect (必 seal) will be nullified while inflicted with the Miss status condition.</li>
           </ul>
           <h4 id="critical_brutal_hits">Critical Hits・Brutal Hits</h4>
-          <p>Text</p>
-          <pre class="diagram">(formula)</pre>
+          <p>Critical hits are determined after accuracy is checked, so they aren't a factor for accuracy.<br>On the other hand, brutal hits are determined prior to the accuracy check, and are guaranteed to connect.<br>So Taurus family monsters effectively have higher accuracy than other monsters:</p>
+          <pre class="diagram">Brutal hit chance = 0.25<br>Regular attack accuracy = 0.875<br>Accuracy = 0.25 + 0.75 * 0.875 = 0.90625</pre>
           <h2 id="facilities">Facilities</h2>
-          <p>Text</p>
+          <p>Explanations for facilities Shiren can use.</p>
           <h3 id="storage">Storage</h3>
           <p>Text</p>
           <h3 id="blacksmith">Blacksmith</h3>
-          <p>Text</p>
-          <p>Table</p>
+          <p>The Blacksmith located at Shuten Halfway provides the following services:</p>
+          <table class="table_less_padding">
+            <thead>
+              <tr>
+                <th>Service</th>
+                <th>Price</th>
+                <th>Info</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text_left">Hone Weapon</td>
+                <td class="text_right">1500</td>
+                <td class="text_left">Strengthens a weapon. (+1 to its upgrade value, or +3 on rare occasions).<br>Can only be done once per adventure.</td>
+              </tr>
+              <tr>
+                <td class="text_left">Erase Seal</td>
+                <td class="text_right">1000</td>
+                <td class="text_left">Erases a synthesis seal from a piece of equipment.</td>
+              </tr>
+              <tr>
+                <td class="text_left">Repair Bracelet</td>
+                <td class="text_right">500</td>
+                <td class="text_left">Repairs a cracked bracelet.</td>
+              </tr>
+            </tbody>
+          </table>
           <ul>
             <li>
               <ul>
@@ -758,8 +1301,74 @@
             <li></li>
           </ul>
           <h3 id="traders_shop">Trader's Shop</h3>
-          <p>Text</p>
-          <p>Table</p>
+          <p>You can purchase and sell items at Trader shops found at Shuten Halfway and Shuten Summit.<br>The list of items for sale is as follows:</p>
+          <table class="table_less_padding">
+            <thead>
+              <tr>
+                <th style="background-color:gray;"></th>
+                <th>Item</th>
+                <th>Price</th>
+                <th style="background-color:gray;"></th>
+                <th>Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="10" style="background-color:#eee;">Shuten<br>Halfway</td>
+                <td>Nagamaki</td>
+                <td>700</td>
+                <td rowspan="10" style="background-color:#eee;">Shuten<br>Summit</td>
+                <td>Good Soil</td>
+                <td>15000</td>
+              </tr>
+              <tr>
+                <td>Katana</td>
+                <td>900</td>
+                <td>Good Water</td>
+                <td>15000</td>
+              </tr>
+              <tr>
+                <td>Tribal Shield</td>
+                <td>1500</td>
+                <td>Good Wood</td>
+                <td>15000</td>
+              </tr>
+              <tr>
+                <td>Beetle Shield</td>
+                <td>7000</td>
+                <td>Good Rock</td>
+                <td>15000</td>
+              </tr>
+              <tr>
+                <td>Giant Riceball</td>
+                <td>300</td>
+                <td>Good Iron Sand</td>
+                <td>15000</td>
+              </tr>
+              <tr>
+                <td>Otogiriso</td>
+                <td>500</td>
+                <td rowspan="5" colspan="2"></td>
+              </tr>
+              <tr>
+                <td>Antidote Grass</td>
+                <td>400</td>
+              </tr>
+              <tr>
+                <td>Identify Scroll</td>
+                <td>500</td>
+              </tr>
+              <tr>
+                <td>Purify Scroll</td>
+                <td>1000</td>
+              </tr>
+              <tr>
+                <td>Storage Pot[5]</td>
+                <td>1500</td>
+              </tr>
+            </tbody>
+          </table>
           <h3 id="bank">Bank</h3>
           <p>Text</p>
           <h2 id="save_data_journal">Save Data (Journal)</h2>

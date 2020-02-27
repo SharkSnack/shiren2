@@ -102,6 +102,10 @@ li {
   text-align: left;
 }
 
+.text_right {
+  text-align: right;
+}
+
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
@@ -236,6 +240,18 @@ dt {
 .gallery_image {
   padding-left: 10px;
   padding-top: 1em;
+}
+
+.table_divider {
+  background-color: #fff
+}
+
+.table_text_right td {
+  text-align: right;
+}
+
+.table_text_left td {
+  text-align: left;
 }
 
 @media screen and (max-width: 600px) {
