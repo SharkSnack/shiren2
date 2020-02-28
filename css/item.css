@@ -242,16 +242,33 @@ dt {
   padding-top: 1em;
 }
 
-.table_divider {
-  background-color: #fff
-}
-
 .table_text_right td {
   text-align: right;
 }
 
 .table_text_left td {
   text-align: left;
+}
+
+.stat_table td {
+  background-color: #eef5ff;
+  text-align: right;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.stat_table th {
+  font-size: 80%;
+}
+
+td.stat_table_subheading {
+  text-align: center;
+  background-color: #eaeaff;
+}
+
+th.table_divider,
+td.table_divider {
+  background-color: #fff
 }
 
 @media screen and (max-width: 600px) {
