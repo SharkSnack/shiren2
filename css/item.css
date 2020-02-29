@@ -279,6 +279,10 @@ td.stat_table_center {
   text-align: center;
 }
 
+.image_padding {
+  padding-top: 1em;
+}
+
 @media screen and (max-width: 600px) {
   table {
     border: 0;
